@@ -49,4 +49,60 @@ document.addEventListener('DOMContentLoaded', function() {
 
             let newY = event.clientY - containerRect.top - leverHeight / 2;
 
-            if (newY < 0)
+            if (newY < 0) newY = 0;
+            if (newY > containerRect.height - leverHeight) newY = containerRect.height - leverHeight;
+
+            lever.style.bottom = (containerRect.height - newY - leverHeight) + 'px';
+
+            let positionPercentage = ((containerRect.height - newY - leverHeight) / (containerRect.height - leverHeight)) * 100;
+            updateLeverStatus(containerRect.height - newY - leverHeight, containerRect.height - leverHeight);
+        }
+    });
+
+    document.addEventListener('mouseup', function() {
+        isDragging = false;
+    });
+
+    // Keydown and keyup events for continuous left and right button press
+    document.addEventListener('keydown', function(event) {
+        if (!isDragging) {  // Ensure dragging takes priority over key events
+            switch(event.key) {
+                case 'ArrowLeft':
+                    if (!leftKeyHeld) {
+                        leftButton.classList.add('clicked');
+                        leftKeyHeld = true;
+                        console.log("Left command sent");
+                    }
+                    break;
+                case 'ArrowRight':
+                    if (!rightKeyHeld) {
+                        rightButton.classList.add('clicked');
+                        rightKeyHeld = true;
+                        console.log("Right command sent");
+                    }
+                    break;
+                case 'ArrowUp':
+                    adjustLeverPosition('up');
+                    console.log("Accelerate command sent");
+                    break;
+                case 'ArrowDown':
+                    adjustLeverPosition('down');
+                    console.log("Decelerate command sent");
+                    break;
+            }
+        }
+    });
+
+    document.addEventListener('keyup', function(event) {
+        switch(event.key) {
+            case 'ArrowLeft':
+                leftButton.classList.remove('clicked');
+                leftKeyHeld = false;
+                break;
+            case 'ArrowRight':
+                rightButton.classList.remove('clicked');
+                rightKeyHeld = false;
+                break;
+        }
+    });
+});
