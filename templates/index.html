@@ -1,3 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Car Controller</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+    <!-- Title Image at the top of the page -->
+    <img src="{{ url_for('static', filename='images/title-image.png') }}" alt="Connection Portal" class="title-image">
+
+    <!-- Manual Controller Container -->
+    <div class="controller-container">
+        <h2 class="controller-title">MANUAL CONTROLLER</h2>
+        
+        <!-- Left and Right Buttons -->
+        <div class="controls">
+            <button id="left-btn" class="control-button" name="action" value="left">Left</button>
+            <button id="right-btn" class="control-button" name="action" value="right">Right</button>
+        </div>
+
+        <!-- Draggable Lever for Acceleration/Deceleration -->
+        <div class="lever-container">
+            <div id="lever" class="lever"></div>
+        </div>
+
+        <p id="lever-status">Drag the lever to control speed</p>
+    </div>
+
+    <!-- Link to the JavaScript file -->
+    <script src="{{ url_for('static', filename='js/script.js') }}"></script>
+</body>
+</html>
+
+
 <html>
     <link rel="stylesheet" href='/static/styles.css' />
 <body>

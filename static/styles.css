@@ -23,7 +23,7 @@ a:hover {
 }
 
 button {
-    background-color: #2ecc71; /* Muted green for buttons */
+    background-color: red; /* Muted green for buttons */
     color: white;
     border: none;
     padding: 10px 20px;
@@ -33,7 +33,7 @@ button {
 }
 
 button:hover {
-    background-color: #27ae60; /* Slightly darker green for hover effect */
+    background-color: red; /* Slightly darker green for hover effect */
 }
 
 /* for the title image */
@@ -47,4 +47,104 @@ button:hover {
     
     margin: 10px; /* Add some margin if needed */
     z-index: 1000; /* Make sure the image stays above other content */
+}
+
+.title-image {
+    width: 100%;
+    max-width: 400px;
+    margin-bottom: 20px;
+}
+
+.controller-container {
+    position: absolute;
+    right: 20px;
+    top: 100px;
+    padding: 20px;
+    border: 3px solid rgb(21, 0, 255);
+    border-radius: 10px;
+    width: 250px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.controller-title {
+    font-size: 20px;
+    font-weight: bold;
+    color: black;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.control-button {
+    padding: 15px 25px;
+    font-size: 16px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.control-button:hover {
+    background-color: blue;
+}
+
+.control-button:active {
+    transform: scale(0.95);  /* Button shrinks slightly when clicked */
+    background-color: red;  /* Darker green when clicked */
+}
+
+/* Class to simulate a clicked button when using keyboard events */
+.control-button.clicked {
+    transform: scale(0.95);
+    background-color: red;
+}
+
+#left-btn {
+    margin-right: auto;
+}
+
+#right-btn {
+    margin-left: auto;
+}
+
+/* Lever styles */
+.lever-container {
+    position: relative;
+    width: 50px;
+    height: 200px;
+    background-color: #ddd;
+    border-radius: 25px;
+    margin-bottom: 15px;
+}
+
+.lever {
+    width: 50px;
+    height: 50px;
+    background-color: #333;
+    border-radius: 50%;
+    position: absolute;
+    bottom: 0;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.lever:active {
+    background-color: #666;
+}
+
+#lever-status {
+    font-size: 16px;
+    margin-top: 10px;
+    color: #333;
 }
