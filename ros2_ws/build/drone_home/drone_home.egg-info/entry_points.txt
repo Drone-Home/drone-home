@@ -1,0 +1,2 @@
+[console_scripts]
+imu_publisher = drone_home.imu_publisher:main

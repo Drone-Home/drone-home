@@ -1,0 +1,5 @@
+  File "/home/pi/ros2_ws/install/drone_home/lib/python3.12/site-packages/drone_home/imu_publisher.py", line 73
+    continue
+    ^^^^^^^^
+SyntaxError: 'continue' not properly in loop
+
