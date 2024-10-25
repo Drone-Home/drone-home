@@ -23,3 +23,16 @@ The **Drone Home** project combines GPS, IMU, and computer vision for autonomous
      - Provides controls (navigate to drone, return, manual override).
      - Includes an accessible safety switch for emergency control.
    - **Interfaces**: Integrated with ROS2 and OpenCV for simlpe user interaction.
+
+### Completed Work
+
+- **Hardware**: Powered Raspberry Pi from BEC. Connected IMU using I2C GPIO and GPS using a serial USB cable. Installed Ubuntu 24.04 on SSD.
+
+- **ROS2**: Developed a node that reads and publishes GPS data in `NavSatFix` message format and IMU data in `Pose` message format, establishing the foundation for autonomous navigation.
+
+- **OpenCV**: Created a program that opens the camera, reads frames, and performs basic image processing operations.
+
+- **GUI**: Implemented a Flask-based GUI with basic control elements displayed.
+
+- **Connector**: **TODO**
+
