@@ -36,3 +36,6 @@ The **Drone Home** project combines GPS, IMU, and computer vision for autonomous
 
 - **Connector**: **TODO**
 
+Known Bugs:
+The GPS works well when powering the Pi 5 from USB C. When powered by the BEC it does not want to get a fix. This is likely due to noise in the power that can be fixed by a capacitor.
+
