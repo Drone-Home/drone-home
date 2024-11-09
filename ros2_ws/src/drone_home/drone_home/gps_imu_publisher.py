@@ -5,6 +5,7 @@ import adafruit_bno055
 import board
 import time
 import serial
+import serial.tools.list_ports
 import adafruit_gps
 
 from std_msgs.msg import String
@@ -22,15 +23,31 @@ class IMUSensor:
         return self.sensor.euler
     
     def get_quaternion(self):
-        quaternion = self.sensor.quaternion
+        # Get quaternion from sensor
+        try:
+            quaternion = self.sensor.quaternion
+        except:
+            print(f"IMU error")
+            quaternion = None
+
+        # Returns zero element (undefined rotation) if error
+        if quaternion is None or len(quaternion) != 4:
+            quaternion = (0.0, 0.0, 0.0, 0.0)
+
+        # Builds Quaternion object for publishing
         return Quaternion(x=quaternion[0], y=quaternion[1], z=quaternion[2], w=quaternion[3])
 
 
 class GPSSensor:
     def __init__(self):
-        # Initialize UART and GPS
-        uart = serial.Serial("/dev/ttyUSB0", baudrate=9600, timeout=10)
-        self.gps = adafruit_gps.GPS(uart, debug=False)
+        # Get GPS device by name
+        device = "/dev/serial/by-id/usb-Silicon_Labs_CP2102N_USB_to_UART_Bridge_Controller_3a054ddbab9eec11b3a69579a29c855c-if00-port0"
+        try:
+            self.uart = serial.Serial(device, baudrate=9600, timeout=10)
+            self.gps = adafruit_gps.GPS(self.uart, debug=False)
+            print(f"Connected GPS on {device}")
+        except serial.SerialException:
+            print(f"Could not open GPS on port {device}")
         
         # Set GPS update rates and output message rates
         self.gps.send_command(b"PMTK314,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0")
@@ -43,8 +60,15 @@ class GPSSensor:
         
     def update(self):
         # Update GPS data
-        self.gps.update()
-
+        try:
+            self.gps.update()
+        except:
+            try:
+                # Try to reconnect GPS on error
+                time.sleep(1)
+                self.__init__()
+            except Exception as e: print(e)
+        
     def has_new_data(self):
         current_time = time.monotonic()
         if current_time - self.last_print_time >= 1.0:
@@ -53,7 +77,7 @@ class GPSSensor:
         return False
 
     def get_data(self):
-        # Returns current GPS data or "Waiting for fix..." if not available
+        # Returns current GPS data. Print "Waiting for fix..." if not available
         if not self.gps.has_fix:
             return "Waiting for fix..."
         
@@ -68,7 +92,7 @@ class GPSSensor:
         return data
     
     def get_navsatfix_msg(self):
-        
+        # Build and return NavSatFix message
         navsat_msg = NavSatFix()
         
         # Populate GPS data
@@ -78,14 +102,13 @@ class GPSSensor:
 
         # Set NavSatStatus (GPS_FIX or no fix)
         navsat_msg.status = NavSatStatus()
-        if self.gps.has_fix:
+        if self.gps.has_fix or self.gps.latitude is None or self.gps.longitude is None:
             navsat_msg.status.status = NavSatStatus.STATUS_FIX
         else:
             navsat_msg.status.status = NavSatStatus.STATUS_NO_FIX
 
         navsat_msg.status.service = NavSatStatus.SERVICE_GPS
         return navsat_msg
-
 
 class MinimalPublisher(Node):
 
@@ -110,7 +133,7 @@ class MinimalPublisher(Node):
         pose_msg.header.stamp = self.get_clock().now().to_msg()
         pose_msg.pose.orientation = quaternion
         self.pose_publisher.publish(pose_msg)
-        #self.get_logger().info(f"Published Pose with quaternion: {quaternion}")
+        #self.get_logger().info(f"Published Pose with angles: {self.imu_sensor.get_euler_angles()}")
 
         # Publish GPS
         self.gps_sensor.update()
@@ -119,9 +142,7 @@ class MinimalPublisher(Node):
             self.gps_publisher.publish(navsat_msg)
             #self.get_logger().info(f"Published GPS data: {navsat_msg.status}, {navsat_msg.longitude}")
 
-
         self.i += 1
-
 
 def main(args=None):
     
@@ -136,7 +157,6 @@ def main(args=None):
     # when the garbage collector destroys the node object)
     minimal_publisher.destroy_node()
     rclpy.shutdown()
-
 
 if __name__ == '__main__':
     main()

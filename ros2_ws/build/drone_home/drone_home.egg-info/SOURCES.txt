@@ -9,7 +9,7 @@ setup.py
 ../../build/drone_home/drone_home.egg-info/top_level.txt
 ../../build/drone_home/drone_home.egg-info/zip-safe
 drone_home/__init__.py
-drone_home/imu_publisher.py
+drone_home/gps_imu_publisher.py
 resource/drone_home
 test/test_copyright.py
 test/test_flake8.py
