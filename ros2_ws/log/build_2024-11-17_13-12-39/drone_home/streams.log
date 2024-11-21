@@ -1,0 +1,27 @@
+[1.925s] Invoking command in '/home/pi/drone-home/ros2_ws/src/drone_home': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pi/drone-home/ros2_ws/build/drone_home/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/drone-home/ros2_ws/install/drone_home/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/drone_home build --build-base /home/pi/drone-home/ros2_ws/build/drone_home/build install --record /home/pi/drone-home/ros2_ws/build/drone_home/install.log --single-version-externally-managed install_data
+[2.456s] running egg_info
+[2.490s] writing ../../build/drone_home/drone_home.egg-info/PKG-INFO
+[2.491s] writing dependency_links to ../../build/drone_home/drone_home.egg-info/dependency_links.txt
+[2.496s] writing entry points to ../../build/drone_home/drone_home.egg-info/entry_points.txt
+[2.498s] writing requirements to ../../build/drone_home/drone_home.egg-info/requires.txt
+[2.501s] writing top-level names to ../../build/drone_home/drone_home.egg-info/top_level.txt
+[2.576s] reading manifest file '../../build/drone_home/drone_home.egg-info/SOURCES.txt'
+[2.577s] writing manifest file '../../build/drone_home/drone_home.egg-info/SOURCES.txt'
+[2.579s] running build
+[2.580s] running build_py
+[2.580s] copying drone_home/controller.py -> /home/pi/drone-home/ros2_ws/build/drone_home/build/lib/drone_home
+[2.580s] running install
+[2.593s] running install_lib
+[2.629s] copying /home/pi/drone-home/ros2_ws/build/drone_home/build/lib/drone_home/controller.py -> /home/pi/drone-home/ros2_ws/install/drone_home/lib/python3.12/site-packages/drone_home
+[2.631s] byte-compiling /home/pi/drone-home/ros2_ws/install/drone_home/lib/python3.12/site-packages/drone_home/controller.py to controller.cpython-312.pyc
+[2.635s] running install_data
+[2.636s] running install_egg_info
+[2.672s] removing '/home/pi/drone-home/ros2_ws/install/drone_home/lib/python3.12/site-packages/drone_home-0.0.0-py3.12.egg-info' (and everything under it)
+[2.675s] Copying ../../build/drone_home/drone_home.egg-info to /home/pi/drone-home/ros2_ws/install/drone_home/lib/python3.12/site-packages/drone_home-0.0.0-py3.12.egg-info
+[2.675s] running install_scripts
+[2.926s] Installing controller script to /home/pi/drone-home/ros2_ws/install/drone_home/lib/drone_home
+[2.927s] Installing drive_hardware script to /home/pi/drone-home/ros2_ws/install/drone_home/lib/drone_home
+[2.933s] Installing drive_publisher script to /home/pi/drone-home/ros2_ws/install/drone_home/lib/drone_home
+[2.936s] Installing imu_publisher script to /home/pi/drone-home/ros2_ws/install/drone_home/lib/drone_home
+[2.938s] writing list of installed files to '/home/pi/drone-home/ros2_ws/build/drone_home/install.log'
+[3.178s] Invoked command in '/home/pi/drone-home/ros2_ws/src/drone_home' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pi/drone-home/ros2_ws/build/drone_home/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/drone-home/ros2_ws/install/drone_home/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/drone_home build --build-base /home/pi/drone-home/ros2_ws/build/drone_home/build install --record /home/pi/drone-home/ros2_ws/build/drone_home/install.log --single-version-externally-managed install_data

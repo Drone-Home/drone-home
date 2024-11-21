@@ -20,7 +20,10 @@ setup(
     tests_require=['pytest'],
     entry_points={
         'console_scripts': [
-            'imu_publisher = drone_home.gps_imu_publisher:main'
+            'imu_publisher = drone_home.gps_imu_publisher:main',
+            'drive_publisher = drone_home.joy_to_ackermann:main',
+            'drive_hardware = drone_home.ackermann_drive:main',
+            'controller = drone_home.controller:main',
         ],
     },
 )

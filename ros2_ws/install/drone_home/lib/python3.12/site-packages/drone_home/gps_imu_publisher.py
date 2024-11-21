@@ -17,6 +17,8 @@ class IMUSensor:
     def __init__(self):
         i2c = board.I2C()
         self.sensor = adafruit_bno055.BNO055_I2C(i2c)
+        self.sensor.offsets_magnetometer = (-25, -132, -330)
+        self.sensor.offsets_accelerometer = (11, -90, -29)
 
     def get_euler_angles(self):
         # Returns the Euler angles from the IMU sensor
@@ -35,23 +37,41 @@ class IMUSensor:
             quaternion = (0.0, 0.0, 0.0, 0.0)
 
         # Builds Quaternion object for publishing
-        return Quaternion(x=quaternion[0], y=quaternion[1], z=quaternion[2], w=quaternion[3])
+        return Quaternion(z=quaternion[3], y=quaternion[2], x=quaternion[1], w=quaternion[0])
+    
+    def calibrateCheck(self):
+        time.sleep(.5)
+        cal = self.sensor.calibration_status
+        message = f"Calibration (sys:{cal[0]}, gyro:{cal[1]}, accel:{cal[2]}, mag:{cal[3]})"
+        calibrated = False
+        level = 2
+        if(cal[0] > level and cal[1] > level and cal[2] > level and cal[3] > level): # TODO test out different calibration methods
+            calibrated = True
 
+        return calibrated, message
+
+
+    def calibrated(self):
+        time.sleep(1)
+        return self.sensor.calibration_status, self.sensor.offsets_magnetometer
 
 class GPSSensor:
     def __init__(self):
         # Get GPS device by name
         device = "/dev/serial/by-id/usb-Silicon_Labs_CP2102N_USB_to_UART_Bridge_Controller_3a054ddbab9eec11b3a69579a29c855c-if00-port0"
         try:
-            self.uart = serial.Serial(device, baudrate=9600, timeout=10)
+            self.uart = serial.Serial(device, baudrate=57600, timeout=10) # gps3.py on desktop chnges the baudrate from 9600 to 57600. Need to do if onbuard battery dies and resets rate
             self.gps = adafruit_gps.GPS(self.uart, debug=False)
             print(f"Connected GPS on {device}")
         except serial.SerialException:
             print(f"Could not open GPS on port {device}")
-        
+
         # Set GPS update rates and output message rates
         self.gps.send_command(b"PMTK314,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0")
-        self.gps.send_command(b"PMTK220,1000")
+        # 1 Hz
+        #self.gps.send_command(b"PMTK220,1000")
+        # 10 Hz
+        self.gps.send_command(b"PMTK220,100")
         
         self.last_print_time = time.monotonic()
 
@@ -62,12 +82,14 @@ class GPSSensor:
         # Update GPS data
         try:
             self.gps.update()
+            return "Updated"
         except:
             try:
                 # Try to reconnect GPS on error
                 time.sleep(1)
                 self.__init__()
             except Exception as e: print(e)
+            return e
         
     def has_new_data(self):
         current_time = time.monotonic()
@@ -75,6 +97,7 @@ class GPSSensor:
             self.last_print_time = current_time
             return True
         return False
+    
 
     def get_data(self):
         # Returns current GPS data. Print "Waiting for fix..." if not available
@@ -92,7 +115,7 @@ class GPSSensor:
         return data
     
     def get_navsatfix_msg(self):
-        
+        # Build and return NavSatFix message
         navsat_msg = NavSatFix()
         
         # Populate GPS data
@@ -100,16 +123,21 @@ class GPSSensor:
         navsat_msg.longitude = self.gps.longitude if self.gps.longitude is not None else 0.0
         navsat_msg.altitude = self.gps.altitude_m if self.gps.altitude_m is not None else 0.0
 
+        #navsat_msg.latitude = 29.6396803
+        #navsat_msg.longitude = -82.3612485
+
         # Set NavSatStatus (GPS_FIX or no fix)
-        navsat_msg.status = NavSatStatus()
+        navsat_msg.status = NavSatStatus() 
+        # TODO remove after testing 
+        #navsat_msg.status.status = NavSatStatus.STATUS_FIX
+        #return navsat_msg
         if self.gps.has_fix or self.gps.latitude is None or self.gps.longitude is None:
             navsat_msg.status.status = NavSatStatus.STATUS_FIX
         else:
             navsat_msg.status.status = NavSatStatus.STATUS_NO_FIX
 
-        navsat_msg.status.service = NavSatStatus.SERVICE_GPS
+        navsat_msg.status.service = NavSatStatus.SERVICE_GPS #self.gps.satellites#NavSatStatus.SERVICE_GPS # Using service message to show sattelites instead
         return navsat_msg
-
 
 class MinimalPublisher(Node):
 
@@ -122,30 +150,40 @@ class MinimalPublisher(Node):
         self.imu_sensor = IMUSensor()
         self.gps_sensor = GPSSensor()
 
-        
+        # Wait for IMU to calibrate
+        while True:
+            cal = self.imu_sensor.calibrateCheck()
+            self.get_logger().info(f"Calibration status: {cal}")
+            if cal[0]:
+                break
+            
+            
         timer_period = 0.01  # seconds
         self.timer = self.create_timer(timer_period, self.timer_callback)
         self.i = 0
 
     def timer_callback(self):
-        # Publish Pose
+        # Publish Pose. Initial position is north
         pose_msg = PoseStamped()
         quaternion = self.imu_sensor.get_quaternion()
         pose_msg.header.stamp = self.get_clock().now().to_msg()
+        pose_msg.header.frame_id = "imu_frame"
         pose_msg.pose.orientation = quaternion
         self.pose_publisher.publish(pose_msg)
-        #self.get_logger().info(f"Published Pose with angles: {self.imu_sensor.get_euler_angles()}")
+
+        #self.get_logger().info(f"Quat: {self.imu_sensor.get_euler_angles()}")
+
 
         # Publish GPS
-        self.gps_sensor.update()
+        update_string = self.gps_sensor.update()
         navsat_msg = self.gps_sensor.get_navsatfix_msg()
+        navsat_msg.header.stamp = self.get_clock().now().to_msg()
+        navsat_msg.header.frame_id = "gps_sensor"
         if navsat_msg is not None:
             self.gps_publisher.publish(navsat_msg)
             #self.get_logger().info(f"Published GPS data: {navsat_msg.status}, {navsat_msg.longitude}")
 
-
         self.i += 1
-
 
 def main(args=None):
     
@@ -161,64 +199,5 @@ def main(args=None):
     minimal_publisher.destroy_node()
     rclpy.shutdown()
 
-
 if __name__ == '__main__':
     main()
-
-def gps2():
-    global last_print
-    # Make sure to call gps.update() every loop iteration and at least twice
-    # as fast as data comes from the GPS unit (usually every second).
-    # This returns a bool that's true if it parsed new data (you can ignore it
-    # though if you don't care and instead look at the has_fix property).
-    gps.update()
-    # Every second print out current location details if there's a fix.
-    current = time.monotonic()
-    if current - last_print >= 1.0:
-        last_print = current
-        if not gps.has_fix:
-            # Try again if we don't have a fix yet.
-            print("Waiting for fix...")
-            return
-        # We have a fix! (gps.has_fix is true)
-        # Print out details about the fix like location, date, etc.
-        print("=" * 40)  # Print a separator line.
-        print(
-            "Fix timestamp: {}/{}/{} {:02}:{:02}:{:02}".format(
-                gps.timestamp_utc.tm_mon,  # Grab parts of the time from the
-                gps.timestamp_utc.tm_mday,  # struct_time object that holds
-                gps.timestamp_utc.tm_year,  # the fix time.  Note you might
-                gps.timestamp_utc.tm_hour,  # not get all data like year, day,
-                gps.timestamp_utc.tm_min,  # month!
-                gps.timestamp_utc.tm_sec,
-            )
-        )
-        print("Latitude: {0:.6f} degrees".format(gps.latitude))
-        print("Longitude: {0:.6f} degrees".format(gps.longitude))
-        print(
-            "Precise Latitude: {} degs, {:2.4f} mins".format(
-                gps.latitude_degrees, gps.latitude_minutes
-            )
-        )
-        print(
-            "Precise Longitude: {} degs, {:2.4f} mins".format(
-                gps.longitude_degrees, gps.longitude_minutes
-            )
-        )
-        print("Fix quality: {}".format(gps.fix_quality))
-        # Some attributes beyond latitude, longitude and timestamp are optional
-        # and might not be present.  Check if they're None before trying to use!
-        if gps.satellites is not None:
-            print("# satellites: {}".format(gps.satellites))
-        if gps.altitude_m is not None:
-            print("Altitude: {} meters".format(gps.altitude_m))
-        if gps.speed_knots is not None:
-            print("Speed: {} knots".format(gps.speed_knots))
-        if gps.speed_kmh is not None:
-            print("Speed: {} km/h".format(gps.speed_kmh))
-        if gps.track_angle_deg is not None:
-            print("Track angle: {} degrees".format(gps.track_angle_deg))
-        if gps.horizontal_dilution is not None:
-            print("Horizontal dilution: {}".format(gps.horizontal_dilution))
-        if gps.height_geoid is not None:
-            print("Height geoid: {} meters".format(gps.height_geoid))

@@ -1,0 +1,134 @@
+[0.000000] (-) TimerEvent: {}
+[0.001659] (drone_home) JobQueued: {'identifier': 'drone_home', 'dependencies': OrderedDict()}
+[0.002166] (drone_home) JobStarted: {'identifier': 'drone_home'}
+[0.097838] (-) TimerEvent: {}
+[0.203856] (-) TimerEvent: {}
+[0.304975] (-) TimerEvent: {}
+[0.408562] (-) TimerEvent: {}
+[0.511616] (-) TimerEvent: {}
+[0.612326] (-) TimerEvent: {}
+[0.720379] (-) TimerEvent: {}
+[0.822621] (-) TimerEvent: {}
+[0.929522] (-) TimerEvent: {}
+[1.031028] (-) TimerEvent: {}
+[1.134178] (-) TimerEvent: {}
+[1.237714] (-) TimerEvent: {}
+[1.340893] (-) TimerEvent: {}
+[1.443434] (-) TimerEvent: {}
+[1.552923] (-) TimerEvent: {}
+[1.654294] (-) TimerEvent: {}
+[1.757947] (-) TimerEvent: {}
+[1.860289] (-) TimerEvent: {}
+[1.964733] (-) TimerEvent: {}
+[2.066711] (-) TimerEvent: {}
+[2.170707] (-) TimerEvent: {}
+[2.273693] (-) TimerEvent: {}
+[2.379634] (-) TimerEvent: {}
+[2.480282] (-) TimerEvent: {}
+[2.586630] (-) TimerEvent: {}
+[2.689578] (-) TimerEvent: {}
+[2.798013] (-) TimerEvent: {}
+[2.903636] (-) TimerEvent: {}
+[3.004231] (-) TimerEvent: {}
+[3.106521] (-) TimerEvent: {}
+[3.215329] (-) TimerEvent: {}
+[3.318620] (-) TimerEvent: {}
+[3.420049] (-) TimerEvent: {}
+[3.521738] (-) TimerEvent: {}
+[3.623963] (-) TimerEvent: {}
+[3.728247] (-) TimerEvent: {}
+[3.835418] (-) TimerEvent: {}
+[3.940625] (-) TimerEvent: {}
+[4.042652] (-) TimerEvent: {}
+[4.143636] (-) TimerEvent: {}
+[4.247238] (-) TimerEvent: {}
+[4.360649] (-) TimerEvent: {}
+[4.462789] (-) TimerEvent: {}
+[4.566719] (-) TimerEvent: {}
+[4.673294] (-) TimerEvent: {}
+[4.777704] (-) TimerEvent: {}
+[4.879647] (-) TimerEvent: {}
+[4.981654] (-) TimerEvent: {}
+[5.084907] (-) TimerEvent: {}
+[5.186477] (-) TimerEvent: {}
+[5.290733] (-) TimerEvent: {}
+[5.391375] (-) TimerEvent: {}
+[5.493635] (-) TimerEvent: {}
+[5.599650] (-) TimerEvent: {}
+[5.700356] (-) TimerEvent: {}
+[5.804676] (-) TimerEvent: {}
+[5.909659] (-) TimerEvent: {}
+[6.013675] (-) TimerEvent: {}
+[6.116673] (-) TimerEvent: {}
+[6.220389] (-) TimerEvent: {}
+[6.324703] (-) TimerEvent: {}
+[6.426676] (-) TimerEvent: {}
+[6.529696] (-) TimerEvent: {}
+[6.633751] (-) TimerEvent: {}
+[6.734741] (-) TimerEvent: {}
+[6.838843] (-) TimerEvent: {}
+[6.939587] (-) TimerEvent: {}
+[7.053543] (drone_home) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/drone_home', 'build', '--build-base', '/home/pi/drone-home/ros2_ws/build/drone_home/build', 'install', '--record', '/home/pi/drone-home/ros2_ws/build/drone_home/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/pi/drone-home/ros2_ws/src/drone_home', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pi', 'SSH_CLIENT': '100.120.180.89 62358 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/pi/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/askpass.sh', 'SHLVL': '2', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/pi/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/bin/helpers/browser.sh', 'HOME': '/home/pi', 'OLDPWD': '/home/pi', 'TERM_PROGRAM_VERSION': '1.95.3', 'VSCODE_IPC_HOOK_CLI': '/run/user/1002/vscode-ipc-5ad80a15-694d-4189-a1b2-cba76983625c.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/pi/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/pi/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/pi/drone-home/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'PATH': '/home/pi/.vscode-server/cli/servers/Stable-f1a4fb101478ce6ec82fe9627c43efbf9e98c813/server/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1002', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'LANG': 'en_US.UTF-8', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1002/vscode-git-758fadffbc.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/pi/drone-home/ros2_ws/install/drone_home:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/pi/drone-home/ros2_ws/build/drone_home', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '100.120.180.89 62358 100.105.164.40 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/drone-home/ros2_ws/build/drone_home/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/drone-home/ros2_ws/install/drone_home/lib/python3.12/site-packages:/home/pi/drone-home/ros2_ws/install/drone_home/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[7.058559] (-) TimerEvent: {}
+[7.163697] (-) TimerEvent: {}
+[7.264550] (-) TimerEvent: {}
+[7.368707] (-) TimerEvent: {}
+[7.469603] (-) TimerEvent: {}
+[7.571744] (-) TimerEvent: {}
+[7.673657] (-) TimerEvent: {}
+[7.776117] (-) TimerEvent: {}
+[7.878180] (-) TimerEvent: {}
+[7.985991] (-) TimerEvent: {}
+[8.090659] (-) TimerEvent: {}
+[8.193321] (-) TimerEvent: {}
+[8.297223] (-) TimerEvent: {}
+[8.402860] (-) TimerEvent: {}
+[8.507733] (-) TimerEvent: {}
+[8.608442] (-) TimerEvent: {}
+[8.654109] (drone_home) StdoutLine: {'line': b'running egg_info\n'}
+[8.708618] (-) TimerEvent: {}
+[8.738834] (drone_home) StdoutLine: {'line': b'writing ../../build/drone_home/drone_home.egg-info/PKG-INFO\n'}
+[8.741885] (drone_home) StdoutLine: {'line': b'writing dependency_links to ../../build/drone_home/drone_home.egg-info/dependency_links.txt\n'}
+[8.753609] (drone_home) StdoutLine: {'line': b'writing entry points to ../../build/drone_home/drone_home.egg-info/entry_points.txt\n'}
+[8.759777] (drone_home) StdoutLine: {'line': b'writing requirements to ../../build/drone_home/drone_home.egg-info/requires.txt\n'}
+[8.764814] (drone_home) StdoutLine: {'line': b'writing top-level names to ../../build/drone_home/drone_home.egg-info/top_level.txt\n'}
+[8.808823] (-) TimerEvent: {}
+[8.910152] (-) TimerEvent: {}
+[9.007241] (drone_home) StdoutLine: {'line': b"reading manifest file '../../build/drone_home/drone_home.egg-info/SOURCES.txt'\n"}
+[9.012039] (drone_home) StdoutLine: {'line': b"writing manifest file '../../build/drone_home/drone_home.egg-info/SOURCES.txt'\n"}
+[9.012745] (-) TimerEvent: {}
+[9.014677] (drone_home) StdoutLine: {'line': b'running build\n'}
+[9.016574] (drone_home) StdoutLine: {'line': b'running build_py\n'}
+[9.021463] (drone_home) StdoutLine: {'line': b'copying drone_home/gps_imu_publisher.py -> /home/pi/drone-home/ros2_ws/build/drone_home/build/lib/drone_home\n'}
+[9.026671] (drone_home) StdoutLine: {'line': b'running install\n'}
+[9.049901] (drone_home) StdoutLine: {'line': b'running install_lib\n'}
+[9.113001] (-) TimerEvent: {}
+[9.177720] (drone_home) StdoutLine: {'line': b'copying /home/pi/drone-home/ros2_ws/build/drone_home/build/lib/drone_home/gps_imu_publisher.py -> /home/pi/drone-home/ros2_ws/install/drone_home/lib/python3.12/site-packages/drone_home\n'}
+[9.182718] (drone_home) StdoutLine: {'line': b'byte-compiling /home/pi/drone-home/ros2_ws/install/drone_home/lib/python3.12/site-packages/drone_home/gps_imu_publisher.py to gps_imu_publisher.cpython-312.pyc\n'}
+[9.194802] (drone_home) StdoutLine: {'line': b'running install_data\n'}
+[9.195543] (drone_home) StdoutLine: {'line': b'running install_egg_info\n'}
+[9.215276] (-) TimerEvent: {}
+[9.315678] (drone_home) StdoutLine: {'line': b"removing '/home/pi/drone-home/ros2_ws/install/drone_home/lib/python3.12/site-packages/drone_home-0.0.0-py3.12.egg-info' (and everything under it)\n"}
+[9.316534] (-) TimerEvent: {}
+[9.320875] (drone_home) StdoutLine: {'line': b'Copying ../../build/drone_home/drone_home.egg-info to /home/pi/drone-home/ros2_ws/install/drone_home/lib/python3.12/site-packages/drone_home-0.0.0-py3.12.egg-info\n'}
+[9.325726] (drone_home) StdoutLine: {'line': b'running install_scripts\n'}
+[9.416764] (-) TimerEvent: {}
+[9.519643] (-) TimerEvent: {}
+[9.620330] (-) TimerEvent: {}
+[9.722154] (-) TimerEvent: {}
+[9.823660] (-) TimerEvent: {}
+[9.926707] (-) TimerEvent: {}
+[10.029024] (-) TimerEvent: {}
+[10.080402] (drone_home) StdoutLine: {'line': b'Installing controller script to /home/pi/drone-home/ros2_ws/install/drone_home/lib/drone_home\n'}
+[10.082619] (drone_home) StdoutLine: {'line': b'Installing drive_hardware script to /home/pi/drone-home/ros2_ws/install/drone_home/lib/drone_home\n'}
+[10.130751] (-) TimerEvent: {}
+[10.151322] (drone_home) StdoutLine: {'line': b'Installing drive_publisher script to /home/pi/drone-home/ros2_ws/install/drone_home/lib/drone_home\n'}
+[10.152865] (drone_home) StdoutLine: {'line': b'Installing imu_publisher script to /home/pi/drone-home/ros2_ws/install/drone_home/lib/drone_home\n'}
+[10.159826] (drone_home) StdoutLine: {'line': b"writing list of installed files to '/home/pi/drone-home/ros2_ws/build/drone_home/install.log'\n"}
+[10.233663] (-) TimerEvent: {}
+[10.336740] (-) TimerEvent: {}
+[10.440562] (-) TimerEvent: {}
+[10.472007] (drone_home) CommandEnded: {'returncode': 0}
+[10.541735] (-) TimerEvent: {}
+[10.589650] (drone_home) JobEnded: {'identifier': 'drone_home', 'rc': 0}
+[10.593251] (-) EventReactorShutdown: {}

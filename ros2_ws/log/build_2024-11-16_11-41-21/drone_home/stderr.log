@@ -1,0 +1,5 @@
+  File "/home/pi/drone-home/ros2_ws/install/drone_home/lib/python3.12/site-packages/drone_home/controller.py", line 36
+    self.current_quaternion == Quaternion(x=0.0, y=0.0, z=0.0, w=0.0):
+                                                                     ^
+SyntaxError: invalid syntax
+
