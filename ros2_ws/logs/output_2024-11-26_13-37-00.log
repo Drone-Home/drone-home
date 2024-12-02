@@ -1,0 +1,53 @@
+[INFO] [launch]: All log files can be found below /home/pi/.ros/log/2024-11-26-13-37-04-208187-drone-home-26582
+[INFO] [launch]: Default logging verbosity is set to INFO
+[WARNING] [imu_publisher-2]: there are now at least 2 nodes with the name /drone_home1/sim created within this launch context
+[WARNING] [joy_node-3]: there are now at least 3 nodes with the name /drone_home1/sim created within this launch context
+[WARNING] [drive_hardware-4]: there are now at least 4 nodes with the name /drone_home1/sim created within this launch context
+[WARNING] [controller-5]: there are now at least 5 nodes with the name /drone_home1/sim created within this launch context
+[WARNING] [static_transform_publisher-7]: there are now at least 2 nodes with the name /drone_home1/static_transform_publisher created within this launch context
+[INFO] [drive_publisher-1]: process started with pid [26587]
+[INFO] [imu_publisher-2]: process started with pid [26588]
+[INFO] [joy_node-3]: process started with pid [26589]
+[INFO] [drive_hardware-4]: process started with pid [26590]
+[INFO] [controller-5]: process started with pid [26591]
+[INFO] [static_transform_publisher-6]: process started with pid [26592]
+[INFO] [static_transform_publisher-7]: process started with pid [26593]
+[static_transform_publisher-7] [WARN] [1732646224.389815029] []: Old-style arguments are deprecated; see --help for new-style arguments
+[static_transform_publisher-6] [WARN] [1732646224.389957085] []: Old-style arguments are deprecated; see --help for new-style arguments
+[static_transform_publisher-6] [INFO] [1732646224.437930149] [drone_home1.static_transform_publisher]: Spinning until stopped - publishing transform
+[static_transform_publisher-6] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-6] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-6] from 'map' to 'imu_frame'
+[static_transform_publisher-7] [INFO] [1732646224.453013269] [drone_home1.static_transform_publisher]: Spinning until stopped - publishing transform
+[static_transform_publisher-7] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-7] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-7] from 'map' to 'gps_sensor'
+[imu_publisher-2] Traceback (most recent call last):
+[imu_publisher-2]   File "/home/pi/drone-home/ros2_ws/install/drone_home/lib/drone_home/imu_publisher", line 33, in <module>
+[imu_publisher-2]     sys.exit(load_entry_point('drone-home==0.0.0', 'console_scripts', 'imu_publisher')())
+[imu_publisher-2]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[imu_publisher-2]   File "/home/pi/drone-home/ros2_ws/install/drone_home/lib/drone_home/imu_publisher", line 25, in importlib_load_entry_point
+[imu_publisher-2]     return next(matches).load()
+[imu_publisher-2]            ^^^^^^^^^^^^^^^^^^^^
+[imu_publisher-2]   File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 205, in load
+[imu_publisher-2]     module = import_module(match.group('module'))
+[imu_publisher-2]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[imu_publisher-2]   File "/usr/lib/python3.12/importlib/__init__.py", line 90, in import_module
+[imu_publisher-2]     return _bootstrap._gcd_import(name[level:], package, level)
+[imu_publisher-2]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[imu_publisher-2]   File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+[imu_publisher-2]   File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+[imu_publisher-2]   File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+[imu_publisher-2]   File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+[imu_publisher-2]   File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+[imu_publisher-2]   File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+[imu_publisher-2]   File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+[imu_publisher-2]   File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+[imu_publisher-2]   File "/home/pi/drone-home/ros2_ws/install/drone_home/lib/python3.12/site-packages/drone_home/gps_imu_publisher.py", line 161
+[imu_publisher-2]     timer_period 1 = #0.01  # todo refert to fast seconds
+[imu_publisher-2]                  ^
+[imu_publisher-2] SyntaxError: invalid syntax
+[ERROR] [imu_publisher-2]: process has died [pid 26588, exit code 1, cmd '/home/pi/drone-home/ros2_ws/install/drone_home/lib/drone_home/imu_publisher --ros-args -r __node:=sim -r __ns:=/drone_home1'].
+[drive_hardware-4] /usr/lib/python3/dist-packages/gpiozero/output_devices.py:1509: PWMSoftwareFallback: To reduce servo jitter, use the pigpio pin factory.See https://gpiozero.readthedocs.io/en/stable/api_output.html#servo for more info
+[drive_hardware-4]   warnings.warn(PWMSoftwareFallback(
+[controller-5] [INFO] [1732646225.424881572] [drone_home1.sim]: Controller running

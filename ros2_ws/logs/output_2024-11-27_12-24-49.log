@@ -1,0 +1,77 @@
+[INFO] [launch]: All log files can be found below /home/pi/.ros/log/2024-11-27-12-24-53-404711-drone-home-31458
+[INFO] [launch]: Default logging verbosity is set to INFO
+[WARNING] [imu_publisher-2]: there are now at least 2 nodes with the name /drone_home1/sim created within this launch context
+[WARNING] [drive_hardware-3]: there are now at least 3 nodes with the name /drone_home1/sim created within this launch context
+[WARNING] [visualization-4]: there are now at least 4 nodes with the name /drone_home1/sim created within this launch context
+[WARNING] [static_transform_publisher-6]: there are now at least 2 nodes with the name /drone_home1/static_transform_publisher created within this launch context
+[INFO] [drive_publisher-1]: process started with pid [31471]
+[INFO] [imu_publisher-2]: process started with pid [31472]
+[INFO] [drive_hardware-3]: process started with pid [31473]
+[INFO] [visualization-4]: process started with pid [31474]
+[INFO] [static_transform_publisher-5]: process started with pid [31475]
+[INFO] [static_transform_publisher-6]: process started with pid [31476]
+[static_transform_publisher-5] [WARN] [1732728293.572221012] []: Old-style arguments are deprecated; see --help for new-style arguments
+[static_transform_publisher-6] [WARN] [1732728293.578629039] []: Old-style arguments are deprecated; see --help for new-style arguments
+[static_transform_publisher-5] [INFO] [1732728293.616616386] [drone_home1.static_transform_publisher]: Spinning until stopped - publishing transform
+[static_transform_publisher-5] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-5] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-5] from 'map' to 'imu_frame'
+[static_transform_publisher-6] [INFO] [1732728293.621546937] [drone_home1.static_transform_publisher]: Spinning until stopped - publishing transform
+[static_transform_publisher-6] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-6] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-6] from 'map' to 'gps_sensor'
+[drive_hardware-3] /usr/lib/python3/dist-packages/gpiozero/output_devices.py:1509: PWMSoftwareFallback: To reduce servo jitter, use the pigpio pin factory.See https://gpiozero.readthedocs.io/en/stable/api_output.html#servo for more info
+[drive_hardware-3]   warnings.warn(PWMSoftwareFallback(
+[visualization-4] [INFO] [1732728295.691877996] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723
+[imu_publisher-2] [INFO] [1732728296.143588493] [drone_home1.sim]: Calibration status: (True, 'Calibration (sys:0, gyro:0, accel:3, mag:0)')
+[imu_publisher-2] Traceback (most recent call last):
+[imu_publisher-2]   File "/home/pi/drone-home/ros2_ws/install/drone_home/lib/drone_home/imu_publisher", line 33, in <module>
+[imu_publisher-2]     sys.exit(load_entry_point('drone-home==0.0.0', 'console_scripts', 'imu_publisher')())
+[imu_publisher-2]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[imu_publisher-2]   File "/home/pi/drone-home/ros2_ws/install/drone_home/lib/python3.12/site-packages/drone_home/gps_imu_publisher.py", line 245, in main
+[imu_publisher-2]     rclpy.spin(minimal_publisher)
+[imu_publisher-2]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/__init__.py", line 244, in spin
+[imu_publisher-2]     executor.spin_once()
+[imu_publisher-2]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 827, in spin_once
+[imu_publisher-2]     self._spin_once_impl(timeout_sec)
+[imu_publisher-2]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 822, in _spin_once_impl
+[imu_publisher-2]     raise handler.exception()
+[imu_publisher-2]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/task.py", line 239, in __call__
+[imu_publisher-2]     self._handler.send(None)
+[imu_publisher-2]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 508, in handler
+[imu_publisher-2]     await call_coroutine()
+[imu_publisher-2]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 372, in _execute
+[imu_publisher-2]     await await_or_execute(tmr.callback)
+[imu_publisher-2]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 111, in await_or_execute
+[imu_publisher-2]     return callback(*args)
+[imu_publisher-2]            ^^^^^^^^^^^^^^^
+[imu_publisher-2]   File "/home/pi/drone-home/ros2_ws/install/drone_home/lib/python3.12/site-packages/drone_home/gps_imu_publisher.py", line 235, in timer_callback
+[imu_publisher-2]     self.generate_kml(navsat_msg.latitude, navsat_msg.longitude, navsat_msg.altitude, self.euler_from_quaternion(pose_msg.pose.orientation)[2])
+[imu_publisher-2]   File "/home/pi/drone-home/ros2_ws/install/drone_home/lib/python3.12/site-packages/drone_home/gps_imu_publisher.py", line 186, in generate_kml
+[imu_publisher-2]     with open("~/vehicle_pose.kml", "w") as file:
+[imu_publisher-2]          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[imu_publisher-2] FileNotFoundError: [Errno 2] No such file or directory: '~/vehicle_pose.kml'
+[ERROR] [imu_publisher-2]: process has died [pid 31472, exit code 1, cmd '/home/pi/drone-home/ros2_ws/install/drone_home/lib/drone_home/imu_publisher --ros-args -r __node:=sim -r __ns:=/drone_home1'].
+[visualization-4] [INFO] [1732728296.665654932] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723
+[visualization-4] [INFO] [1732728297.665630971] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723
+[visualization-4] [INFO] [1732728298.665576289] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723
+[visualization-4] [INFO] [1732728299.665478274] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723
+[visualization-4] [INFO] [1732728300.665588609] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723
+[visualization-4] [INFO] [1732728301.665583371] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723
+[visualization-4] [INFO] [1732728302.665585207] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723
+[visualization-4] [INFO] [1732728303.665579024] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723
+[visualization-4] [INFO] [1732728304.665593082] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723
+[visualization-4] [INFO] [1732728305.665573548] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723
+[visualization-4] [INFO] [1732728306.665600124] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723
+[visualization-4] [INFO] [1732728307.665642534] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723
+[visualization-4] [INFO] [1732728308.665616814] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723
+[visualization-4] [INFO] [1732728309.665427355] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723
+[visualization-4] [INFO] [1732728310.665584597] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723
+[visualization-4] [INFO] [1732728311.665580896] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723
+[visualization-4] [INFO] [1732728312.665616194] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723
+[visualization-4] [INFO] [1732728313.665601382] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723
+[visualization-4] [INFO] [1732728314.665467255] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723
+[visualization-4] [INFO] [1732728315.665632738] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723
+[visualization-4] [INFO] [1732728316.665592556] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723
+[visualization-4] [INFO] [1732728317.665607928] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723
+[visualization-4] [INFO] [1732728318.665622894] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723

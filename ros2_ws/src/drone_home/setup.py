@@ -24,6 +24,7 @@ setup(
             'drive_publisher = drone_home.joy_to_ackermann:main',
             'drive_hardware = drone_home.ackermann_drive:main',
             'controller = drone_home.controller:main',
+            'visualization = drone_home.markers:main'
         ],
     },
 )

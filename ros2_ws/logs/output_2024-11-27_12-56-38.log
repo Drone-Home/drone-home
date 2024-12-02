@@ -1,0 +1,175 @@
+[INFO] [launch]: All log files can be found below /home/pi/.ros/log/2024-11-27-12-56-42-456193-drone-home-60151
+[INFO] [launch]: Default logging verbosity is set to INFO
+[WARNING] [imu_publisher-2]: there are now at least 2 nodes with the name /drone_home1/sim created within this launch context
+[WARNING] [drive_hardware-3]: there are now at least 3 nodes with the name /drone_home1/sim created within this launch context
+[WARNING] [static_transform_publisher-5]: there are now at least 2 nodes with the name /drone_home1/static_transform_publisher created within this launch context
+[INFO] [drive_publisher-1]: process started with pid [60158]
+[INFO] [imu_publisher-2]: process started with pid [60159]
+[INFO] [drive_hardware-3]: process started with pid [60160]
+[INFO] [static_transform_publisher-4]: process started with pid [60161]
+[INFO] [static_transform_publisher-5]: process started with pid [60162]
+[static_transform_publisher-4] [WARN] [1732730202.600023035] []: Old-style arguments are deprecated; see --help for new-style arguments
+[static_transform_publisher-5] [WARN] [1732730202.615460030] []: Old-style arguments are deprecated; see --help for new-style arguments
+[static_transform_publisher-4] [INFO] [1732730202.621127889] [drone_home1.static_transform_publisher]: Spinning until stopped - publishing transform
+[static_transform_publisher-4] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-4] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-4] from 'map' to 'imu_frame'
+[static_transform_publisher-5] [INFO] [1732730202.641586765] [drone_home1.static_transform_publisher]: Spinning until stopped - publishing transform
+[static_transform_publisher-5] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-5] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-5] from 'map' to 'gps_sensor'
+[drive_hardware-3] /usr/lib/python3/dist-packages/gpiozero/output_devices.py:1509: PWMSoftwareFallback: To reduce servo jitter, use the pigpio pin factory.See https://gpiozero.readthedocs.io/en/stable/api_output.html#servo for more info
+[drive_hardware-3]   warnings.warn(PWMSoftwareFallback(
+[imu_publisher-2] [INFO] [1732730204.874169542] [drone_home1.sim]: Calibration status: (True, 'Calibration (sys:0, gyro:0, accel:3, mag:0)')
+[imu_publisher-2] [INFO] [1732730204.929297370] [drone_home1.sim]: -0.007266329670655963
+[imu_publisher-2] [INFO] [1732730205.129328710] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730205.329422864] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730205.530445773] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730205.730606205] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730205.930691786] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730206.130081518] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730206.329310899] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730206.528825723] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730206.728331177] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730206.929501308] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730207.129207353] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730207.329997949] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730207.530585675] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730207.730428997] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730207.930529300] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730208.130167068] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730208.329012804] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730208.529258087] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730208.728762171] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730208.929420082] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730209.129735995] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730209.330036111] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730209.529282307] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730209.729057186] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730209.929362117] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730210.128782702] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730210.328872560] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730210.528692883] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730210.729511793] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730210.929773132] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730211.130172804] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730211.330603050] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730211.530993888] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730211.730622731] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730211.929845224] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730212.128643663] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730212.328787910] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730212.528617696] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730212.729226552] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730212.929862963] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730213.330657289] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730213.530382279] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730213.730597804] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730213.929446595] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730214.128772513] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730214.328302467] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730214.529002397] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730214.729542494] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730214.929994684] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730215.130606726] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730215.330651103] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730215.530815591] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730215.730021325] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730216.028808064] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730216.428993467] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730216.729785493] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730216.980353518] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730217.180605376] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730217.380411588] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730217.580273874] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730217.779393516] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730217.978845267] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730218.178757145] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730218.379126244] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730218.579524416] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730218.780599011] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730218.980802276] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730219.179330643] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730219.378833043] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730219.578741736] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730219.778728725] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730219.978673029] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730220.178890443] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730220.379246634] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730220.580224970] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730220.780622531] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730220.980713539] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730221.180663584] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730221.380579870] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730221.579502624] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730221.778848320] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730221.978949901] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730222.179040149] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730222.379437192] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730222.579875698] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730222.780845849] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730222.980684580] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730223.180515551] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730223.380304208] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730223.579001093] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730223.778556789] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730223.978823962] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730224.179408522] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730224.379759343] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730224.580203553] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730224.780663243] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730224.980716473] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730225.180387464] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730225.379662476] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730225.578864321] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730225.778835533] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730225.978943355] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730226.179312139] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730226.379958496] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730226.580426520] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730226.780715193] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730226.980804701] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730227.180277156] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730227.378844542] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730227.578809328] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730227.778957187] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730227.979436841] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730228.179804384] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730228.878451734] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730229.178640579] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730229.478529703] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730229.679043764] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730229.879765324] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730230.080245052] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730230.280627669] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730230.480690789] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730230.680420631] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730230.880059679] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730231.078531361] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730231.278797109] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730231.478618859] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730231.679394160] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730231.879924536] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730232.080372894] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730232.280875603] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730232.480650298] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730232.680020865] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730232.878938008] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730233.078748518] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730233.278888544] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730233.478873201] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730233.679557983] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730233.880008804] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730234.080580902] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730234.280468485] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730234.480368902] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730234.680335336] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730234.878539984] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730235.078740676] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730235.278792036] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730235.479176432] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730235.679901233] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730235.881149698] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730236.080515136] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730236.280506904] [drone_home1.sim]: -0.007329527761343393
+[imu_publisher-2] [INFO] [1732730236.480215358] [drone_home1.sim]: -0.007329527761343393

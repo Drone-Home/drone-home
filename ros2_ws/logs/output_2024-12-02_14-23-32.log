@@ -1,0 +1,29 @@
+[INFO] [launch]: All log files can be found below /home/pi/.ros/log/2024-12-02-14-23-36-376436-drone-home-14482
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [visualization-1]: process started with pid [14493]
+[visualization-1] Traceback (most recent call last):
+[visualization-1]   File "/home/pi/drone-home/ros2_ws/install/drone_home/lib/drone_home/visualization", line 33, in <module>
+[visualization-1]     sys.exit(load_entry_point('drone-home==0.0.0', 'console_scripts', 'visualization')())
+[visualization-1]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[visualization-1]   File "/home/pi/drone-home/ros2_ws/install/drone_home/lib/drone_home/visualization", line 25, in importlib_load_entry_point
+[visualization-1]     return next(matches).load()
+[visualization-1]            ^^^^^^^^^^^^^^^^^^^^
+[visualization-1]   File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 205, in load
+[visualization-1]     module = import_module(match.group('module'))
+[visualization-1]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[visualization-1]   File "/usr/lib/python3.12/importlib/__init__.py", line 90, in import_module
+[visualization-1]     return _bootstrap._gcd_import(name[level:], package, level)
+[visualization-1]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[visualization-1]   File "<frozen importlib._bootstrap>", line 1387, in _gcd_import
+[visualization-1]   File "<frozen importlib._bootstrap>", line 1360, in _find_and_load
+[visualization-1]   File "<frozen importlib._bootstrap>", line 1331, in _find_and_load_unlocked
+[visualization-1]   File "<frozen importlib._bootstrap>", line 935, in _load_unlocked
+[visualization-1]   File "<frozen importlib._bootstrap_external>", line 991, in exec_module
+[visualization-1]   File "<frozen importlib._bootstrap_external>", line 1129, in get_code
+[visualization-1]   File "<frozen importlib._bootstrap_external>", line 1059, in source_to_code
+[visualization-1]   File "<frozen importlib._bootstrap>", line 488, in _call_with_frames_removed
+[visualization-1]   File "/home/pi/drone-home/ros2_ws/install/drone_home/lib/python3.12/site-packages/drone_home/markers.py", line 42
+[visualization-1]     self.get_logger().info(f"Heading {math.degrees(GeoTools.euler_from_quaternion(self.current_quaternion)[2]})")
+[visualization-1]                                                                                                              ^
+[visualization-1] SyntaxError: closing parenthesis '}' does not match opening parenthesis '('
+[ERROR] [visualization-1]: process has died [pid 14493, exit code 1, cmd '/home/pi/drone-home/ros2_ws/install/drone_home/lib/drone_home/visualization --ros-args -r __node:=sim -r __ns:=/drone_home1'].

@@ -6,7 +6,7 @@ def generate_launch_description():
         Node(
             package='drone_home',
             namespace='drone_home1',
-            executable='drive_publisher',
+            executable='controller', # drive_publisher
             name='sim'
         ),
         Node(
@@ -16,9 +16,9 @@ def generate_launch_description():
             name='sim'
         ),
         Node(
-            package='joy',
+            package='drone_home',
             namespace='drone_home1',
-            executable='joy_node',
+            executable='drive_publisher',
             name='sim'
         ),
         Node(
@@ -30,7 +30,7 @@ def generate_launch_description():
         Node(
             package='drone_home',
             namespace='drone_home1',
-            executable='controller',
+            executable='visualization',
             name='sim'
         ),
         Node(
@@ -52,3 +52,9 @@ def generate_launch_description():
 
 
     ])
+        # Node(
+        #     package='drone_home',
+        #     namespace='drone_home1',
+        #     executable='controller',
+        #     name='sim'
+        # ),

@@ -1,0 +1,33 @@
+[1.407s] Invoking command in '/home/pi/drone-home/ros2_ws/src/drone_home': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pi/drone-home/ros2_ws/build/drone_home/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/drone-home/ros2_ws/install/drone_home/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/drone_home build --build-base /home/pi/drone-home/ros2_ws/build/drone_home/build install --record /home/pi/drone-home/ros2_ws/build/drone_home/install.log --single-version-externally-managed install_data
+[1.799s] running egg_info
+[1.828s] writing ../../build/drone_home/drone_home.egg-info/PKG-INFO
+[1.828s] writing dependency_links to ../../build/drone_home/drone_home.egg-info/dependency_links.txt
+[1.834s] writing entry points to ../../build/drone_home/drone_home.egg-info/entry_points.txt
+[1.835s] writing requirements to ../../build/drone_home/drone_home.egg-info/requires.txt
+[1.839s] writing top-level names to ../../build/drone_home/drone_home.egg-info/top_level.txt
+[1.901s] reading manifest file '../../build/drone_home/drone_home.egg-info/SOURCES.txt'
+[1.902s] writing manifest file '../../build/drone_home/drone_home.egg-info/SOURCES.txt'
+[1.903s] running build
+[1.903s] running build_py
+[1.903s] copying drone_home/markers.py -> /home/pi/drone-home/ros2_ws/build/drone_home/build/lib/drone_home
+[1.904s] running install
+[1.913s] running install_lib
+[1.942s] copying /home/pi/drone-home/ros2_ws/build/drone_home/build/lib/drone_home/markers.py -> /home/pi/drone-home/ros2_ws/install/drone_home/lib/python3.12/site-packages/drone_home
+[1.943s] byte-compiling /home/pi/drone-home/ros2_ws/install/drone_home/lib/python3.12/site-packages/drone_home/markers.py to markers.cpython-312.pyc
+[1.944s]   File "/home/pi/drone-home/ros2_ws/install/drone_home/lib/python3.12/site-packages/drone_home/markers.py", line 42
+[1.944s]     self.get_logger().info(f"Heading {math.degrees(GeoTools.euler_from_quaternion(self.current_quaternion)[2]})")
+[1.944s]                                                                                                              ^
+[1.944s] SyntaxError: closing parenthesis '}' does not match opening parenthesis '('
+[1.944s] 
+[1.944s] running install_data
+[1.944s] running install_egg_info
+[1.975s] removing '/home/pi/drone-home/ros2_ws/install/drone_home/lib/python3.12/site-packages/drone_home-0.0.0-py3.12.egg-info' (and everything under it)
+[1.975s] Copying ../../build/drone_home/drone_home.egg-info to /home/pi/drone-home/ros2_ws/install/drone_home/lib/python3.12/site-packages/drone_home-0.0.0-py3.12.egg-info
+[1.976s] running install_scripts
+[2.173s] Installing controller script to /home/pi/drone-home/ros2_ws/install/drone_home/lib/drone_home
+[2.173s] Installing drive_hardware script to /home/pi/drone-home/ros2_ws/install/drone_home/lib/drone_home
+[2.176s] Installing drive_publisher script to /home/pi/drone-home/ros2_ws/install/drone_home/lib/drone_home
+[2.179s] Installing imu_publisher script to /home/pi/drone-home/ros2_ws/install/drone_home/lib/drone_home
+[2.218s] Installing visualization script to /home/pi/drone-home/ros2_ws/install/drone_home/lib/drone_home
+[2.222s] writing list of installed files to '/home/pi/drone-home/ros2_ws/build/drone_home/install.log'
+[2.309s] Invoked command in '/home/pi/drone-home/ros2_ws/src/drone_home' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/pi/drone-home/ros2_ws/build/drone_home/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/drone-home/ros2_ws/install/drone_home/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/drone_home build --build-base /home/pi/drone-home/ros2_ws/build/drone_home/build install --record /home/pi/drone-home/ros2_ws/build/drone_home/install.log --single-version-externally-managed install_data

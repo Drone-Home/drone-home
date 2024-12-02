@@ -14,6 +14,8 @@ drone_home/controller.py
 drone_home/geo_tools.py
 drone_home/gps_imu_publisher.py
 drone_home/joy_to_ackermann.py
+drone_home/markers.py
+drone_home/motor.py
 drone_home/servo.py
 resource/drone_home
 test/test_copyright.py

@@ -7,6 +7,8 @@ import time
 import serial
 import serial.tools.list_ports
 import adafruit_gps
+import math
+from math import degrees, radians
 
 from std_msgs.msg import String
 from sensor_msgs.msg import NavSatFix, NavSatStatus
@@ -17,7 +19,7 @@ class IMUSensor:
     def __init__(self):
         i2c = board.I2C()
         self.sensor = adafruit_bno055.BNO055_I2C(i2c)
-        self.sensor.offsets_magnetometer = (-25, -132, -330)
+        self.sensor.offsets_magnetometer = (-2900, -3480, -351) #(-25, -132, -330) out of box. New from in box
         self.sensor.offsets_accelerometer = (11, -90, -29)
 
     def get_euler_angles(self):
@@ -44,7 +46,7 @@ class IMUSensor:
         cal = self.sensor.calibration_status
         message = f"Calibration (sys:{cal[0]}, gyro:{cal[1]}, accel:{cal[2]}, mag:{cal[3]})"
         calibrated = False
-        level = 2
+        level = 2 # 2
         if(cal[0] > level and cal[1] > level and cal[2] > level and cal[3] > level): # TODO test out different calibration methods
             calibrated = True
 
@@ -140,7 +142,6 @@ class GPSSensor:
         return navsat_msg
 
 class MinimalPublisher(Node):
-
     def __init__(self):
         super().__init__('minimal_publisher')
         self.pose_publisher = self.create_publisher(PoseStamped, 'vehicle/pose', 10)
@@ -158,11 +159,14 @@ class MinimalPublisher(Node):
                 break
             
             
-        timer_period = 0.01  # seconds
+        timer_period = 0.05 #1.0 #0.01  # todo refert to fast seconds
         self.timer = self.create_timer(timer_period, self.timer_callback)
         self.i = 0
 
     def timer_callback(self):
+        
+        #self.get_logger().info(f"Calibration magnetometer values: {self.imu_sensor.calibrated()}")
+
         # Publish Pose. Initial position is north
         pose_msg = PoseStamped()
         quaternion = self.imu_sensor.get_quaternion()

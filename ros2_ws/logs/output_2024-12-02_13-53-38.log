@@ -1,0 +1,35 @@
+[INFO] [launch]: All log files can be found below /home/pi/.ros/log/2024-12-02-13-53-43-988144-drone-home-3370
+[INFO] [launch]: Default logging verbosity is set to INFO
+[WARNING] [imu_publisher-2]: there are now at least 2 nodes with the name /drone_home1/sim created within this launch context
+[WARNING] [drive_publisher-3]: there are now at least 3 nodes with the name /drone_home1/sim created within this launch context
+[WARNING] [drive_hardware-4]: there are now at least 4 nodes with the name /drone_home1/sim created within this launch context
+[WARNING] [visualization-5]: there are now at least 5 nodes with the name /drone_home1/sim created within this launch context
+[WARNING] [static_transform_publisher-7]: there are now at least 2 nodes with the name /drone_home1/static_transform_publisher created within this launch context
+[INFO] [controller-1]: process started with pid [3392]
+[INFO] [imu_publisher-2]: process started with pid [3393]
+[INFO] [drive_publisher-3]: process started with pid [3394]
+[INFO] [drive_hardware-4]: process started with pid [3395]
+[INFO] [visualization-5]: process started with pid [3396]
+[INFO] [static_transform_publisher-6]: process started with pid [3397]
+[INFO] [static_transform_publisher-7]: process started with pid [3398]
+[static_transform_publisher-7] [WARN] [1733165624.342338473] []: Old-style arguments are deprecated; see --help for new-style arguments
+[static_transform_publisher-6] [WARN] [1733165624.342737419] []: Old-style arguments are deprecated; see --help for new-style arguments
+[static_transform_publisher-7] [INFO] [1733165624.489790652] [drone_home1.static_transform_publisher]: Spinning until stopped - publishing transform
+[static_transform_publisher-7] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-7] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-7] from 'map' to 'gps_sensor'
+[static_transform_publisher-6] [INFO] [1733165624.490076153] [drone_home1.static_transform_publisher]: Spinning until stopped - publishing transform
+[static_transform_publisher-6] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-6] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-6] from 'map' to 'imu_frame'
+[drive_hardware-4] /usr/lib/python3/dist-packages/gpiozero/output_devices.py:1509: PWMSoftwareFallback: To reduce servo jitter, use the pigpio pin factory.See https://gpiozero.readthedocs.io/en/stable/api_output.html#servo for more info
+[drive_hardware-4]   warnings.warn(PWMSoftwareFallback(
+[controller-1] [INFO] [1733165626.191034297] [drone_home1.sim]: Controller running
+[imu_publisher-2] [INFO] [1733165627.439846422] [drone_home1.sim]: Calibration status: (False, 'Calibration (sys:0, gyro:0, accel:3, mag:0)')
+[imu_publisher-2] [INFO] [1733165627.942007753] [drone_home1.sim]: Calibration status: (False, 'Calibration (sys:0, gyro:3, accel:3, mag:0)')
+[imu_publisher-2] [INFO] [1733165628.443620081] [drone_home1.sim]: Calibration status: (False, 'Calibration (sys:0, gyro:3, accel:3, mag:0)')
+[imu_publisher-2] [INFO] [1733165628.945241949] [drone_home1.sim]: Calibration status: (False, 'Calibration (sys:0, gyro:3, accel:3, mag:0)')
+[imu_publisher-2] [INFO] [1733165629.447322298] [drone_home1.sim]: Calibration status: (False, 'Calibration (sys:0, gyro:3, accel:3, mag:0)')
+[imu_publisher-2] [INFO] [1733165629.949349665] [drone_home1.sim]: Calibration status: (False, 'Calibration (sys:0, gyro:3, accel:3, mag:0)')
+[imu_publisher-2] [INFO] [1733165630.451482310] [drone_home1.sim]: Calibration status: (False, 'Calibration (sys:0, gyro:3, accel:3, mag:0)')
+[imu_publisher-2] [INFO] [1733165630.953513918] [drone_home1.sim]: Calibration status: (False, 'Calibration (sys:0, gyro:3, accel:3, mag:0)')

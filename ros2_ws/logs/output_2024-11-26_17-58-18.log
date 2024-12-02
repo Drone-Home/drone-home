@@ -1,0 +1,70 @@
+[INFO] [launch]: All log files can be found below /home/pi/.ros/log/2024-11-26-17-58-21-970662-drone-home-12320
+[INFO] [launch]: Default logging verbosity is set to INFO
+[WARNING] [imu_publisher-2]: there are now at least 2 nodes with the name /drone_home1/sim created within this launch context
+[WARNING] [drive_hardware-3]: there are now at least 3 nodes with the name /drone_home1/sim created within this launch context
+[WARNING] [static_transform_publisher-5]: there are now at least 2 nodes with the name /drone_home1/static_transform_publisher created within this launch context
+[INFO] [drive_publisher-1]: process started with pid [12327]
+[INFO] [imu_publisher-2]: process started with pid [12328]
+[INFO] [drive_hardware-3]: process started with pid [12329]
+[INFO] [static_transform_publisher-4]: process started with pid [12330]
+[INFO] [static_transform_publisher-5]: process started with pid [12331]
+[static_transform_publisher-4] [WARN] [1732661902.106404429] []: Old-style arguments are deprecated; see --help for new-style arguments
+[static_transform_publisher-4] [INFO] [1732661902.133519718] [drone_home1.static_transform_publisher]: Spinning until stopped - publishing transform
+[static_transform_publisher-4] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-4] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-4] from 'map' to 'imu_frame'
+[static_transform_publisher-5] [WARN] [1732661902.140497302] []: Old-style arguments are deprecated; see --help for new-style arguments
+[static_transform_publisher-5] [INFO] [1732661902.180413773] [drone_home1.static_transform_publisher]: Spinning until stopped - publishing transform
+[static_transform_publisher-5] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-5] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-5] from 'map' to 'gps_sensor'
+[drive_hardware-3] /usr/lib/python3/dist-packages/gpiozero/output_devices.py:1509: PWMSoftwareFallback: To reduce servo jitter, use the pigpio pin factory.See https://gpiozero.readthedocs.io/en/stable/api_output.html#servo for more info
+[drive_hardware-3]   warnings.warn(PWMSoftwareFallback(
+[imu_publisher-2] [INFO] [1732661904.464032601] [drone_home1.sim]: Calibration status: (True, 'Calibration (sys:0, gyro:0, accel:3, mag:0)')
+[drive_publisher-1] [INFO] [1732662050.236813997] [drone_home1.sim]: Sent: 0.0, -0.5
+[drive_publisher-1] [INFO] [1732662050.264404833] [drone_home1.sim]: Sent: 0.0, -0.5
+[drive_publisher-1] [INFO] [1732662050.366400870] [drone_home1.sim]: Sent: 0.0, -0.5
+[drive_publisher-1] [INFO] [1732662050.430662327] [drone_home1.sim]: Sent: 0.0, -0.5
+[drive_publisher-1] [INFO] [1732662050.474472665] [drone_home1.sim]: Sent: 0.0, -0.5
+[drive_publisher-1] [INFO] [1732662053.227097504] [drone_home1.sim]: Sent: 0.0, -0.5
+[drive_publisher-1] [INFO] [1732662053.270395415] [drone_home1.sim]: Sent: 0.0, -0.5
+[drive_publisher-1] [INFO] [1732662053.321071191] [drone_home1.sim]: Sent: 0.0, -0.5
+[drive_publisher-1] [INFO] [1732662053.374292069] [drone_home1.sim]: Sent: 0.0, -0.5
+[drive_publisher-1] [INFO] [1732662053.432867300] [drone_home1.sim]: Sent: 0.0, -0.5
+[drive_publisher-1] [INFO] [1732662053.486620843] [drone_home1.sim]: Sent: 0.0, -0.5
+[drive_publisher-1] [INFO] [1732662053.531804118] [drone_home1.sim]: Sent: 0.0, -0.5
+[drive_publisher-1] [INFO] [1732662053.586666565] [drone_home1.sim]: Sent: 0.0, -0.5
+[drive_publisher-1] [INFO] [1732662053.634017056] [drone_home1.sim]: Sent: 0.0, -0.5
+[drive_publisher-1] [INFO] [1732662053.686196826] [drone_home1.sim]: Sent: 0.0, -0.5
+[drive_publisher-1] [INFO] [1732662054.296639509] [drone_home1.sim]: Sent: 0.0, -0.5
+[drive_publisher-1] [INFO] [1732662054.345897659] [drone_home1.sim]: Sent: 0.0, -0.5
+[drive_publisher-1] [INFO] [1732662054.397051988] [drone_home1.sim]: Sent: 0.0, -0.5
+[drive_publisher-1] [INFO] [1732662054.646372671] [drone_home1.sim]: Sent: 0.0, -0.5
+[drive_publisher-1] [INFO] [1732662054.698599625] [drone_home1.sim]: Sent: 0.0, -0.5
+[drive_publisher-1] [INFO] [1732662054.749843676] [drone_home1.sim]: Sent: 0.0, -0.5
+[drive_publisher-1] Traceback (most recent call last):
+[drive_publisher-1]   File "/home/pi/drone-home/ros2_ws/install/drone_home/lib/drone_home/drive_publisher", line 33, in <module>
+[drive_publisher-1]     sys.exit(load_entry_point('drone-home==0.0.0', 'console_scripts', 'drive_publisher')())
+[drive_publisher-1]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[drive_publisher-1]   File "/home/pi/drone-home/ros2_ws/install/drone_home/lib/python3.12/site-packages/drone_home/joy_to_ackermann.py", line 55, in main
+[drive_publisher-1]     rclpy.spin(joy_subscriber)
+[drive_publisher-1]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/__init__.py", line 244, in spin
+[drive_publisher-1]     executor.spin_once()
+[drive_publisher-1]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 827, in spin_once
+[drive_publisher-1]     self._spin_once_impl(timeout_sec)
+[drive_publisher-1]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 822, in _spin_once_impl
+[drive_publisher-1]     raise handler.exception()
+[drive_publisher-1]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/task.py", line 239, in __call__
+[drive_publisher-1]     self._handler.send(None)
+[drive_publisher-1]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 508, in handler
+[drive_publisher-1]     await call_coroutine()
+[drive_publisher-1]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 396, in _execute
+[drive_publisher-1]     await await_or_execute(sub.callback, *msg_tuple)
+[drive_publisher-1]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 111, in await_or_execute
+[drive_publisher-1]     return callback(*args)
+[drive_publisher-1]            ^^^^^^^^^^^^^^^
+[drive_publisher-1]   File "/home/pi/drone-home/ros2_ws/install/drone_home/lib/python3.12/site-packages/drone_home/joy_to_ackermann.py", line 36, in listener_callback
+[drive_publisher-1]     out_msg.drive.speed = (msg.axes[5] - 1) * -1
+[drive_publisher-1]                            ~~~~~~~~^^^
+[drive_publisher-1] IndexError: array index out of range
+[ERROR] [drive_publisher-1]: process has died [pid 12327, exit code 1, cmd '/home/pi/drone-home/ros2_ws/install/drone_home/lib/drone_home/drive_publisher --ros-args -r __node:=sim -r __ns:=/drone_home1'].

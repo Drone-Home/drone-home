@@ -1,0 +1,51 @@
+[INFO] [launch]: All log files can be found below /home/pi/.ros/log/2024-11-27-11-03-07-758127-drone-home-5100
+[INFO] [launch]: Default logging verbosity is set to INFO
+[WARNING] [imu_publisher-2]: there are now at least 2 nodes with the name /drone_home1/sim created within this launch context
+[WARNING] [drive_hardware-3]: there are now at least 3 nodes with the name /drone_home1/sim created within this launch context
+[WARNING] [visualization-4]: there are now at least 4 nodes with the name /drone_home1/sim created within this launch context
+[WARNING] [static_transform_publisher-6]: there are now at least 2 nodes with the name /drone_home1/static_transform_publisher created within this launch context
+[INFO] [drive_publisher-1]: process started with pid [5107]
+[INFO] [imu_publisher-2]: process started with pid [5108]
+[INFO] [drive_hardware-3]: process started with pid [5109]
+[INFO] [visualization-4]: process started with pid [5110]
+[INFO] [static_transform_publisher-5]: process started with pid [5111]
+[INFO] [static_transform_publisher-6]: process started with pid [5112]
+[static_transform_publisher-5] [WARN] [1732723387.929713696] []: Old-style arguments are deprecated; see --help for new-style arguments
+[static_transform_publisher-6] [WARN] [1732723387.947057149] []: Old-style arguments are deprecated; see --help for new-style arguments
+[static_transform_publisher-5] [INFO] [1732723387.978210092] [drone_home1.static_transform_publisher]: Spinning until stopped - publishing transform
+[static_transform_publisher-5] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-5] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-5] from 'map' to 'imu_frame'
+[static_transform_publisher-6] [INFO] [1732723387.998556086] [drone_home1.static_transform_publisher]: Spinning until stopped - publishing transform
+[static_transform_publisher-6] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-6] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-6] from 'map' to 'gps_sensor'
+[drive_hardware-3] /usr/lib/python3/dist-packages/gpiozero/output_devices.py:1509: PWMSoftwareFallback: To reduce servo jitter, use the pigpio pin factory.See https://gpiozero.readthedocs.io/en/stable/api_output.html#servo for more info
+[drive_hardware-3]   warnings.warn(PWMSoftwareFallback(
+[visualization-4] Traceback (most recent call last):
+[visualization-4]   File "/home/pi/drone-home/ros2_ws/install/drone_home/lib/drone_home/visualization", line 33, in <module>
+[visualization-4]     sys.exit(load_entry_point('drone-home==0.0.0', 'console_scripts', 'visualization')())
+[visualization-4]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[visualization-4]   File "/home/pi/drone-home/ros2_ws/install/drone_home/lib/python3.12/site-packages/drone_home/markers.py", line 48, in main
+[visualization-4]     rclpy.spin(node)
+[visualization-4]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/__init__.py", line 244, in spin
+[visualization-4]     executor.spin_once()
+[visualization-4]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 827, in spin_once
+[visualization-4]     self._spin_once_impl(timeout_sec)
+[visualization-4]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 822, in _spin_once_impl
+[visualization-4]     raise handler.exception()
+[visualization-4]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/task.py", line 239, in __call__
+[visualization-4]     self._handler.send(None)
+[visualization-4]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 508, in handler
+[visualization-4]     await call_coroutine()
+[visualization-4]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 372, in _execute
+[visualization-4]     await await_or_execute(tmr.callback)
+[visualization-4]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 111, in await_or_execute
+[visualization-4]     return callback(*args)
+[visualization-4]            ^^^^^^^^^^^^^^^
+[visualization-4]   File "/home/pi/drone-home/ros2_ws/install/drone_home/lib/python3.12/site-packages/drone_home/markers.py", line 26, in publish_marker
+[visualization-4]     x = x - math.floor(x) - 0.5
+[visualization-4]             ^^^^
+[visualization-4] NameError: name 'math' is not defined. Did you forget to import 'math'?
+[imu_publisher-2] [INFO] [1732723390.450461775] [drone_home1.sim]: Calibration status: (True, 'Calibration (sys:0, gyro:0, accel:3, mag:0)')
+[ERROR] [visualization-4]: process has died [pid 5110, exit code 1, cmd '/home/pi/drone-home/ros2_ws/install/drone_home/lib/drone_home/visualization --ros-args -r __node:=sim -r __ns:=/drone_home1'].

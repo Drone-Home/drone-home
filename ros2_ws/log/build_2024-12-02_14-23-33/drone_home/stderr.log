@@ -1,0 +1,5 @@
+  File "/home/pi/drone-home/ros2_ws/install/drone_home/lib/python3.12/site-packages/drone_home/markers.py", line 42
+    self.get_logger().info(f"Heading {math.degrees(GeoTools.euler_from_quaternion(self.current_quaternion)[2]})")
+                                                                                                             ^
+SyntaxError: closing parenthesis '}' does not match opening parenthesis '('
+

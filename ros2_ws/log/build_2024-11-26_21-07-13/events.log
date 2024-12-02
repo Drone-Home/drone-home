@@ -1,0 +1,93 @@
+[0.000000] (-) TimerEvent: {}
+[0.000441] (drone_home) JobQueued: {'identifier': 'drone_home', 'dependencies': OrderedDict()}
+[0.000787] (drone_home) JobStarted: {'identifier': 'drone_home'}
+[0.099676] (-) TimerEvent: {}
+[0.200043] (-) TimerEvent: {}
+[0.300715] (-) TimerEvent: {}
+[0.401118] (-) TimerEvent: {}
+[0.501486] (-) TimerEvent: {}
+[0.601828] (-) TimerEvent: {}
+[0.702164] (-) TimerEvent: {}
+[0.802549] (-) TimerEvent: {}
+[0.902891] (-) TimerEvent: {}
+[1.003204] (-) TimerEvent: {}
+[1.103523] (-) TimerEvent: {}
+[1.203870] (-) TimerEvent: {}
+[1.275850] (drone_home) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/drone_home', 'build', '--build-base', '/home/pi/drone-home/ros2_ws/build/drone_home/build', 'install', '--record', '/home/pi/drone-home/ros2_ws/build/drone_home/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/home/pi/drone-home/ros2_ws/src/drone_home', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'pi', 'SSH_CLIENT': '100.68.152.95 47390 22', 'XDG_SESSION_TYPE': 'tty', 'GIT_ASKPASS': '/home/pi/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/askpass.sh', 'SHLVL': '3', 'LD_LIBRARY_PATH': '/opt/ros/jazzy/opt/rviz_ogre_vendor/lib:/opt/ros/jazzy/lib/aarch64-linux-gnu:/opt/ros/jazzy/opt/gz_math_vendor/lib:/opt/ros/jazzy/opt/gz_utils_vendor/lib:/opt/ros/jazzy/opt/gz_cmake_vendor/lib:/opt/ros/jazzy/lib', 'BROWSER': '/home/pi/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/bin/helpers/browser.sh', 'HOME': '/home/pi', 'CYCLONEDDS_URI': '/etc/cyclonedds_pc.xml', 'OLDPWD': '/home/pi', 'TERM_PROGRAM_VERSION': '1.92.1', 'VSCODE_IPC_HOOK_CLI': '/run/user/1002/vscode-ipc-60bc2916-f9f6-48fd-95e0-383d9606f6e3.sock', 'ROS_PYTHON_VERSION': '3', 'VSCODE_GIT_ASKPASS_MAIN': '/home/pi/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/extensions/git/dist/askpass-main.js', 'VSCODE_GIT_ASKPASS_NODE': '/home/pi/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/node', 'SSL_CERT_FILE': '/usr/lib/ssl/cert.pem', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1002/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'COLCON_PREFIX_PATH': '/home/pi/drone-home/ros2_ws/install', 'ROS_DISTRO': 'jazzy', 'LOGNAME': 'pi', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'TERM': 'xterm-256color', 'XDG_SESSION_ID': '3', 'PATH': '/home/pi/.vscode-server/cli/servers/Stable-eaa41d57266683296de7d118f574d0c2652e1fc4/server/bin/remote-cli:/opt/ros/jazzy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin', 'XDG_RUNTIME_DIR': '/run/user/1002', 'SSL_CERT_DIR': '/usr/lib/ssl/certs', 'DISPLAY': 'localhost:10.0', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_cyclonedds_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'VSCODE_GIT_IPC_HANDLE': '/run/user/1002/vscode-git-7429e218a6.sock', 'TERM_PROGRAM': 'vscode', 'AMENT_PREFIX_PATH': '/home/pi/drone-home/ros2_ws/install/drone_home:/opt/ros/jazzy', 'SHELL': '/bin/bash', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'VSCODE_GIT_ASKPASS_EXTRA_ARGS': '', 'PWD': '/home/pi/drone-home/ros2_ws/build/drone_home', 'LC_ALL': 'en_US.UTF-8', 'SSH_CONNECTION': '100.68.152.95 47390 100.105.164.40 22', 'XDG_DATA_DIRS': '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/pi/drone-home/ros2_ws/build/drone_home/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/pi/drone-home/ros2_ws/install/drone_home/lib/python3.12/site-packages:/home/pi/drone-home/ros2_ws/install/drone_home/lib/python3.12/site-packages:/opt/ros/jazzy/lib/python3.12/site-packages', 'COLCON': '1', 'CMAKE_PREFIX_PATH': '/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor'}, 'shell': False}
+[1.303963] (-) TimerEvent: {}
+[1.404292] (-) TimerEvent: {}
+[1.504629] (-) TimerEvent: {}
+[1.604971] (-) TimerEvent: {}
+[1.606167] (drone_home) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[1.606472] (drone_home) StderrLine: {'line': b'  File "/usr/lib/python3.12/pathlib.py", line 441, in __str__\n'}
+[1.608080] (drone_home) StderrLine: {'line': b'    return self._str\n'}
+[1.608344] (drone_home) StderrLine: {'line': b'           ^^^^^^^^^\n'}
+[1.608449] (drone_home) StderrLine: {'line': b"AttributeError: 'PosixPath' object has no attribute '_str'\n"}
+[1.608537] (drone_home) StderrLine: {'line': b'\n'}
+[1.608621] (drone_home) StderrLine: {'line': b'During handling of the above exception, another exception occurred:\n'}
+[1.608702] (drone_home) StderrLine: {'line': b'\n'}
+[1.608790] (drone_home) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[1.608879] (drone_home) StderrLine: {'line': b'  File "/usr/lib/python3.12/pathlib.py", line 555, in drive\n'}
+[1.608994] (drone_home) StderrLine: {'line': b'    return self._drv\n'}
+[1.609084] (drone_home) StderrLine: {'line': b'           ^^^^^^^^^\n'}
+[1.609208] (drone_home) StderrLine: {'line': b"AttributeError: 'PosixPath' object has no attribute '_drv'\n"}
+[1.609335] (drone_home) StderrLine: {'line': b'\n'}
+[1.609416] (drone_home) StderrLine: {'line': b'During handling of the above exception, another exception occurred:\n'}
+[1.609495] (drone_home) StderrLine: {'line': b'\n'}
+[1.609574] (drone_home) StderrLine: {'line': b'Traceback (most recent call last):\n'}
+[1.609651] (drone_home) StderrLine: {'line': b'  File "/home/pi/drone-home/ros2_ws/src/drone_home/setup.py", line 5, in <module>\n'}
+[1.609741] (drone_home) StderrLine: {'line': b'    setup(\n'}
+[1.609819] (drone_home) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 107, in setup\n'}
+[1.610025] (drone_home) StderrLine: {'line': b'    return distutils.core.setup(**attrs)\n'}
+[1.610183] (drone_home) StderrLine: {'line': b'           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n'}
+[1.610290] (drone_home) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/setuptools/_distutils/core.py", line 172, in setup\n'}
+[1.610621] (drone_home) StderrLine: {'line': b'    ok = dist.parse_command_line()\n'}
+[1.610746] (drone_home) StderrLine: {'line': b'         ^^^^^^^^^^^^^^^^^^^^^^^^^\n'}
+[1.610845] (drone_home) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/setuptools/_distutils/dist.py", line 475, in parse_command_line\n'}
+[1.611948] (drone_home) StderrLine: {'line': b'    args = self._parse_command_opts(parser, args)\n'}
+[1.612133] (drone_home) StderrLine: {'line': b'           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n'}
+[1.612239] (drone_home) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/setuptools/dist.py", line 1133, in _parse_command_opts\n'}
+[1.614065] (drone_home) StderrLine: {'line': b'    nargs = _Distribution._parse_command_opts(self, parser, args)\n'}
+[1.614294] (drone_home) StderrLine: {'line': b'            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n'}
+[1.614422] (drone_home) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/setuptools/_distutils/dist.py", line 534, in _parse_command_opts\n'}
+[1.614510] (drone_home) StderrLine: {'line': b'    cmd_class = self.get_command_class(command)\n'}
+[1.614603] (drone_home) StderrLine: {'line': b'                ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n'}
+[1.614715] (drone_home) StderrLine: {'line': b'  File "/usr/lib/python3/dist-packages/setuptools/dist.py", line 978, in get_command_class\n'}
+[1.614796] (drone_home) StderrLine: {'line': b"    eps = metadata.entry_points(group='distutils.commands', name=command)\n"}
+[1.614875] (drone_home) StderrLine: {'line': b'          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n'}
+[1.614954] (drone_home) StderrLine: {'line': b'  File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 913, in entry_points\n'}
+[1.616268] (drone_home) StderrLine: {'line': b'    return EntryPoints(eps).select(**params)\n'}
+[1.616498] (drone_home) StderrLine: {'line': b'           ^^^^^^^^^^^^^^^^\n'}
+[1.616622] (drone_home) StderrLine: {'line': b'  File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 911, in <genexpr>\n'}
+[1.616760] (drone_home) StderrLine: {'line': b'    dist.entry_points for dist in _unique(distributions())\n'}
+[1.616927] (drone_home) StderrLine: {'line': b'    ^^^^^^^^^^^^^^^^^\n'}
+[1.617040] (drone_home) StderrLine: {'line': b'  File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 471, in entry_points\n'}
+[1.617140] (drone_home) StderrLine: {'line': b"    return EntryPoints._from_text_for(self.read_text('entry_points.txt'), self)\n"}
+[1.617306] (drone_home) StderrLine: {'line': b'                                      ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n'}
+[1.617413] (drone_home) StderrLine: {'line': b'  File "/usr/lib/python3.12/importlib/metadata/__init__.py", line 819, in read_text\n'}
+[1.617506] (drone_home) StderrLine: {'line': b"    return self._path.joinpath(filename).read_text(encoding='utf-8')\n"}
+[1.617603] (drone_home) StderrLine: {'line': b'           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n'}
+[1.617693] (drone_home) StderrLine: {'line': b'  File "/usr/lib/python3.12/pathlib.py", line 1029, in read_text\n'}
+[1.617783] (drone_home) StderrLine: {'line': b"    with self.open(mode='r', encoding=encoding, errors=errors) as f:\n"}
+[1.617949] (drone_home) StderrLine: {'line': b'         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n'}
+[1.618201] (drone_home) StderrLine: {'line': b'  File "/usr/lib/python3.12/pathlib.py", line 1015, in open\n'}
+[1.618328] (drone_home) StderrLine: {'line': b'    return io.open(self, mode, buffering, encoding, errors, newline)\n'}
+[1.618442] (drone_home) StderrLine: {'line': b'           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n'}
+[1.618550] (drone_home) StderrLine: {'line': b'  File "/usr/lib/python3.12/pathlib.py", line 448, in __fspath__\n'}
+[1.618655] (drone_home) StderrLine: {'line': b'    return str(self)\n'}
+[1.618767] (drone_home) StderrLine: {'line': b'           ^^^^^^^^^\n'}
+[1.618866] (drone_home) StderrLine: {'line': b'  File "/usr/lib/python3.12/pathlib.py", line 443, in __str__\n'}
+[1.618975] (drone_home) StderrLine: {'line': b'    self._str = self._format_parsed_parts(self.drive, self.root,\n'}
+[1.619097] (drone_home) StderrLine: {'line': b'                                          ^^^^^^^^^^\n'}
+[1.619193] (drone_home) StderrLine: {'line': b'  File "/usr/lib/python3.12/pathlib.py", line 557, in drive\n'}
+[1.619322] (drone_home) StderrLine: {'line': b'    self._load_parts()\n'}
+[1.619421] (drone_home) StderrLine: {'line': b'  File "/usr/lib/python3.12/pathlib.py", line 415, in _load_parts\n'}
+[1.619869] (drone_home) StderrLine: {'line': b'    drv, root, tail = self._parse_path(path)\n'}
+[1.620113] (drone_home) StderrLine: {'line': b'                      ^^^^^^^^^^^^^^^^^^^^^^\n'}
+[1.620291] (drone_home) StderrLine: {'line': b'  File "/usr/lib/python3.12/pathlib.py", line 404, in _parse_path\n'}
+[1.620435] (drone_home) StderrLine: {'line': b"    parsed = [sys.intern(str(x)) for x in rel.split(sep) if x and x != '.']\n"}
+[1.620559] (drone_home) StderrLine: {'line': b'              ^^^^^^^^^^^^^^^^^^\n'}
+[1.620669] (drone_home) StderrLine: {'line': b'KeyboardInterrupt\n'}
+[1.675920] (drone_home) CommandEnded: {'returncode': -2}
+[1.676427] (drone_home) JobEnded: {'identifier': 'drone_home', 'rc': 'SIGINT'}
+[1.686657] (-) EventReactorShutdown: {}

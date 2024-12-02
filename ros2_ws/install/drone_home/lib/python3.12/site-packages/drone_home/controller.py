@@ -15,13 +15,19 @@ class Controller(Node):
         super().__init__('controller')
 
         self.waypoints = [
-        (29.6396803, -82.3612485),  # 1
-        (29.6399049, -82.3612544),  # 2
-        (29.6399106, -82.3614452),  # 3
-        (29.6396941, -82.3614379),  # 4
+        (28.069556, -82.724286),
+        #(29.6404980, -82.3605938),
+        #(29.6404013, -82.3605922),
+        #(29.6404035, -82.3604530)
         ]
+        '''
+        (29.6404917, -82.3604188),  # 1
+        (29.6404941, -82.3605006),  # 2
+        (29.6404259, -82.3605003),  # 3
+        (29.6404263, -82.3604182),  # 4
+        '''
         self.current_waypoint_index = 0  # Start with the first waypoint
-        self.distance_threshold = 5.0  # Distance threshold in meters to switch waypoints
+        self.distance_threshold = 2.5  # Distance threshold in meters to switch waypoints
 
         # Publisher for AckermannDrive
         self.publisher_ = self.create_publisher(AckermannDriveStamped, 'vehicle/drive', 10)
@@ -37,7 +43,7 @@ class Controller(Node):
         self.target_quaternion = self.euler_to_quaternion(0.0, 0.0, target_yaw)
 
         # Control loop timer
-        self.timer = self.create_timer(0.05, self.control_loop)
+        self.timer = self.create_timer(0.1, self.control_loop)
 
         # current quaternion (updated from subscriber)
         self.current_quaternion = Quaternion(x=0.0, y=0.0, z=0.0, w=0.0)
@@ -110,12 +116,12 @@ class Controller(Node):
         diff = self.quaternion_multiply(self.quaternion_conjugate(current_quaternion), self.target_quaternion)
     
         self.get_logger().info(f"Current Yaw: {degrees(current_yaw)}, target = {degrees(target_yaw)}")
-        self.get_logger().info(f"CurrentDiff: {degrees(self.euler_from_quaternion(diff)[2])}")
+        #self.get_logger().info(f"CurrentDiff: {degrees(self.euler_from_quaternion(diff)[2])}")
         
 
         # Calculate proportional control for heading
         heading_error = self.euler_from_quaternion(diff)[2]
-        proportional_gain = 1.5
+        proportional_gain = 2.8 # 1.5
         return proportional_gain * heading_error
 
         
@@ -128,15 +134,7 @@ class Controller(Node):
         q.z = math.cos(roll / 2) * math.cos(pitch / 2) * math.sin(yaw / 2) - math.sin(roll / 2) * math.sin(pitch / 2) * math.cos(yaw / 2)
         q.w = math.cos(roll / 2) * math.cos(pitch / 2) * math.cos(yaw / 2) + math.sin(roll / 2) * math.sin(pitch / 2) * math.sin(yaw / 2)
         return q
-    
-    def get_quaternion_from_euler(roll, pitch, yaw):
-        q = Quaternion()
-        q.x = np.sin(roll/2) * np.cos(pitch/2) * np.cos(yaw/2) - np.cos(roll/2) * np.sin(pitch/2) * np.sin(yaw/2)
-        q.y = np.cos(roll/2) * np.sin(pitch/2) * np.cos(yaw/2) + np.sin(roll/2) * np.cos(pitch/2) * np.sin(yaw/2)
-        q.z = np.cos(roll/2) * np.cos(pitch/2) * np.sin(yaw/2) - np.sin(roll/2) * np.sin(pitch/2) * np.cos(yaw/2)
-        q.w = np.cos(roll/2) * np.cos(pitch/2) * np.cos(yaw/2) + np.sin(roll/2) * np.sin(pitch/2) * np.sin(yaw/2)
-        
-        return q
+
 
     def quaternion_to_yaw(self, quaternion):
         # Converts a Quaternion message to yaw (in radians)

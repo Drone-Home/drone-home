@@ -1,0 +1,56 @@
+[INFO] [launch]: All log files can be found below /home/pi/.ros/log/2024-11-27-12-40-10-752481-drone-home-43382
+[INFO] [launch]: Default logging verbosity is set to INFO
+[WARNING] [imu_publisher-2]: there are now at least 2 nodes with the name /drone_home1/sim created within this launch context
+[WARNING] [drive_hardware-3]: there are now at least 3 nodes with the name /drone_home1/sim created within this launch context
+[WARNING] [static_transform_publisher-5]: there are now at least 2 nodes with the name /drone_home1/static_transform_publisher created within this launch context
+[INFO] [drive_publisher-1]: process started with pid [43393]
+[INFO] [imu_publisher-2]: process started with pid [43394]
+[INFO] [drive_hardware-3]: process started with pid [43395]
+[INFO] [static_transform_publisher-4]: process started with pid [43396]
+[INFO] [static_transform_publisher-5]: process started with pid [43397]
+[static_transform_publisher-4] [WARN] [1732729210.902096951] []: Old-style arguments are deprecated; see --help for new-style arguments
+[static_transform_publisher-5] [WARN] [1732729210.919737307] []: Old-style arguments are deprecated; see --help for new-style arguments
+[static_transform_publisher-4] [INFO] [1732729210.947457260] [drone_home1.static_transform_publisher]: Spinning until stopped - publishing transform
+[static_transform_publisher-4] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-4] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-4] from 'map' to 'imu_frame'
+[static_transform_publisher-5] [INFO] [1732729210.959950475] [drone_home1.static_transform_publisher]: Spinning until stopped - publishing transform
+[static_transform_publisher-5] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-5] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-5] from 'map' to 'gps_sensor'
+[drive_hardware-3] /usr/lib/python3/dist-packages/gpiozero/output_devices.py:1509: PWMSoftwareFallback: To reduce servo jitter, use the pigpio pin factory.See https://gpiozero.readthedocs.io/en/stable/api_output.html#servo for more info
+[drive_hardware-3]   warnings.warn(PWMSoftwareFallback(
+[imu_publisher-2] [INFO] [1732729213.202693262] [drone_home1.sim]: Calibration status: (True, 'Calibration (sys:0, gyro:0, accel:3, mag:0)')
+[imu_publisher-2] Traceback (most recent call last):
+[imu_publisher-2]   File "/home/pi/drone-home/ros2_ws/install/drone_home/lib/drone_home/imu_publisher", line 33, in <module>
+[imu_publisher-2]     sys.exit(load_entry_point('drone-home==0.0.0', 'console_scripts', 'imu_publisher')())
+[imu_publisher-2]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[imu_publisher-2]   File "/home/pi/drone-home/ros2_ws/install/drone_home/lib/python3.12/site-packages/drone_home/gps_imu_publisher.py", line 248, in main
+[imu_publisher-2]     rclpy.spin(minimal_publisher)
+[imu_publisher-2]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/__init__.py", line 244, in spin
+[imu_publisher-2]     executor.spin_once()
+[imu_publisher-2]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 827, in spin_once
+[imu_publisher-2]     self._spin_once_impl(timeout_sec)
+[imu_publisher-2]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 822, in _spin_once_impl
+[imu_publisher-2]     raise handler.exception()
+[imu_publisher-2]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/task.py", line 239, in __call__
+[imu_publisher-2]     self._handler.send(None)
+[imu_publisher-2]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 508, in handler
+[imu_publisher-2]     await call_coroutine()
+[imu_publisher-2]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 372, in _execute
+[imu_publisher-2]     await await_or_execute(tmr.callback)
+[imu_publisher-2]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 111, in await_or_execute
+[imu_publisher-2]     return callback(*args)
+[imu_publisher-2]            ^^^^^^^^^^^^^^^
+[imu_publisher-2]   File "/home/pi/drone-home/ros2_ws/install/drone_home/lib/python3.12/site-packages/drone_home/gps_imu_publisher.py", line 237, in timer_callback
+[imu_publisher-2]     self.get_logger().info(self.euler_from_quaternion(pose_msg.pose.orientation)[2])
+[imu_publisher-2]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/impl/rcutils_logger.py", line 343, in info
+[imu_publisher-2]     return self.log(message, LoggingSeverity.INFO, **kwargs)
+[imu_publisher-2]            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[imu_publisher-2]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/impl/rcutils_logger.py", line 332, in log
+[imu_publisher-2]     _rclpy.rclpy_logging_rcutils_log(
+[imu_publisher-2] TypeError: rclpy_logging_rcutils_log(): incompatible function arguments. The following argument types are supported:
+[imu_publisher-2]     1. (arg0: int, arg1: str, arg2: str, arg3: str, arg4: str, arg5: int) -> None
+[imu_publisher-2] 
+[imu_publisher-2] Invoked with: <LoggingSeverity.INFO: 20>, 'drone_home1.sim', 9.476996326675807e-05, 'timer_callback', '/home/pi/drone-home/ros2_ws/install/drone_home/lib/python3.12/site-packages/drone_home/gps_imu_publisher.py', 237
+[ERROR] [imu_publisher-2]: process has died [pid 43394, exit code 1, cmd '/home/pi/drone-home/ros2_ws/install/drone_home/lib/drone_home/imu_publisher --ros-args -r __node:=sim -r __ns:=/drone_home1'].
