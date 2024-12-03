@@ -55,10 +55,11 @@ button:hover {
     margin-bottom: 20px;
 }
 
+/* Keep manual controller's dimensions and position */
 .controller-container {
-    position: absolute;
-    right: 20px;
-    top: 100px;
+    position: flex;
+    right: 20px; /* Fixed to the right side */
+    top: 100px; /* Vertically aligned */
     padding: 20px;
     border: 3px solid rgb(21, 0, 255);
     border-radius: 10px;
@@ -67,6 +68,7 @@ button:hover {
     display: flex;
     flex-direction: column;
     align-items: center;
+    z-index: 1; /* Ensure it stays above other elements */
 }
 
 .controller-title {
@@ -210,18 +212,14 @@ button:hover {
         margin-bottom: 20px;
     }
     
+    /* Controller container styling */
     .controller-container {
-        position: absolute;
-        right: 20px;
-        top: 100px;
+        width: 30%; /* Adjust to balance sizes */
+        text-align: center;
         padding: 20px;
-        border: 3px solid rgb(21, 0, 255);
+        border: 2px solid blue;
         border-radius: 10px;
-        width: 250px;
         background-color: white;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
     }
     
     .controller-title {
@@ -303,4 +301,40 @@ button:hover {
         margin-top: 10px;
         color: #333;
     }
+}
+
+/* Flex container for horizontal alignment */
+.flex-container {
+    display: flex;
+    flex-direction: row; /* Align items in a row */
+    justify-content: space-evenly; /* Distribute items evenly */
+    align-items: center; /* Align items vertically in the center */
+    gap: 20px; /* Add spacing between elements */
+    padding: 20px;
+}
+
+/* Map container styling */
+.map-container {
+    flex: 0.6; /* Take up equal space */
+    text-align: center;
+}
+
+#map {
+    width: 100%; /* Ensure full width within container */
+    height: 400px; /* Fixed height for the map */
+    border: 2px solid #333;
+    border-radius: 10px;
+}
+
+/* Video container styling */
+.video-container {
+    flex: 1; /* Take up equal space */
+    text-align: center;
+}
+
+#video-feed {
+    width: 100%; /* Ensure full width within container */
+    height: auto; /* Maintain aspect ratio */
+    border: 2px solid #333;
+    border-radius: 10px;
 }

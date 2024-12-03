@@ -5,39 +5,60 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Car Controller</title>
     <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <!-- Leaflet.js CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <!-- Add Leaflet.js JavaScript -->
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
 </head>
 <body>
-
-    <!-- Title Image at the top of the page -->
-    <img src="{{ url_for('static', filename='images/title-image.png') }}" alt="Connection Portal" class="title-image">
-
-    <!-- Manual Controller Container -->
-    <div class="controller-container">
-        <h2 class="controller-title">MANUAL CONTROLLER</h2>
-        
-        <!-- Left and Right Buttons -->
-        <div class="controls">
-            <button id="left-btn" class="control-button" name="action" value="left">Left</button>
-            <button id="right-btn" class="control-button" name="action" value="right">Right</button>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Car Controller</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    </head>
+    <div class="title-container">
+        <h1 class="controller-title">DRONE HOME</h1>
+    </div>
+    
+    <!-- Flex Container for Map and Video -->
+    <div class="flex-container">
+        <!-- Map Section -->
+        <div class="map-container">
+            <h2>Map of Current Location and Tracked Objects</h2>
+            <div id="map"></div>
+        </div>
+    
+        <!-- Video Section -->
+        <div class="video-container">
+            <h2>Live Webcam Feed</h2>
+            <img src="/video_feed" alt="Live Video Feed" id="video-feed">
         </div>
 
-        <!-- Draggable Lever for Acceleration/Deceleration -->
-        <div class="lever-container">
-            <div id="lever" class="lever"></div>
+        <!-- Manual Controller Section -->
+        <div class="controller-container">
+            <h2 class="controller-title">MANUAL CONTROLLER</h2>
+            <div class="controls">
+                <button id="left-btn" class="control-button">Left</button>
+                <button id="right-btn" class="control-button">Right</button>
+            </div>
+            <div class="lever-container">
+                <div id="lever" class="lever"></div>
+            </div>
+            <p id="lever-status">Drag the lever to control speed</p>
         </div>
-
-        <p id="lever-status">Drag the lever to control speed</p>
     </div>
 
-    <!-- Link to the JavaScript file -->
+            <!-- Link JavaScript Files -->
     <script src="{{ url_for('static', filename='js/script.js') }}"></script>
-</body>
+    <script src="{{ url_for('static', filename='js/map.js') }}"></script>
+        </body>
 </html>
-
 
 <html>
     <link rel="stylesheet" href='/static/styles.css' />
 <body>
  <img src="{{ url_for('static', filename='images/title.png') }}" alt="Site Title" class="top-image">
+ <!-- <video id="webcam" autoplay muted playsinline></video> -->
 </body>
 </html>
