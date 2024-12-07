@@ -24,18 +24,17 @@ The **Drone Home** project combines GPS, IMU, and computer vision for autonomous
      - Includes an accessible safety switch for emergency control.
    - **Interfaces**: Integrated with ROS2 and OpenCV for simlpe user interaction.
 
-### Completed Work
+### How to run
+- Run Ubuntu 24.04 on a Pi 5 and install ROS2 Jazzy
+- Clone repository
+- cd ros2_ws
+- pip install -r requirements.txt
+- sudo chmod +x source_build_run.sh
+- ./source_build_run.sh
+- The ros nodes will run. Run ros2 topic list to list the topics. 
 
-- **Hardware**: Powered Raspberry Pi from BEC. Connected IMU using I2C GPIO and GPS using a serial USB cable. Installed Ubuntu 24.04 on SSD.
-
-- **ROS2**: Developed a node that reads and publishes GPS data in `NavSatFix` message format and IMU data in `Pose` message format, establishing the foundation for autonomous navigation.
-
-- **OpenCV**: Created a program that opens the camera, reads frames, and performs basic image processing operations.
-
-- **GUI**: Implemented a Flask-based GUI with basic control elements displayed.
-
-- **Connector**: **TODO**
-
-Known Bugs:
-The GPS works well when powering the Pi 5 from USB C. When powered by the BEC it does not want to get a fix. This is likely due to noise in the power that can be fixed by a capacitor.
+### Known Bugs:
+- The Google Earth live preview vehicle orientation was off by 90 degrees during one of many tests for some reason. Resrarting fixed the issue and it has not beed repeated since.
+- When running the manual joystick control at the same time as the automatic controller, the vehicle has some jitter because it is recieving controls from two nodes at once. The joystick publishes much faster so the vehicle can still be controlled but multiplexing needs to be implemented.
+- When first turning on the vehicle and there is no fix yet, the GPS visualization displays an incorrect coordinate.
 
