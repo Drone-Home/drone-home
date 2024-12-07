@@ -3,6 +3,15 @@
 
 The **Drone Home** project combines GPS, IMU, and computer vision for autonomous navigation, enabling a vehicle to locate, retrieve, and recharge drones in the field. This system is designed to support industries where drones operate over large or remote areas—like agriculture and emergency response—by minimizing drone downtime and reducing reliance on fixed charging stations.
 
+### How to run
+- Run Ubuntu 24.04 on a Pi 5 and install ROS2 Jazzy
+- Clone repository
+- cd ros2_ws
+- pip install -r requirements.txt
+- sudo chmod +x source_build_run.sh
+- ./source_build_run.sh
+- The ros nodes will run. Run ros2 topic list to list the topics.
+
 ### System Components
 
 1. **Vehicle Navigation & Control**
@@ -23,15 +32,6 @@ The **Drone Home** project combines GPS, IMU, and computer vision for autonomous
      - Provides controls (navigate to drone, return, manual override).
      - Includes an accessible safety switch for emergency control.
    - **Interfaces**: Integrated with ROS2 and OpenCV for simlpe user interaction.
-
-### How to run
-- Run Ubuntu 24.04 on a Pi 5 and install ROS2 Jazzy
-- Clone repository
-- cd ros2_ws
-- pip install -r requirements.txt
-- sudo chmod +x source_build_run.sh
-- ./source_build_run.sh
-- The ros nodes will run. Run ros2 topic list to list the topics. 
 
 ### Known Bugs:
 - The Google Earth live preview vehicle orientation was off by 90 degrees during one of many tests for some reason. Resrarting fixed the issue and it has not beed repeated since.
