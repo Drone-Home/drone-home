@@ -1,34 +1,17 @@
 
 To use application:
 
-1. In this dir, run 'python3 app.py'
+1. In the RCFLASK dir, run 'python3 app.py'
 
 2. Click on website
 
-To edit application:
+[To edit application, use VS Code, preferably.]
 
-1. Open new Terminal in same dir
+Current Display:
 
-2. Run 'idle3' & open Python files and edit project
-
-3. Else, run VS to modify other files
-
-To push changes:
-
-1. Stage changes with 'git add'
-
-2. Commit changes to local copy with 'git commit'
-
-3. Push changes to Github Master Version with 'git push'
-
+![Current Page](./static/images/currentpage.png)
 
 BlueSky Design:
-
-Connection Portal:
-
-![Connection Portal](./static/images/connect.png)
-
-Controller Page:
 
 ![Controller Page](./static/images/mainpage.png)
 
