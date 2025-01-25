@@ -11,6 +11,8 @@ Current Display:
 
 ![Current Page](./static/images/currentpage.png)
 
+![Current Page 2](./static/images/currentpage2.png)
+
 BlueSky Design:
 
 ![Controller Page](./static/images/mainpage.png)
