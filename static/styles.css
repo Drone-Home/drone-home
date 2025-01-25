@@ -151,6 +151,65 @@ button:hover {
     color: #333;
 }
 
+/* Output window styling */
+.output-window {
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    border: 2px solid blue;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    font-size: 14px;
+    overflow-y: auto;
+    text-align: left;
+}
+
+#output-log {
+    height: 100%;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+/* Each log entry */
+.log-entry {
+    padding: 5px;
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+}
+
+/* Received Data Window */
+.received-data-window {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    border: 2px solid green;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    font-size: 14px;
+    overflow-y: auto;
+    text-align: left;
+    margin-top: 10px;
+}
+
+/* Distance Window */
+.distance-window {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    border: 2px solid yellow;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    font-size: 14px;
+    overflow-y: auto;
+    text-align: left;
+    margin-top: 10px;
+}
+
 
 /* THE FOLLOWING ONLY APPLIES TO WHEN SET TO A MOBILE DEVICE */
 @media (max-width: 768px) {
@@ -337,4 +396,63 @@ button:hover {
     height: auto; /* Maintain aspect ratio */
     border: 2px solid #333;
     border-radius: 10px;
+}
+
+/* Output window styling */
+.output-window {
+    width: 100%;
+    height: 150px;
+    background-color: black;
+    border: 2px solid blue;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    font-size: 14px;
+    overflow-y: auto;
+    text-align: left;
+}
+
+#output-log {
+    height: 100%;
+    overflow-y: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+/* Each log entry */
+.log-entry {
+    padding: 5px;
+    font-family: 'Courier New', monospace;
+    font-weight: bold;
+}
+
+/* Received Data Window */
+.received-data-window {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    border: 2px solid green;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    font-size: 14px;
+    overflow-y: auto;
+    text-align: left;
+    margin-top: 10px;
+}
+
+/* Distance Window */
+.distance-window {
+    width: 100%;
+    height: auto;
+    background-color: black;
+    border: 2px solid yellow;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    font-size: 14px;
+    overflow-y: auto;
+    text-align: left;
+    margin-top: 10px;
 }
