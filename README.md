@@ -1,8 +1,14 @@
 ( I accidentially deleted the last page here (cry emoji)... I will rewrite this README using our final deliverable from last semester... must readd how to run from RasPi5 )
 
+SETUP:
+* git clone this project
+* ensure python is downloaded
+* ensure flask is downloaded (python -m pip install flask)
+* ensure openvs is downloaded (python -m pip install opencv-python-headless)
+  
 To use application:
 
-1. In the RCFLASK dir, run 'python3 app.py'
+1. In the RCFLASK dir, run 'python3 app.py' or 'python app.py'
 
 2. Click on website
 
