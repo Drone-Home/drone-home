@@ -1,3 +1,4 @@
+( I accidentially deleted the last page here (cry emoji)... I will rewrite this README using our final deliverable from last semester... must readd how to run from RasPi5 )
 
 To use application:
 
