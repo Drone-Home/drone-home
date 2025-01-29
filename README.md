@@ -8,9 +8,9 @@ SETUP:
   
 To use application:
 
-1. In the RCFLASK dir, run 'python3 app.py' or 'python app.py'
+1. In the RCFLASK dir, run 'python3 app.py' or 'python app.py' - whichever version you have
 
-2. Click on website
+2. Click on website popup that appears after ~15s
 
 [To edit application, use VS Code, preferably.]
 
