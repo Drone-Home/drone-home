@@ -5,10 +5,12 @@ document.addEventListener('DOMContentLoaded', function () {
     const leverContainer = document.querySelector('.lever-container');
     const statusDisplay = document.getElementById('lever-status');
     const outputLog = document.getElementById('output-log'); // Output window log
+    const autodriveButton = document.getElementById('autodrive-btn');
 
     let actionIndex = 1; // Tracks number of actions
     let steering = 0; // -1 (left), 0 (neutral), 1 (right)
     let speed = 0; // -1 (full reverse) to 1 (full forward)
+    let isAutoDrive = false;
 
     // Set initial neutral position for the lever
     const containerHeight = leverContainer.offsetHeight;

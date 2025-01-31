@@ -210,6 +210,27 @@ button:hover {
     margin-top: 10px;
 }
 
+.autodrive-button {
+    background-color: #007bff;  /* Nice blue */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.autodrive-button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}
+
+.autodrive-button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
 
 /* THE FOLLOWING ONLY APPLIES TO WHEN SET TO A MOBILE DEVICE */
 @media (max-width: 768px) {
