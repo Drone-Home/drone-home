@@ -1,0 +1,30 @@
+running egg_info
+writing ../../build/drone_home/drone_home.egg-info/PKG-INFO
+writing dependency_links to ../../build/drone_home/drone_home.egg-info/dependency_links.txt
+writing entry points to ../../build/drone_home/drone_home.egg-info/entry_points.txt
+writing requirements to ../../build/drone_home/drone_home.egg-info/requires.txt
+writing top-level names to ../../build/drone_home/drone_home.egg-info/top_level.txt
+reading manifest file '../../build/drone_home/drone_home.egg-info/SOURCES.txt'
+writing manifest file '../../build/drone_home/drone_home.egg-info/SOURCES.txt'
+running build
+running build_py
+copying drone_home/gps_publisher.py -> /workspaces/isaac_ros-dev/drone-home/ros2_ws/build/drone_home/build/lib/drone_home
+copying drone_home/imu_publisher.py -> /workspaces/isaac_ros-dev/drone-home/ros2_ws/build/drone_home/build/lib/drone_home
+running install
+running install_lib
+copying /workspaces/isaac_ros-dev/drone-home/ros2_ws/build/drone_home/build/lib/drone_home/gps_publisher.py -> /workspaces/isaac_ros-dev/drone-home/ros2_ws/install/drone_home/lib/python3.10/site-packages/drone_home
+copying /workspaces/isaac_ros-dev/drone-home/ros2_ws/build/drone_home/build/lib/drone_home/imu_publisher.py -> /workspaces/isaac_ros-dev/drone-home/ros2_ws/install/drone_home/lib/python3.10/site-packages/drone_home
+byte-compiling /workspaces/isaac_ros-dev/drone-home/ros2_ws/install/drone_home/lib/python3.10/site-packages/drone_home/gps_publisher.py to gps_publisher.cpython-310.pyc
+byte-compiling /workspaces/isaac_ros-dev/drone-home/ros2_ws/install/drone_home/lib/python3.10/site-packages/drone_home/imu_publisher.py to imu_publisher.cpython-310.pyc
+running install_data
+running install_egg_info
+removing '/workspaces/isaac_ros-dev/drone-home/ros2_ws/install/drone_home/lib/python3.10/site-packages/drone_home-0.0.0-py3.10.egg-info' (and everything under it)
+Copying ../../build/drone_home/drone_home.egg-info to /workspaces/isaac_ros-dev/drone-home/ros2_ws/install/drone_home/lib/python3.10/site-packages/drone_home-0.0.0-py3.10.egg-info
+running install_scripts
+Installing controller script to /workspaces/isaac_ros-dev/drone-home/ros2_ws/install/drone_home/lib/drone_home
+Installing drive_hardware script to /workspaces/isaac_ros-dev/drone-home/ros2_ws/install/drone_home/lib/drone_home
+Installing drive_publisher script to /workspaces/isaac_ros-dev/drone-home/ros2_ws/install/drone_home/lib/drone_home
+Installing gps_publisher script to /workspaces/isaac_ros-dev/drone-home/ros2_ws/install/drone_home/lib/drone_home
+Installing imu_publisher script to /workspaces/isaac_ros-dev/drone-home/ros2_ws/install/drone_home/lib/drone_home
+Installing visualization script to /workspaces/isaac_ros-dev/drone-home/ros2_ws/install/drone_home/lib/drone_home
+writing list of installed files to '/workspaces/isaac_ros-dev/drone-home/ros2_ws/build/drone_home/install.log'

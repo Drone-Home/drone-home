@@ -1,0 +1,71 @@
+[0.000000] (-) TimerEvent: {}
+[0.000644] (drone_home) JobQueued: {'identifier': 'drone_home', 'dependencies': OrderedDict()}
+[0.001171] (drone_home) JobStarted: {'identifier': 'drone_home'}
+[0.099391] (-) TimerEvent: {}
+[0.199973] (-) TimerEvent: {}
+[0.300541] (-) TimerEvent: {}
+[0.401102] (-) TimerEvent: {}
+[0.501646] (-) TimerEvent: {}
+[0.602182] (-) TimerEvent: {}
+[0.702749] (-) TimerEvent: {}
+[0.803397] (-) TimerEvent: {}
+[0.904131] (-) TimerEvent: {}
+[1.004822] (-) TimerEvent: {}
+[1.105388] (-) TimerEvent: {}
+[1.205984] (-) TimerEvent: {}
+[1.306742] (-) TimerEvent: {}
+[1.407503] (-) TimerEvent: {}
+[1.508246] (-) TimerEvent: {}
+[1.609015] (-) TimerEvent: {}
+[1.709745] (-) TimerEvent: {}
+[1.810412] (-) TimerEvent: {}
+[1.911176] (-) TimerEvent: {}
+[2.011971] (-) TimerEvent: {}
+[2.026506] (drone_home) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/drone_home', 'build', '--build-base', '/workspaces/isaac_ros-dev/drone-home/ros2_ws/build/drone_home/build', 'install', '--record', '/workspaces/isaac_ros-dev/drone-home/ros2_ws/build/drone_home/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/workspaces/isaac_ros-dev/drone-home/ros2_ws/src/drone_home', 'env': {'SUDO_GID': '1000', 'MAIL': '/var/mail/root', 'USER': 'root', 'HOSTNAME': 'drone-home', 'HOME': '/root', 'SUDO_UID': '1000', 'LOGNAME': 'root', 'TERM': 'xterm', 'PATH': '/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/snap/bin', 'LANG': 'en_US.UTF-8', 'SUDO_COMMAND': './source_build_run.sh', 'SHELL': '/bin/bash', 'SUDO_USER': 'admin', 'LC_ALL': 'en_US.UTF-8', 'PWD': '/workspaces/isaac_ros-dev/drone-home/ros2_ws/build/drone_home', 'COLCON': '1', 'PYTHONPATH': '/workspaces/isaac_ros-dev/drone-home/ros2_ws/build/drone_home/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/isaac_ros-dev/drone-home/ros2_ws/install/drone_home/lib/python3.10/site-packages:'}, 'shell': False}
+[2.112174] (-) TimerEvent: {}
+[2.212905] (-) TimerEvent: {}
+[2.313645] (-) TimerEvent: {}
+[2.414374] (-) TimerEvent: {}
+[2.515098] (-) TimerEvent: {}
+[2.615782] (-) TimerEvent: {}
+[2.711223] (drone_home) StdoutLine: {'line': b'running egg_info\n'}
+[2.715876] (-) TimerEvent: {}
+[2.737007] (drone_home) StdoutLine: {'line': b'writing ../../build/drone_home/drone_home.egg-info/PKG-INFO\n'}
+[2.737841] (drone_home) StdoutLine: {'line': b'writing dependency_links to ../../build/drone_home/drone_home.egg-info/dependency_links.txt\n'}
+[2.738400] (drone_home) StdoutLine: {'line': b'writing entry points to ../../build/drone_home/drone_home.egg-info/entry_points.txt\n'}
+[2.738756] (drone_home) StdoutLine: {'line': b'writing requirements to ../../build/drone_home/drone_home.egg-info/requires.txt\n'}
+[2.739035] (drone_home) StdoutLine: {'line': b'writing top-level names to ../../build/drone_home/drone_home.egg-info/top_level.txt\n'}
+[2.816068] (-) TimerEvent: {}
+[2.916813] (-) TimerEvent: {}
+[3.017408] (-) TimerEvent: {}
+[3.118048] (-) TimerEvent: {}
+[3.218667] (-) TimerEvent: {}
+[3.319253] (-) TimerEvent: {}
+[3.419841] (-) TimerEvent: {}
+[3.520448] (-) TimerEvent: {}
+[3.621102] (-) TimerEvent: {}
+[3.721716] (-) TimerEvent: {}
+[3.822467] (-) TimerEvent: {}
+[3.894653] (drone_home) StdoutLine: {'line': b"writing manifest file '../../build/drone_home/drone_home.egg-info/SOURCES.txt'\n"}
+[3.895328] (drone_home) StdoutLine: {'line': b'running build\n'}
+[3.895579] (drone_home) StdoutLine: {'line': b'running build_py\n'}
+[3.898131] (drone_home) StdoutLine: {'line': b'running install\n'}
+[3.913437] (drone_home) StdoutLine: {'line': b'running install_lib\n'}
+[3.922534] (-) TimerEvent: {}
+[3.948814] (drone_home) StdoutLine: {'line': b'running install_data\n'}
+[3.949577] (drone_home) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.980378] (drone_home) StdoutLine: {'line': b"removing '/workspaces/isaac_ros-dev/drone-home/ros2_ws/install/drone_home/lib/python3.10/site-packages/drone_home-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.981358] (drone_home) StdoutLine: {'line': b'Copying ../../build/drone_home/drone_home.egg-info to /workspaces/isaac_ros-dev/drone-home/ros2_ws/install/drone_home/lib/python3.10/site-packages/drone_home-0.0.0-py3.10.egg-info\n'}
+[3.983530] (drone_home) StdoutLine: {'line': b'running install_scripts\n'}
+[4.022712] (-) TimerEvent: {}
+[4.090159] (drone_home) StdoutLine: {'line': b'Installing controller script to /workspaces/isaac_ros-dev/drone-home/ros2_ws/install/drone_home/lib/drone_home\n'}
+[4.090849] (drone_home) StdoutLine: {'line': b'Installing drive_hardware script to /workspaces/isaac_ros-dev/drone-home/ros2_ws/install/drone_home/lib/drone_home\n'}
+[4.091271] (drone_home) StdoutLine: {'line': b'Installing drive_publisher script to /workspaces/isaac_ros-dev/drone-home/ros2_ws/install/drone_home/lib/drone_home\n'}
+[4.091624] (drone_home) StdoutLine: {'line': b'Installing imu_publisher script to /workspaces/isaac_ros-dev/drone-home/ros2_ws/install/drone_home/lib/drone_home\n'}
+[4.091958] (drone_home) StdoutLine: {'line': b'Installing visualization script to /workspaces/isaac_ros-dev/drone-home/ros2_ws/install/drone_home/lib/drone_home\n'}
+[4.092552] (drone_home) StdoutLine: {'line': b"writing list of installed files to '/workspaces/isaac_ros-dev/drone-home/ros2_ws/build/drone_home/install.log'\n"}
+[4.122875] (-) TimerEvent: {}
+[4.198975] (drone_home) CommandEnded: {'returncode': 0}
+[4.223010] (-) TimerEvent: {}
+[4.231015] (drone_home) JobEnded: {'identifier': 'drone_home', 'rc': 0}
+[4.232570] (-) EventReactorShutdown: {}

@@ -1,0 +1,78 @@
+[0.000000] (-) TimerEvent: {}
+[0.000834] (drone_home) JobQueued: {'identifier': 'drone_home', 'dependencies': OrderedDict()}
+[0.001687] (drone_home) JobStarted: {'identifier': 'drone_home'}
+[0.099897] (-) TimerEvent: {}
+[0.200470] (-) TimerEvent: {}
+[0.301079] (-) TimerEvent: {}
+[0.401655] (-) TimerEvent: {}
+[0.502224] (-) TimerEvent: {}
+[0.602829] (-) TimerEvent: {}
+[0.703387] (-) TimerEvent: {}
+[0.803964] (-) TimerEvent: {}
+[0.904706] (-) TimerEvent: {}
+[1.005549] (-) TimerEvent: {}
+[1.106111] (-) TimerEvent: {}
+[1.206753] (-) TimerEvent: {}
+[1.307317] (-) TimerEvent: {}
+[1.407883] (-) TimerEvent: {}
+[1.508449] (-) TimerEvent: {}
+[1.609000] (-) TimerEvent: {}
+[1.709570] (-) TimerEvent: {}
+[1.810153] (-) TimerEvent: {}
+[1.910761] (-) TimerEvent: {}
+[2.011338] (-) TimerEvent: {}
+[2.111907] (-) TimerEvent: {}
+[2.212478] (-) TimerEvent: {}
+[2.313082] (-) TimerEvent: {}
+[2.413685] (-) TimerEvent: {}
+[2.484120] (drone_home) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/drone_home', 'build', '--build-base', '/workspaces/isaac_ros-dev/drone-home/ros2_ws/build/drone_home/build', 'install', '--record', '/workspaces/isaac_ros-dev/drone-home/ros2_ws/build/drone_home/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/workspaces/isaac_ros-dev/drone-home/ros2_ws/src/drone_home', 'env': {'LIBRARY_PATH': '/usr/local/cuda/lib64/stubs', 'PYTHONWARNINGS': 'ignore:::setuptools.command.install,ignore:::setuptools.command.easy_install,ignore:::pkg_resources,ignore:::setuptools.command.develop', 'NV_LIBCUBLAS_VERSION': '12.6.1.4-1', 'USER': 'jet', 'NV_CUDA_NSIGHT_COMPUTE_VERSION': '12.6.11-1', 'HOSTNAME': 'drone-home', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/usr/lib/aarch64-linux-gnu/tegra/weston:/usr/lib/aarch64-linux-gnu/tegra-egl:/usr/local/cuda-12.6/targets/aarch64-linux/lib:/usr/lib/aarch64-linux-gnu/tegra:/opt/nvidia/vpi3/lib64:/usr/local/libcudss-linux-0.3.0.9_cuda12-archive/lib:/usr/local/nvidia/lib:/usr/local/nvidia/lib64:/usr/lib/aarch64-linux-gnu-host:/opt/tritonserver/lib', 'HOME': '/home/admin', 'OLDPWD': '/workspaces/isaac_ros-dev', 'HOST_USER_GID': '1000', 'NV_LIBCUBLAS_DEV_VERSION': '12.6.1.4-1', 'ROS_PYTHON_VERSION': '3', 'NVIDIA_PVA_DEVICE': 'all', 'NV_LIBNPP_PACKAGE': 'libnpp-12-6=12.3.1.54-1', 'CUDA_VERSION': '12.6.11', 'COLCON_PREFIX_PATH': '/workspaces/isaac_ros-dev/drone-home/ros2_ws/install', 'ROS_DISTRO': 'humble', 'NV_LIBCUBLAS_PACKAGE_NAME': 'libcublas-12-6', 'NVIDIA_REQUIRE_CUDA': 'cuda>=12.6', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'NV_LIBCUSPARSE_VERSION': '12.5.3.3-1', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'NV_CUDA_LIB_VERSION': '12.6.11-1', 'NV_NVML_DEV_VERSION': '12.6.68-1', 'USERNAME': 'admin', 'NV_LIBNPP_DEV_PACKAGE': 'libnpp-dev-12-6=12.3.1.54-1', 'TERM': 'xterm', 'ISAAC_ROS_WS': '/workspaces/isaac_ros-dev', 'NV_CUDA_CUDART_VERSION': '12.6.68-1', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/humble/bin:/opt/ros/humble/vcstool/scripts:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/src/tensorrt/bin:/usr/local/nvidia/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'NV_LIBCUBLAS_DEV_PACKAGE_NAME': 'libcublas-dev-12-6', 'NV_LIBCUBLAS_PACKAGE': 'libcublas-12-6=12.6.1.4-1', 'HOST_USER_UID': '1000', 'NVARCH': 'arm64', 'CUDSS_DIR': '/usr/local/libcudss-linux-0.3.0.9_cuda12-archive', 'NV_LIBCUSPARSE_DEV_VERSION': '12.5.3.3-1', 'NVIDIA_PRODUCT_NAME': 'CUDA', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'NV_CUDA_CUDART_DEV_VERSION': '12.6.68-1', 'ROS_ROOT': '/opt/ros/humble', 'AMENT_PREFIX_PATH': '/workspaces/isaac_ros-dev/drone-home/ros2_ws/install/drone_home:/opt/ros/humble', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'TRT_INCLUDE_PATH': '/usr/include/aarch64-linux-gnu', 'NV_LIBCUBLAS_DEV_PACKAGE': 'libcublas-dev-12-6=12.6.1.4-1', 'NV_CUDA_NSIGHT_COMPUTE_DEV_PACKAGE': 'cuda-nsight-compute-12-6=12.6.11-1', 'NVIDIA_REQUIRE_JETPACK_HOST_MOUNTS': 'base-only', 'NV_NVTX_VERSION': '12.6.68-1', 'NV_LIBNPP_VERSION': '12.3.1.54-1', 'PWD': '/workspaces/isaac_ros-dev/drone-home/ros2_ws/build/drone_home', 'PYTHONPATH': '/workspaces/isaac_ros-dev/drone-home/ros2_ws/build/drone_home/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/isaac_ros-dev/drone-home/ros2_ws/install/drone_home/lib/python3.10/site-packages:/workspaces/isaac_ros-dev/drone-home/ros2_ws/install/drone_home/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/vcstool:', 'NVIDIA_VISIBLE_DEVICES': 'void', 'COLCON': '1', 'NV_LIBNPP_DEV_VERSION': '12.3.1.54-1', 'CMAKE_PREFIX_PATH': '/usr/local/libcudss-linux-0.3.0.9_cuda12-archive:', 'TRT_LIB_PATH': '/usr/lib/aarch64-linux-gnu'}, 'shell': False}
+[2.513833] (-) TimerEvent: {}
+[2.614404] (-) TimerEvent: {}
+[2.714968] (-) TimerEvent: {}
+[2.815534] (-) TimerEvent: {}
+[2.916118] (-) TimerEvent: {}
+[3.016696] (-) TimerEvent: {}
+[3.117288] (-) TimerEvent: {}
+[3.217854] (-) TimerEvent: {}
+[3.318427] (-) TimerEvent: {}
+[3.418996] (-) TimerEvent: {}
+[3.435178] (drone_home) StdoutLine: {'line': b'running egg_info\n'}
+[3.476027] (drone_home) StdoutLine: {'line': b'writing ../../build/drone_home/drone_home.egg-info/PKG-INFO\n'}
+[3.476645] (drone_home) StdoutLine: {'line': b'writing dependency_links to ../../build/drone_home/drone_home.egg-info/dependency_links.txt\n'}
+[3.477361] (drone_home) StdoutLine: {'line': b'writing entry points to ../../build/drone_home/drone_home.egg-info/entry_points.txt\n'}
+[3.477692] (drone_home) StdoutLine: {'line': b'writing requirements to ../../build/drone_home/drone_home.egg-info/requires.txt\n'}
+[3.477935] (drone_home) StdoutLine: {'line': b'writing top-level names to ../../build/drone_home/drone_home.egg-info/top_level.txt\n'}
+[3.519113] (-) TimerEvent: {}
+[3.619764] (-) TimerEvent: {}
+[3.641246] (drone_home) StderrLine: {'line': b"ERROR setuptools_scm._file_finders.git listing git files failed - pretending there aren't any\n"}
+[3.719916] (-) TimerEvent: {}
+[3.820523] (-) TimerEvent: {}
+[3.892068] (drone_home) StdoutLine: {'line': b"reading manifest file '../../build/drone_home/drone_home.egg-info/SOURCES.txt'\n"}
+[3.894121] (drone_home) StdoutLine: {'line': b"writing manifest file '../../build/drone_home/drone_home.egg-info/SOURCES.txt'\n"}
+[3.894824] (drone_home) StdoutLine: {'line': b'running build\n'}
+[3.895019] (drone_home) StdoutLine: {'line': b'running build_py\n'}
+[3.895676] (drone_home) StdoutLine: {'line': b'copying drone_home/servo_jetson.py -> /workspaces/isaac_ros-dev/drone-home/ros2_ws/build/drone_home/build/lib/drone_home\n'}
+[3.897013] (drone_home) StdoutLine: {'line': b'running install\n'}
+[3.908225] (drone_home) StdoutLine: {'line': b'running install_lib\n'}
+[3.920659] (-) TimerEvent: {}
+[3.951309] (drone_home) StdoutLine: {'line': b'copying /workspaces/isaac_ros-dev/drone-home/ros2_ws/build/drone_home/build/lib/drone_home/servo_jetson.py -> /workspaces/isaac_ros-dev/drone-home/ros2_ws/install/drone_home/lib/python3.10/site-packages/drone_home\n'}
+[3.953287] (drone_home) StdoutLine: {'line': b'byte-compiling /workspaces/isaac_ros-dev/drone-home/ros2_ws/install/drone_home/lib/python3.10/site-packages/drone_home/servo_jetson.py to servo_jetson.cpython-310.pyc\n'}
+[3.955989] (drone_home) StdoutLine: {'line': b'running install_data\n'}
+[3.956341] (drone_home) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.996275] (drone_home) StdoutLine: {'line': b"removing '/workspaces/isaac_ros-dev/drone-home/ros2_ws/install/drone_home/lib/python3.10/site-packages/drone_home-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.997093] (drone_home) StdoutLine: {'line': b'Copying ../../build/drone_home/drone_home.egg-info to /workspaces/isaac_ros-dev/drone-home/ros2_ws/install/drone_home/lib/python3.10/site-packages/drone_home-0.0.0-py3.10.egg-info\n'}
+[3.999031] (drone_home) StdoutLine: {'line': b'running install_scripts\n'}
+[4.020780] (-) TimerEvent: {}
+[4.121336] (-) TimerEvent: {}
+[4.148802] (drone_home) StdoutLine: {'line': b'Installing controller script to /workspaces/isaac_ros-dev/drone-home/ros2_ws/install/drone_home/lib/drone_home\n'}
+[4.149309] (drone_home) StdoutLine: {'line': b'Installing drive_hardware script to /workspaces/isaac_ros-dev/drone-home/ros2_ws/install/drone_home/lib/drone_home\n'}
+[4.149619] (drone_home) StdoutLine: {'line': b'Installing drive_publisher script to /workspaces/isaac_ros-dev/drone-home/ros2_ws/install/drone_home/lib/drone_home\n'}
+[4.149908] (drone_home) StdoutLine: {'line': b'Installing gps_publisher script to /workspaces/isaac_ros-dev/drone-home/ros2_ws/install/drone_home/lib/drone_home\n'}
+[4.150202] (drone_home) StdoutLine: {'line': b'Installing imu_publisher script to /workspaces/isaac_ros-dev/drone-home/ros2_ws/install/drone_home/lib/drone_home\n'}
+[4.150485] (drone_home) StdoutLine: {'line': b'Installing pwm_publisher script to /workspaces/isaac_ros-dev/drone-home/ros2_ws/install/drone_home/lib/drone_home\n'}
+[4.150762] (drone_home) StdoutLine: {'line': b'Installing visualization script to /workspaces/isaac_ros-dev/drone-home/ros2_ws/install/drone_home/lib/drone_home\n'}
+[4.151750] (drone_home) StdoutLine: {'line': b"writing list of installed files to '/workspaces/isaac_ros-dev/drone-home/ros2_ws/build/drone_home/install.log'\n"}
+[4.221510] (-) TimerEvent: {}
+[4.273662] (drone_home) CommandEnded: {'returncode': 0}
+[4.308755] (drone_home) JobEnded: {'identifier': 'drone_home', 'rc': 0}
+[4.311525] (-) EventReactorShutdown: {}

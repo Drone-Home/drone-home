@@ -1,0 +1,209 @@
+[INFO] [launch]: All log files can be found below /home/admin/.ros/log/2025-01-17-21-30-03-428864-drone-home-10565
+[INFO] [launch]: Default logging verbosity is set to INFO
+[WARNING] [imu_publisher-2]: there are now at least 2 nodes with the name /drone_home1/sim created within this launch context
+[WARNING] [drive_publisher-3]: there are now at least 3 nodes with the name /drone_home1/sim created within this launch context
+[WARNING] [drive_hardware-4]: there are now at least 4 nodes with the name /drone_home1/sim created within this launch context
+[WARNING] [visualization-5]: there are now at least 5 nodes with the name /drone_home1/sim created within this launch context
+[WARNING] [static_transform_publisher-7]: there are now at least 2 nodes with the name /drone_home1/static_transform_publisher created within this launch context
+[INFO] [controller-1]: process started with pid [10567]
+[INFO] [imu_publisher-2]: process started with pid [10569]
+[INFO] [drive_publisher-3]: process started with pid [10571]
+[INFO] [drive_hardware-4]: process started with pid [10573]
+[INFO] [visualization-5]: process started with pid [10575]
+[INFO] [static_transform_publisher-6]: process started with pid [10577]
+[INFO] [static_transform_publisher-7]: process started with pid [10579]
+[static_transform_publisher-7] [WARN] [1737167403.876161933] []: Old-style arguments are deprecated; see --help for new-style arguments
+[static_transform_publisher-6] [WARN] [1737167403.876947697] []: Old-style arguments are deprecated; see --help for new-style arguments
+[static_transform_publisher-6] [INFO] [1737167403.928765181] [drone_home1.static_transform_publisher]: Spinning until stopped - publishing transform
+[static_transform_publisher-6] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-6] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-6] from 'map' to 'imu_frame'
+[static_transform_publisher-7] [INFO] [1737167403.943938285] [drone_home1.static_transform_publisher]: Spinning until stopped - publishing transform
+[static_transform_publisher-7] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-7] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-7] from 'map' to 'gps_sensor'
+[drive_hardware-4] Traceback (most recent call last):
+[drive_hardware-4]   File "/workspaces/isaac_ros-dev/drone-home/ros2_ws/install/drone_home/lib/drone_home/drive_hardware", line 33, in <module>
+[drive_hardware-4]     sys.exit(load_entry_point('drone-home==0.0.0', 'console_scripts', 'drive_hardware')())
+[drive_hardware-4]   File "/workspaces/isaac_ros-dev/drone-home/ros2_ws/install/drone_home/lib/drone_home/drive_hardware", line 25, in importlib_load_entry_point
+[drive_hardware-4]     return next(matches).load()
+[drive_hardware-4]   File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 171, in load
+[drive_hardware-4]     module = import_module(match.group('module'))
+[drive_hardware-4]   File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+[drive_hardware-4]     return _bootstrap._gcd_import(name[level:], package, level)
+[drive_hardware-4]   File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+[drive_hardware-4]   File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+[drive_hardware-4]   File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+[drive_hardware-4]   File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+[drive_hardware-4]   File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+[drive_hardware-4]   File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+[drive_hardware-4]   File "/workspaces/isaac_ros-dev/drone-home/ros2_ws/install/drone_home/lib/python3.10/site-packages/drone_home/ackermann_drive.py", line 6, in <module>
+[drive_hardware-4]     from .servo import ServoController
+[drive_hardware-4]   File "/workspaces/isaac_ros-dev/drone-home/ros2_ws/install/drone_home/lib/python3.10/site-packages/drone_home/servo.py", line 1, in <module>
+[drive_hardware-4]     from gpiozero import AngularServo
+[drive_hardware-4] ModuleNotFoundError: No module named 'gpiozero'
+[ERROR] [drive_hardware-4]: process has died [pid 10573, exit code 1, cmd '/workspaces/isaac_ros-dev/drone-home/ros2_ws/install/drone_home/lib/drone_home/drive_hardware --ros-args -r __node:=sim -r __ns:=/drone_home1'].
+[controller-1] [INFO] [1737167404.904984506] [drone_home1.sim]: Controller running
+[visualization-5] [INFO] [1737167405.587808600] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167406.053384422] [drone_home1.sim]: Heading 0.0
+[imu_publisher-2] Traceback (most recent call last):
+[imu_publisher-2]   File "/workspaces/isaac_ros-dev/drone-home/ros2_ws/install/drone_home/lib/drone_home/imu_publisher", line 33, in <module>
+[imu_publisher-2]     sys.exit(load_entry_point('drone-home==0.0.0', 'console_scripts', 'imu_publisher')())
+[imu_publisher-2]   File "/workspaces/isaac_ros-dev/drone-home/ros2_ws/install/drone_home/lib/python3.10/site-packages/drone_home/gps_imu_publisher.py", line 197, in main
+[imu_publisher-2]     minimal_publisher = MinimalPublisher()
+[imu_publisher-2]   File "/workspaces/isaac_ros-dev/drone-home/ros2_ws/install/drone_home/lib/python3.10/site-packages/drone_home/gps_imu_publisher.py", line 153, in __init__
+[imu_publisher-2]     self.gps_sensor = GPSSensor()
+[imu_publisher-2]   File "/workspaces/isaac_ros-dev/drone-home/ros2_ws/install/drone_home/lib/python3.10/site-packages/drone_home/gps_imu_publisher.py", line 73, in __init__
+[imu_publisher-2]     self.gps.send_command(b"PMTK314,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0")
+[imu_publisher-2] AttributeError: 'GPSSensor' object has no attribute 'gps'
+[ERROR] [imu_publisher-2]: process has died [pid 10569, exit code 1, cmd '/workspaces/isaac_ros-dev/drone-home/ros2_ws/install/drone_home/lib/drone_home/imu_publisher --ros-args -r __node:=sim -r __ns:=/drone_home1'].
+[visualization-5] [INFO] [1737167406.553384329] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167407.053373894] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167407.553382666] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167408.053386984] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167408.553356043] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167409.053370698] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167409.553447380] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167410.053426834] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167410.553395480] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167411.053387672] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167411.553349951] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167412.053371491] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167412.553321323] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167413.053375601] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167413.553359613] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167414.053344707] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167414.553464503] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167415.053443198] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167415.553378573] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167416.053435162] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167416.553398316] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167417.053386042] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167417.553374704] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167418.053403202] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167418.553362843] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167419.053362287] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167419.553427567] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167420.053438247] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167420.553370470] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167421.053441284] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167421.553388583] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167422.053389414] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167422.553371887] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167423.053353490] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167423.553357216] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167424.053721527] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167424.553398044] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167425.053411529] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167425.553372510] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167426.053388177] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167426.553385325] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167427.053392100] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167427.553397286] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167428.053365952] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167428.553342439] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167429.053362793] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167429.553429529] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167430.053399391] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167430.553403282] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167431.053389983] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167431.553389112] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167432.053432494] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167432.553412461] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167433.053364581] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167433.553366507] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167434.053349099] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167434.553448061] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167435.053395010] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167435.553398743] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167436.053396934] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167436.553419427] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167437.053371927] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167437.553382747] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167438.053330327] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167438.553405765] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167439.053332968] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167439.553520515] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167440.053419180] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167440.553361157] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167441.053365468] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167441.553400161] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167442.053376511] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167442.553360619] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167443.053379474] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167443.553389032] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167444.053354295] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167444.553398104] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167445.053409777] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167445.553386424] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167446.053558914] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167446.553369068] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167447.053356215] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167447.553350418] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167448.053392426] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167448.553357070] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167449.053355021] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167449.553393726] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167450.053406217] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167450.553357505] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167451.053411543] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167451.553355129] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167452.053379481] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167452.553362984] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167453.053360370] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167453.553316394] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167454.053351936] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167454.553392423] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167455.053420233] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167455.553344054] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167456.053390756] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167456.553353695] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167457.053432729] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167457.553337438] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167458.053370146] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167458.553351957] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167459.053370085] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167459.553421864] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167460.053416099] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167460.553406416] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167461.053394168] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167461.553368336] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167462.053362245] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167462.553390956] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167463.053378574] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167463.553342816] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167464.053377424] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167464.553387409] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167465.053386541] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167465.553382139] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167466.053382692] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167466.553370656] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167467.053330741] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167467.553375809] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167468.053313731] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167468.553647272] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167469.053630682] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167469.553407543] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167470.053378872] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167470.553386764] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167471.053426109] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167471.553374174] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167472.053339899] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167472.553392239] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167473.053336154] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167473.553333083] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167474.053323927] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167474.553447499] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167475.053383380] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167475.553372979] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167476.053388494] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167476.553382141] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167477.053335333] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167477.553380262] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167478.053516869] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167478.553427344] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167479.053590656] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167479.553382487] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167480.053405106] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167480.553360896] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167481.053383691] [drone_home1.sim]: Heading 0.0

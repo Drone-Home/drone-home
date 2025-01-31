@@ -1,0 +1,28 @@
+[2.503s] Invoking command in '/workspaces/isaac_ros-dev/drone-home/ros2_ws/src/drone_home': PYTHONPATH=/workspaces/isaac_ros-dev/drone-home/ros2_ws/build/drone_home/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/isaac_ros-dev/drone-home/ros2_ws/install/drone_home/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/drone_home build --build-base /workspaces/isaac_ros-dev/drone-home/ros2_ws/build/drone_home/build install --record /workspaces/isaac_ros-dev/drone-home/ros2_ws/build/drone_home/install.log --single-version-externally-managed install_data
+[3.450s] running egg_info
+[3.490s] writing ../../build/drone_home/drone_home.egg-info/PKG-INFO
+[3.491s] writing dependency_links to ../../build/drone_home/drone_home.egg-info/dependency_links.txt
+[3.491s] writing entry points to ../../build/drone_home/drone_home.egg-info/entry_points.txt
+[3.491s] writing requirements to ../../build/drone_home/drone_home.egg-info/requires.txt
+[3.492s] writing top-level names to ../../build/drone_home/drone_home.egg-info/top_level.txt
+[3.656s] ERROR setuptools_scm._file_finders.git listing git files failed - pretending there aren't any
+[3.897s] reading manifest file '../../build/drone_home/drone_home.egg-info/SOURCES.txt'
+[3.899s] writing manifest file '../../build/drone_home/drone_home.egg-info/SOURCES.txt'
+[3.899s] running build
+[3.899s] running build_py
+[3.901s] running install
+[3.912s] running install_lib
+[3.956s] running install_data
+[3.956s] running install_egg_info
+[3.996s] removing '/workspaces/isaac_ros-dev/drone-home/ros2_ws/install/drone_home/lib/python3.10/site-packages/drone_home-0.0.0-py3.10.egg-info' (and everything under it)
+[3.996s] Copying ../../build/drone_home/drone_home.egg-info to /workspaces/isaac_ros-dev/drone-home/ros2_ws/install/drone_home/lib/python3.10/site-packages/drone_home-0.0.0-py3.10.egg-info
+[3.998s] running install_scripts
+[4.152s] Installing controller script to /workspaces/isaac_ros-dev/drone-home/ros2_ws/install/drone_home/lib/drone_home
+[4.152s] Installing drive_hardware script to /workspaces/isaac_ros-dev/drone-home/ros2_ws/install/drone_home/lib/drone_home
+[4.153s] Installing drive_publisher script to /workspaces/isaac_ros-dev/drone-home/ros2_ws/install/drone_home/lib/drone_home
+[4.153s] Installing gps_publisher script to /workspaces/isaac_ros-dev/drone-home/ros2_ws/install/drone_home/lib/drone_home
+[4.154s] Installing imu_publisher script to /workspaces/isaac_ros-dev/drone-home/ros2_ws/install/drone_home/lib/drone_home
+[4.154s] Installing pwm_publisher script to /workspaces/isaac_ros-dev/drone-home/ros2_ws/install/drone_home/lib/drone_home
+[4.154s] Installing visualization script to /workspaces/isaac_ros-dev/drone-home/ros2_ws/install/drone_home/lib/drone_home
+[4.155s] writing list of installed files to '/workspaces/isaac_ros-dev/drone-home/ros2_ws/build/drone_home/install.log'
+[4.280s] Invoked command in '/workspaces/isaac_ros-dev/drone-home/ros2_ws/src/drone_home' returned '0': PYTHONPATH=/workspaces/isaac_ros-dev/drone-home/ros2_ws/build/drone_home/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/isaac_ros-dev/drone-home/ros2_ws/install/drone_home/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/drone_home build --build-base /workspaces/isaac_ros-dev/drone-home/ros2_ws/build/drone_home/build install --record /workspaces/isaac_ros-dev/drone-home/ros2_ws/build/drone_home/install.log --single-version-externally-managed install_data
