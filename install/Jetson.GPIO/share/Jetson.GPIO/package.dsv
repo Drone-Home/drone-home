@@ -1,0 +1,3 @@
+source;share/Jetson.GPIO/hook/pythonpath.ps1
+source;share/Jetson.GPIO/hook/pythonpath.dsv
+source;share/Jetson.GPIO/hook/pythonpath.sh

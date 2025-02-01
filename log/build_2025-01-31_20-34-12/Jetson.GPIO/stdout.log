@@ -1,0 +1,53 @@
+running egg_info
+creating ../../../build/Jetson.GPIO/Jetson.GPIO.egg-info
+writing ../../../build/Jetson.GPIO/Jetson.GPIO.egg-info/PKG-INFO
+writing dependency_links to ../../../build/Jetson.GPIO/Jetson.GPIO.egg-info/dependency_links.txt
+writing top-level names to ../../../build/Jetson.GPIO/Jetson.GPIO.egg-info/top_level.txt
+writing manifest file '../../../build/Jetson.GPIO/Jetson.GPIO.egg-info/SOURCES.txt'
+reading manifest template 'MANIFEST.in'
+adding license file 'LICENSE.txt'
+writing manifest file '../../../build/Jetson.GPIO/Jetson.GPIO.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /workspaces/isaac_ros-dev/build/Jetson.GPIO/build
+creating /workspaces/isaac_ros-dev/build/Jetson.GPIO/build/lib
+creating /workspaces/isaac_ros-dev/build/Jetson.GPIO/build/lib/Jetson
+copying lib/python/Jetson/__init__.py -> /workspaces/isaac_ros-dev/build/Jetson.GPIO/build/lib/Jetson
+creating /workspaces/isaac_ros-dev/build/Jetson.GPIO/build/lib/Jetson/GPIO
+copying lib/python/Jetson/GPIO/gpio.py -> /workspaces/isaac_ros-dev/build/Jetson.GPIO/build/lib/Jetson/GPIO
+copying lib/python/Jetson/GPIO/__init__.py -> /workspaces/isaac_ros-dev/build/Jetson.GPIO/build/lib/Jetson/GPIO
+copying lib/python/Jetson/GPIO/gpio_pin_data.py -> /workspaces/isaac_ros-dev/build/Jetson.GPIO/build/lib/Jetson/GPIO
+copying lib/python/Jetson/GPIO/gpio_cdev.py -> /workspaces/isaac_ros-dev/build/Jetson.GPIO/build/lib/Jetson/GPIO
+copying lib/python/Jetson/GPIO/gpio_event.py -> /workspaces/isaac_ros-dev/build/Jetson.GPIO/build/lib/Jetson/GPIO
+creating /workspaces/isaac_ros-dev/build/Jetson.GPIO/build/lib/RPi
+copying lib/python/RPi/__init__.py -> /workspaces/isaac_ros-dev/build/Jetson.GPIO/build/lib/RPi
+creating /workspaces/isaac_ros-dev/build/Jetson.GPIO/build/lib/RPi/GPIO
+copying lib/python/RPi/GPIO/__init__.py -> /workspaces/isaac_ros-dev/build/Jetson.GPIO/build/lib/RPi/GPIO
+copying lib/python/Jetson/GPIO/99-gpio.rules -> /workspaces/isaac_ros-dev/build/Jetson.GPIO/build/lib/Jetson/GPIO
+running install
+running install_lib
+creating /workspaces/isaac_ros-dev/install/Jetson.GPIO/lib/python3.10/site-packages/RPi
+copying /workspaces/isaac_ros-dev/build/Jetson.GPIO/build/lib/RPi/__init__.py -> /workspaces/isaac_ros-dev/install/Jetson.GPIO/lib/python3.10/site-packages/RPi
+creating /workspaces/isaac_ros-dev/install/Jetson.GPIO/lib/python3.10/site-packages/RPi/GPIO
+copying /workspaces/isaac_ros-dev/build/Jetson.GPIO/build/lib/RPi/GPIO/__init__.py -> /workspaces/isaac_ros-dev/install/Jetson.GPIO/lib/python3.10/site-packages/RPi/GPIO
+creating /workspaces/isaac_ros-dev/install/Jetson.GPIO/lib/python3.10/site-packages/Jetson
+copying /workspaces/isaac_ros-dev/build/Jetson.GPIO/build/lib/Jetson/__init__.py -> /workspaces/isaac_ros-dev/install/Jetson.GPIO/lib/python3.10/site-packages/Jetson
+creating /workspaces/isaac_ros-dev/install/Jetson.GPIO/lib/python3.10/site-packages/Jetson/GPIO
+copying /workspaces/isaac_ros-dev/build/Jetson.GPIO/build/lib/Jetson/GPIO/gpio.py -> /workspaces/isaac_ros-dev/install/Jetson.GPIO/lib/python3.10/site-packages/Jetson/GPIO
+copying /workspaces/isaac_ros-dev/build/Jetson.GPIO/build/lib/Jetson/GPIO/__init__.py -> /workspaces/isaac_ros-dev/install/Jetson.GPIO/lib/python3.10/site-packages/Jetson/GPIO
+copying /workspaces/isaac_ros-dev/build/Jetson.GPIO/build/lib/Jetson/GPIO/99-gpio.rules -> /workspaces/isaac_ros-dev/install/Jetson.GPIO/lib/python3.10/site-packages/Jetson/GPIO
+copying /workspaces/isaac_ros-dev/build/Jetson.GPIO/build/lib/Jetson/GPIO/gpio_pin_data.py -> /workspaces/isaac_ros-dev/install/Jetson.GPIO/lib/python3.10/site-packages/Jetson/GPIO
+copying /workspaces/isaac_ros-dev/build/Jetson.GPIO/build/lib/Jetson/GPIO/gpio_cdev.py -> /workspaces/isaac_ros-dev/install/Jetson.GPIO/lib/python3.10/site-packages/Jetson/GPIO
+copying /workspaces/isaac_ros-dev/build/Jetson.GPIO/build/lib/Jetson/GPIO/gpio_event.py -> /workspaces/isaac_ros-dev/install/Jetson.GPIO/lib/python3.10/site-packages/Jetson/GPIO
+byte-compiling /workspaces/isaac_ros-dev/install/Jetson.GPIO/lib/python3.10/site-packages/RPi/__init__.py to __init__.cpython-310.pyc
+byte-compiling /workspaces/isaac_ros-dev/install/Jetson.GPIO/lib/python3.10/site-packages/RPi/GPIO/__init__.py to __init__.cpython-310.pyc
+byte-compiling /workspaces/isaac_ros-dev/install/Jetson.GPIO/lib/python3.10/site-packages/Jetson/__init__.py to __init__.cpython-310.pyc
+byte-compiling /workspaces/isaac_ros-dev/install/Jetson.GPIO/lib/python3.10/site-packages/Jetson/GPIO/gpio.py to gpio.cpython-310.pyc
+byte-compiling /workspaces/isaac_ros-dev/install/Jetson.GPIO/lib/python3.10/site-packages/Jetson/GPIO/__init__.py to __init__.cpython-310.pyc
+byte-compiling /workspaces/isaac_ros-dev/install/Jetson.GPIO/lib/python3.10/site-packages/Jetson/GPIO/gpio_pin_data.py to gpio_pin_data.cpython-310.pyc
+byte-compiling /workspaces/isaac_ros-dev/install/Jetson.GPIO/lib/python3.10/site-packages/Jetson/GPIO/gpio_cdev.py to gpio_cdev.cpython-310.pyc
+byte-compiling /workspaces/isaac_ros-dev/install/Jetson.GPIO/lib/python3.10/site-packages/Jetson/GPIO/gpio_event.py to gpio_event.cpython-310.pyc
+running install_egg_info
+Copying ../../../build/Jetson.GPIO/Jetson.GPIO.egg-info to /workspaces/isaac_ros-dev/install/Jetson.GPIO/lib/python3.10/site-packages/Jetson.GPIO-2.1.6-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/workspaces/isaac_ros-dev/build/Jetson.GPIO/install.log'

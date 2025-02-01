@@ -1,0 +1,464 @@
+-- The CXX compiler identification is GNU 11.4.0
+-- The C compiler identification is GNU 11.4.0
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- /usr/bin/c++ /workspaces/isaac_ros-dev/Docker/git/pytorch/torch/abi-check.cpp -o /workspaces/isaac_ros-dev/build/Torch/abi-check
+-- Determined _GLIBCXX_USE_CXX11_ABI=1
+-- Not forcing any particular BLAS to be found
+-- Could not find ccache. Consider installing ccache to speed up compilation.
+-- Build type not set - defaulting to Release
+-- Performing Test C_HAS_AVX_1
+-- Performing Test C_HAS_AVX_1 - Failed
+-- Performing Test C_HAS_AVX_2
+-- Performing Test C_HAS_AVX_2 - Failed
+-- Performing Test C_HAS_AVX_3
+-- Performing Test C_HAS_AVX_3 - Failed
+-- Performing Test C_HAS_AVX2_1
+-- Performing Test C_HAS_AVX2_1 - Failed
+-- Performing Test C_HAS_AVX2_2
+-- Performing Test C_HAS_AVX2_2 - Failed
+-- Performing Test C_HAS_AVX2_3
+-- Performing Test C_HAS_AVX2_3 - Failed
+-- Performing Test C_HAS_AVX512_1
+-- Performing Test C_HAS_AVX512_1 - Failed
+-- Performing Test C_HAS_AVX512_2
+-- Performing Test C_HAS_AVX512_2 - Failed
+-- Performing Test C_HAS_AVX512_3
+-- Performing Test C_HAS_AVX512_3 - Failed
+-- Performing Test CXX_HAS_AVX_1
+-- Performing Test CXX_HAS_AVX_1 - Failed
+-- Performing Test CXX_HAS_AVX_2
+-- Performing Test CXX_HAS_AVX_2 - Failed
+-- Performing Test CXX_HAS_AVX_3
+-- Performing Test CXX_HAS_AVX_3 - Failed
+-- Performing Test CXX_HAS_AVX2_1
+-- Performing Test CXX_HAS_AVX2_1 - Failed
+-- Performing Test CXX_HAS_AVX2_2
+-- Performing Test CXX_HAS_AVX2_2 - Failed
+-- Performing Test CXX_HAS_AVX2_3
+-- Performing Test CXX_HAS_AVX2_3 - Failed
+-- Performing Test CXX_HAS_AVX512_1
+-- Performing Test CXX_HAS_AVX512_1 - Failed
+-- Performing Test CXX_HAS_AVX512_2
+-- Performing Test CXX_HAS_AVX512_2 - Failed
+-- Performing Test CXX_HAS_AVX512_3
+-- Performing Test CXX_HAS_AVX512_3 - Failed
+-- Performing Test CAFFE2_COMPILER_SUPPORTS_AVX512_EXTENSIONS
+-- Performing Test CAFFE2_COMPILER_SUPPORTS_AVX512_EXTENSIONS - Failed
+-- Performing Test COMPILER_SUPPORTS_HIDDEN_VISIBILITY
+-- Performing Test COMPILER_SUPPORTS_HIDDEN_VISIBILITY - Success
+-- Performing Test COMPILER_SUPPORTS_HIDDEN_INLINE_VISIBILITY
+-- Performing Test COMPILER_SUPPORTS_HIDDEN_INLINE_VISIBILITY - Success
+-- Performing Test COMPILER_SUPPORTS_RDYNAMIC
+-- Performing Test COMPILER_SUPPORTS_RDYNAMIC - Success
+-- Could not find hardware support for NEON on this machine.
+-- No OMAP3 processor on this machine.
+-- No OMAP4 processor on this machine.
+-- Performing Test CXX_HAS_SVE256
+-- Performing Test CXX_HAS_SVE256 - Success
+-- SVE support detected.
+-- Compiler supports SVE extension. Will build perfkernels.
+-- Found CUDA: /usr/local/cuda (found version "12.6") 
+-- The CUDA compiler identification is NVIDIA 12.6.68
+-- Detecting CUDA compiler ABI info
+-- Detecting CUDA compiler ABI info - done
+-- Check for working CUDA compiler: /usr/local/cuda/bin/nvcc - skipped
+-- Detecting CUDA compile features
+-- Detecting CUDA compile features - done
+-- Found CUDAToolkit: /usr/local/cuda/include (found version "12.6.68") 
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- PyTorch: CUDA detected: 12.6
+-- PyTorch: CUDA nvcc is: /usr/local/cuda/bin/nvcc
+-- PyTorch: CUDA toolkit directory: /usr/local/cuda
+-- PyTorch: Header version is: 12.6
+-- Found Python: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+-- Found nvtx3: /workspaces/isaac_ros-dev/Docker/git/pytorch/third_party/NVTX/c/include  
+-- Could NOT find CUDNN (missing: CUDNN_LIBRARY_PATH CUDNN_INCLUDE_PATH) 
+-- Found CUSPARSELT: /usr/lib/aarch64-linux-gnu/libcusparseLt.so  
+-- Found CUDSS: /usr/local/libcudss-linux-0.3.0.9_cuda12-archive/lib/libcudss.so  
+-- USE_CUFILE is set to 0. Compiling without cuFile support
+-- Autodetected CUDA architecture(s):  8.7
+-- Added CUDA NVCC flags for: -gencode;arch=compute_87,code=sm_87
+-- Building using own protobuf under third_party per request.
+-- Use custom protobuf build.
+-- 
+-- 3.13.0.0
+-- Performing Test protobuf_HAVE_BUILTIN_ATOMICS
+-- Performing Test protobuf_HAVE_BUILTIN_ATOMICS - Success
+-- Caffe2 protobuf include directory: $<BUILD_INTERFACE:/workspaces/isaac_ros-dev/Docker/git/pytorch/third_party/protobuf/src>$<INSTALL_INTERFACE:include>
+-- Trying to find preferred BLAS backend of choice: MKL
+-- MKL_THREADING = OMP
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of void*
+-- Check size of void* - done
+-- MKL_THREADING = OMP
+-- MKL_THREADING = OMP
+-- Checking for [mkl_intel_lp64 - mkl_gnu_thread - mkl_core - gomp - pthread - m - dl]
+--   Library mkl_intel_lp64: not found
+-- Checking for [mkl_intel_lp64 - mkl_intel_thread - mkl_core - gomp - pthread - m - dl]
+--   Library mkl_intel_lp64: not found
+-- Checking for [mkl_intel - mkl_gnu_thread - mkl_core - gomp - pthread - m - dl]
+--   Library mkl_intel: not found
+-- Checking for [mkl_intel - mkl_intel_thread - mkl_core - gomp - pthread - m - dl]
+--   Library mkl_intel: not found
+-- Checking for [mkl_gf_lp64 - mkl_gnu_thread - mkl_core - gomp - pthread - m - dl]
+--   Library mkl_gf_lp64: not found
+-- Checking for [mkl_gf_lp64 - mkl_intel_thread - mkl_core - gomp - pthread - m - dl]
+--   Library mkl_gf_lp64: not found
+-- Checking for [mkl_gf - mkl_gnu_thread - mkl_core - gomp - pthread - m - dl]
+--   Library mkl_gf: not found
+-- Checking for [mkl_gf - mkl_intel_thread - mkl_core - gomp - pthread - m - dl]
+--   Library mkl_gf: not found
+-- Checking for [mkl_intel_lp64 - mkl_gnu_thread - mkl_core - iomp5 - pthread - m - dl]
+--   Library mkl_intel_lp64: not found
+-- Checking for [mkl_intel_lp64 - mkl_intel_thread - mkl_core - iomp5 - pthread - m - dl]
+--   Library mkl_intel_lp64: not found
+-- Checking for [mkl_intel - mkl_gnu_thread - mkl_core - iomp5 - pthread - m - dl]
+--   Library mkl_intel: not found
+-- Checking for [mkl_intel - mkl_intel_thread - mkl_core - iomp5 - pthread - m - dl]
+--   Library mkl_intel: not found
+-- Checking for [mkl_gf_lp64 - mkl_gnu_thread - mkl_core - iomp5 - pthread - m - dl]
+--   Library mkl_gf_lp64: not found
+-- Checking for [mkl_gf_lp64 - mkl_intel_thread - mkl_core - iomp5 - pthread - m - dl]
+--   Library mkl_gf_lp64: not found
+-- Checking for [mkl_gf - mkl_gnu_thread - mkl_core - iomp5 - pthread - m - dl]
+--   Library mkl_gf: not found
+-- Checking for [mkl_gf - mkl_intel_thread - mkl_core - iomp5 - pthread - m - dl]
+--   Library mkl_gf: not found
+-- Checking for [mkl_intel_lp64 - mkl_gnu_thread - mkl_core - pthread - m - dl]
+--   Library mkl_intel_lp64: not found
+-- Checking for [mkl_intel_lp64 - mkl_intel_thread - mkl_core - pthread - m - dl]
+--   Library mkl_intel_lp64: not found
+-- Checking for [mkl_intel - mkl_gnu_thread - mkl_core - pthread - m - dl]
+--   Library mkl_intel: not found
+-- Checking for [mkl_intel - mkl_intel_thread - mkl_core - pthread - m - dl]
+--   Library mkl_intel: not found
+-- Checking for [mkl_gf_lp64 - mkl_gnu_thread - mkl_core - pthread - m - dl]
+--   Library mkl_gf_lp64: not found
+-- Checking for [mkl_gf_lp64 - mkl_intel_thread - mkl_core - pthread - m - dl]
+--   Library mkl_gf_lp64: not found
+-- Checking for [mkl_gf - mkl_gnu_thread - mkl_core - pthread - m - dl]
+--   Library mkl_gf: not found
+-- Checking for [mkl_gf - mkl_intel_thread - mkl_core - pthread - m - dl]
+--   Library mkl_gf: not found
+-- Checking for [mkl_intel_lp64 - mkl_sequential - mkl_core - m - dl]
+--   Library mkl_intel_lp64: not found
+-- Checking for [mkl_intel - mkl_sequential - mkl_core - m - dl]
+--   Library mkl_intel: not found
+-- Checking for [mkl_gf_lp64 - mkl_sequential - mkl_core - m - dl]
+--   Library mkl_gf_lp64: not found
+-- Checking for [mkl_gf - mkl_sequential - mkl_core - m - dl]
+--   Library mkl_gf: not found
+-- Checking for [mkl_intel_lp64 - mkl_core - gomp - pthread - m - dl]
+--   Library mkl_intel_lp64: not found
+-- Checking for [mkl_intel - mkl_core - gomp - pthread - m - dl]
+--   Library mkl_intel: not found
+-- Checking for [mkl_gf_lp64 - mkl_core - gomp - pthread - m - dl]
+--   Library mkl_gf_lp64: not found
+-- Checking for [mkl_gf - mkl_core - gomp - pthread - m - dl]
+--   Library mkl_gf: not found
+-- Checking for [mkl_intel_lp64 - mkl_core - iomp5 - pthread - m - dl]
+--   Library mkl_intel_lp64: not found
+-- Checking for [mkl_intel - mkl_core - iomp5 - pthread - m - dl]
+--   Library mkl_intel: not found
+-- Checking for [mkl_gf_lp64 - mkl_core - iomp5 - pthread - m - dl]
+--   Library mkl_gf_lp64: not found
+-- Checking for [mkl_gf - mkl_core - iomp5 - pthread - m - dl]
+--   Library mkl_gf: not found
+-- Checking for [mkl_intel_lp64 - mkl_core - pthread - m - dl]
+--   Library mkl_intel_lp64: not found
+-- Checking for [mkl_intel - mkl_core - pthread - m - dl]
+--   Library mkl_intel: not found
+-- Checking for [mkl_gf_lp64 - mkl_core - pthread - m - dl]
+--   Library mkl_gf_lp64: not found
+-- Checking for [mkl_gf - mkl_core - pthread - m - dl]
+--   Library mkl_gf: not found
+-- Checking for [mkl - guide - pthread - m]
+--   Library mkl: not found
+-- MKL library not found
+-- Checking for [blis]
+--   Library blis: BLAS_blis_LIBRARY-NOTFOUND
+-- Checking for [Accelerate]
+--   Library Accelerate: BLAS_Accelerate_LIBRARY-NOTFOUND
+-- Checking for [vecLib]
+--   Library vecLib: BLAS_vecLib_LIBRARY-NOTFOUND
+-- Checking for [flexiblas]
+--   Library flexiblas: BLAS_flexiblas_LIBRARY-NOTFOUND
+-- Checking for [openblas]
+--   Library openblas: /usr/lib/aarch64-linux-gnu/libopenblas.so
+-- Looking for sgemm_
+-- Looking for sgemm_ - found
+-- Performing Test BLAS_F2C_DOUBLE_WORKS
+-- Performing Test BLAS_F2C_DOUBLE_WORKS - Failed
+-- Performing Test BLAS_F2C_FLOAT_WORKS
+-- Performing Test BLAS_F2C_FLOAT_WORKS - Success
+-- Performing Test BLAS_USE_CBLAS_DOT
+-- Performing Test BLAS_USE_CBLAS_DOT - Success
+-- Found a library with BLAS API (open). Full path: (/usr/lib/aarch64-linux-gnu/libopenblas.so)
+-- Looking for sbgemm_
+-- Looking for sbgemm_ - not found
+-- Using pocketfft in directory: /workspaces/isaac_ros-dev/Docker/git/pytorch/third_party/pocketfft/
+-- The ASM compiler identification is GNU
+-- Found assembler: /usr/bin/cc
+-- Brace yourself, we are building NNPACK
+-- NNPACK backend is neon
+-- Building for XNNPACK_TARGET_PROCESSOR: arm64
+-- Generating microkernels.cmake
+No microkernel found in src/reference/unary-elementwise.cc
+No microkernel found in src/reference/binary-elementwise.cc
+No microkernel found in src/reference/packing.cc
+-- Found Numa: /usr/include  
+-- Found Numa  (include: /usr/include, library: /usr/lib/aarch64-linux-gnu/libnuma.so)
+-- Using third party subdirectory Eigen.
+-- Found Python: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter Development.Module NumPy 
+-- Using third_party/pybind11.
+-- pybind11 include dirs: /workspaces/isaac_ros-dev/Docker/git/pytorch/cmake/../third_party/pybind11/include
+-- Could NOT find OpenTelemetryApi (missing: OpenTelemetryApi_INCLUDE_DIRS) 
+-- Using third_party/opentelemetry-cpp.
+-- opentelemetry api include dirs: /workspaces/isaac_ros-dev/Docker/git/pytorch/cmake/../third_party/opentelemetry-cpp/api/include
+-- Found MPI_C: /usr/lib/aarch64-linux-gnu/openmpi/lib/libmpi.so (found version "3.1") 
+-- Found MPI_CXX: /usr/lib/aarch64-linux-gnu/openmpi/lib/libmpi_cxx.so (found version "3.1") 
+-- Found MPI: TRUE (found version "3.1")  
+-- MPI support found
+-- MPI compile flags: 
+-- MPI include path: /usr/lib/aarch64-linux-gnu/openmpi/include/usr/lib/aarch64-linux-gnu/openmpi/include/openmpi
+-- MPI LINK flags path: 
+-- MPI libraries: /usr/lib/aarch64-linux-gnu/openmpi/lib/libmpi_cxx.so/usr/lib/aarch64-linux-gnu/openmpi/lib/libmpi.so
+-- MKL_THREADING = OMP
+-- Check OMP with lib /usr/lib/gcc/aarch64-linux-gnu/11/libgomp.so and flags -fopenmp -v
+-- MKL_THREADING = OMP
+-- Check OMP with lib /usr/lib/gcc/aarch64-linux-gnu/11/libgomp.so and flags -fopenmp -v
+-- Found OpenMP_C: -fopenmp (found version "4.5") 
+-- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+-- Found OpenMP: TRUE (found version "4.5")  
+-- Adding OpenMP CXX_FLAGS: -fopenmp
+-- Will link against OpenMP libraries: /usr/lib/gcc/aarch64-linux-gnu/11/libgomp.so
+-- ROCM_PATH environment variable is not set and /opt/rocm does not exist.
+Building without ROCm support.
+-- Autodetected CUDA architecture(s):  8.7
+-- Found CUB: /usr/local/cuda/include  
+-- Converting CMAKE_CUDA_FLAGS to CUDA_NVCC_FLAGS:
+    CUDA_NVCC_FLAGS                = -DLIBCUDACXX_ENABLE_SIMPLIFIED_COMPLEX_OPERATIONS;-D_GLIBCXX_USE_CXX11_ABI=1;-Xfatbin;-compress-all;-DONNX_NAMESPACE=onnx_torch;-gencode;arch=compute_87,code=sm_87;-Xcudafe;--diag_suppress=cc_clobber_ignored,--diag_suppress=field_without_dll_interface,--diag_suppress=base_class_has_different_dll_interface,--diag_suppress=dll_interface_conflict_none_assumed,--diag_suppress=dll_interface_conflict_dllexport_assumed,--diag_suppress=bad_friend_decl;--expt-relaxed-constexpr;--expt-extended-lambda
+    CUDA_NVCC_FLAGS_DEBUG          = -g
+    CUDA_NVCC_FLAGS_RELEASE        = -O3;-DNDEBUG
+    CUDA_NVCC_FLAGS_RELWITHDEBINFO = -O2;-g;-DNDEBUG
+    CUDA_NVCC_FLAGS_MINSIZEREL     = -O1;-DNDEBUG
+-- Performing Test UV_LINT_W4
+-- Performing Test UV_LINT_W4 - Failed
+-- Performing Test UV_LINT_NO_UNUSED_PARAMETER_MSVC
+-- Performing Test UV_LINT_NO_UNUSED_PARAMETER_MSVC - Failed
+-- Performing Test UV_LINT_NO_CONDITIONAL_CONSTANT_MSVC
+-- Performing Test UV_LINT_NO_CONDITIONAL_CONSTANT_MSVC - Failed
+-- Performing Test UV_LINT_NO_NONSTANDARD_MSVC
+-- Performing Test UV_LINT_NO_NONSTANDARD_MSVC - Failed
+-- Performing Test UV_LINT_NO_NONSTANDARD_EMPTY_TU_MSVC
+-- Performing Test UV_LINT_NO_NONSTANDARD_EMPTY_TU_MSVC - Failed
+-- Performing Test UV_LINT_NO_NONSTANDARD_FILE_SCOPE_MSVC
+-- Performing Test UV_LINT_NO_NONSTANDARD_FILE_SCOPE_MSVC - Failed
+-- Performing Test UV_LINT_NO_NONSTANDARD_NONSTATIC_DLIMPORT_MSVC
+-- Performing Test UV_LINT_NO_NONSTANDARD_NONSTATIC_DLIMPORT_MSVC - Failed
+-- Performing Test UV_LINT_NO_HIDES_LOCAL
+-- Performing Test UV_LINT_NO_HIDES_LOCAL - Failed
+-- Performing Test UV_LINT_NO_HIDES_PARAM
+-- Performing Test UV_LINT_NO_HIDES_PARAM - Failed
+-- Performing Test UV_LINT_NO_HIDES_GLOBAL
+-- Performing Test UV_LINT_NO_HIDES_GLOBAL - Failed
+-- Performing Test UV_LINT_NO_CONDITIONAL_ASSIGNMENT_MSVC
+-- Performing Test UV_LINT_NO_CONDITIONAL_ASSIGNMENT_MSVC - Failed
+-- Performing Test UV_LINT_NO_UNSAFE_MSVC
+-- Performing Test UV_LINT_NO_UNSAFE_MSVC - Failed
+-- Performing Test UV_LINT_WALL
+-- Performing Test UV_LINT_WALL - Success
+-- Performing Test UV_LINT_NO_UNUSED_PARAMETER
+-- Performing Test UV_LINT_NO_UNUSED_PARAMETER - Success
+-- Performing Test UV_LINT_STRICT_PROTOTYPES
+-- Performing Test UV_LINT_STRICT_PROTOTYPES - Success
+-- Performing Test UV_LINT_EXTRA
+-- Performing Test UV_LINT_EXTRA - Success
+-- Performing Test UV_LINT_UTF8_MSVC
+-- Performing Test UV_LINT_UTF8_MSVC - Failed
+-- Performing Test UV_F_STRICT_ALIASING
+-- Performing Test UV_F_STRICT_ALIASING - Success
+-- summary of build options:
+    Install prefix:  /workspaces/isaac_ros-dev/install/Torch
+    Target system:   Linux
+    Compiler:
+      C compiler:    /usr/bin/cc
+      CFLAGS:         
+
+-- Found uv: 1.38.1 (found version "1.38.1") 
+-- Gloo build as SHARED library
+-- MPI include path: /usr/lib/aarch64-linux-gnu/openmpi/include/usr/lib/aarch64-linux-gnu/openmpi/include/openmpi
+-- MPI libraries: /usr/lib/aarch64-linux-gnu/openmpi/lib/libmpi_cxx.so/usr/lib/aarch64-linux-gnu/openmpi/lib/libmpi.so
+-- Found CUDAToolkit: /usr/local/cuda/include (found suitable version "12.6.68", minimum required is "7.0") 
+-- CUDA detected: 12.6.68
+-- Found PythonInterp: /usr/bin/python (found version "3.10.12") 
+-- 
+-- ******** Summary ********
+--   CMake version                     : 3.22.1
+--   CMake command                     : /usr/bin/cmake
+--   System                            : Linux
+--   C++ compiler                      : /usr/bin/c++
+--   C++ compiler version              : 11.4.0
+--   CXX flags                         :  -D_GLIBCXX_USE_CXX11_ABI=1 -fvisibility-inlines-hidden -DUSE_PTHREADPOOL -Wnon-virtual-dtor
+--   Build type                        : Release
+--   Compile definitions               : CAFFE2_PERF_WITH_SVE=1;ONNX_ML=1;ONNXIFI_ENABLE_EXT=1;__STDC_FORMAT_MACROS
+--   CMAKE_PREFIX_PATH                 : /usr/local/cuda;/usr/local/cuda;/usr/local/cuda
+--   CMAKE_INSTALL_PREFIX              : /workspaces/isaac_ros-dev/install/Torch
+--   CMAKE_MODULE_PATH                 : /workspaces/isaac_ros-dev/Docker/git/pytorch/cmake/Modules;/workspaces/isaac_ros-dev/Docker/git/pytorch/cmake/public/../Modules_CUDA_fix
+-- 
+--   ONNX version                      : 1.17.0
+--   ONNX NAMESPACE                    : onnx_torch
+--   ONNX_USE_LITE_PROTO               : OFF
+--   USE_PROTOBUF_SHARED_LIBS          : OFF
+--   Protobuf_USE_STATIC_LIBS          : ON
+--   ONNX_DISABLE_EXCEPTIONS           : OFF
+--   ONNX_DISABLE_STATIC_REGISTRATION  : OFF
+--   ONNX_WERROR                       : OFF
+--   ONNX_BUILD_TESTS                  : OFF
+--   ONNX_BUILD_SHARED_LIBS            : 
+--   BUILD_SHARED_LIBS                 : OFF
+-- 
+--   Protobuf compiler                 : 
+--   Protobuf includes                 : 
+--   Protobuf libraries                : 
+--   BUILD_ONNX_PYTHON                 : OFF
+-- Found CUDA with FP16 support, compiling with torch.cuda.HalfTensor
+-- Adding -DNDEBUG to compile flags
+-- Checking prototype magma_get_sgeqrf_nb for MAGMA_V2
+-- Checking prototype magma_get_sgeqrf_nb for MAGMA_V2 - False
+-- MAGMA not found. Compiling without MAGMA support
+-- Could not find hardware support for NEON on this machine.
+-- No OMAP3 processor on this machine.
+-- No OMAP4 processor on this machine.
+-- SVE support detected.
+-- asimd/Neon found with compiler flag : -D__NEON__
+-- Looking for cheev_
+-- Looking for cheev_ - found
+-- Looking for cgesdd_
+-- Looking for cgesdd_ - found
+-- Found a library with LAPACK API (open).
+-- MIOpen not found. Compiling without MIOpen support
+-- Looking for clock_gettime in rt
+-- Looking for clock_gettime in rt - found
+-- Looking for mmap
+-- Looking for mmap - found
+-- Looking for shm_open
+-- Looking for shm_open - found
+-- Looking for shm_unlink
+-- Looking for shm_unlink - found
+-- Looking for malloc_usable_size
+-- Looking for malloc_usable_size - found
+-- Performing Test COMPILE_OUT_ZVECTOR
+-- Performing Test COMPILE_OUT_ZVECTOR - Failed
+-- {fmt} version: 11.0.2
+-- Build type: Release
+-- Using Kineto with CUPTI support
+-- Configuring Kineto dependency:
+--   KINETO_SOURCE_DIR = /workspaces/isaac_ros-dev/Docker/git/pytorch/third_party/kineto/libkineto
+--   KINETO_BUILD_TESTS = OFF
+--   KINETO_LIBRARY_TYPE = static
+--   CUDA_SOURCE_DIR = /usr/local/cuda
+--   CUDA_INCLUDE_DIRS = /usr/local/cuda/include
+--   CUPTI_INCLUDE_DIR = /usr/local/cuda/include
+--   CUDA_cupti_LIBRARY = /usr/local/cuda/lib64/libcupti.so
+-- Found CUPTI
+-- Kineto: FMT_SOURCE_DIR = /workspaces/isaac_ros-dev/Docker/git/pytorch/third_party/fmt
+-- Kineto: FMT_INCLUDE_DIR = /workspaces/isaac_ros-dev/Docker/git/pytorch/third_party/fmt/include
+-- Configured Kineto
+-- GCC 11.4.0: Adding gcc and gcc_s libs to link line
+-- Performing Test HAS_WERROR_RETURN_TYPE
+-- Performing Test HAS_WERROR_RETURN_TYPE - Success
+-- Performing Test HAS_WERROR_NON_VIRTUAL_DTOR
+-- Performing Test HAS_WERROR_NON_VIRTUAL_DTOR - Success
+-- Performing Test HAS_WERROR_BRACED_SCALAR_INIT
+-- Performing Test HAS_WERROR_BRACED_SCALAR_INIT - Failed
+-- Performing Test HAS_WERROR_RANGE_LOOP_CONSTRUCT
+-- Performing Test HAS_WERROR_RANGE_LOOP_CONSTRUCT - Success
+-- Performing Test HAS_WERROR_BOOL_OPERATION
+-- Performing Test HAS_WERROR_BOOL_OPERATION - Success
+-- Performing Test HAS_WNARROWING
+-- Performing Test HAS_WNARROWING - Success
+-- Performing Test HAS_WNO_MISSING_FIELD_INITIALIZERS
+-- Performing Test HAS_WNO_MISSING_FIELD_INITIALIZERS - Success
+-- Performing Test HAS_WNO_TYPE_LIMITS
+-- Performing Test HAS_WNO_TYPE_LIMITS - Success
+-- Performing Test HAS_WNO_ARRAY_BOUNDS
+-- Performing Test HAS_WNO_ARRAY_BOUNDS - Success
+-- Performing Test HAS_WNO_UNKNOWN_PRAGMAS
+-- Performing Test HAS_WNO_UNKNOWN_PRAGMAS - Success
+-- Performing Test HAS_WNO_UNUSED_PARAMETER
+-- Performing Test HAS_WNO_UNUSED_PARAMETER - Success
+-- Performing Test HAS_WNO_STRICT_OVERFLOW
+-- Performing Test HAS_WNO_STRICT_OVERFLOW - Success
+-- Performing Test HAS_WNO_STRICT_ALIASING
+-- Performing Test HAS_WNO_STRICT_ALIASING - Success
+-- Performing Test HAS_WNO_STRINGOP_OVERFLOW
+-- Performing Test HAS_WNO_STRINGOP_OVERFLOW - Success
+-- Performing Test HAS_WVLA_EXTENSION
+-- Performing Test HAS_WVLA_EXTENSION - Failed
+-- Performing Test HAS_WSUGGEST_OVERRIDE
+-- Performing Test HAS_WSUGGEST_OVERRIDE - Success
+-- Performing Test HAS_WNEWLINE_EOF
+-- Performing Test HAS_WNEWLINE_EOF - Failed
+-- Performing Test HAS_WINCONSISTENT_MISSING_OVERRIDE
+-- Performing Test HAS_WINCONSISTENT_MISSING_OVERRIDE - Failed
+-- Performing Test HAS_WINCONSISTENT_MISSING_DESTRUCTOR_OVERRIDE
+-- Performing Test HAS_WINCONSISTENT_MISSING_DESTRUCTOR_OVERRIDE - Failed
+-- Performing Test HAS_WNO_ERROR_OLD_STYLE_CAST
+-- Performing Test HAS_WNO_ERROR_OLD_STYLE_CAST - Success
+-- Performing Test HAS_WCONSTANT_CONVERSION
+-- Performing Test HAS_WCONSTANT_CONVERSION - Failed
+-- Performing Test HAS_WNO_ALIGNED_ALLOCATION_UNAVAILABLE
+-- Performing Test HAS_WNO_ALIGNED_ALLOCATION_UNAVAILABLE - Failed
+-- Performing Test HAS_WNO_MISSING_BRACES
+-- Performing Test HAS_WNO_MISSING_BRACES - Success
+-- Performing Test HAS_QUNUSED_ARGUMENTS
+-- Performing Test HAS_QUNUSED_ARGUMENTS - Failed
+-- Performing Test HAS_FDIAGNOSTICS_COLOR_ALWAYS
+-- Performing Test HAS_FDIAGNOSTICS_COLOR_ALWAYS - Success
+-- Performing Test HAS_FALIGNED_NEW
+-- Performing Test HAS_FALIGNED_NEW - Success
+-- Performing Test HAS_WNO_UNUSED_BUT_SET_VARIABLE
+-- Performing Test HAS_WNO_UNUSED_BUT_SET_VARIABLE - Success
+-- Performing Test HAS_WNO_MAYBE_UNINITIALIZED
+-- Performing Test HAS_WNO_MAYBE_UNINITIALIZED - Success
+-- Performing Test HAS_FSTANDALONE_DEBUG
+-- Performing Test HAS_FSTANDALONE_DEBUG - Failed
+-- Performing Test HAS_FNO_MATH_ERRNO
+-- Performing Test HAS_FNO_MATH_ERRNO - Success
+-- Performing Test HAS_FNO_TRAPPING_MATH
+-- Performing Test HAS_FNO_TRAPPING_MATH - Success
+-- Performing Test HAS_WERROR_FORMAT
+-- Performing Test HAS_WERROR_FORMAT - Success
+-- Performing Test HAS_VST1
+-- Performing Test HAS_VST1 - Success
+-- Performing Test HAS_VLD1
+-- Performing Test HAS_VLD1 - Success
+-- Performing Test HAS_WDEPRECATED
+-- Performing Test HAS_WDEPRECATED - Success
+-- NUMA paths:
+-- /usr/include
+-- /usr/lib/aarch64-linux-gnu/libnuma.so
+-- Looking for backtrace
+-- Looking for backtrace - found
+-- backtrace facility detected in default set of libraries
+-- Found Backtrace: /usr/include  
+-- Autodetected CUDA architecture(s):  8.7

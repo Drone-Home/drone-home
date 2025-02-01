@@ -1,0 +1,12 @@
+prefix=/workspaces/isaac_ros-dev/install/Torch
+exec_prefix=/workspaces/isaac_ros-dev/install/Torch
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libTorch
+Description: Library to detect essential performance optimization information about host CPU.
+Version: 
+URL: 
+Libs: -L${libdir} -lcpuinfo
+Cflags: -I${includedir}
+

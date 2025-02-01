@@ -1,0 +1,590 @@
+[0.872s] Invoking command in '/workspaces/isaac_ros-dev/build/Torch': /usr/bin/cmake /workspaces/isaac_ros-dev/Docker/git/pytorch -DCMAKE_INSTALL_PREFIX=/workspaces/isaac_ros-dev/install/Torch
+[1.141s] -- The CXX compiler identification is GNU 11.4.0
+[1.293s] -- The C compiler identification is GNU 11.4.0
+[1.311s] -- Detecting CXX compiler ABI info
+[1.468s] -- Detecting CXX compiler ABI info - done
+[1.479s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.480s] -- Detecting CXX compile features
+[1.481s] -- Detecting CXX compile features - done
+[1.487s] -- Detecting C compiler ABI info
+[1.618s] -- Detecting C compiler ABI info - done
+[1.628s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.629s] -- Detecting C compile features
+[1.629s] -- Detecting C compile features - done
+[1.633s] -- /usr/bin/c++ /workspaces/isaac_ros-dev/Docker/git/pytorch/torch/abi-check.cpp -o /workspaces/isaac_ros-dev/build/Torch/abi-check
+[2.265s] -- Determined _GLIBCXX_USE_CXX11_ABI=1
+[2.265s] -- Not forcing any particular BLAS to be found
+[2.271s] -- Could not find ccache. Consider installing ccache to speed up compilation.
+[2.271s] -- Build type not set - defaulting to Release
+[2.275s] -- Performing Test C_HAS_AVX_1
+[2.329s] -- Performing Test C_HAS_AVX_1 - Failed
+[2.329s] -- Performing Test C_HAS_AVX_2
+[2.371s] -- Performing Test C_HAS_AVX_2 - Failed
+[2.371s] -- Performing Test C_HAS_AVX_3
+[2.427s] -- Performing Test C_HAS_AVX_3 - Failed
+[2.427s] -- Performing Test C_HAS_AVX2_1
+[2.480s] -- Performing Test C_HAS_AVX2_1 - Failed
+[2.481s] -- Performing Test C_HAS_AVX2_2
+[2.532s] -- Performing Test C_HAS_AVX2_2 - Failed
+[2.532s] -- Performing Test C_HAS_AVX2_3
+[2.602s] -- Performing Test C_HAS_AVX2_3 - Failed
+[2.602s] -- Performing Test C_HAS_AVX512_1
+[2.663s] -- Performing Test C_HAS_AVX512_1 - Failed
+[2.665s] -- Performing Test C_HAS_AVX512_2
+[2.737s] -- Performing Test C_HAS_AVX512_2 - Failed
+[2.737s] -- Performing Test C_HAS_AVX512_3
+[2.801s] -- Performing Test C_HAS_AVX512_3 - Failed
+[2.802s] -- Performing Test CXX_HAS_AVX_1
+[2.871s] -- Performing Test CXX_HAS_AVX_1 - Failed
+[2.873s] -- Performing Test CXX_HAS_AVX_2
+[2.928s] -- Performing Test CXX_HAS_AVX_2 - Failed
+[2.929s] -- Performing Test CXX_HAS_AVX_3
+[2.989s] -- Performing Test CXX_HAS_AVX_3 - Failed
+[2.989s] -- Performing Test CXX_HAS_AVX2_1
+[3.062s] -- Performing Test CXX_HAS_AVX2_1 - Failed
+[3.062s] -- Performing Test CXX_HAS_AVX2_2
+[3.120s] -- Performing Test CXX_HAS_AVX2_2 - Failed
+[3.121s] -- Performing Test CXX_HAS_AVX2_3
+[3.177s] -- Performing Test CXX_HAS_AVX2_3 - Failed
+[3.178s] -- Performing Test CXX_HAS_AVX512_1
+[3.237s] -- Performing Test CXX_HAS_AVX512_1 - Failed
+[3.238s] -- Performing Test CXX_HAS_AVX512_2
+[3.308s] -- Performing Test CXX_HAS_AVX512_2 - Failed
+[3.308s] -- Performing Test CXX_HAS_AVX512_3
+[3.369s] -- Performing Test CXX_HAS_AVX512_3 - Failed
+[3.370s] -- Performing Test CAFFE2_COMPILER_SUPPORTS_AVX512_EXTENSIONS
+[3.438s] -- Performing Test CAFFE2_COMPILER_SUPPORTS_AVX512_EXTENSIONS - Failed
+[3.439s] -- Performing Test COMPILER_SUPPORTS_HIDDEN_VISIBILITY
+[3.603s] -- Performing Test COMPILER_SUPPORTS_HIDDEN_VISIBILITY - Success
+[3.606s] -- Performing Test COMPILER_SUPPORTS_HIDDEN_INLINE_VISIBILITY
+[3.778s] -- Performing Test COMPILER_SUPPORTS_HIDDEN_INLINE_VISIBILITY - Success
+[3.780s] -- Performing Test COMPILER_SUPPORTS_RDYNAMIC
+[3.941s] -- Performing Test COMPILER_SUPPORTS_RDYNAMIC - Success
+[3.945s] -- Could not find hardware support for NEON on this machine.
+[3.946s] -- No OMAP3 processor on this machine.
+[3.946s] -- No OMAP4 processor on this machine.
+[3.946s] -- Performing Test CXX_HAS_SVE256
+[4.114s] -- Performing Test CXX_HAS_SVE256 - Success
+[4.116s] -- SVE support detected.
+[4.116s] -- Compiler supports SVE extension. Will build perfkernels.
+[4.169s] -- Found CUDA: /usr/local/cuda (found version "12.6") 
+[6.251s] -- The CUDA compiler identification is NVIDIA 12.6.68
+[6.269s] -- Detecting CUDA compiler ABI info
+[8.076s] -- Detecting CUDA compiler ABI info - done
+[8.155s] -- Check for working CUDA compiler: /usr/local/cuda/bin/nvcc - skipped
+[8.155s] -- Detecting CUDA compile features
+[8.156s] -- Detecting CUDA compile features - done
+[8.162s] -- Found CUDAToolkit: /usr/local/cuda/include (found version "12.6.68") 
+[8.177s] -- Looking for pthread.h
+[8.341s] -- Looking for pthread.h - found
+[8.342s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[8.512s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[8.515s] -- Found Threads: TRUE  
+[8.628s] -- PyTorch: CUDA detected: 12.6
+[8.628s] -- PyTorch: CUDA nvcc is: /usr/local/cuda/bin/nvcc
+[8.629s] -- PyTorch: CUDA toolkit directory: /usr/local/cuda
+[8.849s] -- PyTorch: Header version is: 12.6
+[10.411s] -- Found Python: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[10.427s] [33mCMake Warning at cmake/public/cuda.cmake:140 (message):
+[10.428s]   Failed to compute shorthash for libnvrtc.so
+[10.428s] Call Stack (most recent call first):
+[10.428s]   cmake/Dependencies.cmake:44 (include)
+[10.428s]   CMakeLists.txt:858 (include)
+[10.429s] 
+[10.429s] [0m
+[10.429s] -- Found nvtx3: /workspaces/isaac_ros-dev/Docker/git/pytorch/third_party/NVTX/c/include  
+[10.444s] -- Could NOT find CUDNN (missing: CUDNN_LIBRARY_PATH CUDNN_INCLUDE_PATH) 
+[10.444s] [33mCMake Warning at cmake/public/cuda.cmake:218 (message):
+[10.445s]   Cannot find cuDNN library.  Turning the option off
+[10.445s] Call Stack (most recent call first):
+[10.445s]   cmake/Dependencies.cmake:44 (include)
+[10.445s]   CMakeLists.txt:858 (include)
+[10.446s] 
+[10.446s] [0m
+[10.454s] -- Found CUSPARSELT: /usr/lib/aarch64-linux-gnu/libcusparseLt.so  
+[10.460s] -- Found CUDSS: /usr/local/libcudss-linux-0.3.0.9_cuda12-archive/lib/libcudss.so  
+[10.461s] -- USE_CUFILE is set to 0. Compiling without cuFile support
+[12.258s] -- Autodetected CUDA architecture(s):  8.7
+[12.259s] -- Added CUDA NVCC flags for: -gencode;arch=compute_87,code=sm_87
+[12.266s] [33mCMake Warning at cmake/Dependencies.cmake:95 (message):
+[12.266s]   Not compiling with XPU.  Could NOT find SYCL.Suppress this warning with
+[12.266s]   -DUSE_XPU=OFF.
+[12.267s] Call Stack (most recent call first):
+[12.267s]   CMakeLists.txt:858 (include)
+[12.267s] 
+[12.267s] [0m
+[12.267s] -- Building using own protobuf under third_party per request.
+[12.268s] -- Use custom protobuf build.
+[12.272s] -- 
+[12.273s] -- 3.13.0.0
+[12.279s] -- Performing Test protobuf_HAVE_BUILTIN_ATOMICS
+[12.516s] -- Performing Test protobuf_HAVE_BUILTIN_ATOMICS - Success
+[12.563s] -- Caffe2 protobuf include directory: $<BUILD_INTERFACE:/workspaces/isaac_ros-dev/Docker/git/pytorch/third_party/protobuf/src>$<INSTALL_INTERFACE:include>
+[12.569s] -- Trying to find preferred BLAS backend of choice: MKL
+[12.574s] -- MKL_THREADING = OMP
+[12.575s] -- Looking for sys/types.h
+[12.738s] -- Looking for sys/types.h - found
+[12.739s] -- Looking for stdint.h
+[12.898s] -- Looking for stdint.h - found
+[12.899s] -- Looking for stddef.h
+[13.053s] -- Looking for stddef.h - found
+[13.053s] -- Check size of void*
+[13.215s] -- Check size of void* - done
+[13.308s] -- MKL_THREADING = OMP
+[13.359s] [33mCMake Warning at cmake/Dependencies.cmake:207 (message):
+[13.359s]   MKL could not be found.  Defaulting to Eigen
+[13.360s] Call Stack (most recent call first):
+[13.360s]   CMakeLists.txt:858 (include)
+[13.360s] 
+[13.360s] [0m
+[13.361s] [33mCMake Warning at cmake/Dependencies.cmake:255 (message):
+[13.361s]   Preferred BLAS (MKL) cannot be found, now searching for a general BLAS
+[13.361s]   library
+[13.361s] Call Stack (most recent call first):
+[13.361s]   CMakeLists.txt:858 (include)
+[13.362s] 
+[13.362s] [0m
+[13.362s] -- MKL_THREADING = OMP
+[13.363s] -- Checking for [mkl_intel_lp64 - mkl_gnu_thread - mkl_core - gomp - pthread - m - dl]
+[13.364s] --   Library mkl_intel_lp64: not found
+[13.365s] -- Checking for [mkl_intel_lp64 - mkl_intel_thread - mkl_core - gomp - pthread - m - dl]
+[13.366s] --   Library mkl_intel_lp64: not found
+[13.366s] -- Checking for [mkl_intel - mkl_gnu_thread - mkl_core - gomp - pthread - m - dl]
+[13.367s] --   Library mkl_intel: not found
+[13.367s] -- Checking for [mkl_intel - mkl_intel_thread - mkl_core - gomp - pthread - m - dl]
+[13.368s] --   Library mkl_intel: not found
+[13.369s] -- Checking for [mkl_gf_lp64 - mkl_gnu_thread - mkl_core - gomp - pthread - m - dl]
+[13.370s] --   Library mkl_gf_lp64: not found
+[13.370s] -- Checking for [mkl_gf_lp64 - mkl_intel_thread - mkl_core - gomp - pthread - m - dl]
+[13.371s] --   Library mkl_gf_lp64: not found
+[13.371s] -- Checking for [mkl_gf - mkl_gnu_thread - mkl_core - gomp - pthread - m - dl]
+[13.372s] --   Library mkl_gf: not found
+[13.373s] -- Checking for [mkl_gf - mkl_intel_thread - mkl_core - gomp - pthread - m - dl]
+[13.373s] --   Library mkl_gf: not found
+[13.374s] -- Checking for [mkl_intel_lp64 - mkl_gnu_thread - mkl_core - iomp5 - pthread - m - dl]
+[13.375s] --   Library mkl_intel_lp64: not found
+[13.375s] -- Checking for [mkl_intel_lp64 - mkl_intel_thread - mkl_core - iomp5 - pthread - m - dl]
+[13.376s] --   Library mkl_intel_lp64: not found
+[13.377s] -- Checking for [mkl_intel - mkl_gnu_thread - mkl_core - iomp5 - pthread - m - dl]
+[13.377s] --   Library mkl_intel: not found
+[13.377s] -- Checking for [mkl_intel - mkl_intel_thread - mkl_core - iomp5 - pthread - m - dl]
+[13.378s] --   Library mkl_intel: not found
+[13.379s] -- Checking for [mkl_gf_lp64 - mkl_gnu_thread - mkl_core - iomp5 - pthread - m - dl]
+[13.380s] --   Library mkl_gf_lp64: not found
+[13.380s] -- Checking for [mkl_gf_lp64 - mkl_intel_thread - mkl_core - iomp5 - pthread - m - dl]
+[13.381s] --   Library mkl_gf_lp64: not found
+[13.381s] -- Checking for [mkl_gf - mkl_gnu_thread - mkl_core - iomp5 - pthread - m - dl]
+[13.382s] --   Library mkl_gf: not found
+[13.382s] -- Checking for [mkl_gf - mkl_intel_thread - mkl_core - iomp5 - pthread - m - dl]
+[13.383s] --   Library mkl_gf: not found
+[13.384s] -- Checking for [mkl_intel_lp64 - mkl_gnu_thread - mkl_core - pthread - m - dl]
+[13.385s] --   Library mkl_intel_lp64: not found
+[13.385s] -- Checking for [mkl_intel_lp64 - mkl_intel_thread - mkl_core - pthread - m - dl]
+[13.386s] --   Library mkl_intel_lp64: not found
+[13.386s] -- Checking for [mkl_intel - mkl_gnu_thread - mkl_core - pthread - m - dl]
+[13.387s] --   Library mkl_intel: not found
+[13.388s] -- Checking for [mkl_intel - mkl_intel_thread - mkl_core - pthread - m - dl]
+[13.389s] --   Library mkl_intel: not found
+[13.389s] -- Checking for [mkl_gf_lp64 - mkl_gnu_thread - mkl_core - pthread - m - dl]
+[13.390s] --   Library mkl_gf_lp64: not found
+[13.390s] -- Checking for [mkl_gf_lp64 - mkl_intel_thread - mkl_core - pthread - m - dl]
+[13.391s] --   Library mkl_gf_lp64: not found
+[13.391s] -- Checking for [mkl_gf - mkl_gnu_thread - mkl_core - pthread - m - dl]
+[13.392s] --   Library mkl_gf: not found
+[13.393s] -- Checking for [mkl_gf - mkl_intel_thread - mkl_core - pthread - m - dl]
+[13.393s] --   Library mkl_gf: not found
+[13.394s] -- Checking for [mkl_intel_lp64 - mkl_sequential - mkl_core - m - dl]
+[13.395s] --   Library mkl_intel_lp64: not found
+[13.395s] -- Checking for [mkl_intel - mkl_sequential - mkl_core - m - dl]
+[13.396s] --   Library mkl_intel: not found
+[13.396s] -- Checking for [mkl_gf_lp64 - mkl_sequential - mkl_core - m - dl]
+[13.397s] --   Library mkl_gf_lp64: not found
+[13.397s] -- Checking for [mkl_gf - mkl_sequential - mkl_core - m - dl]
+[13.398s] --   Library mkl_gf: not found
+[13.399s] -- Checking for [mkl_intel_lp64 - mkl_core - gomp - pthread - m - dl]
+[13.400s] --   Library mkl_intel_lp64: not found
+[13.400s] -- Checking for [mkl_intel - mkl_core - gomp - pthread - m - dl]
+[13.401s] --   Library mkl_intel: not found
+[13.401s] -- Checking for [mkl_gf_lp64 - mkl_core - gomp - pthread - m - dl]
+[13.402s] --   Library mkl_gf_lp64: not found
+[13.402s] -- Checking for [mkl_gf - mkl_core - gomp - pthread - m - dl]
+[13.403s] --   Library mkl_gf: not found
+[13.404s] -- Checking for [mkl_intel_lp64 - mkl_core - iomp5 - pthread - m - dl]
+[13.405s] --   Library mkl_intel_lp64: not found
+[13.405s] -- Checking for [mkl_intel - mkl_core - iomp5 - pthread - m - dl]
+[13.406s] --   Library mkl_intel: not found
+[13.406s] -- Checking for [mkl_gf_lp64 - mkl_core - iomp5 - pthread - m - dl]
+[13.407s] --   Library mkl_gf_lp64: not found
+[13.407s] -- Checking for [mkl_gf - mkl_core - iomp5 - pthread - m - dl]
+[13.408s] --   Library mkl_gf: not found
+[13.408s] -- Checking for [mkl_intel_lp64 - mkl_core - pthread - m - dl]
+[13.409s] --   Library mkl_intel_lp64: not found
+[13.410s] -- Checking for [mkl_intel - mkl_core - pthread - m - dl]
+[13.411s] --   Library mkl_intel: not found
+[13.411s] -- Checking for [mkl_gf_lp64 - mkl_core - pthread - m - dl]
+[13.412s] --   Library mkl_gf_lp64: not found
+[13.412s] -- Checking for [mkl_gf - mkl_core - pthread - m - dl]
+[13.413s] --   Library mkl_gf: not found
+[13.413s] -- Checking for [mkl - guide - pthread - m]
+[13.414s] --   Library mkl: not found
+[13.414s] -- MKL library not found
+[13.415s] -- Checking for [blis]
+[13.418s] --   Library blis: BLAS_blis_LIBRARY-NOTFOUND
+[13.418s] -- Checking for [Accelerate]
+[13.420s] --   Library Accelerate: BLAS_Accelerate_LIBRARY-NOTFOUND
+[13.420s] -- Checking for [vecLib]
+[13.421s] --   Library vecLib: BLAS_vecLib_LIBRARY-NOTFOUND
+[13.422s] -- Checking for [flexiblas]
+[13.423s] --   Library flexiblas: BLAS_flexiblas_LIBRARY-NOTFOUND
+[13.423s] -- Checking for [openblas]
+[13.424s] --   Library openblas: /usr/lib/aarch64-linux-gnu/libopenblas.so
+[13.424s] -- Looking for sgemm_
+[13.617s] -- Looking for sgemm_ - found
+[13.617s] -- Performing Test BLAS_F2C_DOUBLE_WORKS
+[13.860s] -- Performing Test BLAS_F2C_DOUBLE_WORKS - Failed
+[13.861s] -- Performing Test BLAS_F2C_FLOAT_WORKS
+[14.089s] -- Performing Test BLAS_F2C_FLOAT_WORKS - Success
+[14.090s] -- Performing Test BLAS_USE_CBLAS_DOT
+[14.317s] -- Performing Test BLAS_USE_CBLAS_DOT - Success
+[14.317s] -- Found a library with BLAS API (open). Full path: (/usr/lib/aarch64-linux-gnu/libopenblas.so)
+[14.317s] -- Looking for sbgemm_
+[14.482s] -- Looking for sbgemm_ - not found
+[14.483s] -- Using pocketfft in directory: /workspaces/isaac_ros-dev/Docker/git/pytorch/third_party/pocketfft/
+[14.558s] -- The ASM compiler identification is GNU
+[14.566s] -- Found assembler: /usr/bin/cc
+[14.599s] -- Brace yourself, we are building NNPACK
+[14.609s] -- NNPACK backend is neon
+[14.621s] -- Building for XNNPACK_TARGET_PROCESSOR: arm64
+[14.624s] -- Generating microkernels.cmake
+[21.838s] No microkernel found in src/reference/unary-elementwise.cc
+[21.838s] No microkernel found in src/reference/binary-elementwise.cc
+[21.838s] No microkernel found in src/reference/packing.cc
+[21.933s] [33mCMake Warning at cmake/Dependencies.cmake:704 (message):
+[21.933s]   A compiler with AVX512 support is required for FBGEMM.  Not compiling with
+[21.933s]   FBGEMM.  Turn this warning off by USE_FBGEMM=OFF.
+[21.934s] Call Stack (most recent call first):
+[21.934s]   CMakeLists.txt:858 (include)
+[21.934s] 
+[21.934s] [0m
+[21.935s] [33mCMake Warning at cmake/Dependencies.cmake:753 (message):
+[21.935s]   Turning USE_FAKELOWP off as it depends on USE_FBGEMM.
+[21.935s] Call Stack (most recent call first):
+[21.935s]   CMakeLists.txt:858 (include)
+[21.935s] 
+[21.936s] [0m
+[21.939s] -- Found Numa: /usr/include  
+[21.939s] -- Found Numa  (include: /usr/include, library: /usr/lib/aarch64-linux-gnu/libnuma.so)
+[21.939s] -- Using third party subdirectory Eigen.
+[23.157s] -- Found Python: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter Development.Module NumPy 
+[23.157s] -- Using third_party/pybind11.
+[23.157s] -- pybind11 include dirs: /workspaces/isaac_ros-dev/Docker/git/pytorch/cmake/../third_party/pybind11/include
+[23.161s] -- Could NOT find OpenTelemetryApi (missing: OpenTelemetryApi_INCLUDE_DIRS) 
+[23.161s] -- Using third_party/opentelemetry-cpp.
+[23.161s] -- opentelemetry api include dirs: /workspaces/isaac_ros-dev/Docker/git/pytorch/cmake/../third_party/opentelemetry-cpp/api/include
+[23.507s] -- Found MPI_C: /usr/lib/aarch64-linux-gnu/openmpi/lib/libmpi.so (found version "3.1") 
+[25.784s] -- Found MPI_CXX: /usr/lib/aarch64-linux-gnu/openmpi/lib/libmpi_cxx.so (found version "3.1") 
+[25.784s] -- Found MPI: TRUE (found version "3.1")  
+[25.786s] -- MPI support found
+[25.786s] -- MPI compile flags: 
+[25.786s] -- MPI include path: /usr/lib/aarch64-linux-gnu/openmpi/include/usr/lib/aarch64-linux-gnu/openmpi/include/openmpi
+[25.787s] -- MPI LINK flags path: 
+[25.787s] -- MPI libraries: /usr/lib/aarch64-linux-gnu/openmpi/lib/libmpi_cxx.so/usr/lib/aarch64-linux-gnu/openmpi/lib/libmpi.so
+[25.894s] [33mCMake Warning at cmake/Dependencies.cmake:933 (message):
+[25.894s]   OpenMPI found, but it is not built with CUDA support.
+[25.894s] Call Stack (most recent call first):
+[25.894s]   CMakeLists.txt:858 (include)
+[25.895s] 
+[25.895s] [0m
+[25.904s] -- MKL_THREADING = OMP
+[25.992s] -- Check OMP with lib /usr/lib/gcc/aarch64-linux-gnu/11/libgomp.so and flags -fopenmp -v
+[26.157s] -- MKL_THREADING = OMP
+[26.236s] -- Check OMP with lib /usr/lib/gcc/aarch64-linux-gnu/11/libgomp.so and flags -fopenmp -v
+[26.595s] -- Found OpenMP_C: -fopenmp (found version "4.5") 
+[26.787s] -- Found OpenMP_CXX: -fopenmp (found version "4.5") 
+[26.787s] -- Found OpenMP: TRUE (found version "4.5")  
+[26.788s] -- Adding OpenMP CXX_FLAGS: -fopenmp
+[26.788s] -- Will link against OpenMP libraries: /usr/lib/gcc/aarch64-linux-gnu/11/libgomp.so
+[26.793s] -- ROCM_PATH environment variable is not set and /opt/rocm does not exist.
+[26.793s] Building without ROCm support.
+[26.794s] -- Autodetected CUDA architecture(s):  8.7
+[26.842s] [33mCMake Warning at cmake/External/nccl.cmake:70 (message):
+[26.842s]   Enabling NCCL library slimming
+[26.842s] Call Stack (most recent call first):
+[26.843s]   cmake/Dependencies.cmake:1111 (include)
+[26.843s]   CMakeLists.txt:858 (include)
+[26.843s] 
+[26.843s] [0m
+[26.845s] -- Found CUB: /usr/local/cuda/include  
+[26.846s] -- Converting CMAKE_CUDA_FLAGS to CUDA_NVCC_FLAGS:
+[26.846s]     CUDA_NVCC_FLAGS                = -DLIBCUDACXX_ENABLE_SIMPLIFIED_COMPLEX_OPERATIONS;-D_GLIBCXX_USE_CXX11_ABI=1;-Xfatbin;-compress-all;-DONNX_NAMESPACE=onnx_torch;-gencode;arch=compute_87,code=sm_87;-Xcudafe;--diag_suppress=cc_clobber_ignored,--diag_suppress=field_without_dll_interface,--diag_suppress=base_class_has_different_dll_interface,--diag_suppress=dll_interface_conflict_none_assumed,--diag_suppress=dll_interface_conflict_dllexport_assumed,--diag_suppress=bad_friend_decl;--expt-relaxed-constexpr;--expt-extended-lambda
+[26.846s]     CUDA_NVCC_FLAGS_DEBUG          = -g
+[26.847s]     CUDA_NVCC_FLAGS_RELEASE        = -O3;-DNDEBUG
+[26.847s]     CUDA_NVCC_FLAGS_RELWITHDEBINFO = -O2;-g;-DNDEBUG
+[26.847s]     CUDA_NVCC_FLAGS_MINSIZEREL     = -O1;-DNDEBUG
+[26.903s] -- Performing Test UV_LINT_W4
+[26.982s] -- Performing Test UV_LINT_W4 - Failed
+[26.984s] -- Performing Test UV_LINT_NO_UNUSED_PARAMETER_MSVC
+[27.063s] -- Performing Test UV_LINT_NO_UNUSED_PARAMETER_MSVC - Failed
+[27.065s] -- Performing Test UV_LINT_NO_CONDITIONAL_CONSTANT_MSVC
+[27.150s] -- Performing Test UV_LINT_NO_CONDITIONAL_CONSTANT_MSVC - Failed
+[27.153s] -- Performing Test UV_LINT_NO_NONSTANDARD_MSVC
+[27.237s] -- Performing Test UV_LINT_NO_NONSTANDARD_MSVC - Failed
+[27.239s] -- Performing Test UV_LINT_NO_NONSTANDARD_EMPTY_TU_MSVC
+[27.322s] -- Performing Test UV_LINT_NO_NONSTANDARD_EMPTY_TU_MSVC - Failed
+[27.323s] -- Performing Test UV_LINT_NO_NONSTANDARD_FILE_SCOPE_MSVC
+[27.406s] -- Performing Test UV_LINT_NO_NONSTANDARD_FILE_SCOPE_MSVC - Failed
+[27.407s] -- Performing Test UV_LINT_NO_NONSTANDARD_NONSTATIC_DLIMPORT_MSVC
+[27.492s] -- Performing Test UV_LINT_NO_NONSTANDARD_NONSTATIC_DLIMPORT_MSVC - Failed
+[27.494s] -- Performing Test UV_LINT_NO_HIDES_LOCAL
+[27.578s] -- Performing Test UV_LINT_NO_HIDES_LOCAL - Failed
+[27.580s] -- Performing Test UV_LINT_NO_HIDES_PARAM
+[27.660s] -- Performing Test UV_LINT_NO_HIDES_PARAM - Failed
+[27.662s] -- Performing Test UV_LINT_NO_HIDES_GLOBAL
+[27.750s] -- Performing Test UV_LINT_NO_HIDES_GLOBAL - Failed
+[27.752s] -- Performing Test UV_LINT_NO_CONDITIONAL_ASSIGNMENT_MSVC
+[27.833s] -- Performing Test UV_LINT_NO_CONDITIONAL_ASSIGNMENT_MSVC - Failed
+[27.836s] -- Performing Test UV_LINT_NO_UNSAFE_MSVC
+[27.920s] -- Performing Test UV_LINT_NO_UNSAFE_MSVC - Failed
+[27.923s] -- Performing Test UV_LINT_WALL
+[28.081s] -- Performing Test UV_LINT_WALL - Success
+[28.083s] -- Performing Test UV_LINT_NO_UNUSED_PARAMETER
+[28.243s] -- Performing Test UV_LINT_NO_UNUSED_PARAMETER - Success
+[28.246s] -- Performing Test UV_LINT_STRICT_PROTOTYPES
+[28.408s] -- Performing Test UV_LINT_STRICT_PROTOTYPES - Success
+[28.410s] -- Performing Test UV_LINT_EXTRA
+[28.569s] -- Performing Test UV_LINT_EXTRA - Success
+[28.571s] -- Performing Test UV_LINT_UTF8_MSVC
+[28.655s] -- Performing Test UV_LINT_UTF8_MSVC - Failed
+[28.657s] -- Performing Test UV_F_STRICT_ALIASING
+[28.816s] -- Performing Test UV_F_STRICT_ALIASING - Success
+[28.821s] -- summary of build options:
+[28.821s]     Install prefix:  /workspaces/isaac_ros-dev/install/Torch
+[28.821s]     Target system:   Linux
+[28.822s]     Compiler:
+[28.822s]       C compiler:    /usr/bin/cc
+[28.822s]       CFLAGS:         
+[28.822s] 
+[28.825s] -- Found uv: 1.38.1 (found version "1.38.1") 
+[28.856s] [33mCMake Warning (dev) at third_party/gloo/CMakeLists.txt:21 (option):
+[28.856s]   Policy CMP0077 is not set: option() honors normal variables.  Run "cmake
+[28.856s]   --help-policy CMP0077" for policy details.  Use the cmake_policy command to
+[28.857s]   set the policy and suppress this warning.
+[28.857s] 
+[28.857s]   For compatibility with older versions of CMake, option is clearing the
+[28.857s]   normal variable 'BUILD_BENCHMARK'.
+[28.858s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[28.858s] [0m
+[28.858s] -- Gloo build as SHARED library
+[28.889s] -- MPI include path: /usr/lib/aarch64-linux-gnu/openmpi/include/usr/lib/aarch64-linux-gnu/openmpi/include/openmpi
+[28.889s] -- MPI libraries: /usr/lib/aarch64-linux-gnu/openmpi/lib/libmpi_cxx.so/usr/lib/aarch64-linux-gnu/openmpi/lib/libmpi.so
+[28.890s] [33mCMake Warning (dev) at third_party/gloo/cmake/Cuda.cmake:109 (find_package):
+[28.890s]   Policy CMP0074 is not set: find_package uses <PackageName>_ROOT variables.
+[28.891s]   Run "cmake --help-policy CMP0074" for policy details.  Use the cmake_policy
+[28.891s]   command to set the policy and suppress this warning.
+[28.891s] 
+[28.891s]   CMake variable CUDAToolkit_ROOT is set to:
+[28.892s] 
+[28.892s]     /usr/local/cuda
+[28.892s] 
+[28.892s]   For compatibility, CMake is ignoring the variable.
+[28.893s] Call Stack (most recent call first):
+[28.893s]   third_party/gloo/cmake/Dependencies.cmake:115 (include)
+[28.893s]   third_party/gloo/CMakeLists.txt:111 (include)
+[28.893s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[28.894s] [0m
+[28.896s] -- Found CUDAToolkit: /usr/local/cuda/include (found suitable version "12.6.68", minimum required is "7.0") 
+[28.957s] -- CUDA detected: 12.6.68
+[29.033s] -- Found PythonInterp: /usr/bin/python (found version "3.10.12") 
+[29.034s] [0mGenerated: /workspaces/isaac_ros-dev/build/Torch/third_party/onnx/onnx/onnx_onnx_torch-ml.proto[0m
+[29.035s] [0mGenerated: /workspaces/isaac_ros-dev/build/Torch/third_party/onnx/onnx/onnx-operators_onnx_torch-ml.proto[0m
+[29.035s] [0mGenerated: /workspaces/isaac_ros-dev/build/Torch/third_party/onnx/onnx/onnx-data_onnx_torch.proto[0m
+[29.301s] -- 
+[29.301s] -- ******** Summary ********
+[29.301s] --   CMake version                     : 3.22.1
+[29.302s] --   CMake command                     : /usr/bin/cmake
+[29.302s] --   System                            : Linux
+[29.302s] --   C++ compiler                      : /usr/bin/c++
+[29.302s] --   C++ compiler version              : 11.4.0
+[29.303s] --   CXX flags                         :  -D_GLIBCXX_USE_CXX11_ABI=1 -fvisibility-inlines-hidden -DUSE_PTHREADPOOL -Wnon-virtual-dtor
+[29.303s] --   Build type                        : Release
+[29.303s] --   Compile definitions               : CAFFE2_PERF_WITH_SVE=1;ONNX_ML=1;ONNXIFI_ENABLE_EXT=1;__STDC_FORMAT_MACROS
+[29.303s] --   CMAKE_PREFIX_PATH                 : /usr/local/cuda;/usr/local/cuda;/usr/local/cuda
+[29.303s] --   CMAKE_INSTALL_PREFIX              : /workspaces/isaac_ros-dev/install/Torch
+[29.304s] --   CMAKE_MODULE_PATH                 : /workspaces/isaac_ros-dev/Docker/git/pytorch/cmake/Modules;/workspaces/isaac_ros-dev/Docker/git/pytorch/cmake/public/../Modules_CUDA_fix
+[29.304s] -- 
+[29.304s] --   ONNX version                      : 1.17.0
+[29.304s] --   ONNX NAMESPACE                    : onnx_torch
+[29.305s] --   ONNX_USE_LITE_PROTO               : OFF
+[29.305s] --   USE_PROTOBUF_SHARED_LIBS          : OFF
+[29.305s] --   Protobuf_USE_STATIC_LIBS          : ON
+[29.305s] --   ONNX_DISABLE_EXCEPTIONS           : OFF
+[29.305s] --   ONNX_DISABLE_STATIC_REGISTRATION  : OFF
+[29.306s] --   ONNX_WERROR                       : OFF
+[29.306s] --   ONNX_BUILD_TESTS                  : OFF
+[29.306s] --   ONNX_BUILD_SHARED_LIBS            : 
+[29.306s] --   BUILD_SHARED_LIBS                 : OFF
+[29.306s] -- 
+[29.307s] --   Protobuf compiler                 : 
+[29.307s] --   Protobuf includes                 : 
+[29.307s] --   Protobuf libraries                : 
+[29.307s] --   BUILD_ONNX_PYTHON                 : OFF
+[29.308s] -- Found CUDA with FP16 support, compiling with torch.cuda.HalfTensor
+[29.308s] -- Adding -DNDEBUG to compile flags
+[29.308s] -- Checking prototype magma_get_sgeqrf_nb for MAGMA_V2
+[29.362s] -- Checking prototype magma_get_sgeqrf_nb for MAGMA_V2 - False
+[29.363s] -- MAGMA not found. Compiling without MAGMA support
+[29.369s] -- Could not find hardware support for NEON on this machine.
+[29.370s] -- No OMAP3 processor on this machine.
+[29.370s] -- No OMAP4 processor on this machine.
+[29.370s] -- SVE support detected.
+[29.371s] -- asimd/Neon found with compiler flag : -D__NEON__
+[29.373s] -- Looking for cheev_
+[29.568s] -- Looking for cheev_ - found
+[29.569s] -- Looking for cgesdd_
+[29.777s] -- Looking for cgesdd_ - found
+[29.778s] -- Found a library with LAPACK API (open).
+[29.778s] [0mdisabling ROCM because NOT USE_ROCM is set[0m
+[29.778s] [0mdisabling MKLDNN because USE_MKLDNN is not set[0m
+[29.779s] -- MIOpen not found. Compiling without MIOpen support
+[29.779s] -- Looking for clock_gettime in rt
+[29.943s] -- Looking for clock_gettime in rt - found
+[29.943s] -- Looking for mmap
+[30.103s] -- Looking for mmap - found
+[30.103s] -- Looking for shm_open
+[30.266s] -- Looking for shm_open - found
+[30.266s] -- Looking for shm_unlink
+[30.431s] -- Looking for shm_unlink - found
+[30.432s] -- Looking for malloc_usable_size
+[30.597s] -- Looking for malloc_usable_size - found
+[30.597s] [0m-- <FindZVECTOR>[0m
+[30.598s] -- Performing Test COMPILE_OUT_ZVECTOR
+[30.660s] -- Performing Test COMPILE_OUT_ZVECTOR - Failed
+[30.660s] [0m-- ZVECTOR flags were NOT set.[0m
+[30.661s] [0m-- </FindZVECTOR>[0m
+[30.675s] -- {fmt} version: 11.0.2
+[30.676s] -- Build type: Release
+[30.685s] -- Using Kineto with CUPTI support
+[30.685s] -- Configuring Kineto dependency:
+[30.685s] --   KINETO_SOURCE_DIR = /workspaces/isaac_ros-dev/Docker/git/pytorch/third_party/kineto/libkineto
+[30.686s] --   KINETO_BUILD_TESTS = OFF
+[30.686s] --   KINETO_LIBRARY_TYPE = static
+[30.686s] --   CUDA_SOURCE_DIR = /usr/local/cuda
+[30.686s] --   CUDA_INCLUDE_DIRS = /usr/local/cuda/include
+[30.687s] --   CUPTI_INCLUDE_DIR = /usr/local/cuda/include
+[30.687s] --   CUDA_cupti_LIBRARY = /usr/local/cuda/lib64/libcupti.so
+[30.687s] -- Found CUPTI
+[30.751s] [0mINFO ROCM_SOURCE_DIR = [0m
+[30.918s] -- Kineto: FMT_SOURCE_DIR = /workspaces/isaac_ros-dev/Docker/git/pytorch/third_party/fmt
+[30.919s] -- Kineto: FMT_INCLUDE_DIR = /workspaces/isaac_ros-dev/Docker/git/pytorch/third_party/fmt/include
+[30.920s] [0mINFO CUPTI_INCLUDE_DIR = /usr/local/cuda/include[0m
+[30.920s] [0mINFO ROCTRACER_INCLUDE_DIR = /include/roctracer[0m
+[30.920s] [0mINFO DYNOLOG_INCLUDE_DIR = /workspaces/isaac_ros-dev/Docker/git/pytorch/third_party/kineto/libkineto/third_party/dynolog/[0m
+[30.921s] [0mINFO IPCFABRIC_INCLUDE_DIR = /workspaces/isaac_ros-dev/Docker/git/pytorch/third_party/kineto/libkineto/third_party/dynolog//dynolog/src/ipcfabric/[0m
+[30.923s] -- Configured Kineto
+[30.925s] -- GCC 11.4.0: Adding gcc and gcc_s libs to link line
+[30.930s] -- Performing Test HAS_WERROR_RETURN_TYPE
+[31.104s] -- Performing Test HAS_WERROR_RETURN_TYPE - Success
+[31.106s] -- Performing Test HAS_WERROR_NON_VIRTUAL_DTOR
+[31.287s] -- Performing Test HAS_WERROR_NON_VIRTUAL_DTOR - Success
+[31.290s] -- Performing Test HAS_WERROR_BRACED_SCALAR_INIT
+[31.366s] -- Performing Test HAS_WERROR_BRACED_SCALAR_INIT - Failed
+[31.369s] -- Performing Test HAS_WERROR_RANGE_LOOP_CONSTRUCT
+[31.545s] -- Performing Test HAS_WERROR_RANGE_LOOP_CONSTRUCT - Success
+[31.547s] -- Performing Test HAS_WERROR_BOOL_OPERATION
+[31.730s] -- Performing Test HAS_WERROR_BOOL_OPERATION - Success
+[31.733s] -- Performing Test HAS_WNARROWING
+[31.920s] -- Performing Test HAS_WNARROWING - Success
+[31.922s] -- Performing Test HAS_WNO_MISSING_FIELD_INITIALIZERS
+[32.103s] -- Performing Test HAS_WNO_MISSING_FIELD_INITIALIZERS - Success
+[32.106s] -- Performing Test HAS_WNO_TYPE_LIMITS
+[32.281s] -- Performing Test HAS_WNO_TYPE_LIMITS - Success
+[32.283s] -- Performing Test HAS_WNO_ARRAY_BOUNDS
+[32.465s] -- Performing Test HAS_WNO_ARRAY_BOUNDS - Success
+[32.468s] -- Performing Test HAS_WNO_UNKNOWN_PRAGMAS
+[32.652s] -- Performing Test HAS_WNO_UNKNOWN_PRAGMAS - Success
+[32.655s] -- Performing Test HAS_WNO_UNUSED_PARAMETER
+[32.837s] -- Performing Test HAS_WNO_UNUSED_PARAMETER - Success
+[32.839s] -- Performing Test HAS_WNO_STRICT_OVERFLOW
+[33.021s] -- Performing Test HAS_WNO_STRICT_OVERFLOW - Success
+[33.024s] -- Performing Test HAS_WNO_STRICT_ALIASING
+[33.197s] -- Performing Test HAS_WNO_STRICT_ALIASING - Success
+[33.200s] -- Performing Test HAS_WNO_STRINGOP_OVERFLOW
+[33.381s] -- Performing Test HAS_WNO_STRINGOP_OVERFLOW - Success
+[33.384s] -- Performing Test HAS_WVLA_EXTENSION
+[33.454s] -- Performing Test HAS_WVLA_EXTENSION - Failed
+[33.455s] -- Performing Test HAS_WSUGGEST_OVERRIDE
+[33.634s] -- Performing Test HAS_WSUGGEST_OVERRIDE - Success
+[33.636s] -- Performing Test HAS_WNEWLINE_EOF
+[33.699s] -- Performing Test HAS_WNEWLINE_EOF - Failed
+[33.702s] -- Performing Test HAS_WINCONSISTENT_MISSING_OVERRIDE
+[33.784s] -- Performing Test HAS_WINCONSISTENT_MISSING_OVERRIDE - Failed
+[33.786s] -- Performing Test HAS_WINCONSISTENT_MISSING_DESTRUCTOR_OVERRIDE
+[33.874s] -- Performing Test HAS_WINCONSISTENT_MISSING_DESTRUCTOR_OVERRIDE - Failed
+[33.875s] -- Performing Test HAS_WNO_ERROR_OLD_STYLE_CAST
+[34.052s] -- Performing Test HAS_WNO_ERROR_OLD_STYLE_CAST - Success
+[34.054s] -- Performing Test HAS_WCONSTANT_CONVERSION
+[34.127s] -- Performing Test HAS_WCONSTANT_CONVERSION - Failed
+[34.129s] -- Performing Test HAS_WNO_ALIGNED_ALLOCATION_UNAVAILABLE
+[34.211s] -- Performing Test HAS_WNO_ALIGNED_ALLOCATION_UNAVAILABLE - Failed
+[34.214s] -- Performing Test HAS_WNO_MISSING_BRACES
+[34.393s] -- Performing Test HAS_WNO_MISSING_BRACES - Success
+[34.396s] -- Performing Test HAS_QUNUSED_ARGUMENTS
+[34.473s] -- Performing Test HAS_QUNUSED_ARGUMENTS - Failed
+[34.475s] -- Performing Test HAS_FDIAGNOSTICS_COLOR_ALWAYS
+[34.660s] -- Performing Test HAS_FDIAGNOSTICS_COLOR_ALWAYS - Success
+[34.662s] -- Performing Test HAS_FALIGNED_NEW
+[34.848s] -- Performing Test HAS_FALIGNED_NEW - Success
+[34.851s] -- Performing Test HAS_WNO_UNUSED_BUT_SET_VARIABLE
+[35.030s] -- Performing Test HAS_WNO_UNUSED_BUT_SET_VARIABLE - Success
+[35.033s] -- Performing Test HAS_WNO_MAYBE_UNINITIALIZED
+[35.213s] -- Performing Test HAS_WNO_MAYBE_UNINITIALIZED - Success
+[35.215s] -- Performing Test HAS_FSTANDALONE_DEBUG
+[35.291s] -- Performing Test HAS_FSTANDALONE_DEBUG - Failed
+[35.293s] -- Performing Test HAS_FNO_MATH_ERRNO
+[35.476s] -- Performing Test HAS_FNO_MATH_ERRNO - Success
+[35.479s] -- Performing Test HAS_FNO_TRAPPING_MATH
+[35.663s] -- Performing Test HAS_FNO_TRAPPING_MATH - Success
+[35.665s] -- Performing Test HAS_WERROR_FORMAT
+[35.856s] -- Performing Test HAS_WERROR_FORMAT - Success
+[35.857s] -- Performing Test HAS_VST1
+[36.239s] -- Performing Test HAS_VST1 - Success
+[36.240s] -- Performing Test HAS_VLD1
+[36.626s] -- Performing Test HAS_VLD1 - Success
+[36.641s] -- Performing Test HAS_WDEPRECATED
+[36.822s] -- Performing Test HAS_WDEPRECATED - Success
+[36.822s] -- NUMA paths:
+[36.822s] -- /usr/include
+[36.823s] -- /usr/lib/aarch64-linux-gnu/libnuma.so
+[36.831s] -- Looking for backtrace
+[37.003s] -- Looking for backtrace - found
+[37.003s] -- backtrace facility detected in default set of libraries
+[37.004s] -- Found Backtrace: /usr/include  
+[37.679s] -- Autodetected CUDA architecture(s):  8.7
+[40.546s] Invoked command in '/workspaces/isaac_ros-dev/build/Torch' returned '-2': /usr/bin/cmake /workspaces/isaac_ros-dev/Docker/git/pytorch -DCMAKE_INSTALL_PREFIX=/workspaces/isaac_ros-dev/install/Torch
+[40.552s] Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_parallel_executor/executor/parallel.py", line 75, in execute
+    loop.run_until_complete(future)
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 636, in run_until_complete
+    self.run_forever()
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 603, in run_forever
+    self._run_once()
+  File "/usr/lib/python3.10/asyncio/base_events.py", line 1871, in _run_once
+    event_list = self._selector.select(timeout)
+  File "/usr/lib/python3.10/selectors.py", line 469, in select
+    fd_event_list = self._selector.poll(timeout, max_ev)
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3/dist-packages/colcon_core/executor/__init__.py", line 91, in __call__
+    rc = await self.task(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_core/task/__init__.py", line 93, in __call__
+    return await task_method(*args, **kwargs)
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/build.py", line 87, in build
+    rc = await self._reconfigure(args, env)
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/build.py", line 182, in _reconfigure
+    buildfile = get_buildfile(cmake_cache)
+  File "/usr/lib/python3/dist-packages/colcon_cmake/task/cmake/__init__.py", line 114, in get_buildfile
+    if 'Visual Studio' in generator:
+TypeError: argument of type 'NoneType' is not iterable

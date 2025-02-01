@@ -9,6 +9,18 @@ def generate_launch_description():
             executable='controller', # drive_publisher
             name='sim'
         ),
+	Node(
+            package='drone_home',
+            namespace='drone_home1',
+            executable='pwm_publisher',
+            name='sim',
+        ),
+	Node(
+	    package='drone_home',
+            namespace='drone_home1',
+            executable='gps_publisher',
+            name='sim'
+        ),
         Node(
             package='drone_home',
             namespace='drone_home1',
