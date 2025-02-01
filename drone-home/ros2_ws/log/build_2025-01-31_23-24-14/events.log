@@ -1,0 +1,73 @@
+[0.000000] (-) TimerEvent: {}
+[0.001265] (drone_home) JobQueued: {'identifier': 'drone_home', 'dependencies': OrderedDict()}
+[0.001635] (drone_home) JobStarted: {'identifier': 'drone_home'}
+[0.099514] (-) TimerEvent: {}
+[0.200081] (-) TimerEvent: {}
+[0.300645] (-) TimerEvent: {}
+[0.401399] (-) TimerEvent: {}
+[0.501949] (-) TimerEvent: {}
+[0.602494] (-) TimerEvent: {}
+[0.703420] (-) TimerEvent: {}
+[0.804222] (-) TimerEvent: {}
+[0.904767] (-) TimerEvent: {}
+[1.005366] (-) TimerEvent: {}
+[1.105927] (-) TimerEvent: {}
+[1.206497] (-) TimerEvent: {}
+[1.307074] (-) TimerEvent: {}
+[1.407640] (-) TimerEvent: {}
+[1.508207] (-) TimerEvent: {}
+[1.608790] (-) TimerEvent: {}
+[1.709434] (-) TimerEvent: {}
+[1.810014] (-) TimerEvent: {}
+[1.910667] (-) TimerEvent: {}
+[1.925251] (drone_home) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/drone_home', 'build', '--build-base', '/workspaces/drone_home-dev/drone-home/ros2_ws/build/drone_home/build', 'install', '--record', '/workspaces/drone_home-dev/drone-home/ros2_ws/build/drone_home/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/workspaces/drone_home-dev/drone-home/ros2_ws/src/drone_home', 'env': {'TWINE_PASSWORD': 'none', 'OPENBLAS_CORETYPE': 'ARMV8', 'PYTHONFAULTHANDLER': '1', 'CUDACXX': '/usr/local/cuda/bin/nvcc', 'PYTHONIOENCODING': 'utf-8', 'PIP_ROOT_USER_ACTION': 'ignore', 'LANGUAGE': 'en_US:en', 'PIP_TRUSTED_HOST': '', 'PIP_DEFAULT_TIMEOUT': '100', 'PYTHONHASHSEED': 'random', 'HOSTNAME': 'drone-home', 'TWINE_REPOSITORY_URL': 'http://localhost/jp6/cu126', 'TAR_INDEX_URL': 'https://apt.jetson-ai-lab.dev:8000/jp6/cu126', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/compat:/usr/local/cuda/lib64:', 'HOME': '/root', 'HUGGINGFACE_HUB_CACHE': '/data/models/huggingface', 'OLDPWD': '/workspaces/drone_home-dev/drone-home', 'CMAKE_CUDA_COMPILER': '/usr/local/cuda/bin/nvcc', 'TORCH_NVCC_FLAGS': '-Xfatbin -compress-all', 'PYTHONUNBUFFERED': '1', 'ROS_PYTHON_VERSION': '3', 'CUDA_TOOLKIT_ROOT_DIR': '/usr/local/cuda', 'HF_HOME': '/data/models/huggingface', 'CUDA_NVCC_EXECUTABLE': '/usr/local/cuda/bin/nvcc', 'CUDNN_LIB_PATH': '/usr/lib/aarch64-linux-gnu', 'CUDAARCHS': '87', 'PIP_CACHE_PURGE': 'true', 'TORCH_CUDA_ARCH_LIST': '8.7', 'COLCON_PREFIX_PATH': '/opt/ros/humble/install', 'TORCH_HOME': '/data/models/torch', 'ROS_DISTRO': 'humble', 'SCP_UPLOAD_PASS': 'None', 'PIP_DISABLE_PIP_VERSION_CHECK': 'on', 'PULSE_SERVER': 'unix:/run/user/1000/pulse/native', 'CUDA_ARCHITECTURES': '87', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'TWINE_USERNAME': 'jp6', 'PATH': '/opt/ros/humble/install/bin:/root/.cargo/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'PIP_INDEX_URL': 'https://pypi.jetson-ai-lab.dev/jp6/cu126', 'TRANSFORMERS_CACHE': '/data/models/huggingface', 'PIP_NO_CACHE_DIR': 'off', 'SCP_UPLOAD_USER': 'None', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_ROOT': '/opt/ros/humble', 'SCP_UPLOAD_URL': 'localhost:/dist/jp6/cu126', 'AMENT_PREFIX_PATH': '/opt/ros/humble/install:/opt/ros/humble/install', 'TWINE_NON_INTERACTIVE': '1', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'PYTHON_VERSION': '3.10', 'OPENCV_VERSION': '4.10.0', 'NVCC_PATH': '/usr/local/cuda/bin/nvcc', 'OPENCV_URL': '', 'PWD': '/workspaces/drone_home-dev/drone-home/ros2_ws/build/drone_home', 'LC_ALL': 'en_US.UTF-8', 'CUDA_HOME': '/usr/local/cuda', 'CUDNN_LIB_INCLUDE_PATH': '/usr/include', 'PYTHONPATH': '/workspaces/drone_home-dev/drone-home/ros2_ws/build/drone_home/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/lib/python3.10/site-packages:/opt/ros/humble/install/local/lib/python3.10/dist-packages:/opt/ros/humble/install/lib/python3.10/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'void', 'COLCON': '1', 'CUDA_BIN_PATH': '/usr/local/cuda/bin', 'CMAKE_PREFIX_PATH': '/opt/ros/humble/install'}, 'shell': False}
+[2.010820] (-) TimerEvent: {}
+[2.111380] (-) TimerEvent: {}
+[2.211933] (-) TimerEvent: {}
+[2.240037] (drone_home) StderrLine: {'line': b"/usr/local/lib/python3.10/dist-packages/setuptools/_distutils/dist.py:270: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[2.240576] (drone_home) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[2.312083] (-) TimerEvent: {}
+[2.412658] (-) TimerEvent: {}
+[2.513195] (-) TimerEvent: {}
+[2.562693] (drone_home) StdoutLine: {'line': b'running egg_info\n'}
+[2.598645] (drone_home) StdoutLine: {'line': b'writing ../../build/drone_home/drone_home.egg-info/PKG-INFO\n'}
+[2.599819] (drone_home) StdoutLine: {'line': b'writing dependency_links to ../../build/drone_home/drone_home.egg-info/dependency_links.txt\n'}
+[2.600337] (drone_home) StdoutLine: {'line': b'writing entry points to ../../build/drone_home/drone_home.egg-info/entry_points.txt\n'}
+[2.600743] (drone_home) StdoutLine: {'line': b'writing requirements to ../../build/drone_home/drone_home.egg-info/requires.txt\n'}
+[2.601010] (drone_home) StdoutLine: {'line': b'writing top-level names to ../../build/drone_home/drone_home.egg-info/top_level.txt\n'}
+[2.613296] (-) TimerEvent: {}
+[2.675999] (drone_home) StdoutLine: {'line': b"reading manifest file '../../build/drone_home/drone_home.egg-info/SOURCES.txt'\n"}
+[2.678902] (drone_home) StdoutLine: {'line': b"writing manifest file '../../build/drone_home/drone_home.egg-info/SOURCES.txt'\n"}
+[2.679274] (drone_home) StdoutLine: {'line': b'running build\n'}
+[2.679508] (drone_home) StdoutLine: {'line': b'running build_py\n'}
+[2.680096] (drone_home) StdoutLine: {'line': b'copying drone_home/gps_publisher.py -> /workspaces/drone_home-dev/drone-home/ros2_ws/build/drone_home/build/lib/drone_home\n'}
+[2.680851] (drone_home) StdoutLine: {'line': b'copying drone_home/servo.py -> /workspaces/drone_home-dev/drone-home/ros2_ws/build/drone_home/build/lib/drone_home\n'}
+[2.681488] (drone_home) StdoutLine: {'line': b'copying drone_home/imu_publisher.py -> /workspaces/drone_home-dev/drone-home/ros2_ws/build/drone_home/build/lib/drone_home\n'}
+[2.682010] (drone_home) StdoutLine: {'line': b'copying drone_home/motor.py -> /workspaces/drone_home-dev/drone-home/ros2_ws/build/drone_home/build/lib/drone_home\n'}
+[2.682623] (drone_home) StdoutLine: {'line': b'copying drone_home/servo_jetson.py -> /workspaces/drone_home-dev/drone-home/ros2_ws/build/drone_home/build/lib/drone_home\n'}
+[2.683144] (drone_home) StdoutLine: {'line': b'copying drone_home/pwm_publisher.py -> /workspaces/drone_home-dev/drone-home/ros2_ws/build/drone_home/build/lib/drone_home\n'}
+[2.683617] (drone_home) StdoutLine: {'line': b'copying drone_home/ackermann_drive.py -> /workspaces/drone_home-dev/drone-home/ros2_ws/build/drone_home/build/lib/drone_home\n'}
+[2.684327] (drone_home) StdoutLine: {'line': b'copying drone_home/controller.py -> /workspaces/drone_home-dev/drone-home/ros2_ws/build/drone_home/build/lib/drone_home\n'}
+[2.685547] (drone_home) StdoutLine: {'line': b'running install\n'}
+[2.694086] (drone_home) StdoutLine: {'line': b'running install_lib\n'}
+[2.713427] (-) TimerEvent: {}
+[2.732799] (drone_home) StdoutLine: {'line': b'running install_data\n'}
+[2.733372] (drone_home) StdoutLine: {'line': b'running install_egg_info\n'}
+[2.772666] (drone_home) StdoutLine: {'line': b"removing '/workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/lib/python3.10/site-packages/drone_home-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[2.773368] (drone_home) StdoutLine: {'line': b'Copying ../../build/drone_home/drone_home.egg-info to /workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/lib/python3.10/site-packages/drone_home-0.0.0-py3.10.egg-info\n'}
+[2.775269] (drone_home) StdoutLine: {'line': b'running install_scripts\n'}
+[2.813563] (-) TimerEvent: {}
+[2.914086] (-) TimerEvent: {}
+[3.014651] (-) TimerEvent: {}
+[3.056417] (drone_home) StdoutLine: {'line': b'Installing controller script to /workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/lib/drone_home\n'}
+[3.056902] (drone_home) StdoutLine: {'line': b'Installing drive_hardware script to /workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/lib/drone_home\n'}
+[3.057157] (drone_home) StdoutLine: {'line': b'Installing drive_publisher script to /workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/lib/drone_home\n'}
+[3.057440] (drone_home) StdoutLine: {'line': b'Installing gps_publisher script to /workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/lib/drone_home\n'}
+[3.057921] (drone_home) StdoutLine: {'line': b'Installing imu_publisher script to /workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/lib/drone_home\n'}
+[3.058169] (drone_home) StdoutLine: {'line': b'Installing pwm_publisher script to /workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/lib/drone_home\n'}
+[3.058382] (drone_home) StdoutLine: {'line': b'Installing visualization script to /workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/lib/drone_home\n'}
+[3.059816] (drone_home) StdoutLine: {'line': b"writing list of installed files to '/workspaces/drone_home-dev/drone-home/ros2_ws/build/drone_home/install.log'\n"}
+[3.114829] (-) TimerEvent: {}
+[3.148967] (drone_home) CommandEnded: {'returncode': 0}
+[3.192638] (drone_home) JobEnded: {'identifier': 'drone_home', 'rc': 0}
+[3.195892] (-) EventReactorShutdown: {}
