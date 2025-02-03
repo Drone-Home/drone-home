@@ -1,11 +1,20 @@
 from flask import Flask, render_template, Response
 import cv2
+import rclpy
 from ultralytics import YOLO  # Import YOLO
+from web_support import WebSupport
 
 app = Flask(__name__)
 
 # Initialize the webcam
 camera = cv2.VideoCapture(0)
+
+# Initialize ROS in a separate thread
+rclpy.init()
+ros_node = WebSupport()
+
+def ros_spin():
+    rclpy.spin(ros_node)
 
 @app.route('/')
 def index():
@@ -45,4 +54,7 @@ def video_feed():
     return Response(generate_frames(), mimetype='multipart/x-mixed-replace; boundary=frame')
 
 if __name__ == '__main__':
-    app.run(debug=True, host='0.0.0.0', port=5001)
+    app.run(debug=False, host='0.0.0.0', port=5001)
+    camera.release()
+    ros_node.destroy_node()
+    rclpy.shutdown()
