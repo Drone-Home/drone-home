@@ -1,0 +1,1062 @@
+Performing C SOURCE FILE Test C_HAS_AVX_1 failed with the following output:
+Change Dir: /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9071a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9071a.dir/build.make CMakeFiles/cmTC_9071a.dir/build
+gmake[1]: Entering directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9071a.dir/src.c.o
+/usr/bin/cc -DC_HAS_AVX_1  -std=gnu11 -o CMakeFiles/cmTC_9071a.dir/src.c.o -c /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp/src.c
+/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp/src.c:2:12: fatal error: immintrin.h: No such file or directory
+    2 |   #include <immintrin.h>
+      |            ^~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_9071a.dir/build.make:78: CMakeFiles/cmTC_9071a.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_9071a/fast] Error 2
+
+
+Source file was:
+
+  #include <immintrin.h>
+
+  int main()
+  {
+    __m256 a;
+    a = _mm256_set1_ps(0);
+    return 0;
+  }
+
+Performing C SOURCE FILE Test C_HAS_AVX_2 failed with the following output:
+Change Dir: /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a51a6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a51a6.dir/build.make CMakeFiles/cmTC_a51a6.dir/build
+gmake[1]: Entering directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a51a6.dir/src.c.o
+/usr/bin/cc -DC_HAS_AVX_2  -mavx -std=gnu11 -o CMakeFiles/cmTC_a51a6.dir/src.c.o -c /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp/src.c
+cc: error: unrecognized command-line option ‘-mavx’
+gmake[1]: *** [CMakeFiles/cmTC_a51a6.dir/build.make:78: CMakeFiles/cmTC_a51a6.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_a51a6/fast] Error 2
+
+
+Source file was:
+
+  #include <immintrin.h>
+
+  int main()
+  {
+    __m256 a;
+    a = _mm256_set1_ps(0);
+    return 0;
+  }
+
+Performing C SOURCE FILE Test C_HAS_AVX_3 failed with the following output:
+Change Dir: /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d5374/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d5374.dir/build.make CMakeFiles/cmTC_d5374.dir/build
+gmake[1]: Entering directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d5374.dir/src.c.o
+/usr/bin/cc -DC_HAS_AVX_3  /arch:AVX -std=gnu11 -o CMakeFiles/cmTC_d5374.dir/src.c.o -c /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp/src.c
+/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp/src.c:2:12: fatal error: immintrin.h: No such file or directory
+    2 |   #include <immintrin.h>
+      |            ^~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_d5374.dir/build.make:78: CMakeFiles/cmTC_d5374.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_d5374/fast] Error 2
+
+
+Source file was:
+
+  #include <immintrin.h>
+
+  int main()
+  {
+    __m256 a;
+    a = _mm256_set1_ps(0);
+    return 0;
+  }
+
+Performing C SOURCE FILE Test C_HAS_AVX2_1 failed with the following output:
+Change Dir: /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8a13a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8a13a.dir/build.make CMakeFiles/cmTC_8a13a.dir/build
+gmake[1]: Entering directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8a13a.dir/src.c.o
+/usr/bin/cc -DC_HAS_AVX2_1  -std=gnu11 -o CMakeFiles/cmTC_8a13a.dir/src.c.o -c /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp/src.c
+/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp/src.c:2:12: fatal error: immintrin.h: No such file or directory
+    2 |   #include <immintrin.h>
+      |            ^~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_8a13a.dir/build.make:78: CMakeFiles/cmTC_8a13a.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_8a13a/fast] Error 2
+
+
+Source file was:
+
+  #include <immintrin.h>
+
+  int main()
+  {
+    __m256i a = {0};
+    a = _mm256_abs_epi16(a);
+    __m256i x;
+    _mm256_extract_epi64(x, 0); // we rely on this in our AVX2 code
+    return 0;
+  }
+
+Performing C SOURCE FILE Test C_HAS_AVX2_2 failed with the following output:
+Change Dir: /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f6085/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f6085.dir/build.make CMakeFiles/cmTC_f6085.dir/build
+gmake[1]: Entering directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f6085.dir/src.c.o
+/usr/bin/cc -DC_HAS_AVX2_2  -mavx2 -mfma -mf16c -std=gnu11 -o CMakeFiles/cmTC_f6085.dir/src.c.o -c /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp/src.c
+cc: error: unrecognized command-line option ‘-mavx2’
+cc: error: unrecognized command-line option ‘-mfma’
+cc: error: unrecognized command-line option ‘-mf16c’
+gmake[1]: *** [CMakeFiles/cmTC_f6085.dir/build.make:78: CMakeFiles/cmTC_f6085.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_f6085/fast] Error 2
+
+
+Source file was:
+
+  #include <immintrin.h>
+
+  int main()
+  {
+    __m256i a = {0};
+    a = _mm256_abs_epi16(a);
+    __m256i x;
+    _mm256_extract_epi64(x, 0); // we rely on this in our AVX2 code
+    return 0;
+  }
+
+Performing C SOURCE FILE Test C_HAS_AVX2_3 failed with the following output:
+Change Dir: /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e68d7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e68d7.dir/build.make CMakeFiles/cmTC_e68d7.dir/build
+gmake[1]: Entering directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e68d7.dir/src.c.o
+/usr/bin/cc -DC_HAS_AVX2_3  /arch:AVX2 -std=gnu11 -o CMakeFiles/cmTC_e68d7.dir/src.c.o -c /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp/src.c
+/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp/src.c:2:12: fatal error: immintrin.h: No such file or directory
+    2 |   #include <immintrin.h>
+      |            ^~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_e68d7.dir/build.make:78: CMakeFiles/cmTC_e68d7.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_e68d7/fast] Error 2
+
+
+Source file was:
+
+  #include <immintrin.h>
+
+  int main()
+  {
+    __m256i a = {0};
+    a = _mm256_abs_epi16(a);
+    __m256i x;
+    _mm256_extract_epi64(x, 0); // we rely on this in our AVX2 code
+    return 0;
+  }
+
+Performing C SOURCE FILE Test C_HAS_AVX512_1 failed with the following output:
+Change Dir: /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9eb3b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9eb3b.dir/build.make CMakeFiles/cmTC_9eb3b.dir/build
+gmake[1]: Entering directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9eb3b.dir/src.c.o
+/usr/bin/cc -DC_HAS_AVX512_1  -std=gnu11 -o CMakeFiles/cmTC_9eb3b.dir/src.c.o -c /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp/src.c
+/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp/src.c:2:12: fatal error: immintrin.h: No such file or directory
+    2 |   #include <immintrin.h>
+      |            ^~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_9eb3b.dir/build.make:78: CMakeFiles/cmTC_9eb3b.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_9eb3b/fast] Error 2
+
+
+Source file was:
+
+  #include <immintrin.h>
+
+  int main()
+  {
+    __m512i a = _mm512_set_epi8(0, 0, 0, 0, 0, 0, 0, 0,
+                                0, 0, 0, 0, 0, 0, 0, 0,
+                                0, 0, 0, 0, 0, 0, 0, 0,
+                                0, 0, 0, 0, 0, 0, 0, 0,
+                                0, 0, 0, 0, 0, 0, 0, 0,
+                                0, 0, 0, 0, 0, 0, 0, 0,
+                                0, 0, 0, 0, 0, 0, 0, 0,
+                                0, 0, 0, 0, 0, 0, 0, 0);
+    __m512i b = a;
+    __mmask64 equality_mask = _mm512_cmp_epi8_mask(a, b, _MM_CMPINT_EQ);
+    return 0;
+  }
+
+Performing C SOURCE FILE Test C_HAS_AVX512_2 failed with the following output:
+Change Dir: /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_71c68/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_71c68.dir/build.make CMakeFiles/cmTC_71c68.dir/build
+gmake[1]: Entering directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_71c68.dir/src.c.o
+/usr/bin/cc -DC_HAS_AVX512_2  -mavx512f -mavx512dq -mavx512vl -mavx512bw -mfma -std=gnu11 -o CMakeFiles/cmTC_71c68.dir/src.c.o -c /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp/src.c
+cc: error: unrecognized command-line option ‘-mavx512f’
+cc: error: unrecognized command-line option ‘-mavx512dq’
+cc: error: unrecognized command-line option ‘-mavx512vl’
+cc: error: unrecognized command-line option ‘-mavx512bw’
+cc: error: unrecognized command-line option ‘-mfma’
+gmake[1]: *** [CMakeFiles/cmTC_71c68.dir/build.make:78: CMakeFiles/cmTC_71c68.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_71c68/fast] Error 2
+
+
+Source file was:
+
+  #include <immintrin.h>
+
+  int main()
+  {
+    __m512i a = _mm512_set_epi8(0, 0, 0, 0, 0, 0, 0, 0,
+                                0, 0, 0, 0, 0, 0, 0, 0,
+                                0, 0, 0, 0, 0, 0, 0, 0,
+                                0, 0, 0, 0, 0, 0, 0, 0,
+                                0, 0, 0, 0, 0, 0, 0, 0,
+                                0, 0, 0, 0, 0, 0, 0, 0,
+                                0, 0, 0, 0, 0, 0, 0, 0,
+                                0, 0, 0, 0, 0, 0, 0, 0);
+    __m512i b = a;
+    __mmask64 equality_mask = _mm512_cmp_epi8_mask(a, b, _MM_CMPINT_EQ);
+    return 0;
+  }
+
+Performing C SOURCE FILE Test C_HAS_AVX512_3 failed with the following output:
+Change Dir: /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7e9e8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7e9e8.dir/build.make CMakeFiles/cmTC_7e9e8.dir/build
+gmake[1]: Entering directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7e9e8.dir/src.c.o
+/usr/bin/cc -DC_HAS_AVX512_3  /arch:AVX512 -std=gnu11 -o CMakeFiles/cmTC_7e9e8.dir/src.c.o -c /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp/src.c
+/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp/src.c:2:12: fatal error: immintrin.h: No such file or directory
+    2 |   #include <immintrin.h>
+      |            ^~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_7e9e8.dir/build.make:78: CMakeFiles/cmTC_7e9e8.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_7e9e8/fast] Error 2
+
+
+Source file was:
+
+  #include <immintrin.h>
+
+  int main()
+  {
+    __m512i a = _mm512_set_epi8(0, 0, 0, 0, 0, 0, 0, 0,
+                                0, 0, 0, 0, 0, 0, 0, 0,
+                                0, 0, 0, 0, 0, 0, 0, 0,
+                                0, 0, 0, 0, 0, 0, 0, 0,
+                                0, 0, 0, 0, 0, 0, 0, 0,
+                                0, 0, 0, 0, 0, 0, 0, 0,
+                                0, 0, 0, 0, 0, 0, 0, 0,
+                                0, 0, 0, 0, 0, 0, 0, 0);
+    __m512i b = a;
+    __mmask64 equality_mask = _mm512_cmp_epi8_mask(a, b, _MM_CMPINT_EQ);
+    return 0;
+  }
+
+Performing C SOURCE FILE Test CXX_HAS_AVX_1 failed with the following output:
+Change Dir: /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6a01d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6a01d.dir/build.make CMakeFiles/cmTC_6a01d.dir/build
+gmake[1]: Entering directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6a01d.dir/src.c.o
+/usr/bin/cc -DCXX_HAS_AVX_1  -std=gnu11 -o CMakeFiles/cmTC_6a01d.dir/src.c.o -c /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp/src.c
+/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp/src.c:2:12: fatal error: immintrin.h: No such file or directory
+    2 |   #include <immintrin.h>
+      |            ^~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_6a01d.dir/build.make:78: CMakeFiles/cmTC_6a01d.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_6a01d/fast] Error 2
+
+
+Source file was:
+
+  #include <immintrin.h>
+
+  int main()
+  {
+    __m256 a;
+    a = _mm256_set1_ps(0);
+    return 0;
+  }
+
+Performing C SOURCE FILE Test CXX_HAS_AVX_2 failed with the following output:
+Change Dir: /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_024c5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_024c5.dir/build.make CMakeFiles/cmTC_024c5.dir/build
+gmake[1]: Entering directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_024c5.dir/src.c.o
+/usr/bin/cc -DCXX_HAS_AVX_2  -mavx -std=gnu11 -o CMakeFiles/cmTC_024c5.dir/src.c.o -c /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp/src.c
+cc: error: unrecognized command-line option ‘-mavx’
+gmake[1]: *** [CMakeFiles/cmTC_024c5.dir/build.make:78: CMakeFiles/cmTC_024c5.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_024c5/fast] Error 2
+
+
+Source file was:
+
+  #include <immintrin.h>
+
+  int main()
+  {
+    __m256 a;
+    a = _mm256_set1_ps(0);
+    return 0;
+  }
+
+Performing C SOURCE FILE Test CXX_HAS_AVX_3 failed with the following output:
+Change Dir: /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d35f6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d35f6.dir/build.make CMakeFiles/cmTC_d35f6.dir/build
+gmake[1]: Entering directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d35f6.dir/src.c.o
+/usr/bin/cc -DCXX_HAS_AVX_3  /arch:AVX -std=gnu11 -o CMakeFiles/cmTC_d35f6.dir/src.c.o -c /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp/src.c
+/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp/src.c:2:12: fatal error: immintrin.h: No such file or directory
+    2 |   #include <immintrin.h>
+      |            ^~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_d35f6.dir/build.make:78: CMakeFiles/cmTC_d35f6.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_d35f6/fast] Error 2
+
+
+Source file was:
+
+  #include <immintrin.h>
+
+  int main()
+  {
+    __m256 a;
+    a = _mm256_set1_ps(0);
+    return 0;
+  }
+
+Performing C SOURCE FILE Test CXX_HAS_AVX2_1 failed with the following output:
+Change Dir: /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_39715/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_39715.dir/build.make CMakeFiles/cmTC_39715.dir/build
+gmake[1]: Entering directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_39715.dir/src.c.o
+/usr/bin/cc -DCXX_HAS_AVX2_1  -std=gnu11 -o CMakeFiles/cmTC_39715.dir/src.c.o -c /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp/src.c
+/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp/src.c:2:12: fatal error: immintrin.h: No such file or directory
+    2 |   #include <immintrin.h>
+      |            ^~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_39715.dir/build.make:78: CMakeFiles/cmTC_39715.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_39715/fast] Error 2
+
+
+Source file was:
+
+  #include <immintrin.h>
+
+  int main()
+  {
+    __m256i a = {0};
+    a = _mm256_abs_epi16(a);
+    __m256i x;
+    _mm256_extract_epi64(x, 0); // we rely on this in our AVX2 code
+    return 0;
+  }
+
+Performing C SOURCE FILE Test CXX_HAS_AVX2_2 failed with the following output:
+Change Dir: /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_924de/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_924de.dir/build.make CMakeFiles/cmTC_924de.dir/build
+gmake[1]: Entering directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_924de.dir/src.c.o
+/usr/bin/cc -DCXX_HAS_AVX2_2  -mavx2 -mfma -mf16c -std=gnu11 -o CMakeFiles/cmTC_924de.dir/src.c.o -c /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp/src.c
+cc: error: unrecognized command-line option ‘-mavx2’
+cc: error: unrecognized command-line option ‘-mfma’
+cc: error: unrecognized command-line option ‘-mf16c’
+gmake[1]: *** [CMakeFiles/cmTC_924de.dir/build.make:78: CMakeFiles/cmTC_924de.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_924de/fast] Error 2
+
+
+Source file was:
+
+  #include <immintrin.h>
+
+  int main()
+  {
+    __m256i a = {0};
+    a = _mm256_abs_epi16(a);
+    __m256i x;
+    _mm256_extract_epi64(x, 0); // we rely on this in our AVX2 code
+    return 0;
+  }
+
+Performing C SOURCE FILE Test CXX_HAS_AVX2_3 failed with the following output:
+Change Dir: /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8ad6f/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8ad6f.dir/build.make CMakeFiles/cmTC_8ad6f.dir/build
+gmake[1]: Entering directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8ad6f.dir/src.c.o
+/usr/bin/cc -DCXX_HAS_AVX2_3  /arch:AVX2 -std=gnu11 -o CMakeFiles/cmTC_8ad6f.dir/src.c.o -c /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp/src.c
+/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp/src.c:2:12: fatal error: immintrin.h: No such file or directory
+    2 |   #include <immintrin.h>
+      |            ^~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_8ad6f.dir/build.make:78: CMakeFiles/cmTC_8ad6f.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_8ad6f/fast] Error 2
+
+
+Source file was:
+
+  #include <immintrin.h>
+
+  int main()
+  {
+    __m256i a = {0};
+    a = _mm256_abs_epi16(a);
+    __m256i x;
+    _mm256_extract_epi64(x, 0); // we rely on this in our AVX2 code
+    return 0;
+  }
+
+Performing C SOURCE FILE Test CXX_HAS_AVX512_1 failed with the following output:
+Change Dir: /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a7017/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a7017.dir/build.make CMakeFiles/cmTC_a7017.dir/build
+gmake[1]: Entering directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a7017.dir/src.c.o
+/usr/bin/cc -DCXX_HAS_AVX512_1  -std=gnu11 -o CMakeFiles/cmTC_a7017.dir/src.c.o -c /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp/src.c
+/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp/src.c:2:12: fatal error: immintrin.h: No such file or directory
+    2 |   #include <immintrin.h>
+      |            ^~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_a7017.dir/build.make:78: CMakeFiles/cmTC_a7017.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_a7017/fast] Error 2
+
+
+Source file was:
+
+  #include <immintrin.h>
+
+  int main()
+  {
+    __m512i a = _mm512_set_epi8(0, 0, 0, 0, 0, 0, 0, 0,
+                                0, 0, 0, 0, 0, 0, 0, 0,
+                                0, 0, 0, 0, 0, 0, 0, 0,
+                                0, 0, 0, 0, 0, 0, 0, 0,
+                                0, 0, 0, 0, 0, 0, 0, 0,
+                                0, 0, 0, 0, 0, 0, 0, 0,
+                                0, 0, 0, 0, 0, 0, 0, 0,
+                                0, 0, 0, 0, 0, 0, 0, 0);
+    __m512i b = a;
+    __mmask64 equality_mask = _mm512_cmp_epi8_mask(a, b, _MM_CMPINT_EQ);
+    return 0;
+  }
+
+Performing C SOURCE FILE Test CXX_HAS_AVX512_2 failed with the following output:
+Change Dir: /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_00cbf/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_00cbf.dir/build.make CMakeFiles/cmTC_00cbf.dir/build
+gmake[1]: Entering directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_00cbf.dir/src.c.o
+/usr/bin/cc -DCXX_HAS_AVX512_2  -mavx512f -mavx512dq -mavx512vl -mavx512bw -mfma -std=gnu11 -o CMakeFiles/cmTC_00cbf.dir/src.c.o -c /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp/src.c
+cc: error: unrecognized command-line option ‘-mavx512f’
+cc: error: unrecognized command-line option ‘-mavx512dq’
+cc: error: unrecognized command-line option ‘-mavx512vl’
+cc: error: unrecognized command-line option ‘-mavx512bw’
+cc: error: unrecognized command-line option ‘-mfma’
+gmake[1]: *** [CMakeFiles/cmTC_00cbf.dir/build.make:78: CMakeFiles/cmTC_00cbf.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_00cbf/fast] Error 2
+
+
+Source file was:
+
+  #include <immintrin.h>
+
+  int main()
+  {
+    __m512i a = _mm512_set_epi8(0, 0, 0, 0, 0, 0, 0, 0,
+                                0, 0, 0, 0, 0, 0, 0, 0,
+                                0, 0, 0, 0, 0, 0, 0, 0,
+                                0, 0, 0, 0, 0, 0, 0, 0,
+                                0, 0, 0, 0, 0, 0, 0, 0,
+                                0, 0, 0, 0, 0, 0, 0, 0,
+                                0, 0, 0, 0, 0, 0, 0, 0,
+                                0, 0, 0, 0, 0, 0, 0, 0);
+    __m512i b = a;
+    __mmask64 equality_mask = _mm512_cmp_epi8_mask(a, b, _MM_CMPINT_EQ);
+    return 0;
+  }
+
+Performing C SOURCE FILE Test CXX_HAS_AVX512_3 failed with the following output:
+Change Dir: /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_64c47/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_64c47.dir/build.make CMakeFiles/cmTC_64c47.dir/build
+gmake[1]: Entering directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_64c47.dir/src.c.o
+/usr/bin/cc -DCXX_HAS_AVX512_3  /arch:AVX512 -std=gnu11 -o CMakeFiles/cmTC_64c47.dir/src.c.o -c /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp/src.c
+/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp/src.c:2:12: fatal error: immintrin.h: No such file or directory
+    2 |   #include <immintrin.h>
+      |            ^~~~~~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_64c47.dir/build.make:78: CMakeFiles/cmTC_64c47.dir/src.c.o] Error 1
+gmake[1]: Leaving directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_64c47/fast] Error 2
+
+
+Source file was:
+
+  #include <immintrin.h>
+
+  int main()
+  {
+    __m512i a = _mm512_set_epi8(0, 0, 0, 0, 0, 0, 0, 0,
+                                0, 0, 0, 0, 0, 0, 0, 0,
+                                0, 0, 0, 0, 0, 0, 0, 0,
+                                0, 0, 0, 0, 0, 0, 0, 0,
+                                0, 0, 0, 0, 0, 0, 0, 0,
+                                0, 0, 0, 0, 0, 0, 0, 0,
+                                0, 0, 0, 0, 0, 0, 0, 0,
+                                0, 0, 0, 0, 0, 0, 0, 0);
+    __m512i b = a;
+    __mmask64 equality_mask = _mm512_cmp_epi8_mask(a, b, _MM_CMPINT_EQ);
+    return 0;
+  }
+
+Performing C++ SOURCE FILE Test CAFFE2_COMPILER_SUPPORTS_AVX512_EXTENSIONS failed with the following output:
+Change Dir: /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4b847/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4b847.dir/build.make CMakeFiles/cmTC_4b847.dir/build
+gmake[1]: Entering directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_4b847.dir/src.cxx.o
+/usr/bin/c++ -DCAFFE2_COMPILER_SUPPORTS_AVX512_EXTENSIONS  -D_GLIBCXX_USE_CXX11_ABI=1 -mavx512f -mavx512dq -mavx512vl -o CMakeFiles/cmTC_4b847.dir/src.cxx.o -c /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command-line option ‘-mavx512f’
+c++: error: unrecognized command-line option ‘-mavx512dq’
+c++: error: unrecognized command-line option ‘-mavx512vl’
+gmake[1]: *** [CMakeFiles/cmTC_4b847.dir/build.make:78: CMakeFiles/cmTC_4b847.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_4b847/fast] Error 2
+
+
+Source file was:
+#if defined(_MSC_VER)
+     #include <intrin.h>
+     #else
+     #include <immintrin.h>
+     #endif
+     // check avx512f
+     __m512 addConstant(__m512 arg) {
+       return _mm512_add_ps(arg, _mm512_set1_ps(1.f));
+     }
+     // check avx512dq
+     __m512 andConstant(__m512 arg) {
+       return _mm512_and_ps(arg, _mm512_set1_ps(1.f));
+     }
+     int main() {
+       __m512i a = _mm512_set1_epi32(1);
+       __m256i ymm = _mm512_extracti64x4_epi64(a, 0);
+       ymm = _mm256_abs_epi64(ymm); // check avx512vl
+       __mmask16 m = _mm512_cmp_epi32_mask(a, a, _MM_CMPINT_EQ);
+       __m512i r = _mm512_andnot_si512(a, a);
+     }
+Performing C SOURCE FILE Test BLAS_F2C_DOUBLE_WORKS failed with the following compile output:
+Change Dir: /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5a815/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5a815.dir/build.make CMakeFiles/cmTC_5a815.dir/build
+gmake[1]: Entering directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5a815.dir/src.c.o
+/usr/bin/cc -DBLAS_F2C_DOUBLE_WORKS  -std=gnu11 -o CMakeFiles/cmTC_5a815.dir/src.c.o -c /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_5a815
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5a815.dir/link.txt --verbose=1
+/usr/bin/cc  -rdynamic  CMakeFiles/cmTC_5a815.dir/src.c.o -o cmTC_5a815  /usr/lib/aarch64-linux-gnu/libopenblas.so 
+gmake[1]: Leaving directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+
+
+...and run output:
+
+Return value: 1
+Source file was:
+
+  #include <stdlib.h>
+  #include <stdio.h>
+  float x[4] = { 1, 2, 3, 4 };
+  float y[4] = { .1, .01, .001, .0001 };
+  int four = 4;
+  int one = 1;
+  extern double sdot_();
+  int main() {
+    int i;
+    double r = sdot_(&four, x, &one, y, &one);
+    exit((float)r != (float).1234);
+  }
+Determining if the function sbgemm_ exists failed with the following output:
+Change Dir: /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_afe19/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_afe19.dir/build.make CMakeFiles/cmTC_afe19.dir/build
+gmake[1]: Entering directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_afe19.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=sbgemm_ -std=gnu11 -o CMakeFiles/cmTC_afe19.dir/CheckFunctionExists.c.o -c /usr/share/cmake-3.22/Modules/CheckFunctionExists.c
+Linking C executable cmTC_afe19
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_afe19.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=sbgemm_  -rdynamic  CMakeFiles/cmTC_afe19.dir/CheckFunctionExists.c.o -o cmTC_afe19  /usr/lib/aarch64-linux-gnu/libopenblas.so 
+/usr/bin/ld: CMakeFiles/cmTC_afe19.dir/CheckFunctionExists.c.o: in function `main':
+CheckFunctionExists.c:(.text+0x10): undefined reference to `sbgemm_'
+collect2: error: ld returned 1 exit status
+gmake[1]: *** [CMakeFiles/cmTC_afe19.dir/build.make:100: cmTC_afe19] Error 1
+gmake[1]: Leaving directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_afe19/fast] Error 2
+
+
+
+Performing C SOURCE FILE Test UV_LINT_W4 failed with the following output:
+Change Dir: /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_28daa/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_28daa.dir/build.make CMakeFiles/cmTC_28daa.dir/build
+gmake[1]: Entering directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_28daa.dir/src.c.o
+/usr/bin/cc -DUV_LINT_W4  /W4 -std=gnu90 -o CMakeFiles/cmTC_28daa.dir/src.c.o -c /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp/src.c
+cc: warning: /W4: linker input file unused because linking not done
+cc: error: /W4: linker input file not found: No such file or directory
+gmake[1]: *** [CMakeFiles/cmTC_28daa.dir/build.make:78: CMakeFiles/cmTC_28daa.dir/src.c.o] Error 1
+gmake[1]: *** Deleting file 'CMakeFiles/cmTC_28daa.dir/src.c.o'
+gmake[1]: Leaving directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_28daa/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test UV_LINT_NO_UNUSED_PARAMETER_MSVC failed with the following output:
+Change Dir: /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b2056/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b2056.dir/build.make CMakeFiles/cmTC_b2056.dir/build
+gmake[1]: Entering directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b2056.dir/src.c.o
+/usr/bin/cc -DUV_LINT_NO_UNUSED_PARAMETER_MSVC  /wd4100 -std=gnu90 -o CMakeFiles/cmTC_b2056.dir/src.c.o -c /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp/src.c
+cc: warning: /wd4100: linker input file unused because linking not done
+cc: error: /wd4100: linker input file not found: No such file or directory
+gmake[1]: *** [CMakeFiles/cmTC_b2056.dir/build.make:78: CMakeFiles/cmTC_b2056.dir/src.c.o] Error 1
+gmake[1]: *** Deleting file 'CMakeFiles/cmTC_b2056.dir/src.c.o'
+gmake[1]: Leaving directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_b2056/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test UV_LINT_NO_CONDITIONAL_CONSTANT_MSVC failed with the following output:
+Change Dir: /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_aa7a7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_aa7a7.dir/build.make CMakeFiles/cmTC_aa7a7.dir/build
+gmake[1]: Entering directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_aa7a7.dir/src.c.o
+/usr/bin/cc -DUV_LINT_NO_CONDITIONAL_CONSTANT_MSVC  /wd4127 -std=gnu90 -o CMakeFiles/cmTC_aa7a7.dir/src.c.o -c /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp/src.c
+cc: warning: /wd4127: linker input file unused because linking not done
+cc: error: /wd4127: linker input file not found: No such file or directory
+gmake[1]: *** [CMakeFiles/cmTC_aa7a7.dir/build.make:78: CMakeFiles/cmTC_aa7a7.dir/src.c.o] Error 1
+gmake[1]: *** Deleting file 'CMakeFiles/cmTC_aa7a7.dir/src.c.o'
+gmake[1]: Leaving directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_aa7a7/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test UV_LINT_NO_NONSTANDARD_MSVC failed with the following output:
+Change Dir: /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3a597/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3a597.dir/build.make CMakeFiles/cmTC_3a597.dir/build
+gmake[1]: Entering directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3a597.dir/src.c.o
+/usr/bin/cc -DUV_LINT_NO_NONSTANDARD_MSVC  /wd4201 -std=gnu90 -o CMakeFiles/cmTC_3a597.dir/src.c.o -c /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp/src.c
+cc: warning: /wd4201: linker input file unused because linking not done
+cc: error: /wd4201: linker input file not found: No such file or directory
+gmake[1]: *** [CMakeFiles/cmTC_3a597.dir/build.make:78: CMakeFiles/cmTC_3a597.dir/src.c.o] Error 1
+gmake[1]: *** Deleting file 'CMakeFiles/cmTC_3a597.dir/src.c.o'
+gmake[1]: Leaving directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_3a597/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test UV_LINT_NO_NONSTANDARD_EMPTY_TU_MSVC failed with the following output:
+Change Dir: /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c4364/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c4364.dir/build.make CMakeFiles/cmTC_c4364.dir/build
+gmake[1]: Entering directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c4364.dir/src.c.o
+/usr/bin/cc -DUV_LINT_NO_NONSTANDARD_EMPTY_TU_MSVC  /wd4206 -std=gnu90 -o CMakeFiles/cmTC_c4364.dir/src.c.o -c /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp/src.c
+cc: warning: /wd4206: linker input file unused because linking not done
+cc: error: /wd4206: linker input file not found: No such file or directory
+gmake[1]: *** [CMakeFiles/cmTC_c4364.dir/build.make:78: CMakeFiles/cmTC_c4364.dir/src.c.o] Error 1
+gmake[1]: *** Deleting file 'CMakeFiles/cmTC_c4364.dir/src.c.o'
+gmake[1]: Leaving directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_c4364/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test UV_LINT_NO_NONSTANDARD_FILE_SCOPE_MSVC failed with the following output:
+Change Dir: /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8a438/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8a438.dir/build.make CMakeFiles/cmTC_8a438.dir/build
+gmake[1]: Entering directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8a438.dir/src.c.o
+/usr/bin/cc -DUV_LINT_NO_NONSTANDARD_FILE_SCOPE_MSVC  /wd4210 -std=gnu90 -o CMakeFiles/cmTC_8a438.dir/src.c.o -c /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp/src.c
+cc: warning: /wd4210: linker input file unused because linking not done
+cc: error: /wd4210: linker input file not found: No such file or directory
+gmake[1]: *** [CMakeFiles/cmTC_8a438.dir/build.make:78: CMakeFiles/cmTC_8a438.dir/src.c.o] Error 1
+gmake[1]: *** Deleting file 'CMakeFiles/cmTC_8a438.dir/src.c.o'
+gmake[1]: Leaving directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_8a438/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test UV_LINT_NO_NONSTANDARD_NONSTATIC_DLIMPORT_MSVC failed with the following output:
+Change Dir: /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_18ee8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_18ee8.dir/build.make CMakeFiles/cmTC_18ee8.dir/build
+gmake[1]: Entering directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_18ee8.dir/src.c.o
+/usr/bin/cc -DUV_LINT_NO_NONSTANDARD_NONSTATIC_DLIMPORT_MSVC  /wd4232 -std=gnu90 -o CMakeFiles/cmTC_18ee8.dir/src.c.o -c /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp/src.c
+cc: warning: /wd4232: linker input file unused because linking not done
+cc: error: /wd4232: linker input file not found: No such file or directory
+gmake[1]: *** [CMakeFiles/cmTC_18ee8.dir/build.make:78: CMakeFiles/cmTC_18ee8.dir/src.c.o] Error 1
+gmake[1]: *** Deleting file 'CMakeFiles/cmTC_18ee8.dir/src.c.o'
+gmake[1]: Leaving directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_18ee8/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test UV_LINT_NO_HIDES_LOCAL failed with the following output:
+Change Dir: /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_6b65b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_6b65b.dir/build.make CMakeFiles/cmTC_6b65b.dir/build
+gmake[1]: Entering directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6b65b.dir/src.c.o
+/usr/bin/cc -DUV_LINT_NO_HIDES_LOCAL  /wd4456 -std=gnu90 -o CMakeFiles/cmTC_6b65b.dir/src.c.o -c /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp/src.c
+cc: warning: /wd4456: linker input file unused because linking not done
+cc: error: /wd4456: linker input file not found: No such file or directory
+gmake[1]: *** [CMakeFiles/cmTC_6b65b.dir/build.make:78: CMakeFiles/cmTC_6b65b.dir/src.c.o] Error 1
+gmake[1]: *** Deleting file 'CMakeFiles/cmTC_6b65b.dir/src.c.o'
+gmake[1]: Leaving directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_6b65b/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test UV_LINT_NO_HIDES_PARAM failed with the following output:
+Change Dir: /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_19ff7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_19ff7.dir/build.make CMakeFiles/cmTC_19ff7.dir/build
+gmake[1]: Entering directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_19ff7.dir/src.c.o
+/usr/bin/cc -DUV_LINT_NO_HIDES_PARAM  /wd4457 -std=gnu90 -o CMakeFiles/cmTC_19ff7.dir/src.c.o -c /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp/src.c
+cc: warning: /wd4457: linker input file unused because linking not done
+cc: error: /wd4457: linker input file not found: No such file or directory
+gmake[1]: *** [CMakeFiles/cmTC_19ff7.dir/build.make:78: CMakeFiles/cmTC_19ff7.dir/src.c.o] Error 1
+gmake[1]: *** Deleting file 'CMakeFiles/cmTC_19ff7.dir/src.c.o'
+gmake[1]: Leaving directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_19ff7/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test UV_LINT_NO_HIDES_GLOBAL failed with the following output:
+Change Dir: /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_601b2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_601b2.dir/build.make CMakeFiles/cmTC_601b2.dir/build
+gmake[1]: Entering directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_601b2.dir/src.c.o
+/usr/bin/cc -DUV_LINT_NO_HIDES_GLOBAL  /wd4459 -std=gnu90 -o CMakeFiles/cmTC_601b2.dir/src.c.o -c /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp/src.c
+cc: warning: /wd4459: linker input file unused because linking not done
+cc: error: /wd4459: linker input file not found: No such file or directory
+gmake[1]: *** [CMakeFiles/cmTC_601b2.dir/build.make:78: CMakeFiles/cmTC_601b2.dir/src.c.o] Error 1
+gmake[1]: *** Deleting file 'CMakeFiles/cmTC_601b2.dir/src.c.o'
+gmake[1]: Leaving directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_601b2/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test UV_LINT_NO_CONDITIONAL_ASSIGNMENT_MSVC failed with the following output:
+Change Dir: /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_807b6/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_807b6.dir/build.make CMakeFiles/cmTC_807b6.dir/build
+gmake[1]: Entering directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_807b6.dir/src.c.o
+/usr/bin/cc -DUV_LINT_NO_CONDITIONAL_ASSIGNMENT_MSVC  /wd4706 -std=gnu90 -o CMakeFiles/cmTC_807b6.dir/src.c.o -c /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp/src.c
+cc: warning: /wd4706: linker input file unused because linking not done
+cc: error: /wd4706: linker input file not found: No such file or directory
+gmake[1]: *** [CMakeFiles/cmTC_807b6.dir/build.make:78: CMakeFiles/cmTC_807b6.dir/src.c.o] Error 1
+gmake[1]: *** Deleting file 'CMakeFiles/cmTC_807b6.dir/src.c.o'
+gmake[1]: Leaving directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_807b6/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test UV_LINT_NO_UNSAFE_MSVC failed with the following output:
+Change Dir: /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_63f9b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_63f9b.dir/build.make CMakeFiles/cmTC_63f9b.dir/build
+gmake[1]: Entering directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_63f9b.dir/src.c.o
+/usr/bin/cc -DUV_LINT_NO_UNSAFE_MSVC  /wd4996 -std=gnu90 -o CMakeFiles/cmTC_63f9b.dir/src.c.o -c /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp/src.c
+cc: warning: /wd4996: linker input file unused because linking not done
+cc: error: /wd4996: linker input file not found: No such file or directory
+gmake[1]: *** [CMakeFiles/cmTC_63f9b.dir/build.make:78: CMakeFiles/cmTC_63f9b.dir/src.c.o] Error 1
+gmake[1]: *** Deleting file 'CMakeFiles/cmTC_63f9b.dir/src.c.o'
+gmake[1]: Leaving directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_63f9b/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+Performing C SOURCE FILE Test UV_LINT_UTF8_MSVC failed with the following output:
+Change Dir: /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f5cf9/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f5cf9.dir/build.make CMakeFiles/cmTC_f5cf9.dir/build
+gmake[1]: Entering directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f5cf9.dir/src.c.o
+/usr/bin/cc -DUV_LINT_UTF8_MSVC  /utf-8 -std=gnu90 -o CMakeFiles/cmTC_f5cf9.dir/src.c.o -c /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp/src.c
+cc: warning: /utf-8: linker input file unused because linking not done
+cc: error: /utf-8: linker input file not found: No such file or directory
+gmake[1]: *** [CMakeFiles/cmTC_f5cf9.dir/build.make:78: CMakeFiles/cmTC_f5cf9.dir/src.c.o] Error 1
+gmake[1]: *** Deleting file 'CMakeFiles/cmTC_f5cf9.dir/src.c.o'
+gmake[1]: Leaving directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_f5cf9/fast] Error 2
+
+
+Source file was:
+int main(void) { return 0; }
+Determining if the prototype magma_get_sgeqrf_nb exists for MAGMA_V2 failed with the following output:
+Change Dir: /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e1cc3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e1cc3.dir/build.make CMakeFiles/cmTC_e1cc3.dir/build
+gmake[1]: Entering directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e1cc3.dir/CheckPrototypeDefinition.c.o
+/usr/bin/cc   -DNDEBUG  -fPIE -std=gnu11 -o CMakeFiles/cmTC_e1cc3.dir/CheckPrototypeDefinition.c.o -c /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp/CheckPrototypeDefinition.c
+/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp/CheckPrototypeDefinition.c:1:10: fatal error: magma.h: No such file or directory
+    1 | #include <magma.h>
+      |          ^~~~~~~~~
+compilation terminated.
+gmake[1]: *** [CMakeFiles/cmTC_e1cc3.dir/build.make:78: CMakeFiles/cmTC_e1cc3.dir/CheckPrototypeDefinition.c.o] Error 1
+gmake[1]: Leaving directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_e1cc3/fast] Error 2
+
+
+
+#include <magma.h>
+
+
+static void cmakeRequireSymbol(int dummy, ...) {
+  (void) dummy;
+}
+
+static void checkSymbol(void) {
+#ifndef magma_get_sgeqrf_nb
+  cmakeRequireSymbol(0, &magma_get_sgeqrf_nb);
+#endif
+}
+
+magma_int_t magma_get_sgeqrf_nb( magma_int_t m, magma_int_t n ) {
+  return 0;
+}
+
+#ifdef __CLASSIC_C__
+int main() {
+  int ac;
+  char*av[];
+#else
+int main(int ac, char *av[]) {
+#endif
+  checkSymbol();
+  if (ac > 1000) {
+    return *av[0];
+  }
+  return 0;
+}
+
+
+Performing C++ SOURCE FILE Test COMPILE_OUT_ZVECTOR failed with the following output:
+Change Dir: /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a3ea0/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a3ea0.dir/build.make CMakeFiles/cmTC_a3ea0.dir/build
+gmake[1]: Entering directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_a3ea0.dir/src.cxx.o
+/usr/bin/c++ -DCOMPILE_OUT_ZVECTOR  -D_GLIBCXX_USE_CXX11_ABI=1 -fvisibility-inlines-hidden -DUSE_PTHREADPOOL -DNDEBUG  -mvx -mzvector -fPIE -o CMakeFiles/cmTC_a3ea0.dir/src.cxx.o -c /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command-line option ‘-mvx’
+c++: error: unrecognized command-line option ‘-mzvector’
+gmake[1]: *** [CMakeFiles/cmTC_a3ea0.dir/build.make:78: CMakeFiles/cmTC_a3ea0.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_a3ea0/fast] Error 2
+
+
+Source file was:
+
+    #include <vecintrin.h>
+    using vuint32  =  __attribute__ ((vector_size (16)))  unsigned  int;
+    using vfloat32 =  __attribute__ ((vector_size (16)))  float;
+    vfloat32 vsel_ext(vuint32 o, vfloat32 x, vfloat32 y)
+    {
+        return vec_sel(y, x, o);
+    }
+    int main(){
+        vfloat32 h1 ={3.f, 4.f, 5.f, 6.f};
+        vfloat32 h2 = {9.f, 8.f, 11.f, 12.f};
+        vuint32  selector= {0xFFFFFFFF, 0, 0xFFFFFFFF, 0xFFFFFFFF};
+        vfloat32 hf = vsel_ext(selector, h1,h2);
+        int ret = (int)(hf[0]*1000+hf[1]*100+hf[2]*10+hf[3]);
+        return (ret == 3856) ? 0 : -1;
+    }
+   
+Performing C++ SOURCE FILE Test HAS_WERROR_BRACED_SCALAR_INIT failed with the following output:
+Change Dir: /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_37869/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_37869.dir/build.make CMakeFiles/cmTC_37869.dir/build
+gmake[1]: Entering directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_37869.dir/src.cxx.o
+/usr/bin/c++ -DHAS_WERROR_BRACED_SCALAR_INIT  -D_GLIBCXX_USE_CXX11_ABI=1 -fvisibility-inlines-hidden -DUSE_PTHREADPOOL -DNDEBUG -DUSE_KINETO -DLIBKINETO_NOROCTRACER -DLIBKINETO_NOXPUPTI=ON -DUSE_PYTORCH_QNNPACK -DAT_BUILD_ARM_VEC256_WITH_SLEEF -DUSE_XNNPACK -DSYMBOLICATE_MOBILE_DEBUG_HANDLE -O2 -fPIC -Wall -Wextra -Werror=return-type -Werror=non-virtual-dtor  -fPIE   -Werror=braced-scalar-init -o CMakeFiles/cmTC_37869.dir/src.cxx.o -c /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp/src.cxx
+cc1plus: error: '-Werror=braced-scalar-init': no option '-Wbraced-scalar-init'
+gmake[1]: *** [CMakeFiles/cmTC_37869.dir/build.make:78: CMakeFiles/cmTC_37869.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_37869/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_WVLA_EXTENSION failed with the following output:
+Change Dir: /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d7ab4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d7ab4.dir/build.make CMakeFiles/cmTC_d7ab4.dir/build
+gmake[1]: Entering directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d7ab4.dir/src.cxx.o
+/usr/bin/c++ -DHAS_WVLA_EXTENSION  -D_GLIBCXX_USE_CXX11_ABI=1 -fvisibility-inlines-hidden -DUSE_PTHREADPOOL -DNDEBUG -DUSE_KINETO -DLIBKINETO_NOROCTRACER -DLIBKINETO_NOXPUPTI=ON -DUSE_PYTORCH_QNNPACK -DAT_BUILD_ARM_VEC256_WITH_SLEEF -DUSE_XNNPACK -DSYMBOLICATE_MOBILE_DEBUG_HANDLE -O2 -fPIC -Wall -Wextra -Werror=return-type -Werror=non-virtual-dtor -Werror=range-loop-construct -Werror=bool-operation -Wnarrowing -Wno-missing-field-initializers -Wno-type-limits -Wno-array-bounds -Wno-unknown-pragmas -Wno-unused-parameter -Wno-strict-overflow -Wno-strict-aliasing -Wno-stringop-overflow  -fPIE   -Wvla-extension -o CMakeFiles/cmTC_d7ab4.dir/src.cxx.o -c /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command-line option '-Wvla-extension'
+gmake[1]: *** [CMakeFiles/cmTC_d7ab4.dir/build.make:78: CMakeFiles/cmTC_d7ab4.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_d7ab4/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_WNEWLINE_EOF failed with the following output:
+Change Dir: /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3782e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3782e.dir/build.make CMakeFiles/cmTC_3782e.dir/build
+gmake[1]: Entering directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_3782e.dir/src.cxx.o
+/usr/bin/c++ -DHAS_WNEWLINE_EOF  -D_GLIBCXX_USE_CXX11_ABI=1 -fvisibility-inlines-hidden -DUSE_PTHREADPOOL -DNDEBUG -DUSE_KINETO -DLIBKINETO_NOROCTRACER -DLIBKINETO_NOXPUPTI=ON -DUSE_PYTORCH_QNNPACK -DAT_BUILD_ARM_VEC256_WITH_SLEEF -DUSE_XNNPACK -DSYMBOLICATE_MOBILE_DEBUG_HANDLE -O2 -fPIC -Wall -Wextra -Werror=return-type -Werror=non-virtual-dtor -Werror=range-loop-construct -Werror=bool-operation -Wnarrowing -Wno-missing-field-initializers -Wno-type-limits -Wno-array-bounds -Wno-unknown-pragmas -Wno-unused-parameter -Wno-strict-overflow -Wno-strict-aliasing -Wno-stringop-overflow -Wsuggest-override  -fPIE   -Wnewline-eof -o CMakeFiles/cmTC_3782e.dir/src.cxx.o -c /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command-line option '-Wnewline-eof'
+gmake[1]: *** [CMakeFiles/cmTC_3782e.dir/build.make:78: CMakeFiles/cmTC_3782e.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_3782e/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_WINCONSISTENT_MISSING_OVERRIDE failed with the following output:
+Change Dir: /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_cccfb/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cccfb.dir/build.make CMakeFiles/cmTC_cccfb.dir/build
+gmake[1]: Entering directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_cccfb.dir/src.cxx.o
+/usr/bin/c++ -DHAS_WINCONSISTENT_MISSING_OVERRIDE  -D_GLIBCXX_USE_CXX11_ABI=1 -fvisibility-inlines-hidden -DUSE_PTHREADPOOL -DNDEBUG -DUSE_KINETO -DLIBKINETO_NOROCTRACER -DLIBKINETO_NOXPUPTI=ON -DUSE_PYTORCH_QNNPACK -DAT_BUILD_ARM_VEC256_WITH_SLEEF -DUSE_XNNPACK -DSYMBOLICATE_MOBILE_DEBUG_HANDLE -O2 -fPIC -Wall -Wextra -Werror=return-type -Werror=non-virtual-dtor -Werror=range-loop-construct -Werror=bool-operation -Wnarrowing -Wno-missing-field-initializers -Wno-type-limits -Wno-array-bounds -Wno-unknown-pragmas -Wno-unused-parameter -Wno-strict-overflow -Wno-strict-aliasing -Wno-stringop-overflow -Wsuggest-override  -fPIE   -Winconsistent-missing-override -o CMakeFiles/cmTC_cccfb.dir/src.cxx.o -c /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command-line option '-Winconsistent-missing-override'
+gmake[1]: *** [CMakeFiles/cmTC_cccfb.dir/build.make:78: CMakeFiles/cmTC_cccfb.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_cccfb/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_WINCONSISTENT_MISSING_DESTRUCTOR_OVERRIDE failed with the following output:
+Change Dir: /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8b6f5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8b6f5.dir/build.make CMakeFiles/cmTC_8b6f5.dir/build
+gmake[1]: Entering directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8b6f5.dir/src.cxx.o
+/usr/bin/c++ -DHAS_WINCONSISTENT_MISSING_DESTRUCTOR_OVERRIDE  -D_GLIBCXX_USE_CXX11_ABI=1 -fvisibility-inlines-hidden -DUSE_PTHREADPOOL -DNDEBUG -DUSE_KINETO -DLIBKINETO_NOROCTRACER -DLIBKINETO_NOXPUPTI=ON -DUSE_PYTORCH_QNNPACK -DAT_BUILD_ARM_VEC256_WITH_SLEEF -DUSE_XNNPACK -DSYMBOLICATE_MOBILE_DEBUG_HANDLE -O2 -fPIC -Wall -Wextra -Werror=return-type -Werror=non-virtual-dtor -Werror=range-loop-construct -Werror=bool-operation -Wnarrowing -Wno-missing-field-initializers -Wno-type-limits -Wno-array-bounds -Wno-unknown-pragmas -Wno-unused-parameter -Wno-strict-overflow -Wno-strict-aliasing -Wno-stringop-overflow -Wsuggest-override  -fPIE   -Winconsistent-missing-destructor-override -o CMakeFiles/cmTC_8b6f5.dir/src.cxx.o -c /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command-line option '-Winconsistent-missing-destructor-override'
+gmake[1]: *** [CMakeFiles/cmTC_8b6f5.dir/build.make:78: CMakeFiles/cmTC_8b6f5.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_8b6f5/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_WCONSTANT_CONVERSION failed with the following output:
+Change Dir: /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_63a4e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_63a4e.dir/build.make CMakeFiles/cmTC_63a4e.dir/build
+gmake[1]: Entering directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_63a4e.dir/src.cxx.o
+/usr/bin/c++ -DHAS_WCONSTANT_CONVERSION  -D_GLIBCXX_USE_CXX11_ABI=1 -fvisibility-inlines-hidden -DUSE_PTHREADPOOL -DNDEBUG -DUSE_KINETO -DLIBKINETO_NOROCTRACER -DLIBKINETO_NOXPUPTI=ON -DUSE_PYTORCH_QNNPACK -DAT_BUILD_ARM_VEC256_WITH_SLEEF -DUSE_XNNPACK -DSYMBOLICATE_MOBILE_DEBUG_HANDLE -O2 -fPIC -Wall -Wextra -Werror=return-type -Werror=non-virtual-dtor -Werror=range-loop-construct -Werror=bool-operation -Wnarrowing -Wno-missing-field-initializers -Wno-type-limits -Wno-array-bounds -Wno-unknown-pragmas -Wno-unused-parameter -Wno-strict-overflow -Wno-strict-aliasing -Wno-stringop-overflow -Wsuggest-override -Wno-psabi -Wno-error=old-style-cast  -fPIE   -Wconstant-conversion -o CMakeFiles/cmTC_63a4e.dir/src.cxx.o -c /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command-line option '-Wconstant-conversion'; did you mean '-Wno-int-conversion'?
+gmake[1]: *** [CMakeFiles/cmTC_63a4e.dir/build.make:78: CMakeFiles/cmTC_63a4e.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_63a4e/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_WNO_ALIGNED_ALLOCATION_UNAVAILABLE failed with the following output:
+Change Dir: /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c4c8d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c4c8d.dir/build.make CMakeFiles/cmTC_c4c8d.dir/build
+gmake[1]: Entering directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_c4c8d.dir/src.cxx.o
+/usr/bin/c++ -DHAS_WNO_ALIGNED_ALLOCATION_UNAVAILABLE  -D_GLIBCXX_USE_CXX11_ABI=1 -fvisibility-inlines-hidden -DUSE_PTHREADPOOL -DNDEBUG -DUSE_KINETO -DLIBKINETO_NOROCTRACER -DLIBKINETO_NOXPUPTI=ON -DUSE_PYTORCH_QNNPACK -DAT_BUILD_ARM_VEC256_WITH_SLEEF -DUSE_XNNPACK -DSYMBOLICATE_MOBILE_DEBUG_HANDLE -O2 -fPIC -Wall -Wextra -Werror=return-type -Werror=non-virtual-dtor -Werror=range-loop-construct -Werror=bool-operation -Wnarrowing -Wno-missing-field-initializers -Wno-type-limits -Wno-array-bounds -Wno-unknown-pragmas -Wno-unused-parameter -Wno-strict-overflow -Wno-strict-aliasing -Wno-stringop-overflow -Wsuggest-override -Wno-psabi -Wno-error=old-style-cast  -fPIE   -Waligned-allocation-unavailable -o CMakeFiles/cmTC_c4c8d.dir/src.cxx.o -c /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command-line option '-Waligned-allocation-unavailable'
+gmake[1]: *** [CMakeFiles/cmTC_c4c8d.dir/build.make:78: CMakeFiles/cmTC_c4c8d.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_c4c8d/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_QUNUSED_ARGUMENTS failed with the following output:
+Change Dir: /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_62b6b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_62b6b.dir/build.make CMakeFiles/cmTC_62b6b.dir/build
+gmake[1]: Entering directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_62b6b.dir/src.cxx.o
+/usr/bin/c++ -DHAS_QUNUSED_ARGUMENTS  -D_GLIBCXX_USE_CXX11_ABI=1 -fvisibility-inlines-hidden -DUSE_PTHREADPOOL -DNDEBUG -DUSE_KINETO -DLIBKINETO_NOROCTRACER -DLIBKINETO_NOXPUPTI=ON -DUSE_PYTORCH_QNNPACK -DAT_BUILD_ARM_VEC256_WITH_SLEEF -DUSE_XNNPACK -DSYMBOLICATE_MOBILE_DEBUG_HANDLE -O2 -fPIC -Wall -Wextra -Werror=return-type -Werror=non-virtual-dtor -Werror=range-loop-construct -Werror=bool-operation -Wnarrowing -Wno-missing-field-initializers -Wno-type-limits -Wno-array-bounds -Wno-unknown-pragmas -Wno-unused-parameter -Wno-strict-overflow -Wno-strict-aliasing -Wno-stringop-overflow -Wsuggest-override -Wno-psabi -Wno-error=old-style-cast -Wno-missing-braces  -fPIE   -Qunused-arguments -o CMakeFiles/cmTC_62b6b.dir/src.cxx.o -c /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp/src.cxx
+c++: error: unrecognized command-line option '-Qunused-arguments'
+gmake[1]: *** [CMakeFiles/cmTC_62b6b.dir/build.make:78: CMakeFiles/cmTC_62b6b.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_62b6b/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }
+Performing C++ SOURCE FILE Test HAS_FSTANDALONE_DEBUG failed with the following output:
+Change Dir: /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e6148/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e6148.dir/build.make CMakeFiles/cmTC_e6148.dir/build
+gmake[1]: Entering directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e6148.dir/src.cxx.o
+/usr/bin/c++ -DHAS_FSTANDALONE_DEBUG  -D_GLIBCXX_USE_CXX11_ABI=1 -fvisibility-inlines-hidden -DUSE_PTHREADPOOL -DNDEBUG -DUSE_KINETO -DLIBKINETO_NOROCTRACER -DLIBKINETO_NOXPUPTI=ON -DUSE_PYTORCH_QNNPACK -DAT_BUILD_ARM_VEC256_WITH_SLEEF -DUSE_XNNPACK -DSYMBOLICATE_MOBILE_DEBUG_HANDLE -O2 -fPIC -Wall -Wextra -Werror=return-type -Werror=non-virtual-dtor -Werror=range-loop-construct -Werror=bool-operation -Wnarrowing -Wno-missing-field-initializers -Wno-type-limits -Wno-array-bounds -Wno-unknown-pragmas -Wno-unused-parameter -Wno-strict-overflow -Wno-strict-aliasing -Wno-stringop-overflow -Wsuggest-override -Wno-psabi -Wno-error=old-style-cast -Wno-missing-braces -fdiagnostics-color=always -faligned-new -Wno-unused-but-set-variable -Wno-maybe-uninitialized  -fPIE   -fstandalone-debug -o CMakeFiles/cmTC_e6148.dir/src.cxx.o -c /workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp/src.cxx
+[01m[Kc++:[m[K [01;31m[Kerror: [m[Kunrecognized command-line option '[01m[K-fstandalone-debug[m[K'
+gmake[1]: *** [CMakeFiles/cmTC_e6148.dir/build.make:78: CMakeFiles/cmTC_e6148.dir/src.cxx.o] Error 1
+gmake[1]: Leaving directory '/workspaces/isaac_ros-dev/build/Torch/CMakeFiles/CMakeTmp'
+gmake: *** [Makefile:127: cmTC_e6148/fast] Error 2
+
+
+Source file was:
+int main() { return 0; }

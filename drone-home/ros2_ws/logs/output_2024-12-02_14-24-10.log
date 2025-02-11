@@ -1,0 +1,29 @@
+[INFO] [launch]: All log files can be found below /home/pi/.ros/log/2024-12-02-14-24-13-902335-drone-home-14819
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [visualization-1]: process started with pid [14829]
+[visualization-1] Traceback (most recent call last):
+[visualization-1]   File "/home/pi/drone-home/ros2_ws/install/drone_home/lib/drone_home/visualization", line 33, in <module>
+[visualization-1]     sys.exit(load_entry_point('drone-home==0.0.0', 'console_scripts', 'visualization')())
+[visualization-1]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[visualization-1]   File "/home/pi/drone-home/ros2_ws/install/drone_home/lib/python3.12/site-packages/drone_home/markers.py", line 54, in main
+[visualization-1]     rclpy.spin(node)
+[visualization-1]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/__init__.py", line 244, in spin
+[visualization-1]     executor.spin_once()
+[visualization-1]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 827, in spin_once
+[visualization-1]     self._spin_once_impl(timeout_sec)
+[visualization-1]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 822, in _spin_once_impl
+[visualization-1]     raise handler.exception()
+[visualization-1]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/task.py", line 239, in __call__
+[visualization-1]     self._handler.send(None)
+[visualization-1]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 508, in handler
+[visualization-1]     await call_coroutine()
+[visualization-1]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 372, in _execute
+[visualization-1]     await await_or_execute(tmr.callback)
+[visualization-1]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 111, in await_or_execute
+[visualization-1]     return callback(*args)
+[visualization-1]            ^^^^^^^^^^^^^^^
+[visualization-1]   File "/home/pi/drone-home/ros2_ws/install/drone_home/lib/python3.12/site-packages/drone_home/markers.py", line 42, in publish_marker
+[visualization-1]     self.get_logger().info(f"Heading {math.degrees(GeoTools.euler_from_quaternion(self.current_quaternion))[2]}")
+[visualization-1]                                       ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[visualization-1] TypeError: must be real number, not tuple
+[ERROR] [visualization-1]: process has died [pid 14829, exit code 1, cmd '/home/pi/drone-home/ros2_ws/install/drone_home/lib/drone_home/visualization --ros-args -r __node:=sim -r __ns:=/drone_home1'].

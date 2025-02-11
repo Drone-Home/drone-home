@@ -1,0 +1,23 @@
+[INFO] [launch]: All log files can be found below /root/.ros/log/2025-02-11-11-50-50-856871-drone-home-2200
+[INFO] [launch]: Default logging verbosity is set to INFO
+[WARNING] [pwm_publisher-2]: there are now at least 2 nodes with the name /drone_home1/sim created within this launch context
+[WARNING] [gps_publisher-3]: there are now at least 3 nodes with the name /drone_home1/sim created within this launch context
+[WARNING] [imu_publisher-4]: there are now at least 4 nodes with the name /drone_home1/sim created within this launch context
+[WARNING] [drive_hardware-5]: there are now at least 5 nodes with the name /drone_home1/sim created within this launch context
+[INFO] [cv_controller-1]: process started with pid [2203]
+[INFO] [pwm_publisher-2]: process started with pid [2205]
+[INFO] [gps_publisher-3]: process started with pid [2207]
+[INFO] [imu_publisher-4]: process started with pid [2209]
+[INFO] [drive_hardware-5]: process started with pid [2211]
+[cv_controller-1] [INFO] [1739292651.880213447] [drone_home1.sim]: CV Controller running
+[imu_publisher-4] [INFO] [1739292653.402252949] [drone_home1.sim]: Calibration status: (False, 'Calibration (sys:0, gyro:0, accel:3, mag:0)')
+[imu_publisher-4] [INFO] [1739292653.904728478] [drone_home1.sim]: Calibration status: (False, 'Calibration (sys:0, gyro:3, accel:3, mag:0)')
+[imu_publisher-4] [INFO] [1739292654.407130947] [drone_home1.sim]: Calibration status: (False, 'Calibration (sys:0, gyro:3, accel:3, mag:0)')
+[imu_publisher-4] [INFO] [1739292654.909552007] [drone_home1.sim]: Calibration status: (False, 'Calibration (sys:0, gyro:3, accel:3, mag:0)')
+[imu_publisher-4] [INFO] [1739292655.412005866] [drone_home1.sim]: Calibration status: (False, 'Calibration (sys:0, gyro:3, accel:3, mag:0)')
+[imu_publisher-4] [INFO] [1739292655.914763443] [drone_home1.sim]: Calibration status: (False, 'Calibration (sys:0, gyro:3, accel:3, mag:0)')
+[imu_publisher-4] [INFO] [1739292656.417250867] [drone_home1.sim]: Calibration status: (False, 'Calibration (sys:0, gyro:3, accel:3, mag:0)')
+[imu_publisher-4] [INFO] [1739292656.919602895] [drone_home1.sim]: Calibration status: (False, 'Calibration (sys:0, gyro:3, accel:3, mag:0)')
+[imu_publisher-4] [INFO] [1739292657.422733212] [drone_home1.sim]: Calibration status: (False, 'Calibration (sys:0, gyro:3, accel:3, mag:0)')
+[imu_publisher-4] [INFO] [1739292657.925192951] [drone_home1.sim]: Calibration status: (False, 'Calibration (sys:0, gyro:3, accel:3, mag:0)')
+[imu_publisher-4] [INFO] [1739292658.427700817] [drone_home1.sim]: Calibration status: (False, 'Calibration (sys:0, gyro:3, accel:3, mag:0)')

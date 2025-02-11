@@ -1,0 +1,13 @@
+[INFO] [launch]: All log files can be found below /root/.ros/log/2025-02-11-11-50-21-436841-drone-home-1988
+[INFO] [launch]: Default logging verbosity is set to INFO
+[WARNING] [pwm_publisher-2]: there are now at least 2 nodes with the name /drone_home1/sim created within this launch context
+[WARNING] [gps_publisher-3]: there are now at least 3 nodes with the name /drone_home1/sim created within this launch context
+[WARNING] [imu_publisher-4]: there are now at least 4 nodes with the name /drone_home1/sim created within this launch context
+[WARNING] [drive_hardware-5]: there are now at least 5 nodes with the name /drone_home1/sim created within this launch context
+[INFO] [cv_controller-1]: process started with pid [1990]
+[INFO] [pwm_publisher-2]: process started with pid [1992]
+[INFO] [gps_publisher-3]: process started with pid [1994]
+[INFO] [imu_publisher-4]: process started with pid [1996]
+[INFO] [drive_hardware-5]: process started with pid [1998]
+[cv_controller-1] [INFO] [1739292622.215718753] [drone_home1.sim]: CV Controller running
+[imu_publisher-4] [INFO] [1739292623.876876127] [drone_home1.sim]: Calibration status: (True, 'Calibration (sys:0, gyro:0, accel:3, mag:0)')

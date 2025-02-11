@@ -1,0 +1,52 @@
+[INFO] [launch]: All log files can be found below /home/pi/.ros/log/2024-11-27-12-48-41-271288-drone-home-50640
+[INFO] [launch]: Default logging verbosity is set to INFO
+[WARNING] [imu_publisher-2]: there are now at least 2 nodes with the name /drone_home1/sim created within this launch context
+[WARNING] [drive_hardware-3]: there are now at least 3 nodes with the name /drone_home1/sim created within this launch context
+[WARNING] [static_transform_publisher-5]: there are now at least 2 nodes with the name /drone_home1/static_transform_publisher created within this launch context
+[INFO] [drive_publisher-1]: process started with pid [50649]
+[INFO] [imu_publisher-2]: process started with pid [50650]
+[INFO] [drive_hardware-3]: process started with pid [50651]
+[INFO] [static_transform_publisher-4]: process started with pid [50652]
+[INFO] [static_transform_publisher-5]: process started with pid [50653]
+[static_transform_publisher-4] [WARN] [1732729721.417523676] []: Old-style arguments are deprecated; see --help for new-style arguments
+[static_transform_publisher-5] [WARN] [1732729721.426349429] []: Old-style arguments are deprecated; see --help for new-style arguments
+[static_transform_publisher-4] [INFO] [1732729721.438242426] [drone_home1.static_transform_publisher]: Spinning until stopped - publishing transform
+[static_transform_publisher-4] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-4] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-4] from 'map' to 'imu_frame'
+[static_transform_publisher-5] [INFO] [1732729721.460571427] [drone_home1.static_transform_publisher]: Spinning until stopped - publishing transform
+[static_transform_publisher-5] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-5] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-5] from 'map' to 'gps_sensor'
+[drive_hardware-3] /usr/lib/python3/dist-packages/gpiozero/output_devices.py:1509: PWMSoftwareFallback: To reduce servo jitter, use the pigpio pin factory.See https://gpiozero.readthedocs.io/en/stable/api_output.html#servo for more info
+[drive_hardware-3]   warnings.warn(PWMSoftwareFallback(
+[imu_publisher-2] [INFO] [1732729723.682398622] [drone_home1.sim]: Calibration status: (True, 'Calibration (sys:0, gyro:0, accel:3, mag:0)')
+[imu_publisher-2] [INFO] [1732729723.737826645] [drone_home1.sim]: -0.014229845139062178
+[imu_publisher-2] Traceback (most recent call last):
+[imu_publisher-2]   File "/home/pi/drone-home/ros2_ws/install/drone_home/lib/drone_home/imu_publisher", line 33, in <module>
+[imu_publisher-2]     sys.exit(load_entry_point('drone-home==0.0.0', 'console_scripts', 'imu_publisher')())
+[imu_publisher-2]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[imu_publisher-2]   File "/home/pi/drone-home/ros2_ws/install/drone_home/lib/python3.12/site-packages/drone_home/gps_imu_publisher.py", line 250, in main
+[imu_publisher-2]     rclpy.spin(minimal_publisher)
+[imu_publisher-2]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/__init__.py", line 244, in spin
+[imu_publisher-2]     executor.spin_once()
+[imu_publisher-2]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 827, in spin_once
+[imu_publisher-2]     self._spin_once_impl(timeout_sec)
+[imu_publisher-2]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 822, in _spin_once_impl
+[imu_publisher-2]     raise handler.exception()
+[imu_publisher-2]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/task.py", line 239, in __call__
+[imu_publisher-2]     self._handler.send(None)
+[imu_publisher-2]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 508, in handler
+[imu_publisher-2]     await call_coroutine()
+[imu_publisher-2]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 372, in _execute
+[imu_publisher-2]     await await_or_execute(tmr.callback)
+[imu_publisher-2]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 111, in await_or_execute
+[imu_publisher-2]     return callback(*args)
+[imu_publisher-2]            ^^^^^^^^^^^^^^^
+[imu_publisher-2]   File "/home/pi/drone-home/ros2_ws/install/drone_home/lib/python3.12/site-packages/drone_home/gps_imu_publisher.py", line 240, in timer_callback
+[imu_publisher-2]     self.generate_kml(navsat_msg.latitude, navsat_msg.longitude, navsat_msg.altitude, (degrees(self.euler_from_quaternion(pose_msg.pose.orientation)[2])+ 90) % 360)
+[imu_publisher-2]   File "/home/pi/drone-home/ros2_ws/install/drone_home/lib/python3.12/site-packages/drone_home/gps_imu_publisher.py", line 168, in generate_kml
+[imu_publisher-2]     heading = Math.pi/2
+[imu_publisher-2]               ^^^^
+[imu_publisher-2] NameError: name 'Math' is not defined. Did you mean: 'math'?
+[ERROR] [imu_publisher-2]: process has died [pid 50650, exit code 1, cmd '/home/pi/drone-home/ros2_ws/install/drone_home/lib/drone_home/imu_publisher --ros-args -r __node:=sim -r __ns:=/drone_home1'].

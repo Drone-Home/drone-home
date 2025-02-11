@@ -1,0 +1,73 @@
+[INFO] [launch]: All log files can be found below /home/admin/.ros/log/2025-01-17-21-24-25-580931-drone-home-9452
+[INFO] [launch]: Default logging verbosity is set to INFO
+[WARNING] [imu_publisher-2]: there are now at least 2 nodes with the name /drone_home1/sim created within this launch context
+[WARNING] [drive_publisher-3]: there are now at least 3 nodes with the name /drone_home1/sim created within this launch context
+[WARNING] [drive_hardware-4]: there are now at least 4 nodes with the name /drone_home1/sim created within this launch context
+[WARNING] [visualization-5]: there are now at least 5 nodes with the name /drone_home1/sim created within this launch context
+[WARNING] [static_transform_publisher-7]: there are now at least 2 nodes with the name /drone_home1/static_transform_publisher created within this launch context
+[INFO] [controller-1]: process started with pid [9454]
+[INFO] [imu_publisher-2]: process started with pid [9456]
+[INFO] [drive_publisher-3]: process started with pid [9458]
+[INFO] [drive_hardware-4]: process started with pid [9460]
+[INFO] [visualization-5]: process started with pid [9462]
+[INFO] [static_transform_publisher-6]: process started with pid [9464]
+[INFO] [static_transform_publisher-7]: process started with pid [9466]
+[static_transform_publisher-6] [WARN] [1737167066.022802078] []: Old-style arguments are deprecated; see --help for new-style arguments
+[static_transform_publisher-7] [WARN] [1737167066.047325701] []: Old-style arguments are deprecated; see --help for new-style arguments
+[static_transform_publisher-7] [INFO] [1737167066.111862264] [drone_home1.static_transform_publisher]: Spinning until stopped - publishing transform
+[static_transform_publisher-7] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-7] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-7] from 'map' to 'gps_sensor'
+[static_transform_publisher-6] [INFO] [1737167066.140158337] [drone_home1.static_transform_publisher]: Spinning until stopped - publishing transform
+[static_transform_publisher-6] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-6] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-6] from 'map' to 'imu_frame'
+[drive_hardware-4] Traceback (most recent call last):
+[drive_hardware-4]   File "/workspaces/isaac_ros-dev/drone-home/ros2_ws/install/drone_home/lib/drone_home/drive_hardware", line 33, in <module>
+[drive_hardware-4]     sys.exit(load_entry_point('drone-home==0.0.0', 'console_scripts', 'drive_hardware')())
+[drive_hardware-4]   File "/workspaces/isaac_ros-dev/drone-home/ros2_ws/install/drone_home/lib/drone_home/drive_hardware", line 25, in importlib_load_entry_point
+[drive_hardware-4]     return next(matches).load()
+[drive_hardware-4]   File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 171, in load
+[drive_hardware-4]     module = import_module(match.group('module'))
+[drive_hardware-4]   File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+[drive_hardware-4]     return _bootstrap._gcd_import(name[level:], package, level)
+[drive_hardware-4]   File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+[drive_hardware-4]   File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+[drive_hardware-4]   File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+[drive_hardware-4]   File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+[drive_hardware-4]   File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+[drive_hardware-4]   File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+[drive_hardware-4]   File "/workspaces/isaac_ros-dev/drone-home/ros2_ws/install/drone_home/lib/python3.10/site-packages/drone_home/ackermann_drive.py", line 6, in <module>
+[drive_hardware-4]     from .servo import ServoController
+[drive_hardware-4]   File "/workspaces/isaac_ros-dev/drone-home/ros2_ws/install/drone_home/lib/python3.10/site-packages/drone_home/servo.py", line 1, in <module>
+[drive_hardware-4]     from gpiozero import AngularServo
+[drive_hardware-4] ModuleNotFoundError: No module named 'gpiozero'
+[ERROR] [drive_hardware-4]: process has died [pid 9460, exit code 1, cmd '/workspaces/isaac_ros-dev/drone-home/ros2_ws/install/drone_home/lib/drone_home/drive_hardware --ros-args -r __node:=sim -r __ns:=/drone_home1'].
+[controller-1] [INFO] [1737167067.370034159] [drone_home1.sim]: Controller running
+[visualization-5] [INFO] [1737167067.835317242] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167068.293522947] [drone_home1.sim]: Heading 0.0
+[imu_publisher-2] Traceback (most recent call last):
+[imu_publisher-2]   File "/workspaces/isaac_ros-dev/drone-home/ros2_ws/install/drone_home/lib/drone_home/imu_publisher", line 33, in <module>
+[imu_publisher-2]     sys.exit(load_entry_point('drone-home==0.0.0', 'console_scripts', 'imu_publisher')())
+[imu_publisher-2]   File "/workspaces/isaac_ros-dev/drone-home/ros2_ws/install/drone_home/lib/python3.10/site-packages/drone_home/gps_imu_publisher.py", line 196, in main
+[imu_publisher-2]     minimal_publisher = MinimalPublisher()
+[imu_publisher-2]   File "/workspaces/isaac_ros-dev/drone-home/ros2_ws/install/drone_home/lib/python3.10/site-packages/drone_home/gps_imu_publisher.py", line 152, in __init__
+[imu_publisher-2]     self.gps_sensor = GPSSensor()
+[imu_publisher-2]   File "/workspaces/isaac_ros-dev/drone-home/ros2_ws/install/drone_home/lib/python3.10/site-packages/drone_home/gps_imu_publisher.py", line 72, in __init__
+[imu_publisher-2]     self.gps.send_command(b"PMTK314,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0")
+[imu_publisher-2] AttributeError: 'GPSSensor' object has no attribute 'gps'
+[ERROR] [imu_publisher-2]: process has died [pid 9456, exit code 1, cmd '/workspaces/isaac_ros-dev/drone-home/ros2_ws/install/drone_home/lib/drone_home/imu_publisher --ros-args -r __node:=sim -r __ns:=/drone_home1'].
+[visualization-5] [INFO] [1737167068.793560984] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167069.293524621] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167069.793495970] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167070.293481751] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167070.793532812] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167071.293468673] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167071.793502582] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167072.293522827] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167072.793481216] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167073.293553237] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167073.793541162] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167074.293515359] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167074.793522516] [drone_home1.sim]: Heading 0.0
+[visualization-5] [INFO] [1737167075.293465673] [drone_home1.sim]: Heading 0.0

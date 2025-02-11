@@ -1,0 +1,115 @@
+[INFO] [launch]: All log files can be found below /home/pi/.ros/log/2024-11-27-12-25-29-732267-drone-home-31872
+[INFO] [launch]: Default logging verbosity is set to INFO
+[WARNING] [imu_publisher-2]: there are now at least 2 nodes with the name /drone_home1/sim created within this launch context
+[WARNING] [drive_hardware-3]: there are now at least 3 nodes with the name /drone_home1/sim created within this launch context
+[WARNING] [visualization-4]: there are now at least 4 nodes with the name /drone_home1/sim created within this launch context
+[WARNING] [static_transform_publisher-6]: there are now at least 2 nodes with the name /drone_home1/static_transform_publisher created within this launch context
+[INFO] [drive_publisher-1]: process started with pid [31879]
+[INFO] [imu_publisher-2]: process started with pid [31880]
+[INFO] [drive_hardware-3]: process started with pid [31881]
+[INFO] [visualization-4]: process started with pid [31882]
+[INFO] [static_transform_publisher-5]: process started with pid [31883]
+[INFO] [static_transform_publisher-6]: process started with pid [31884]
+[static_transform_publisher-6] [WARN] [1732728329.913251448] []: Old-style arguments are deprecated; see --help for new-style arguments
+[static_transform_publisher-5] [WARN] [1732728329.934539907] []: Old-style arguments are deprecated; see --help for new-style arguments
+[static_transform_publisher-6] [INFO] [1732728329.953573099] [drone_home1.static_transform_publisher]: Spinning until stopped - publishing transform
+[static_transform_publisher-6] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-6] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-6] from 'map' to 'gps_sensor'
+[static_transform_publisher-5] [INFO] [1732728329.980455422] [drone_home1.static_transform_publisher]: Spinning until stopped - publishing transform
+[static_transform_publisher-5] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-5] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-5] from 'map' to 'imu_frame'
+[drive_hardware-3] /usr/lib/python3/dist-packages/gpiozero/output_devices.py:1509: PWMSoftwareFallback: To reduce servo jitter, use the pigpio pin factory.See https://gpiozero.readthedocs.io/en/stable/api_output.html#servo for more info
+[drive_hardware-3]   warnings.warn(PWMSoftwareFallback(
+[visualization-4] [INFO] [1732728331.947378020] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723
+[imu_publisher-2] [INFO] [1732728332.359976638] [drone_home1.sim]: Calibration status: (True, 'Calibration (sys:0, gyro:0, accel:3, mag:0)')
+[imu_publisher-2] Traceback (most recent call last):
+[imu_publisher-2]   File "/home/pi/drone-home/ros2_ws/install/drone_home/lib/drone_home/imu_publisher", line 33, in <module>
+[imu_publisher-2]     sys.exit(load_entry_point('drone-home==0.0.0', 'console_scripts', 'imu_publisher')())
+[imu_publisher-2]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[imu_publisher-2]   File "/home/pi/drone-home/ros2_ws/install/drone_home/lib/python3.12/site-packages/drone_home/gps_imu_publisher.py", line 245, in main
+[imu_publisher-2]     rclpy.spin(minimal_publisher)
+[imu_publisher-2]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/__init__.py", line 244, in spin
+[imu_publisher-2]     executor.spin_once()
+[imu_publisher-2]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 827, in spin_once
+[imu_publisher-2]     self._spin_once_impl(timeout_sec)
+[imu_publisher-2]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 822, in _spin_once_impl
+[imu_publisher-2]     raise handler.exception()
+[imu_publisher-2]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/task.py", line 239, in __call__
+[imu_publisher-2]     self._handler.send(None)
+[imu_publisher-2]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 508, in handler
+[imu_publisher-2]     await call_coroutine()
+[imu_publisher-2]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 372, in _execute
+[imu_publisher-2]     await await_or_execute(tmr.callback)
+[imu_publisher-2]   File "/opt/ros/jazzy/lib/python3.12/site-packages/rclpy/executors.py", line 111, in await_or_execute
+[imu_publisher-2]     return callback(*args)
+[imu_publisher-2]            ^^^^^^^^^^^^^^^
+[imu_publisher-2]   File "/home/pi/drone-home/ros2_ws/install/drone_home/lib/python3.12/site-packages/drone_home/gps_imu_publisher.py", line 235, in timer_callback
+[imu_publisher-2]     self.generate_kml(navsat_msg.latitude, navsat_msg.longitude, navsat_msg.altitude, self.euler_from_quaternion(pose_msg.pose.orientation)[2])
+[imu_publisher-2]   File "/home/pi/drone-home/ros2_ws/install/drone_home/lib/python3.12/site-packages/drone_home/gps_imu_publisher.py", line 186, in generate_kml
+[imu_publisher-2]     with open("~/vehicle_pose.kml", "w") as file:
+[imu_publisher-2]          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[imu_publisher-2] FileNotFoundError: [Errno 2] No such file or directory: '~/vehicle_pose.kml'
+[ERROR] [imu_publisher-2]: process has died [pid 31880, exit code 1, cmd '/home/pi/drone-home/ros2_ws/install/drone_home/lib/drone_home/imu_publisher --ros-args -r __node:=sim -r __ns:=/drone_home1'].
+[visualization-4] [INFO] [1732728332.921668694] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723
+[visualization-4] [INFO] [1732728333.921592937] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723
+[visualization-4] [INFO] [1732728334.921519440] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723
+[visualization-4] [INFO] [1732728335.921562294] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723
+[visualization-4] [INFO] [1732728336.921542555] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723
+[visualization-4] [INFO] [1732728337.921534964] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723
+[visualization-4] [INFO] [1732728338.921636633] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723
+[visualization-4] [INFO] [1732728339.921549672] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723
+[visualization-4] [INFO] [1732728340.921479397] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723
+[visualization-4] [INFO] [1732728341.921474436] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723
+[visualization-4] [INFO] [1732728342.921610770] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723
+[visualization-4] [INFO] [1732728343.921611198] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723
+[visualization-4] [INFO] [1732728344.921579386] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723
+[visualization-4] [INFO] [1732728345.921610906] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723
+[visualization-4] [INFO] [1732728346.921533834] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723
+[visualization-4] [INFO] [1732728347.921708372] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723
+[visualization-4] [INFO] [1732728348.921551764] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723
+[visualization-4] [INFO] [1732728349.921672358] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723
+[visualization-4] [INFO] [1732728350.921606415] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723
+[visualization-4] [INFO] [1732728351.921596917] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723
+[visualization-4] [INFO] [1732728352.921615123] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723
+[visualization-4] [INFO] [1732728353.921629143] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723
+[visualization-4] [INFO] [1732728354.921577812] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723
+[visualization-4] [INFO] [1732728355.921547610] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723
+[visualization-4] [INFO] [1732728356.921557852] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723
+[visualization-4] [INFO] [1732728357.921588595] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723
+[visualization-4] [INFO] [1732728358.921571263] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723
+[visualization-4] [INFO] [1732728359.921611672] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723
+[visualization-4] [INFO] [1732728360.921621396] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723
+[visualization-4] [INFO] [1732728361.921596139] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723
+[visualization-4] [INFO] [1732728362.921604140] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723
+[visualization-4] [INFO] [1732728363.921620198] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723
+[visualization-4] [INFO] [1732728364.921571107] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723
+[visualization-4] [INFO] [1732728365.921538294] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723
+[visualization-4] [INFO] [1732728366.921600814] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723
+[visualization-4] [INFO] [1732728367.921609593] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723
+[visualization-4] [INFO] [1732728368.921600169] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723
+[visualization-4] [INFO] [1732728369.921585930] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723
+[visualization-4] [INFO] [1732728370.921577931] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723
+[visualization-4] [INFO] [1732728371.921582340] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723
+[visualization-4] [INFO] [1732728372.921602342] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723
+[visualization-4] [INFO] [1732728373.921258326] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723
+[visualization-4] [INFO] [1732728374.921618419] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723
+[visualization-4] [INFO] [1732728375.921654772] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723
+[visualization-4] [INFO] [1732728376.921555496] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723
+[visualization-4] [INFO] [1732728377.921567146] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723
+[visualization-4] [INFO] [1732728378.921622555] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723
+[visualization-4] [INFO] [1732728379.921562371] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723
+[visualization-4] [INFO] [1732728380.921475706] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723
+[visualization-4] [INFO] [1732728381.921596596] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723
+[visualization-4] [INFO] [1732728382.921600801] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723
+[visualization-4] [INFO] [1732728383.921614747] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723
+[visualization-4] [INFO] [1732728384.921626711] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723
+[visualization-4] [INFO] [1732728385.921589250] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723
+[visualization-4] [INFO] [1732728386.921558751] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723
+[visualization-4] [INFO] [1732728387.921577105] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723
+[visualization-4] [INFO] [1732728388.921582310] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723
+[visualization-4] [INFO] [1732728389.921557570] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723
+[visualization-4] [INFO] [1732728390.921598071] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723
+[visualization-4] [INFO] [1732728391.921534610] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723
+[visualization-4] [INFO] [1732728392.921585444] [drone_home1.sim]: x,y:-0.22897280000324827,0.34056923487514723

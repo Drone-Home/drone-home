@@ -1,0 +1,38 @@
+[INFO] [launch]: All log files can be found below /home/pi/.ros/log/2024-11-26-21-35-50-427843-drone-home-11644
+[INFO] [launch]: Default logging verbosity is set to INFO
+[WARNING] [imu_publisher-2]: there are now at least 2 nodes with the name /drone_home1/sim created within this launch context
+[WARNING] [drive_hardware-3]: there are now at least 3 nodes with the name /drone_home1/sim created within this launch context
+[WARNING] [static_transform_publisher-5]: there are now at least 2 nodes with the name /drone_home1/static_transform_publisher created within this launch context
+[INFO] [drive_publisher-1]: process started with pid [11651]
+[INFO] [imu_publisher-2]: process started with pid [11652]
+[INFO] [drive_hardware-3]: process started with pid [11653]
+[INFO] [static_transform_publisher-4]: process started with pid [11654]
+[INFO] [static_transform_publisher-5]: process started with pid [11655]
+[static_transform_publisher-4] [WARN] [1732674950.568468400] []: Old-style arguments are deprecated; see --help for new-style arguments
+[static_transform_publisher-5] [WARN] [1732674950.597306995] []: Old-style arguments are deprecated; see --help for new-style arguments
+[static_transform_publisher-4] [INFO] [1732674950.607004403] [drone_home1.static_transform_publisher]: Spinning until stopped - publishing transform
+[static_transform_publisher-4] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-4] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-4] from 'map' to 'imu_frame'
+[static_transform_publisher-5] [INFO] [1732674950.634179736] [drone_home1.static_transform_publisher]: Spinning until stopped - publishing transform
+[static_transform_publisher-5] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-5] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-5] from 'map' to 'gps_sensor'
+[drive_hardware-3] /usr/lib/python3/dist-packages/gpiozero/output_devices.py:1509: PWMSoftwareFallback: To reduce servo jitter, use the pigpio pin factory.See https://gpiozero.readthedocs.io/en/stable/api_output.html#servo for more info
+[drive_hardware-3]   warnings.warn(PWMSoftwareFallback(
+[drive_hardware-3] Traceback (most recent call last):
+[drive_hardware-3]   File "/home/pi/drone-home/ros2_ws/install/drone_home/lib/drone_home/drive_hardware", line 33, in <module>
+[drive_hardware-3]     sys.exit(load_entry_point('drone-home==0.0.0', 'console_scripts', 'drive_hardware')())
+[drive_hardware-3]              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[drive_hardware-3]   File "/home/pi/drone-home/ros2_ws/install/drone_home/lib/python3.12/site-packages/drone_home/ackermann_drive.py", line 37, in main
+[drive_hardware-3]     minimal_subscriber = MinimalSubscriber()
+[drive_hardware-3]                          ^^^^^^^^^^^^^^^^^^^
+[drive_hardware-3]   File "/home/pi/drone-home/ros2_ws/install/drone_home/lib/python3.12/site-packages/drone_home/ackermann_drive.py", line 18, in __init__
+[drive_hardware-3]     self.motor_controller = MotorController()
+[drive_hardware-3]                             ^^^^^^^^^^^^^^^^^
+[drive_hardware-3]   File "/home/pi/drone-home/ros2_ws/install/drone_home/lib/python3.12/site-packages/drone_home/motor.py", line 13, in __init__
+[drive_hardware-3]     self.servo = AngularServo(pin, min_angle=min_angle, max_angle=max_angle, frame_width=frame_width)
+[drive_hardware-3]                                                                                          ^^^^^^^^^^^
+[drive_hardware-3] NameError: name 'frame_width' is not defined
+[ERROR] [drive_hardware-3]: process has died [pid 11653, exit code 1, cmd '/home/pi/drone-home/ros2_ws/install/drone_home/lib/drone_home/drive_hardware --ros-args -r __node:=sim -r __ns:=/drone_home1'].
+[imu_publisher-2] [INFO] [1732674952.965020874] [drone_home1.sim]: Calibration status: (True, 'Calibration (sys:0, gyro:0, accel:3, mag:0)')

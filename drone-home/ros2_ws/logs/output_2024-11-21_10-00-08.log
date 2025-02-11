@@ -1,0 +1,81 @@
+[INFO] [launch]: All log files can be found below /home/pi/.ros/log/2024-11-21-10-00-12-336749-drone-home-5751
+[INFO] [launch]: Default logging verbosity is set to INFO
+[WARNING] [imu_publisher-2]: there are now at least 2 nodes with the name /drone_home1/sim created within this launch context
+[WARNING] [joy_node-3]: there are now at least 3 nodes with the name /drone_home1/sim created within this launch context
+[WARNING] [drive_hardware-4]: there are now at least 4 nodes with the name /drone_home1/sim created within this launch context
+[WARNING] [controller-5]: there are now at least 5 nodes with the name /drone_home1/sim created within this launch context
+[WARNING] [static_transform_publisher-7]: there are now at least 2 nodes with the name /drone_home1/static_transform_publisher created within this launch context
+[INFO] [drive_publisher-1]: process started with pid [5756]
+[INFO] [imu_publisher-2]: process started with pid [5757]
+[INFO] [joy_node-3]: process started with pid [5758]
+[INFO] [drive_hardware-4]: process started with pid [5759]
+[INFO] [controller-5]: process started with pid [5760]
+[INFO] [static_transform_publisher-6]: process started with pid [5761]
+[INFO] [static_transform_publisher-7]: process started with pid [5762]
+[static_transform_publisher-6] [WARN] [1732201212.541571152] []: Old-style arguments are deprecated; see --help for new-style arguments
+[static_transform_publisher-7] [WARN] [1732201212.561585180] []: Old-style arguments are deprecated; see --help for new-style arguments
+[static_transform_publisher-6] [INFO] [1732201212.649176395] [drone_home1.static_transform_publisher]: Spinning until stopped - publishing transform
+[static_transform_publisher-6] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-6] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-6] from 'map' to 'imu_frame'
+[static_transform_publisher-7] [INFO] [1732201212.691480373] [drone_home1.static_transform_publisher]: Spinning until stopped - publishing transform
+[static_transform_publisher-7] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-7] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-7] from 'map' to 'gps_sensor'
+[drive_hardware-4] /usr/lib/python3/dist-packages/gpiozero/output_devices.py:1509: PWMSoftwareFallback: To reduce servo jitter, use the pigpio pin factory.See https://gpiozero.readthedocs.io/en/stable/api_output.html#servo for more info
+[drive_hardware-4]   warnings.warn(PWMSoftwareFallback(
+[controller-5] [INFO] [1732201213.830245297] [drone_home1.sim]: Controller running
+[imu_publisher-2] [INFO] [1732201215.149074790] [drone_home1.sim]: Calibration status: (False, 'Calibration (sys:0, gyro:0, accel:3, mag:0)')
+[imu_publisher-2] [INFO] [1732201215.651161094] [drone_home1.sim]: Calibration status: (False, 'Calibration (sys:3, gyro:3, accel:3, mag:0)')
+[imu_publisher-2] [INFO] [1732201216.153121844] [drone_home1.sim]: Calibration status: (False, 'Calibration (sys:3, gyro:3, accel:3, mag:0)')
+[imu_publisher-2] [INFO] [1732201216.655190655] [drone_home1.sim]: Calibration status: (False, 'Calibration (sys:3, gyro:3, accel:3, mag:0)')
+[imu_publisher-2] [INFO] [1732201217.156574275] [drone_home1.sim]: Calibration status: (False, 'Calibration (sys:3, gyro:3, accel:3, mag:0)')
+[imu_publisher-2] [INFO] [1732201217.658130942] [drone_home1.sim]: Calibration status: (True, 'Calibration (sys:3, gyro:3, accel:3, mag:3)')
+[imu_publisher-2] [INFO] [1732201218.725985272] [drone_home1.sim]: Calibration magnetometer values: ((3, 3, 3, 3), (-2900, -3480, -351))
+[imu_publisher-2] [INFO] [1732201219.786256030] [drone_home1.sim]: Calibration magnetometer values: ((3, 3, 3, 3), (-2900, -3480, -351))
+[imu_publisher-2] [INFO] [1732201220.846280087] [drone_home1.sim]: Calibration magnetometer values: ((3, 3, 3, 3), (-2900, -3480, -351))
+[imu_publisher-2] [INFO] [1732201221.906279693] [drone_home1.sim]: Calibration magnetometer values: ((3, 3, 3, 3), (-2900, -3480, -351))
+[imu_publisher-2] [INFO] [1732201222.966008489] [drone_home1.sim]: Calibration magnetometer values: ((3, 3, 3, 3), (-2900, -3480, -351))
+[imu_publisher-2] [INFO] [1732201224.025837840] [drone_home1.sim]: Calibration magnetometer values: ((3, 3, 3, 3), (-2900, -3480, -351))
+[imu_publisher-2] [INFO] [1732201225.085764399] [drone_home1.sim]: Calibration magnetometer values: ((3, 3, 3, 3), (-2900, -3480, -351))
+[imu_publisher-2] [INFO] [1732201226.147081362] [drone_home1.sim]: Calibration magnetometer values: ((3, 3, 3, 3), (-2900, -3480, -351))
+[imu_publisher-2] [INFO] [1732201227.207479872] [drone_home1.sim]: Calibration magnetometer values: ((3, 3, 3, 3), (-2900, -3480, -351))
+[imu_publisher-2] [INFO] [1732201228.267492131] [drone_home1.sim]: Calibration magnetometer values: ((3, 3, 3, 3), (-2900, -3480, -351))
+[imu_publisher-2] [INFO] [1732201229.327568804] [drone_home1.sim]: Calibration magnetometer values: ((3, 3, 3, 3), (-2900, -3480, -351))
+[imu_publisher-2] [INFO] [1732201230.387642235] [drone_home1.sim]: Calibration magnetometer values: ((3, 3, 3, 3), (-2900, -3480, -351))
+[imu_publisher-2] [INFO] [1732201231.447694808] [drone_home1.sim]: Calibration magnetometer values: ((3, 3, 3, 3), (-2900, -3480, -351))
+[imu_publisher-2] [INFO] [1732201232.507600494] [drone_home1.sim]: Calibration magnetometer values: ((3, 3, 3, 3), (-2900, -3480, -351))
+[imu_publisher-2] [INFO] [1732201233.567544985] [drone_home1.sim]: Calibration magnetometer values: ((3, 3, 3, 3), (-2900, -3480, -351))
+[imu_publisher-2] [INFO] [1732201234.627376069] [drone_home1.sim]: Calibration magnetometer values: ((3, 3, 3, 3), (-2900, -3480, -351))
+[imu_publisher-2] [INFO] [1732201235.687251151] [drone_home1.sim]: Calibration magnetometer values: ((3, 3, 3, 3), (-2900, -3480, -351))
+[imu_publisher-2] [INFO] [1732201236.747389384] [drone_home1.sim]: Calibration magnetometer values: ((3, 3, 3, 3), (-2900, -3480, -351))
+[imu_publisher-2] [INFO] [1732201237.807552615] [drone_home1.sim]: Calibration magnetometer values: ((3, 3, 3, 3), (-2900, -3480, -351))
+[imu_publisher-2] [INFO] [1732201238.867564154] [drone_home1.sim]: Calibration magnetometer values: ((3, 3, 3, 3), (-2900, -3480, -351))
+[imu_publisher-2] [INFO] [1732201239.927504427] [drone_home1.sim]: Calibration magnetometer values: ((3, 3, 3, 3), (-2900, -3480, -351))
+[imu_publisher-2] [INFO] [1732201240.987244180] [drone_home1.sim]: Calibration magnetometer values: ((3, 3, 3, 3), (-2900, -3480, -351))
+[imu_publisher-2] [INFO] [1732201242.047222941] [drone_home1.sim]: Calibration magnetometer values: ((3, 3, 3, 3), (-2900, -3480, -351))
+[imu_publisher-2] [INFO] [1732201243.107204907] [drone_home1.sim]: Calibration magnetometer values: ((3, 3, 3, 3), (-2900, -3480, -351))
+[imu_publisher-2] [INFO] [1732201244.167061127] [drone_home1.sim]: Calibration magnetometer values: ((3, 3, 3, 3), (-2900, -3480, -351))
+[imu_publisher-2] [INFO] [1732201245.226916404] [drone_home1.sim]: Calibration magnetometer values: ((3, 3, 3, 3), (-2900, -3480, -351))
+[imu_publisher-2] [INFO] [1732201246.286827580] [drone_home1.sim]: Calibration magnetometer values: ((3, 3, 3, 3), (-2900, -3480, -351))
+[imu_publisher-2] [INFO] [1732201247.346706357] [drone_home1.sim]: Calibration magnetometer values: ((3, 3, 3, 3), (-2900, -3480, -351))
+[imu_publisher-2] [INFO] [1732201248.406489008] [drone_home1.sim]: Calibration magnetometer values: ((3, 3, 3, 3), (-2900, -3480, -351))
+[imu_publisher-2] [INFO] [1732201249.466379323] [drone_home1.sim]: Calibration magnetometer values: ((3, 3, 3, 3), (-2900, -3480, -351))
+[imu_publisher-2] [INFO] [1732201250.526115060] [drone_home1.sim]: Calibration magnetometer values: ((3, 3, 3, 3), (-2900, -3480, -351))
+[imu_publisher-2] [INFO] [1732201251.586119784] [drone_home1.sim]: Calibration magnetometer values: ((3, 3, 3, 3), (-2900, -3480, -351))
+[imu_publisher-2] [INFO] [1732201252.646019478] [drone_home1.sim]: Calibration magnetometer values: ((3, 3, 3, 3), (-2900, -3480, -351))
+[imu_publisher-2] [INFO] [1732201253.705882963] [drone_home1.sim]: Calibration magnetometer values: ((3, 3, 3, 3), (-2900, -3480, -351))
+[imu_publisher-2] [INFO] [1732201254.765806831] [drone_home1.sim]: Calibration magnetometer values: ((3, 3, 3, 3), (-2900, -3480, -351))
+[imu_publisher-2] [INFO] [1732201255.825364875] [drone_home1.sim]: Calibration magnetometer values: ((3, 3, 3, 3), (-2900, -3480, -351))
+[imu_publisher-2] [INFO] [1732201256.885208762] [drone_home1.sim]: Calibration magnetometer values: ((3, 3, 3, 3), (-2900, -3480, -351))
+[imu_publisher-2] [INFO] [1732201257.944897490] [drone_home1.sim]: Calibration magnetometer values: ((3, 3, 3, 3), (-2900, -3480, -351))
+[imu_publisher-2] [INFO] [1732201259.004747354] [drone_home1.sim]: Calibration magnetometer values: ((3, 3, 3, 3), (-2900, -3480, -351))
+[imu_publisher-2] [INFO] [1732201260.064444479] [drone_home1.sim]: Calibration magnetometer values: ((3, 3, 3, 3), (-2900, -3480, -351))
+[imu_publisher-2] [INFO] [1732201261.124249568] [drone_home1.sim]: Calibration magnetometer values: ((3, 3, 3, 3), (-2900, -3480, -351))
+[imu_publisher-2] [INFO] [1732201262.184064106] [drone_home1.sim]: Calibration magnetometer values: ((3, 3, 3, 3), (-2900, -3480, -351))
+[imu_publisher-2] [INFO] [1732201263.244615827] [drone_home1.sim]: Calibration magnetometer values: ((3, 3, 3, 3), (-2900, -3480, -351))
+[imu_publisher-2] [INFO] [1732201264.304491286] [drone_home1.sim]: Calibration magnetometer values: ((3, 3, 3, 3), (-2900, -3480, -351))
+[imu_publisher-2] [INFO] [1732201265.364470206] [drone_home1.sim]: Calibration magnetometer values: ((3, 3, 3, 3), (-2900, -3480, -351))
+[imu_publisher-2] [INFO] [1732201266.424328839] [drone_home1.sim]: Calibration magnetometer values: ((3, 3, 3, 3), (-2900, -3480, -351))
+[imu_publisher-2] [INFO] [1732201267.484269003] [drone_home1.sim]: Calibration magnetometer values: ((3, 3, 3, 3), (-2900, -3480, -351))
+[imu_publisher-2] [INFO] [1732201268.543987650] [drone_home1.sim]: Calibration magnetometer values: ((3, 3, 3, 3), (-2900, -3480, -351))
