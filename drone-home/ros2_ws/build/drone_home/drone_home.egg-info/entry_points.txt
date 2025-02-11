@@ -1,9 +1,0 @@
-[console_scripts]
-controller = drone_home.controller:main
-cv_controller = drone_home.cv_controller:main
-drive_hardware = drone_home.ackermann_drive:main
-drive_publisher = drone_home.joy_to_ackermann:main
-gps_publisher = drone_home.gps_publisher:main
-imu_publisher = drone_home.imu_publisher:main
-pwm_publisher = drone_home.pwm_publisher:main
-visualization = drone_home.markers:main

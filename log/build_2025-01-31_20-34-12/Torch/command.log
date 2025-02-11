@@ -1,2 +1,0 @@
-Invoking command in '/workspaces/isaac_ros-dev/build/Torch': /usr/bin/cmake /workspaces/isaac_ros-dev/Docker/git/pytorch -DCMAKE_INSTALL_PREFIX=/workspaces/isaac_ros-dev/install/Torch
-Invoked command in '/workspaces/isaac_ros-dev/build/Torch' returned '-2': /usr/bin/cmake /workspaces/isaac_ros-dev/Docker/git/pytorch -DCMAKE_INSTALL_PREFIX=/workspaces/isaac_ros-dev/install/Torch
