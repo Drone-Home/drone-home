@@ -11,6 +11,8 @@ setup.py
 drone_home/__init__.py
 drone_home/ackermann_drive.py
 drone_home/controller.py
+drone_home/cv_controller.py
+drone_home/data_loader.py
 drone_home/geo_tools.py
 drone_home/gps_publisher.py
 drone_home/imu_publisher.py
@@ -18,7 +20,6 @@ drone_home/joy_to_ackermann.py
 drone_home/markers.py
 drone_home/motor.py
 drone_home/pwm_publisher.py
-drone_home/servo.py
 drone_home/servo_jetson.py
 resource/drone_home
 test/test_copyright.py

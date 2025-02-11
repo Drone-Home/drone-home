@@ -6,6 +6,7 @@ FROM ${BASE_IMAGE}
 
 # Install nano
 RUN apt-get update && apt-get install -y nano
+RUN apt install tmux
 
 # Install i2c detection tool
 RUN apt-get install -y i2c-tools 
@@ -41,6 +42,10 @@ RUN apt install v4l-utils
 
 # YOLOv11 CV
 RUN pip install ultralytics
+
+# ROS source fix for opening new windows
+RUN echo "source /opt/ros/humble/install/setup.bash" >> ~/.bashrc
+RUN echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
 
 # Fix permissions
 #RUN chmod 777 -R /home/

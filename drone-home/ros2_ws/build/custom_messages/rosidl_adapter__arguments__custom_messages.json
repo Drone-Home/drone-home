@@ -1,0 +1,6 @@
+{
+  "package_name": "custom_messages",
+  "non_idl_tuples": [
+    "/workspaces/drone_home-dev/drone-home/ros2_ws/custom_messages:msg/CV.msg"
+  ]
+}

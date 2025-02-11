@@ -1,5 +1,0 @@
-  File "/home/pi/drone-home/ros2_ws/install/drone_home/lib/python3.12/site-packages/drone_home/gps_imu_publisher.py", line 142
-    while True
-              ^
-SyntaxError: expected ':'
-

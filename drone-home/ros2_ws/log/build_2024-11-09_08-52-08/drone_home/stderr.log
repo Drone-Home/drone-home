@@ -1,5 +1,0 @@
-  File "/home/pi/drone-home/ros2_ws/install/drone_home/lib/python3.12/site-packages/drone_home/joy_to_ackermann.py", line 57
-    return
-    ^^^^^^
-SyntaxError: 'return' outside function
-

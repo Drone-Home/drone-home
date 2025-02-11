@@ -29,14 +29,4 @@ else
         -v $LOCAL_DEV_DIR:$INTERNAL_PATH \
         $MODIFIED_CONTAINER_NAME
 fi
-#docker run -it --rm \
-#    --privileged \
-#    --network host \
-#    --ipc=host \
-#    --runtime nvidia \
-#    --entrypoint /usr/local/bin/scripts/workspace-entrypoint.sh \
-#    --workdir /workspaces/isaac_ros-dev \
-#    combined_test2:l4t-r36.4.3 \
-#    /bin/bash
-
     

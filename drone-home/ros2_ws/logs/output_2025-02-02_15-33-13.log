@@ -1,0 +1,199 @@
+[INFO] [launch]: All log files can be found below /root/.ros/log/2025-02-02-15-33-17-676853-drone-home-159
+[INFO] [launch]: Default logging verbosity is set to INFO
+[WARNING] [pwm_publisher-2]: there are now at least 2 nodes with the name /drone_home1/sim created within this launch context
+[WARNING] [gps_publisher-3]: there are now at least 3 nodes with the name /drone_home1/sim created within this launch context
+[WARNING] [imu_publisher-4]: there are now at least 4 nodes with the name /drone_home1/sim created within this launch context
+[WARNING] [drive_publisher-5]: there are now at least 5 nodes with the name /drone_home1/sim created within this launch context
+[WARNING] [drive_hardware-6]: there are now at least 6 nodes with the name /drone_home1/sim created within this launch context
+[WARNING] [visualization-7]: there are now at least 7 nodes with the name /drone_home1/sim created within this launch context
+[WARNING] [static_transform_publisher-9]: there are now at least 2 nodes with the name /drone_home1/static_transform_publisher created within this launch context
+[INFO] [controller-1]: process started with pid [161]
+[INFO] [pwm_publisher-2]: process started with pid [163]
+[INFO] [gps_publisher-3]: process started with pid [165]
+[INFO] [imu_publisher-4]: process started with pid [167]
+[INFO] [drive_publisher-5]: process started with pid [169]
+[INFO] [drive_hardware-6]: process started with pid [171]
+[INFO] [visualization-7]: process started with pid [173]
+[INFO] [static_transform_publisher-8]: process started with pid [175]
+[INFO] [static_transform_publisher-9]: process started with pid [177]
+[static_transform_publisher-8] [WARN] [1738528397.899257273] []: Old-style arguments are deprecated; see --help for new-style arguments
+[static_transform_publisher-9] [WARN] [1738528397.904332707] []: Old-style arguments are deprecated; see --help for new-style arguments
+[static_transform_publisher-9] [INFO] [1738528397.981995000] [drone_home1.static_transform_publisher]: Spinning until stopped - publishing transform
+[static_transform_publisher-9] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-9] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-9] from 'map' to 'gps_sensor'
+[static_transform_publisher-8] [INFO] [1738528397.982004280] [drone_home1.static_transform_publisher]: Spinning until stopped - publishing transform
+[static_transform_publisher-8] translation: ('0.000000', '0.000000', '0.000000')
+[static_transform_publisher-8] rotation: ('0.000000', '0.000000', '0.000000', '1.000000')
+[static_transform_publisher-8] from 'map' to 'imu_frame'
+[pwm_publisher-2] Traceback (most recent call last):
+[pwm_publisher-2]   File "/workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/lib/drone_home/pwm_publisher", line 33, in <module>
+[pwm_publisher-2]     sys.exit(load_entry_point('drone-home==0.0.0', 'console_scripts', 'pwm_publisher')())
+[pwm_publisher-2]   File "/workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/lib/drone_home/pwm_publisher", line 25, in importlib_load_entry_point
+[pwm_publisher-2]     return next(matches).load()
+[pwm_publisher-2]   File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 171, in load
+[pwm_publisher-2]     module = import_module(match.group('module'))
+[pwm_publisher-2]   File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+[pwm_publisher-2]     return _bootstrap._gcd_import(name[level:], package, level)
+[pwm_publisher-2]   File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+[pwm_publisher-2]   File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+[pwm_publisher-2]   File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+[pwm_publisher-2]   File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+[pwm_publisher-2]   File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+[pwm_publisher-2]   File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+[pwm_publisher-2]   File "/workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/lib/python3.10/site-packages/drone_home/pwm_publisher.py", line 3, in <module>
+[pwm_publisher-2]     from ackermann_msgs.msg import AckermannDriveStamped
+[pwm_publisher-2] ModuleNotFoundError: No module named 'ackermann_msgs'
+[controller-1] Traceback (most recent call last):
+[controller-1]   File "/workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/lib/drone_home/controller", line 33, in <module>
+[controller-1]     sys.exit(load_entry_point('drone-home==0.0.0', 'console_scripts', 'controller')())
+[controller-1]   File "/workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/lib/drone_home/controller", line 25, in importlib_load_entry_point
+[controller-1]     return next(matches).load()
+[controller-1]   File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 171, in load
+[controller-1]     module = import_module(match.group('module'))
+[controller-1]   File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+[controller-1]     return _bootstrap._gcd_import(name[level:], package, level)
+[controller-1]   File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+[controller-1]   File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+[controller-1]   File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+[controller-1]   File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+[controller-1]   File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+[controller-1]   File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+[controller-1]   File "/workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/lib/python3.10/site-packages/drone_home/controller.py", line 3, in <module>
+[controller-1]     from ackermann_msgs.msg import AckermannDriveStamped
+[controller-1] ModuleNotFoundError: No module named 'ackermann_msgs'
+[drive_publisher-5] Traceback (most recent call last):
+[drive_publisher-5]   File "/workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/lib/drone_home/drive_publisher", line 33, in <module>
+[drive_hardware-6] Traceback (most recent call last):
+[drive_hardware-6]   File "/workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/lib/drone_home/drive_hardware", line 33, in <module>
+[drive_hardware-6]     sys.exit(load_entry_point('drone-home==0.0.0', 'console_scripts', 'drive_hardware')())
+[drive_hardware-6]   File "/workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/lib/drone_home/drive_hardware", line 25, in importlib_load_entry_point
+[drive_hardware-6]     return next(matches).load()
+[drive_hardware-6]   File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 171, in load
+[drive_hardware-6]     module = import_module(match.group('module'))
+[drive_hardware-6]   File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+[drive_hardware-6]     return _bootstrap._gcd_import(name[level:], package, level)
+[drive_hardware-6]   File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+[drive_hardware-6]   File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+[drive_hardware-6]   File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+[drive_hardware-6]   File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+[drive_hardware-6]   File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+[drive_hardware-6]   File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+[drive_hardware-6]   File "/workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/lib/python3.10/site-packages/drone_home/ackermann_drive.py", line 5, in <module>
+[drive_hardware-6]     from ackermann_msgs.msg import AckermannDriveStamped
+[drive_hardware-6] ModuleNotFoundError: No module named 'ackermann_msgs'
+[drive_publisher-5]     sys.exit(load_entry_point('drone-home==0.0.0', 'console_scripts', 'drive_publisher')())
+[drive_publisher-5]   File "/workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/lib/drone_home/drive_publisher", line 25, in importlib_load_entry_point
+[drive_publisher-5]     return next(matches).load()
+[drive_publisher-5]   File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 171, in load
+[drive_publisher-5]     module = import_module(match.group('module'))
+[drive_publisher-5]   File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+[drive_publisher-5]     return _bootstrap._gcd_import(name[level:], package, level)
+[drive_publisher-5]   File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+[drive_publisher-5]   File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+[drive_publisher-5]   File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+[drive_publisher-5]   File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+[drive_publisher-5]   File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+[drive_publisher-5]   File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+[drive_publisher-5]   File "/workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/lib/python3.10/site-packages/drone_home/joy_to_ackermann.py", line 6, in <module>
+[drive_publisher-5]     from ackermann_msgs.msg import AckermannDriveStamped
+[drive_publisher-5] ModuleNotFoundError: No module named 'ackermann_msgs'
+[ERROR] [pwm_publisher-2]: process has died [pid 163, exit code 1, cmd '/workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/lib/drone_home/pwm_publisher --ros-args -r __node:=sim -r __ns:=/drone_home1'].
+[ERROR] [controller-1]: process has died [pid 161, exit code 1, cmd '/workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/lib/drone_home/controller --ros-args -r __node:=sim -r __ns:=/drone_home1'].
+[ERROR] [drive_hardware-6]: process has died [pid 171, exit code 1, cmd '/workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/lib/drone_home/drive_hardware --ros-args -r __node:=sim -r __ns:=/drone_home1'].
+[ERROR] [drive_publisher-5]: process has died [pid 169, exit code 1, cmd '/workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/lib/drone_home/drive_publisher --ros-args -r __node:=sim -r __ns:=/drone_home1'].
+[visualization-7] [INFO] [1738528399.056038686] [drone_home1.sim]: Heading 0.0
+[visualization-7] [INFO] [1738528399.484738061] [drone_home1.sim]: Heading 0.0
+[imu_publisher-4] [INFO] [1738528399.932695654] [drone_home1.sim]: Calibration status: (True, 'Calibration (sys:0, gyro:0, accel:3, mag:0)')
+[visualization-7] [INFO] [1738528399.984507936] [drone_home1.sim]: Heading 0.0
+[visualization-7] [INFO] [1738528400.485023333] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528400.984415532] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528401.484428867] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528401.984377816] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528402.484392814] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528402.984378691] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528403.484391640] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528403.984395725] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528404.484443490] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528404.984431446] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528405.484457225] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528405.984439516] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528406.484447278] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528406.984451968] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528407.484431248] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528407.984426561] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528408.484437970] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528408.984456002] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528409.484713113] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528409.984433344] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528410.484432238] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528410.984442237] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528411.484430538] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528411.984425879] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528412.484428772] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528412.984428016] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528413.484443004] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528413.984426567] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528414.484428466] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528414.984392892] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528415.484544714] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528415.984237227] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528416.484278933] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528416.984449059] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528417.484236357] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528417.984312303] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528418.484339767] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528418.984340574] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528419.484266402] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528419.984401068] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528420.484553013] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528420.984439479] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528421.484444764] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528421.984451489] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528422.484558407] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528422.983532783] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528423.484256421] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528423.984612529] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528424.484503856] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528424.984347469] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528425.484281453] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528425.984462194] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528426.484471315] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528426.984536116] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528427.484167529] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528427.984325101] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528428.484324299] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528428.984368010] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528429.484433097] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528429.984203809] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528430.484293599] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528430.984310716] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528431.484592480] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528431.984483352] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528432.484492563] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528432.984462189] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528433.484556297] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528433.984448320] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528434.484553756] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528434.984454386] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528435.484678737] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528435.984434882] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528436.484436249] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528436.984470034] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528437.484442407] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528437.984424605] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528438.484444275] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528438.984393191] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528439.484448157] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528439.984457170] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528440.484620875] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528440.984413721] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528441.484434924] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528441.984442015] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528442.484423409] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528442.984423747] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528443.484431157] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528443.984375748] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528444.484439350] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528444.984412966] [drone_home1.sim]: Heading -0.07577248957928222
+[visualization-7] [INFO] [1738528445.484466967] [drone_home1.sim]: Heading -0.07577248957928222

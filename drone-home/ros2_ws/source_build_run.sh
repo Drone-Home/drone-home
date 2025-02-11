@@ -5,7 +5,7 @@ timestamp=$(date +'%Y-%m-%d_%H-%M-%S')
 log_file="logs/output_$timestamp.log"
 
 source install/local_setup.bash
-colcon build && ros2 launch launch/launch1.py | tee "$log_file" &
+colcon build && ros2 launch launch/jetson_launch.py | tee "$log_file" &
 ros2_pid=$!
 
 cd ~

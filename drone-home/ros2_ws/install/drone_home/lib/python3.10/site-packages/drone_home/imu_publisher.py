@@ -11,7 +11,7 @@ class IMUSensor:
     def __init__(self):
         i2c = board.I2C()
         self.sensor = adafruit_bno055.BNO055_I2C(i2c)
-        self.sensor.offsets_magnetometer = (-2900, -3480, -351) #TODO get new calibration values when mounted
+        self.sensor.offsets_magnetometer = (-451, -890, -312) #TODO get new calibration values when mounted
         self.sensor.offsets_accelerometer = (11, -90, -29)
 
     def get_euler_angles(self):

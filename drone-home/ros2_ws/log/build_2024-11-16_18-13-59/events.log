@@ -1,7 +1,0 @@
-[0.000000] (-) TimerEvent: {}
-[0.000296] (drone_home) JobQueued: {'identifier': 'drone_home', 'dependencies': OrderedDict()}
-[0.000770] (drone_home) JobStarted: {'identifier': 'drone_home'}
-[0.099699] (-) TimerEvent: {}
-[0.200113] (-) TimerEvent: {}
-[0.245597] (drone_home) JobEnded: {'identifier': 'drone_home', 'rc': 0}
-[0.246722] (-) EventReactorShutdown: {}
