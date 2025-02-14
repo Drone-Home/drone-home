@@ -1,0 +1,540 @@
+[0.000000] (-) TimerEvent: {}
+[0.000747] (custom_messages) JobQueued: {'identifier': 'custom_messages', 'dependencies': OrderedDict()}
+[0.001384] (drone_home) JobQueued: {'identifier': 'drone_home', 'dependencies': OrderedDict()}
+[0.001710] (custom_messages) JobStarted: {'identifier': 'custom_messages'}
+[0.026736] (drone_home) JobStarted: {'identifier': 'drone_home'}
+[0.051727] (custom_messages) JobProgress: {'identifier': 'custom_messages', 'progress': 'cmake'}
+[0.053208] (custom_messages) JobProgress: {'identifier': 'custom_messages', 'progress': 'build'}
+[0.054412] (custom_messages) Command: {'cmd': ['/usr/local/bin/cmake', '--build', '/workspaces/drone_home-dev/drone-home/ros2_ws/build/custom_messages', '--', '-j6', '-l6'], 'cwd': '/workspaces/drone_home-dev/drone-home/ros2_ws/build/custom_messages', 'env': OrderedDict([('TWINE_PASSWORD', 'none'), ('OPENBLAS_CORETYPE', 'ARMV8'), ('PYTHONFAULTHANDLER', '1'), ('CUDACXX', '/usr/local/cuda/bin/nvcc'), ('PYTHONIOENCODING', 'utf-8'), ('PIP_ROOT_USER_ACTION', 'ignore'), ('LANGUAGE', 'en_US:en'), ('PIP_TRUSTED_HOST', ''), ('PIP_DEFAULT_TIMEOUT', '100'), ('PYTHONHASHSEED', 'random'), ('HOSTNAME', 'drone-home'), ('TWINE_REPOSITORY_URL', 'http://localhost/jp6/cu126'), ('TAR_INDEX_URL', 'https://apt.jetson-ai-lab.dev:8000/jp6/cu126'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/compat:/usr/local/cuda/lib64:'), ('HOME', '/root'), ('HUGGINGFACE_HUB_CACHE', '/data/models/huggingface'), ('OLDPWD', '/workspaces/drone_home-dev'), ('CMAKE_CUDA_COMPILER', '/usr/local/cuda/bin/nvcc'), ('TORCH_NVCC_FLAGS', '-Xfatbin -compress-all'), ('PYTHONUNBUFFERED', '1'), ('ROS_PYTHON_VERSION', '3'), ('CUDA_TOOLKIT_ROOT_DIR', '/usr/local/cuda'), ('HF_HOME', '/data/models/huggingface'), ('CUDA_NVCC_EXECUTABLE', '/usr/local/cuda/bin/nvcc'), ('CUDNN_LIB_PATH', '/usr/lib/aarch64-linux-gnu'), ('CUDAARCHS', '87'), ('PIP_CACHE_PURGE', 'true'), ('TORCH_CUDA_ARCH_LIST', '8.7'), ('COLCON_PREFIX_PATH', '/opt/ros/humble/install'), ('TORCH_HOME', '/data/models/torch'), ('ROS_DISTRO', 'humble'), ('SCP_UPLOAD_PASS', 'None'), ('PIP_DISABLE_PIP_VERSION_CHECK', 'on'), ('PULSE_SERVER', 'unix:/run/user/1000/pulse/native'), ('CUDA_ARCHITECTURES', '87'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('TWINE_USERNAME', 'jp6'), ('PATH', '/opt/ros/humble/bin:/opt/ros/humble/install/bin:/root/.cargo/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('PIP_INDEX_URL', 'https://pypi.jetson-ai-lab.dev/jp6/cu126'), ('TRANSFORMERS_CACHE', '/data/models/huggingface'), ('PIP_NO_CACHE_DIR', 'off'), ('SCP_UPLOAD_USER', 'None'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/opt/ros/humble/install'), ('SCP_UPLOAD_URL', 'localhost:/dist/jp6/cu126'), ('TWINE_NON_INTERACTIVE', '1'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('PYTHON_VERSION', '3.10'), ('OPENCV_VERSION', '4.10.0'), ('NVCC_PATH', '/usr/local/cuda/bin/nvcc'), ('OPENCV_URL', ''), ('PWD', '/workspaces/drone_home-dev/drone-home/ros2_ws/build/custom_messages'), ('LC_ALL', 'en_US.UTF-8'), ('CUDA_HOME', '/usr/local/cuda'), ('CUDNN_LIB_INCLUDE_PATH', '/usr/include'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/install/local/lib/python3.10/dist-packages:/opt/ros/humble/install/lib/python3.10/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CUDA_BIN_PATH', '/usr/local/cuda/bin'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble/install:/opt/ros/humble')]), 'shell': False}
+[0.099276] (-) TimerEvent: {}
+[0.200433] (-) TimerEvent: {}
+[0.254109] (custom_messages) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):\n'}
+[0.254654] (custom_messages) StderrLine: {'line': b'  Compatibility with CMake < 3.10 will be removed from a future version of\n'}
+[0.254816] (custom_messages) StderrLine: {'line': b'  CMake.\n'}
+[0.254959] (custom_messages) StderrLine: {'line': b'\n'}
+[0.255105] (custom_messages) StderrLine: {'line': b'  Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax\n'}
+[0.255242] (custom_messages) StderrLine: {'line': b'  to tell CMake that the project requires at least <min> but has been updated\n'}
+[0.255371] (custom_messages) StderrLine: {'line': b'  to work with policies introduced by <max> or earlier.\n'}
+[0.255494] (custom_messages) StderrLine: {'line': b'\n'}
+[0.255614] (custom_messages) StderrLine: {'line': b'\x1b[0m\n'}
+[0.284032] (custom_messages) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/install/share/ament_cmake/cmake)\n'}
+[0.300561] (-) TimerEvent: {}
+[0.401239] (-) TimerEvent: {}
+[0.502002] (-) TimerEvent: {}
+[0.602684] (-) TimerEvent: {}
+[0.703571] (-) TimerEvent: {}
+[0.804429] (-) TimerEvent: {}
+[0.814541] (custom_messages) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/install/share/ament_lint_auto/cmake)\n'}
+[0.904611] (-) TimerEvent: {}
+[0.971153] (custom_messages) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.4 (/opt/ros/humble/install/share/sensor_msgs/cmake)\n'}
+[1.004771] (-) TimerEvent: {}
+[1.033601] (custom_messages) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/install/share/rosidl_generator_c/cmake)\n'}
+[1.040556] (custom_messages) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/install/share/rosidl_adapter/cmake)\n'}
+[1.057162] (custom_messages) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/install/share/rosidl_generator_cpp/cmake)\n'}
+[1.083765] (custom_messages) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.104879] (-) TimerEvent: {}
+[1.118389] (custom_messages) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.205069] (-) TimerEvent: {}
+[1.266969] (custom_messages) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/install/share/rosidl_default_generators/cmake)\n'}
+[1.305245] (-) TimerEvent: {}
+[1.405933] (-) TimerEvent: {}
+[1.506569] (-) TimerEvent: {}
+[1.607258] (-) TimerEvent: {}
+[1.708043] (-) TimerEvent: {}
+[1.810235] (-) TimerEvent: {}
+[1.910879] (-) TimerEvent: {}
+[2.011533] (-) TimerEvent: {}
+[2.112385] (-) TimerEvent: {}
+[2.213117] (-) TimerEvent: {}
+[2.237261] (custom_messages) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/install/share/ament_cmake_ros/cmake)\n'}
+[2.313283] (-) TimerEvent: {}
+[2.414094] (-) TimerEvent: {}
+[2.417489] (drone_home) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'egg_info', '--egg-base', '../../build/drone_home', 'build', '--build-base', '/workspaces/drone_home-dev/drone-home/ros2_ws/build/drone_home/build', 'install', '--record', '/workspaces/drone_home-dev/drone-home/ros2_ws/build/drone_home/install.log', '--single-version-externally-managed', 'install_data'], 'cwd': '/workspaces/drone_home-dev/drone-home/ros2_ws/src/drone_home', 'env': {'TWINE_PASSWORD': 'none', 'OPENBLAS_CORETYPE': 'ARMV8', 'PYTHONFAULTHANDLER': '1', 'CUDACXX': '/usr/local/cuda/bin/nvcc', 'PYTHONIOENCODING': 'utf-8', 'PIP_ROOT_USER_ACTION': 'ignore', 'LANGUAGE': 'en_US:en', 'PIP_TRUSTED_HOST': '', 'PIP_DEFAULT_TIMEOUT': '100', 'PYTHONHASHSEED': 'random', 'HOSTNAME': 'drone-home', 'TWINE_REPOSITORY_URL': 'http://localhost/jp6/cu126', 'TAR_INDEX_URL': 'https://apt.jetson-ai-lab.dev:8000/jp6/cu126', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/compat:/usr/local/cuda/lib64:', 'HOME': '/root', 'HUGGINGFACE_HUB_CACHE': '/data/models/huggingface', 'OLDPWD': '/workspaces/drone_home-dev', 'CMAKE_CUDA_COMPILER': '/usr/local/cuda/bin/nvcc', 'TORCH_NVCC_FLAGS': '-Xfatbin -compress-all', 'PYTHONUNBUFFERED': '1', 'ROS_PYTHON_VERSION': '3', 'CUDA_TOOLKIT_ROOT_DIR': '/usr/local/cuda', 'HF_HOME': '/data/models/huggingface', 'CUDA_NVCC_EXECUTABLE': '/usr/local/cuda/bin/nvcc', 'CUDNN_LIB_PATH': '/usr/lib/aarch64-linux-gnu', 'CUDAARCHS': '87', 'PIP_CACHE_PURGE': 'true', 'TORCH_CUDA_ARCH_LIST': '8.7', 'COLCON_PREFIX_PATH': '/opt/ros/humble/install', 'TORCH_HOME': '/data/models/torch', 'ROS_DISTRO': 'humble', 'SCP_UPLOAD_PASS': 'None', 'PIP_DISABLE_PIP_VERSION_CHECK': 'on', 'PULSE_SERVER': 'unix:/run/user/1000/pulse/native', 'CUDA_ARCHITECTURES': '87', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'PKG_CONFIG_PATH': '/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig', 'NVIDIA_DRIVER_CAPABILITIES': 'all', 'TERM': 'xterm', 'ROS_LOCALHOST_ONLY': '0', 'TWINE_USERNAME': 'jp6', 'PATH': '/opt/ros/humble/bin:/opt/ros/humble/install/bin:/root/.cargo/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin', 'PIP_INDEX_URL': 'https://pypi.jetson-ai-lab.dev/jp6/cu126', 'TRANSFORMERS_CACHE': '/data/models/huggingface', 'PIP_NO_CACHE_DIR': 'off', 'SCP_UPLOAD_USER': 'None', 'LANG': 'en_US.UTF-8', 'RMW_IMPLEMENTATION': 'rmw_fastrtps_cpp', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'ROS_ROOT': '/opt/ros/humble', 'AMENT_PREFIX_PATH': '/opt/ros/humble:/opt/ros/humble/install', 'SCP_UPLOAD_URL': 'localhost:/dist/jp6/cu126', 'TWINE_NON_INTERACTIVE': '1', 'DEBIAN_FRONTEND': 'noninteractive', 'SHELL': '/bin/bash', 'PYTHON_VERSION': '3.10', 'OPENCV_VERSION': '4.10.0', 'NVCC_PATH': '/usr/local/cuda/bin/nvcc', 'OPENCV_URL': '', 'PWD': '/workspaces/drone_home-dev/drone-home/ros2_ws/build/drone_home', 'LC_ALL': 'en_US.UTF-8', 'CUDA_HOME': '/usr/local/cuda', 'CUDNN_LIB_INCLUDE_PATH': '/usr/include', 'PYTHONPATH': '/workspaces/drone_home-dev/drone-home/ros2_ws/build/drone_home/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/install/local/lib/python3.10/dist-packages:/opt/ros/humble/install/lib/python3.10/site-packages', 'NVIDIA_VISIBLE_DEVICES': 'all', 'COLCON': '1', 'CUDA_BIN_PATH': '/usr/local/cuda/bin', 'CMAKE_PREFIX_PATH': '/opt/ros/humble/install'}, 'shell': False}
+[2.514274] (-) TimerEvent: {}
+[2.615426] (-) TimerEvent: {}
+[2.716434] (-) TimerEvent: {}
+[2.791602] (drone_home) StderrLine: {'line': b"/usr/local/lib/python3.10/dist-packages/setuptools/_distutils/dist.py:270: UserWarning: Unknown distribution option: 'tests_require'\n"}
+[2.792200] (drone_home) StderrLine: {'line': b'  warnings.warn(msg)\n'}
+[2.816580] (-) TimerEvent: {}
+[2.917560] (-) TimerEvent: {}
+[3.018415] (-) TimerEvent: {}
+[3.119254] (-) TimerEvent: {}
+[3.170765] (drone_home) StdoutLine: {'line': b'running egg_info\n'}
+[3.212487] (drone_home) StdoutLine: {'line': b'writing ../../build/drone_home/drone_home.egg-info/PKG-INFO\n'}
+[3.213873] (drone_home) StdoutLine: {'line': b'writing dependency_links to ../../build/drone_home/drone_home.egg-info/dependency_links.txt\n'}
+[3.214450] (drone_home) StdoutLine: {'line': b'writing entry points to ../../build/drone_home/drone_home.egg-info/entry_points.txt\n'}
+[3.215782] (drone_home) StdoutLine: {'line': b'writing requirements to ../../build/drone_home/drone_home.egg-info/requires.txt\n'}
+[3.216061] (drone_home) StdoutLine: {'line': b'writing top-level names to ../../build/drone_home/drone_home.egg-info/top_level.txt\n'}
+[3.219309] (-) TimerEvent: {}
+[3.303926] (drone_home) StdoutLine: {'line': b"reading manifest file '../../build/drone_home/drone_home.egg-info/SOURCES.txt'\n"}
+[3.307561] (drone_home) StdoutLine: {'line': b"writing manifest file '../../build/drone_home/drone_home.egg-info/SOURCES.txt'\n"}
+[3.307899] (drone_home) StdoutLine: {'line': b'running build\n'}
+[3.308140] (drone_home) StdoutLine: {'line': b'running build_py\n'}
+[3.308782] (drone_home) StdoutLine: {'line': b'copying drone_home/__init__.py -> /workspaces/drone_home-dev/drone-home/ros2_ws/build/drone_home/build/lib/drone_home\n'}
+[3.309679] (drone_home) StdoutLine: {'line': b'copying drone_home/gps_publisher.py -> /workspaces/drone_home-dev/drone-home/ros2_ws/build/drone_home/build/lib/drone_home\n'}
+[3.310101] (drone_home) StdoutLine: {'line': b'copying drone_home/imu_publisher.py -> /workspaces/drone_home-dev/drone-home/ros2_ws/build/drone_home/build/lib/drone_home\n'}
+[3.310722] (drone_home) StdoutLine: {'line': b'copying drone_home/motor.py -> /workspaces/drone_home-dev/drone-home/ros2_ws/build/drone_home/build/lib/drone_home\n'}
+[3.311377] (drone_home) StdoutLine: {'line': b'copying drone_home/servo_jetson.py -> /workspaces/drone_home-dev/drone-home/ros2_ws/build/drone_home/build/lib/drone_home\n'}
+[3.311934] (drone_home) StdoutLine: {'line': b'copying drone_home/pwm_publisher.py -> /workspaces/drone_home-dev/drone-home/ros2_ws/build/drone_home/build/lib/drone_home\n'}
+[3.312453] (drone_home) StdoutLine: {'line': b'copying drone_home/ackermann_drive.py -> /workspaces/drone_home-dev/drone-home/ros2_ws/build/drone_home/build/lib/drone_home\n'}
+[3.312855] (drone_home) StdoutLine: {'line': b'copying drone_home/cv_controller.py -> /workspaces/drone_home-dev/drone-home/ros2_ws/build/drone_home/build/lib/drone_home\n'}
+[3.313343] (drone_home) StdoutLine: {'line': b'copying drone_home/geo_tools.py -> /workspaces/drone_home-dev/drone-home/ros2_ws/build/drone_home/build/lib/drone_home\n'}
+[3.313752] (drone_home) StdoutLine: {'line': b'copying drone_home/controller.py -> /workspaces/drone_home-dev/drone-home/ros2_ws/build/drone_home/build/lib/drone_home\n'}
+[3.314156] (drone_home) StdoutLine: {'line': b'copying drone_home/markers.py -> /workspaces/drone_home-dev/drone-home/ros2_ws/build/drone_home/build/lib/drone_home\n'}
+[3.314658] (drone_home) StdoutLine: {'line': b'copying drone_home/joy_to_ackermann.py -> /workspaces/drone_home-dev/drone-home/ros2_ws/build/drone_home/build/lib/drone_home\n'}
+[3.315145] (drone_home) StdoutLine: {'line': b'copying drone_home/data_loader.py -> /workspaces/drone_home-dev/drone-home/ros2_ws/build/drone_home/build/lib/drone_home\n'}
+[3.316226] (drone_home) StdoutLine: {'line': b'running install\n'}
+[3.319392] (-) TimerEvent: {}
+[3.326507] (drone_home) StdoutLine: {'line': b'running install_lib\n'}
+[3.371585] (drone_home) StdoutLine: {'line': b'running install_data\n'}
+[3.372516] (drone_home) StdoutLine: {'line': b'running install_egg_info\n'}
+[3.418663] (drone_home) StdoutLine: {'line': b"removing '/workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/lib/python3.10/site-packages/drone_home-0.0.0-py3.10.egg-info' (and everything under it)\n"}
+[3.419367] (drone_home) StdoutLine: {'line': b'Copying ../../build/drone_home/drone_home.egg-info to /workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/lib/python3.10/site-packages/drone_home-0.0.0-py3.10.egg-info\n'}
+[3.419562] (-) TimerEvent: {}
+[3.421783] (drone_home) StdoutLine: {'line': b'running install_scripts\n'}
+[3.519837] (-) TimerEvent: {}
+[3.620751] (-) TimerEvent: {}
+[3.721697] (-) TimerEvent: {}
+[3.761468] (drone_home) StdoutLine: {'line': b'Installing controller script to /workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/lib/drone_home\n'}
+[3.762168] (drone_home) StdoutLine: {'line': b'Installing cv_controller script to /workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/lib/drone_home\n'}
+[3.762713] (drone_home) StdoutLine: {'line': b'Installing drive_hardware script to /workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/lib/drone_home\n'}
+[3.763108] (drone_home) StdoutLine: {'line': b'Installing drive_publisher script to /workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/lib/drone_home\n'}
+[3.763429] (drone_home) StdoutLine: {'line': b'Installing gps_publisher script to /workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/lib/drone_home\n'}
+[3.763942] (drone_home) StdoutLine: {'line': b'Installing imu_publisher script to /workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/lib/drone_home\n'}
+[3.764281] (drone_home) StdoutLine: {'line': b'Installing pwm_publisher script to /workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/lib/drone_home\n'}
+[3.764622] (drone_home) StdoutLine: {'line': b'Installing visualization script to /workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/lib/drone_home\n'}
+[3.765820] (drone_home) StdoutLine: {'line': b"writing list of installed files to '/workspaces/drone_home-dev/drone-home/ros2_ws/build/drone_home/install.log'\n"}
+[3.821878] (-) TimerEvent: {}
+[3.871244] (drone_home) CommandEnded: {'returncode': 0}
+[3.915603] (drone_home) JobEnded: {'identifier': 'drone_home', 'rc': 0}
+[3.921982] (-) TimerEvent: {}
+[4.022573] (-) TimerEvent: {}
+[4.123787] (-) TimerEvent: {}
+[4.224756] (-) TimerEvent: {}
+[4.325617] (-) TimerEvent: {}
+[4.426582] (-) TimerEvent: {}
+[4.482075] (custom_messages) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[4.526762] (-) TimerEvent: {}
+[4.628121] (-) TimerEvent: {}
+[4.728846] (-) TimerEvent: {}
+[4.829928] (-) TimerEvent: {}
+[4.931183] (-) TimerEvent: {}
+[5.032180] (-) TimerEvent: {}
+[5.132994] (-) TimerEvent: {}
+[5.233856] (-) TimerEvent: {}
+[5.334885] (-) TimerEvent: {}
+[5.354685] (custom_messages) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[5.361017] (custom_messages) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/install/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):\n'}
+[5.362258] (custom_messages) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[5.362572] (custom_messages) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[5.362840] (custom_messages) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[5.363089] (custom_messages) StderrLine: {'line': b'\n'}
+[5.363326] (custom_messages) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[5.363558] (custom_messages) StderrLine: {'line': b'  /opt/ros/humble/install/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[5.363863] (custom_messages) StderrLine: {'line': b'  /opt/ros/humble/install/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[5.364117] (custom_messages) StderrLine: {'line': b'  CMakeLists.txt:29 (rosidl_generate_interfaces)\n'}
+[5.364347] (custom_messages) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[5.364577] (custom_messages) StderrLine: {'line': b'\x1b[0m\n'}
+[5.418427] (custom_messages) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/install/share/python_cmake_module/cmake)\n'}
+[5.421107] (custom_messages) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/install/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):\n'}
+[5.421497] (custom_messages) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[5.421704] (custom_messages) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[5.421891] (custom_messages) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[5.422066] (custom_messages) StderrLine: {'line': b'\n'}
+[5.422233] (custom_messages) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[5.422396] (custom_messages) StderrLine: {'line': b'  /opt/ros/humble/install/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)\n'}
+[5.422555] (custom_messages) StderrLine: {'line': b'  /opt/ros/humble/install/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[5.422718] (custom_messages) StderrLine: {'line': b'  /opt/ros/humble/install/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[5.422871] (custom_messages) StderrLine: {'line': b'  CMakeLists.txt:29 (rosidl_generate_interfaces)\n'}
+[5.423023] (custom_messages) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[5.423185] (custom_messages) StderrLine: {'line': b'\x1b[0m\n'}
+[5.435019] (-) TimerEvent: {}
+[5.474712] (custom_messages) StderrLine: {'line': b'\x1b[33mCMake Warning (dev) at /opt/ros/humble/install/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):\n'}
+[5.475264] (custom_messages) StderrLine: {'line': b'  Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules\n'}
+[5.475540] (custom_messages) StderrLine: {'line': b'  are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use\n'}
+[5.475750] (custom_messages) StderrLine: {'line': b'  the cmake_policy command to set the policy and suppress this warning.\n'}
+[5.475919] (custom_messages) StderrLine: {'line': b'\n'}
+[5.476061] (custom_messages) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[5.476200] (custom_messages) StderrLine: {'line': b'  /opt/ros/humble/install/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)\n'}
+[5.476331] (custom_messages) StderrLine: {'line': b'  /opt/ros/humble/install/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)\n'}
+[5.476459] (custom_messages) StderrLine: {'line': b'  /opt/ros/humble/install/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)\n'}
+[5.476592] (custom_messages) StderrLine: {'line': b'  CMakeLists.txt:29 (rosidl_generate_interfaces)\n'}
+[5.476723] (custom_messages) StderrLine: {'line': b'This warning is for project developers.  Use -Wno-dev to suppress it.\n'}
+[5.476891] (custom_messages) StderrLine: {'line': b'\x1b[0m\n'}
+[5.482057] (custom_messages) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/local/bin/python3\n'}
+[5.482519] (custom_messages) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[5.482692] (custom_messages) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so\n'}
+[5.535205] (-) TimerEvent: {}
+[5.635887] (-) TimerEvent: {}
+[5.637213] (custom_messages) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[5.640768] (custom_messages) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[5.655500] (custom_messages) StdoutLine: {'line': b'-- Configuring done (5.4s)\n'}
+[5.736131] (-) TimerEvent: {}
+[5.796275] (custom_messages) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[5.819311] (custom_messages) StdoutLine: {'line': b'-- Build files have been written to: /workspaces/drone_home-dev/drone-home/ros2_ws/build/custom_messages\n'}
+[5.836299] (-) TimerEvent: {}
+[5.861334] (custom_messages) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[5.872984] (custom_messages) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[5.885157] (custom_messages) StdoutLine: {'line': b'[  4%] Built target ament_cmake_python_copy_custom_messages\n'}
+[5.936463] (-) TimerEvent: {}
+[6.037172] (-) TimerEvent: {}
+[6.138124] (-) TimerEvent: {}
+[6.239552] (-) TimerEvent: {}
+[6.340390] (-) TimerEvent: {}
+[6.442123] (-) TimerEvent: {}
+[6.543074] (-) TimerEvent: {}
+[6.589511] (custom_messages) StdoutLine: {'line': b'running egg_info\n'}
+[6.637710] (custom_messages) StdoutLine: {'line': b'writing custom_messages.egg-info/PKG-INFO\n'}
+[6.639254] (custom_messages) StdoutLine: {'line': b'writing dependency_links to custom_messages.egg-info/dependency_links.txt\n'}
+[6.640066] (custom_messages) StdoutLine: {'line': b'writing top-level names to custom_messages.egg-info/top_level.txt\n'}
+[6.643380] (-) TimerEvent: {}
+[6.744004] (-) TimerEvent: {}
+[6.783647] (custom_messages) StdoutLine: {'line': b"reading manifest file 'custom_messages.egg-info/SOURCES.txt'\n"}
+[6.786470] (custom_messages) StdoutLine: {'line': b"writing manifest file 'custom_messages.egg-info/SOURCES.txt'\n"}
+[6.844272] (-) TimerEvent: {}
+[6.909805] (custom_messages) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/custom_messages__rosidl_generator_c.dir/rosidl_generator_c/custom_messages/srv/detail/set_coordinate__functions.c.o\x1b[0m\n'}
+[6.914634] (custom_messages) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/custom_messages__rosidl_generator_c.dir/rosidl_generator_c/custom_messages/srv/detail/set_mode__functions.c.o\x1b[0m\n'}
+[6.915548] (custom_messages) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/custom_messages__rosidl_generator_c.dir/rosidl_generator_c/custom_messages/msg/detail/cv__functions.c.o\x1b[0m\n'}
+[6.923002] (custom_messages) StdoutLine: {'line': b'[ 10%] Built target ament_cmake_python_build_custom_messages_egg\n'}
+[6.944561] (-) TimerEvent: {}
+[6.963735] (custom_messages) StdoutLine: {'line': b'[ 10%] Built target custom_messages__cpp\n'}
+[6.979938] (custom_messages) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[6.982562] (custom_messages) StdoutLine: {'line': b'[ 14%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[6.986878] (custom_messages) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[7.044738] (-) TimerEvent: {}
+[7.145732] (-) TimerEvent: {}
+[7.245563] (custom_messages) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking C shared library libcustom_messages__rosidl_generator_c.so\x1b[0m\n'}
+[7.246172] (-) TimerEvent: {}
+[7.319965] (custom_messages) StdoutLine: {'line': b'[ 19%] Built target custom_messages__rosidl_generator_c\n'}
+[7.338513] (custom_messages) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[7.346775] (-) TimerEvent: {}
+[7.347583] (custom_messages) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[7.367586] (custom_messages) StdoutLine: {'line': b'[ 25%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[7.446947] (-) TimerEvent: {}
+[7.548275] (-) TimerEvent: {}
+[7.650253] (-) TimerEvent: {}
+[7.751831] (-) TimerEvent: {}
+[7.854534] (-) TimerEvent: {}
+[7.933727] (custom_messages) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/custom_messages__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_messages/msg/cv__type_support.cpp.o\x1b[0m\n'}
+[7.954702] (-) TimerEvent: {}
+[8.055792] (-) TimerEvent: {}
+[8.158821] (-) TimerEvent: {}
+[8.238691] (custom_messages) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/custom_messages__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_messages/msg/detail/cv__type_support.cpp.o\x1b[0m\n'}
+[8.258997] (-) TimerEvent: {}
+[8.360119] (-) TimerEvent: {}
+[8.432640] (custom_messages) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/custom_messages__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_messages/msg/cv__type_support.cpp.o\x1b[0m\n'}
+[8.460291] (-) TimerEvent: {}
+[8.479148] (custom_messages) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding C object CMakeFiles/custom_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_messages/msg/detail/cv__type_support.c.o\x1b[0m\n'}
+[8.495370] (custom_messages) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/custom_messages__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_messages/msg/detail/cv__type_support_c.cpp.o\x1b[0m\n'}
+[8.524597] (custom_messages) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/custom_messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_messages/msg/detail/dds_fastrtps/cv__type_support.cpp.o\x1b[0m\n'}
+[8.560522] (-) TimerEvent: {}
+[8.584786] (custom_messages) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/custom_messages__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_messages/srv/set_coordinate__type_support.cpp.o\x1b[0m\n'}
+[8.660686] (-) TimerEvent: {}
+[8.681389] (custom_messages) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding C object CMakeFiles/custom_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_messages/srv/detail/set_coordinate__type_support.c.o\x1b[0m\n'}
+[8.748045] (custom_messages) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/custom_messages__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_messages/srv/set_mode__type_support.cpp.o\x1b[0m\n'}
+[8.760852] (-) TimerEvent: {}
+[8.861895] (-) TimerEvent: {}
+[8.870474] (custom_messages) StdoutLine: {'line': b'[ 46%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_messages__rosidl_typesupport_c.so\x1b[0m\n'}
+[8.881403] (custom_messages) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding C object CMakeFiles/custom_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_messages/srv/detail/set_mode__type_support.c.o\x1b[0m\n'}
+[8.962110] (-) TimerEvent: {}
+[9.004483] (custom_messages) StdoutLine: {'line': b'[ 51%] \x1b[32m\x1b[1mLinking C shared library libcustom_messages__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[9.062283] (-) TimerEvent: {}
+[9.101536] (custom_messages) StdoutLine: {'line': b'[ 51%] Built target custom_messages__rosidl_typesupport_c\n'}
+[9.116961] (custom_messages) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding CXX object CMakeFiles/custom_messages__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_messages/srv/detail/set_coordinate__type_support_c.cpp.o\x1b[0m\n'}
+[9.162484] (-) TimerEvent: {}
+[9.196477] (custom_messages) StdoutLine: {'line': b'[ 55%] \x1b[32mBuilding CXX object CMakeFiles/custom_messages__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_messages/srv/set_coordinate__type_support.cpp.o\x1b[0m\n'}
+[9.235752] (custom_messages) StdoutLine: {'line': b'[ 55%] Built target custom_messages__rosidl_typesupport_introspection_c\n'}
+[9.262714] (-) TimerEvent: {}
+[9.277804] (custom_messages) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding CXX object CMakeFiles/custom_messages__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_messages/srv/detail/set_mode__type_support_c.cpp.o\x1b[0m\n'}
+[9.362913] (-) TimerEvent: {}
+[9.465993] (-) TimerEvent: {}
+[9.547649] (custom_messages) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding CXX object CMakeFiles/custom_messages__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_messages/srv/detail/set_coordinate__type_support.cpp.o\x1b[0m\n'}
+[9.567095] (-) TimerEvent: {}
+[9.650021] (custom_messages) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/custom_messages__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_messages/srv/detail/set_mode__type_support.cpp.o\x1b[0m\n'}
+[9.667318] (-) TimerEvent: {}
+[9.769324] (-) TimerEvent: {}
+[9.871341] (-) TimerEvent: {}
+[9.881983] (custom_messages) StdoutLine: {'line': b'[ 63%] \x1b[32mBuilding CXX object CMakeFiles/custom_messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_messages/srv/detail/dds_fastrtps/set_coordinate__type_support.cpp.o\x1b[0m\n'}
+[9.971550] (-) TimerEvent: {}
+[10.072684] (-) TimerEvent: {}
+[10.187571] (-) TimerEvent: {}
+[10.188599] (custom_messages) StdoutLine: {'line': b'[ 65%] \x1b[32mBuilding CXX object CMakeFiles/custom_messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_messages/srv/detail/dds_fastrtps/set_mode__type_support.cpp.o\x1b[0m\n'}
+[10.270183] (custom_messages) StdoutLine: {'line': b'[ 68%] \x1b[32mBuilding CXX object CMakeFiles/custom_messages__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_messages/srv/set_mode__type_support.cpp.o\x1b[0m\n'}
+[10.288091] (-) TimerEvent: {}
+[10.389337] (-) TimerEvent: {}
+[10.490560] (-) TimerEvent: {}
+[10.591837] (-) TimerEvent: {}
+[10.662906] (custom_messages) StdoutLine: {'line': b'[ 70%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_messages__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[10.692048] (-) TimerEvent: {}
+[10.793356] (-) TimerEvent: {}
+[10.894450] (-) TimerEvent: {}
+[10.995580] (-) TimerEvent: {}
+[11.039637] (custom_messages) StdoutLine: {'line': b'[ 72%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_messages__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[11.095812] (-) TimerEvent: {}
+[11.131034] (custom_messages) StdoutLine: {'line': b'[ 72%] Built target custom_messages__rosidl_typesupport_fastrtps_c\n'}
+[11.189793] (custom_messages) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_messages__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[11.195982] (-) TimerEvent: {}
+[11.247254] (custom_messages) StdoutLine: {'line': b'[ 74%] Built target custom_messages__rosidl_typesupport_introspection_cpp\n'}
+[11.260033] (custom_messages) StdoutLine: {'line': b'[ 74%] Built target custom_messages__rosidl_typesupport_cpp\n'}
+[11.296156] (-) TimerEvent: {}
+[11.396894] (-) TimerEvent: {}
+[11.497738] (-) TimerEvent: {}
+[11.598562] (-) TimerEvent: {}
+[11.638967] (custom_messages) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libcustom_messages__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[11.698761] (-) TimerEvent: {}
+[11.800696] (-) TimerEvent: {}
+[11.803460] (custom_messages) StdoutLine: {'line': b'[ 76%] Built target custom_messages__rosidl_typesupport_fastrtps_cpp\n'}
+[11.825958] (custom_messages) StdoutLine: {'line': b'[ 76%] Built target custom_messages\n'}
+[11.850456] (custom_messages) StdoutLine: {'line': b'[ 78%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[11.900840] (-) TimerEvent: {}
+[12.001741] (-) TimerEvent: {}
+[12.102501] (-) TimerEvent: {}
+[12.203402] (-) TimerEvent: {}
+[12.304424] (-) TimerEvent: {}
+[12.405811] (-) TimerEvent: {}
+[12.506635] (-) TimerEvent: {}
+[12.607400] (-) TimerEvent: {}
+[12.708084] (-) TimerEvent: {}
+[12.808772] (-) TimerEvent: {}
+[12.909816] (-) TimerEvent: {}
+[13.010612] (-) TimerEvent: {}
+[13.111516] (-) TimerEvent: {}
+[13.212242] (-) TimerEvent: {}
+[13.259833] (custom_messages) StdoutLine: {'line': b'[ 78%] Built target custom_messages__py\n'}
+[13.295385] (custom_messages) StdoutLine: {'line': b'[ 80%] \x1b[32mBuilding C object CMakeFiles/custom_messages__rosidl_generator_py.dir/rosidl_generator_py/custom_messages/msg/_cv_s.c.o\x1b[0m\n'}
+[13.296322] (custom_messages) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/custom_messages__rosidl_generator_py.dir/rosidl_generator_py/custom_messages/srv/_set_coordinate_s.c.o\x1b[0m\n'}
+[13.298139] (custom_messages) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/custom_messages__rosidl_generator_py.dir/rosidl_generator_py/custom_messages/srv/_set_mode_s.c.o\x1b[0m\n'}
+[13.312724] (-) TimerEvent: {}
+[13.413599] (-) TimerEvent: {}
+[13.514853] (-) TimerEvent: {}
+[13.588533] (custom_messages) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_messages/libcustom_messages__rosidl_generator_py.so\x1b[0m\n'}
+[13.615025] (-) TimerEvent: {}
+[13.657707] (custom_messages) StdoutLine: {'line': b'[ 87%] Built target custom_messages__rosidl_generator_py\n'}
+[13.689952] (custom_messages) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/custom_messages__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_messages/_custom_messages_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[13.690596] (custom_messages) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/custom_messages__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_messages/_custom_messages_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[13.690932] (custom_messages) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/custom_messages__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_messages/_custom_messages_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[13.715197] (-) TimerEvent: {}
+[13.815979] (-) TimerEvent: {}
+[13.916706] (-) TimerEvent: {}
+[13.987605] (custom_messages) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_messages/custom_messages_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[13.994770] (custom_messages) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_messages/custom_messages_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[13.995352] (custom_messages) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/custom_messages/custom_messages_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\x1b[0m\n'}
+[14.016948] (-) TimerEvent: {}
+[14.066980] (custom_messages) StdoutLine: {'line': b'[100%] Built target custom_messages__rosidl_typesupport_c__pyext\n'}
+[14.078612] (custom_messages) StdoutLine: {'line': b'[100%] Built target custom_messages__rosidl_typesupport_fastrtps_c__pyext\n'}
+[14.089571] (custom_messages) StdoutLine: {'line': b'[100%] Built target custom_messages__rosidl_typesupport_introspection_c__pyext\n'}
+[14.109282] (custom_messages) CommandEnded: {'returncode': 0}
+[14.110419] (custom_messages) JobProgress: {'identifier': 'custom_messages', 'progress': 'install'}
+[14.117031] (-) TimerEvent: {}
+[14.219324] (-) TimerEvent: {}
+[14.292021] (custom_messages) Command: {'cmd': ['/usr/local/bin/cmake', '--install', '/workspaces/drone_home-dev/drone-home/ros2_ws/build/custom_messages'], 'cwd': '/workspaces/drone_home-dev/drone-home/ros2_ws/build/custom_messages', 'env': OrderedDict([('TWINE_PASSWORD', 'none'), ('OPENBLAS_CORETYPE', 'ARMV8'), ('PYTHONFAULTHANDLER', '1'), ('CUDACXX', '/usr/local/cuda/bin/nvcc'), ('PYTHONIOENCODING', 'utf-8'), ('PIP_ROOT_USER_ACTION', 'ignore'), ('LANGUAGE', 'en_US:en'), ('PIP_TRUSTED_HOST', ''), ('PIP_DEFAULT_TIMEOUT', '100'), ('PYTHONHASHSEED', 'random'), ('HOSTNAME', 'drone-home'), ('TWINE_REPOSITORY_URL', 'http://localhost/jp6/cu126'), ('TAR_INDEX_URL', 'https://apt.jetson-ai-lab.dev:8000/jp6/cu126'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib:/opt/ros/humble/install/opt/rviz_ogre_vendor/lib:/opt/ros/humble/install/lib:/usr/local/cuda/compat:/usr/local/cuda/lib64:'), ('HOME', '/root'), ('HUGGINGFACE_HUB_CACHE', '/data/models/huggingface'), ('OLDPWD', '/workspaces/drone_home-dev'), ('CMAKE_CUDA_COMPILER', '/usr/local/cuda/bin/nvcc'), ('TORCH_NVCC_FLAGS', '-Xfatbin -compress-all'), ('PYTHONUNBUFFERED', '1'), ('ROS_PYTHON_VERSION', '3'), ('CUDA_TOOLKIT_ROOT_DIR', '/usr/local/cuda'), ('HF_HOME', '/data/models/huggingface'), ('CUDA_NVCC_EXECUTABLE', '/usr/local/cuda/bin/nvcc'), ('CUDNN_LIB_PATH', '/usr/lib/aarch64-linux-gnu'), ('CUDAARCHS', '87'), ('PIP_CACHE_PURGE', 'true'), ('TORCH_CUDA_ARCH_LIST', '8.7'), ('COLCON_PREFIX_PATH', '/opt/ros/humble/install'), ('TORCH_HOME', '/data/models/torch'), ('ROS_DISTRO', 'humble'), ('SCP_UPLOAD_PASS', 'None'), ('PIP_DISABLE_PIP_VERSION_CHECK', 'on'), ('PULSE_SERVER', 'unix:/run/user/1000/pulse/native'), ('CUDA_ARCHITECTURES', '87'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('PKG_CONFIG_PATH', '/opt/ros/humble/install/lib/aarch64-linux-gnu/pkgconfig:/opt/ros/humble/install/lib/pkgconfig'), ('NVIDIA_DRIVER_CAPABILITIES', 'all'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('TWINE_USERNAME', 'jp6'), ('PATH', '/opt/ros/humble/bin:/opt/ros/humble/install/bin:/root/.cargo/bin:/usr/local/cuda/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin'), ('PIP_INDEX_URL', 'https://pypi.jetson-ai-lab.dev/jp6/cu126'), ('TRANSFORMERS_CACHE', '/data/models/huggingface'), ('PIP_NO_CACHE_DIR', 'off'), ('SCP_UPLOAD_USER', 'None'), ('LANG', 'en_US.UTF-8'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('ROS_ROOT', '/opt/ros/humble'), ('AMENT_PREFIX_PATH', '/opt/ros/humble:/opt/ros/humble/install'), ('SCP_UPLOAD_URL', 'localhost:/dist/jp6/cu126'), ('TWINE_NON_INTERACTIVE', '1'), ('DEBIAN_FRONTEND', 'noninteractive'), ('SHELL', '/bin/bash'), ('PYTHON_VERSION', '3.10'), ('OPENCV_VERSION', '4.10.0'), ('NVCC_PATH', '/usr/local/cuda/bin/nvcc'), ('OPENCV_URL', ''), ('PWD', '/workspaces/drone_home-dev/drone-home/ros2_ws/build/custom_messages'), ('LC_ALL', 'en_US.UTF-8'), ('CUDA_HOME', '/usr/local/cuda'), ('CUDNN_LIB_INCLUDE_PATH', '/usr/include'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages:/opt/ros/humble/install/local/lib/python3.10/dist-packages:/opt/ros/humble/install/lib/python3.10/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CUDA_BIN_PATH', '/usr/local/cuda/bin'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble/install:/opt/ros/humble')]), 'shell': False}
+[14.319510] (-) TimerEvent: {}
+[14.420822] (-) TimerEvent: {}
+[14.477977] (custom_messages) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[14.480206] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/ament_index/resource_index/rosidl_interfaces/custom_messages\n'}
+[14.480734] (custom_messages) StdoutLine: {'line': b'-- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages\n'}
+[14.483283] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv\n'}
+[14.483475] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv/detail\n'}
+[14.483636] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv/detail/set_mode__functions.h\n'}
+[14.483841] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv/detail/set_coordinate__functions.c\n'}
+[14.483988] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv/detail/set_mode__struct.h\n'}
+[14.484124] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv/detail/set_coordinate__functions.h\n'}
+[14.484264] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv/detail/set_mode__functions.c\n'}
+[14.484396] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv/detail/set_coordinate__struct.h\n'}
+[14.484526] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv/detail/set_mode__type_support.h\n'}
+[14.484652] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv/detail/set_coordinate__type_support.h\n'}
+[14.484836] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv/set_mode.h\n'}
+[14.484973] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv/set_coordinate.h\n'}
+[14.485103] (custom_messages) StdoutLine: {'line': b'-- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/msg\n'}
+[14.485238] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/msg/cv.h\n'}
+[14.485367] (custom_messages) StdoutLine: {'line': b'-- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/msg/detail\n'}
+[14.485493] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/msg/detail/cv__type_support.h\n'}
+[14.485645] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/msg/detail/cv__struct.h\n'}
+[14.485929] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/msg/detail/cv__functions.c\n'}
+[14.486234] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/msg/detail/cv__functions.h\n'}
+[14.486527] (custom_messages) StdoutLine: {'line': b'-- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/msg/rosidl_generator_c__visibility_control.h\n'}
+[14.486674] (custom_messages) StdoutLine: {'line': b'-- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/environment/library_path.sh\n'}
+[14.486901] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/environment/library_path.dsv\n'}
+[14.487179] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/lib/libcustom_messages__rosidl_generator_c.so\n'}
+[14.487365] (custom_messages) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/lib/libcustom_messages__rosidl_generator_c.so" to ""\n'}
+[14.487605] (custom_messages) StdoutLine: {'line': b'-- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages\n'}
+[14.487810] (custom_messages) StdoutLine: {'line': b'-- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv\n'}
+[14.488045] (custom_messages) StdoutLine: {'line': b'-- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv/detail\n'}
+[14.488191] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv/detail/set_coordinate__rosidl_typesupport_fastrtps_c.h\n'}
+[14.489383] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv/detail/set_mode__rosidl_typesupport_fastrtps_c.h\n'}
+[14.489648] (custom_messages) StdoutLine: {'line': b'-- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/msg\n'}
+[14.489907] (custom_messages) StdoutLine: {'line': b'-- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/msg/detail\n'}
+[14.490108] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/msg/detail/cv__rosidl_typesupport_fastrtps_c.h\n'}
+[14.490262] (custom_messages) StdoutLine: {'line': b'-- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[14.490475] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/lib/libcustom_messages__rosidl_typesupport_fastrtps_c.so\n'}
+[14.491324] (custom_messages) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/lib/libcustom_messages__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[14.491657] (custom_messages) StdoutLine: {'line': b'-- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages\n'}
+[14.491996] (custom_messages) StdoutLine: {'line': b'-- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv\n'}
+[14.492186] (custom_messages) StdoutLine: {'line': b'-- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv/detail\n'}
+[14.492368] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv/detail/set_coordinate__traits.hpp\n'}
+[14.492516] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv/detail/set_mode__traits.hpp\n'}
+[14.492710] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv/detail/set_mode__struct.hpp\n'}
+[14.492850] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv/detail/set_mode__builder.hpp\n'}
+[14.493465] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv/detail/set_mode__type_support.hpp\n'}
+[14.493895] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv/detail/set_coordinate__type_support.hpp\n'}
+[14.494137] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv/detail/set_coordinate__struct.hpp\n'}
+[14.494331] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv/detail/set_coordinate__builder.hpp\n'}
+[14.494502] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv/set_coordinate.hpp\n'}
+[14.495180] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv/set_mode.hpp\n'}
+[14.495460] (custom_messages) StdoutLine: {'line': b'-- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/msg\n'}
+[14.495611] (custom_messages) StdoutLine: {'line': b'-- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/msg/detail\n'}
+[14.495916] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/msg/detail/cv__traits.hpp\n'}
+[14.496070] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/msg/detail/cv__struct.hpp\n'}
+[14.496232] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/msg/detail/cv__builder.hpp\n'}
+[14.496366] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/msg/detail/cv__type_support.hpp\n'}
+[14.496498] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/msg/cv.hpp\n'}
+[14.496704] (custom_messages) StdoutLine: {'line': b'-- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[14.497027] (custom_messages) StdoutLine: {'line': b'-- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages\n'}
+[14.497211] (custom_messages) StdoutLine: {'line': b'-- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv\n'}
+[14.497418] (custom_messages) StdoutLine: {'line': b'-- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv/detail\n'}
+[14.497595] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv/detail/set_mode__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[14.497741] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv/detail/dds_fastrtps\n'}
+[14.497948] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv/detail/set_coordinate__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[14.498115] (custom_messages) StdoutLine: {'line': b'-- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/msg\n'}
+[14.498372] (custom_messages) StdoutLine: {'line': b'-- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/msg/detail\n'}
+[14.498513] (custom_messages) StdoutLine: {'line': b'-- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/msg/detail/dds_fastrtps\n'}
+[14.498720] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/msg/detail/cv__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[14.498860] (custom_messages) StdoutLine: {'line': b'-- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[14.499057] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/lib/libcustom_messages__rosidl_typesupport_fastrtps_cpp.so\n'}
+[14.499195] (custom_messages) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/lib/libcustom_messages__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[14.499430] (custom_messages) StdoutLine: {'line': b'-- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages\n'}
+[14.499603] (custom_messages) StdoutLine: {'line': b'-- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv\n'}
+[14.499777] (custom_messages) StdoutLine: {'line': b'-- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv/detail\n'}
+[14.499916] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv/detail/set_coordinate__rosidl_typesupport_introspection_c.h\n'}
+[14.500051] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv/detail/set_mode__rosidl_typesupport_introspection_c.h\n'}
+[14.500274] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv/detail/set_mode__type_support.c\n'}
+[14.500435] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv/detail/set_coordinate__type_support.c\n'}
+[14.500630] (custom_messages) StdoutLine: {'line': b'-- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/msg\n'}
+[14.500768] (custom_messages) StdoutLine: {'line': b'-- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/msg/detail\n'}
+[14.500927] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/msg/detail/cv__rosidl_typesupport_introspection_c.h\n'}
+[14.501068] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/msg/detail/cv__type_support.c\n'}
+[14.501382] (custom_messages) StdoutLine: {'line': b'-- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[14.501651] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/lib/libcustom_messages__rosidl_typesupport_introspection_c.so\n'}
+[14.501801] (custom_messages) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/lib/libcustom_messages__rosidl_typesupport_introspection_c.so" to ""\n'}
+[14.502034] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/lib/libcustom_messages__rosidl_typesupport_c.so\n'}
+[14.502243] (custom_messages) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/lib/libcustom_messages__rosidl_typesupport_c.so" to ""\n'}
+[14.502417] (custom_messages) StdoutLine: {'line': b'-- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages\n'}
+[14.502616] (custom_messages) StdoutLine: {'line': b'-- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv\n'}
+[14.502850] (custom_messages) StdoutLine: {'line': b'-- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv/detail\n'}
+[14.503076] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv/detail/set_mode__type_support.cpp\n'}
+[14.503247] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv/detail/set_mode__rosidl_typesupport_introspection_cpp.hpp\n'}
+[14.503491] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv/detail/set_coordinate__type_support.cpp\n'}
+[14.503635] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv/detail/set_coordinate__rosidl_typesupport_introspection_cpp.hpp\n'}
+[14.503824] (custom_messages) StdoutLine: {'line': b'-- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/msg\n'}
+[14.503981] (custom_messages) StdoutLine: {'line': b'-- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/msg/detail\n'}
+[14.504120] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/msg/detail/cv__type_support.cpp\n'}
+[14.504251] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/msg/detail/cv__rosidl_typesupport_introspection_cpp.hpp\n'}
+[14.504512] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/lib/libcustom_messages__rosidl_typesupport_introspection_cpp.so\n'}
+[14.505236] (custom_messages) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/lib/libcustom_messages__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[14.505535] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/lib/libcustom_messages__rosidl_typesupport_cpp.so\n'}
+[14.506266] (custom_messages) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/lib/libcustom_messages__rosidl_typesupport_cpp.so" to ""\n'}
+[14.506582] (custom_messages) StdoutLine: {'line': b'-- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/environment/pythonpath.sh\n'}
+[14.506737] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/environment/pythonpath.dsv\n'}
+[14.506945] (custom_messages) StdoutLine: {'line': b'-- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages-0.0.0-py3.10.egg-info\n'}
+[14.507152] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[14.507453] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[14.507963] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[14.508374] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[14.508752] (custom_messages) StdoutLine: {'line': b'-- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages\n'}
+[14.508914] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/_custom_messages_s.ep.rosidl_typesupport_c.c\n'}
+[14.509152] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/__init__.py\n'}
+[14.509760] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/_custom_messages_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[14.510039] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/_custom_messages_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[14.510412] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/srv\n'}
+[14.510663] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/srv/__init__.py\n'}
+[14.510918] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/srv/_set_coordinate_s.c\n'}
+[14.511121] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/srv/_set_mode_s.c\n'}
+[14.511349] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/srv/_set_coordinate.py\n'}
+[14.511585] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/srv/_set_mode.py\n'}
+[14.511865] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/libcustom_messages__rosidl_generator_py.so\n'}
+[14.512223] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/custom_messages_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[14.512600] (custom_messages) StdoutLine: {'line': b'-- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/msg\n'}
+[14.512877] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/msg/__init__.py\n'}
+[14.513109] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/msg/_cv_s.c\n'}
+[14.513384] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/msg/_cv.py\n'}
+[14.513725] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/custom_messages_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[14.514169] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/custom_messages_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[14.520891] (-) TimerEvent: {}
+[14.597692] (custom_messages) StdoutLine: {'line': b"Listing '/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages'...\n"}
+[14.598237] (custom_messages) StdoutLine: {'line': b"Compiling '/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/__init__.py'...\n"}
+[14.600659] (custom_messages) StdoutLine: {'line': b"Listing '/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/msg'...\n"}
+[14.603861] (custom_messages) StdoutLine: {'line': b"Compiling '/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/msg/__init__.py'...\n"}
+[14.604324] (custom_messages) StdoutLine: {'line': b"Compiling '/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/msg/_cv.py'...\n"}
+[14.606057] (custom_messages) StdoutLine: {'line': b"Listing '/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/srv'...\n"}
+[14.606396] (custom_messages) StdoutLine: {'line': b"Compiling '/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/srv/__init__.py'...\n"}
+[14.606685] (custom_messages) StdoutLine: {'line': b"Compiling '/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/srv/_set_coordinate.py'...\n"}
+[14.610271] (custom_messages) StdoutLine: {'line': b"Compiling '/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/srv/_set_mode.py'...\n"}
+[14.621086] (-) TimerEvent: {}
+[14.632694] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/custom_messages_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so\n'}
+[14.633712] (custom_messages) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/custom_messages_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[14.634321] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/custom_messages_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so\n'}
+[14.635245] (custom_messages) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/custom_messages_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[14.636066] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/custom_messages_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so\n'}
+[14.636904] (custom_messages) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/custom_messages_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""\n'}
+[14.637315] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/lib/libcustom_messages__rosidl_generator_py.so\n'}
+[14.638259] (custom_messages) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/lib/libcustom_messages__rosidl_generator_py.so" to ""\n'}
+[14.638633] (custom_messages) StdoutLine: {'line': b'-- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/msg/CV.idl\n'}
+[14.638882] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/srv/SetCoordinate.idl\n'}
+[14.639243] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/srv/SetMode.idl\n'}
+[14.639860] (custom_messages) StdoutLine: {'line': b'-- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/msg/CV.msg\n'}
+[14.640202] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/srv/SetCoordinate.srv\n'}
+[14.640441] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/srv/SetCoordinate_Request.msg\n'}
+[14.640817] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/srv/SetCoordinate_Response.msg\n'}
+[14.641174] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/srv/SetMode.srv\n'}
+[14.641526] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/srv/SetMode_Request.msg\n'}
+[14.641917] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/srv/SetMode_Response.msg\n'}
+[14.642347] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/ament_index/resource_index/package_run_dependencies/custom_messages\n'}
+[14.642905] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/ament_index/resource_index/parent_prefix_path/custom_messages\n'}
+[14.643465] (custom_messages) StdoutLine: {'line': b'-- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/environment/ament_prefix_path.sh\n'}
+[14.643828] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/environment/ament_prefix_path.dsv\n'}
+[14.644313] (custom_messages) StdoutLine: {'line': b'-- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/environment/path.sh\n'}
+[14.644585] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/environment/path.dsv\n'}
+[14.645046] (custom_messages) StdoutLine: {'line': b'-- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/local_setup.bash\n'}
+[14.645272] (custom_messages) StdoutLine: {'line': b'-- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/local_setup.sh\n'}
+[14.645531] (custom_messages) StdoutLine: {'line': b'-- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/local_setup.zsh\n'}
+[14.645679] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/local_setup.dsv\n'}
+[14.645935] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/package.dsv\n'}
+[14.646425] (custom_messages) StdoutLine: {'line': b'-- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/ament_index/resource_index/packages/custom_messages\n'}
+[14.646896] (custom_messages) StdoutLine: {'line': b'-- Old export file "/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/cmake/export_custom_messages__rosidl_generator_cExport.cmake" will be replaced.  Removing files [/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/cmake/export_custom_messages__rosidl_generator_cExport-noconfig.cmake].\n'}
+[14.647169] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/cmake/export_custom_messages__rosidl_generator_cExport.cmake\n'}
+[14.647647] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/cmake/export_custom_messages__rosidl_generator_cExport-noconfig.cmake\n'}
+[14.648202] (custom_messages) StdoutLine: {'line': b'-- Old export file "/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/cmake/export_custom_messages__rosidl_typesupport_fastrtps_cExport.cmake" will be replaced.  Removing files [/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/cmake/export_custom_messages__rosidl_typesupport_fastrtps_cExport-noconfig.cmake].\n'}
+[14.648457] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/cmake/export_custom_messages__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[14.648846] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/cmake/export_custom_messages__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[14.649349] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/cmake/export_custom_messages__rosidl_generator_cppExport.cmake\n'}
+[14.649985] (custom_messages) StdoutLine: {'line': b'-- Old export file "/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/cmake/export_custom_messages__rosidl_typesupport_fastrtps_cppExport.cmake" will be replaced.  Removing files [/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/cmake/export_custom_messages__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake].\n'}
+[14.650189] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/cmake/export_custom_messages__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[14.650576] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/cmake/export_custom_messages__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[14.651372] (custom_messages) StdoutLine: {'line': b'-- Old export file "/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/cmake/custom_messages__rosidl_typesupport_introspection_cExport.cmake" will be replaced.  Removing files [/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/cmake/custom_messages__rosidl_typesupport_introspection_cExport-noconfig.cmake].\n'}
+[14.651642] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/cmake/custom_messages__rosidl_typesupport_introspection_cExport.cmake\n'}
+[14.652501] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/cmake/custom_messages__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[14.652736] (custom_messages) StdoutLine: {'line': b'-- Old export file "/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/cmake/custom_messages__rosidl_typesupport_cExport.cmake" will be replaced.  Removing files [/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/cmake/custom_messages__rosidl_typesupport_cExport-noconfig.cmake].\n'}
+[14.652931] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/cmake/custom_messages__rosidl_typesupport_cExport.cmake\n'}
+[14.653341] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/cmake/custom_messages__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[14.653833] (custom_messages) StdoutLine: {'line': b'-- Old export file "/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/cmake/custom_messages__rosidl_typesupport_introspection_cppExport.cmake" will be replaced.  Removing files [/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/cmake/custom_messages__rosidl_typesupport_introspection_cppExport-noconfig.cmake].\n'}
+[14.654062] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/cmake/custom_messages__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[14.654448] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/cmake/custom_messages__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[14.654944] (custom_messages) StdoutLine: {'line': b'-- Old export file "/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/cmake/custom_messages__rosidl_typesupport_cppExport.cmake" will be replaced.  Removing files [/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/cmake/custom_messages__rosidl_typesupport_cppExport-noconfig.cmake].\n'}
+[14.655136] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/cmake/custom_messages__rosidl_typesupport_cppExport.cmake\n'}
+[14.655587] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/cmake/custom_messages__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[14.656173] (custom_messages) StdoutLine: {'line': b'-- Old export file "/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/cmake/export_custom_messages__rosidl_generator_pyExport.cmake" will be replaced.  Removing files [/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/cmake/export_custom_messages__rosidl_generator_pyExport-noconfig.cmake].\n'}
+[14.656408] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/cmake/export_custom_messages__rosidl_generator_pyExport.cmake\n'}
+[14.656786] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/cmake/export_custom_messages__rosidl_generator_pyExport-noconfig.cmake\n'}
+[14.657388] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/cmake/rosidl_cmake-extras.cmake\n'}
+[14.657809] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[14.658265] (custom_messages) StdoutLine: {'line': b'-- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[14.658488] (custom_messages) StdoutLine: {'line': b'-- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[14.658655] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[14.658932] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[14.659301] (custom_messages) StdoutLine: {'line': b'-- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[14.659503] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/cmake/custom_messagesConfig.cmake\n'}
+[14.660562] (custom_messages) StdoutLine: {'line': b'-- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/cmake/custom_messagesConfig-version.cmake\n'}
+[14.660842] (custom_messages) StdoutLine: {'line': b'-- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/package.xml\n'}
+[14.665333] (custom_messages) CommandEnded: {'returncode': 0}
+[14.713739] (custom_messages) JobEnded: {'identifier': 'custom_messages', 'rc': 0}
+[14.716191] (-) EventReactorShutdown: {}

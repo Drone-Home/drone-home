@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from custom_messages/srv/SetCoordinate.srv
+// generated code does not contain a copyright notice
+
+#include "sensor_msgs/msg/NavSatFix.idl"
+
+module custom_messages {
+  module srv {
+    @verbatim (language="comment", text=
+      "Used to update the target coordinate in gps navigation controller")
+    struct SetCoordinate_Request {
+      @verbatim (language="comment", text=
+        "coordinate read from NavSatFix and set")
+      sensor_msgs::msg::NavSatFix new_coordinate;
+    };
+    struct SetCoordinate_Response {
+      @verbatim (language="comment", text=
+        "indicate successful trigger")
+      boolean success;
+    };
+  };
+};

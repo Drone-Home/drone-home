@@ -1,0 +1,20 @@
+[INFO] [launch]: All log files can be found below /root/.ros/log/2025-02-14-07-24-48-215466-drone-home-1115
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [cv_controller-1]: process started with pid [1117]
+[INFO] [controller-2]: process started with pid [1119]
+[INFO] [pwm_publisher-3]: process started with pid [1121]
+[INFO] [gps_publisher-4]: process started with pid [1123]
+[INFO] [imu_publisher-5]: process started with pid [1125]
+[INFO] [drive_hardware-6]: process started with pid [1127]
+[drive_hardware-6] Traceback (most recent call last):
+[drive_hardware-6]   File "/workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/lib/drone_home/drive_hardware", line 33, in <module>
+[drive_hardware-6]     sys.exit(load_entry_point('drone-home==0.0.0', 'console_scripts', 'drive_hardware')())
+[drive_hardware-6]   File "/workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/lib/python3.10/site-packages/drone_home/ackermann_drive.py", line 163, in main
+[drive_hardware-6]     drive_subscriber = DriveSubscriber()
+[drive_hardware-6]   File "/workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/lib/python3.10/site-packages/drone_home/ackermann_drive.py", line 28, in __init__
+[drive_hardware-6]     self.subscriptions = [
+[drive_hardware-6] AttributeError: can't set attribute 'subscriptions'
+[cv_controller-1] [INFO] [1739535889.327462543] [drone_home1.sim]: CV Controller running
+[controller-2] [INFO] [1739535889.372166173] [drone_home1.controller]: Controller running
+[ERROR] [drive_hardware-6]: process has died [pid 1127, exit code 1, cmd '/workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/lib/drone_home/drive_hardware --ros-args -r __node:=drive_hardware -r __ns:=/drone_home1'].
+[imu_publisher-5] [INFO] [1739535890.785321420] [drone_home1.imu_publisher]: Calibration status: (True, 'Calibration (sys:0, gyro:0, accel:3, mag:0)')

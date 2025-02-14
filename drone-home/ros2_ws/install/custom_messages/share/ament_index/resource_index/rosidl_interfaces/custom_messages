@@ -1,2 +1,12 @@
 msg/CV.idl
 msg/CV.msg
+msg/ServoCommand.idl
+msg/ServoCommand.msg
+srv/SetCoordinate.idl
+srv/SetCoordinate.srv
+srv/SetCoordinate_Request.msg
+srv/SetCoordinate_Response.msg
+srv/SetMode.idl
+srv/SetMode.srv
+srv/SetMode_Request.msg
+srv/SetMode_Response.msg

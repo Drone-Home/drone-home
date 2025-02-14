@@ -61,21 +61,21 @@ class ServoController:
             max_angle=90,
             actuation_range=180
         )
-        self.charge_servo1 = CustomServo(
+        self.charge_servo1 = CustomServo( # Left/right axix
             self.pca,
             port=4,
             trim=0,
-            min_angle=-40,
-            max_angle=40,
-            actuation_range=180
+            min_angle=-135/2,
+            max_angle=135/2,
+            actuation_range=135
         )
-        self.charge_servo2 = CustomServo(
+        self.charge_servo2 = CustomServo( # Up/down axis
             self.pca,
-            port=5,
+            port=6,
             trim=0,
-            min_angle=-40,
-            max_angle=40,
-            actuation_range=180
+            min_angle=-135/2,
+            max_angle=135/2,
+            actuation_range=135
         )
 
         self.neutral()
@@ -89,6 +89,20 @@ class ServoController:
         self.drive_motor.set_angle(angle)
         if self.debug:
             print(f"Drive set to: {angle}")
+        
+    def set_charger_angle(self, x_angle, y_angle):
+        self.charge_servo1.set_angle(x_angle)
+        self.charge_servo2.set_angle(y_angle)
+        if self.debug:
+            print(f"X angle set to: {x_angle}")
+            print(f"Y angle set to: {y_angle}")
+
+    def set_charger_position_mapped(self, x_angle, y_angle):
+        # Interface for charging servos
+        # Maps x_angle (left/right) and y_angle (up/down) from (-1,1) to servo range
+        mapped_angle_x = self.map_value(x_angle, -1, 1, -(self.charge_servo1.min_angle-self.charge_servo1.trim), (self.charge_servo1.min_angle-self.charge_servo1.trim)) # subtract trim from min and max to get original min and max
+        mapped_angle_y = self.map_value(y_angle, -1, 1, -(self.charge_servo2.min_angle-self.charge_servo2.trim), (self.charge_servo2.min_angle-self.charge_servo2.trim)) # subtract trim from min and max to get original min and max
+        self.set_charger_angle(mapped_angle_x, mapped_angle_y)
 
     def set_drive_speed_mapped(self, angle):
         # Maps speed range of -1 to 1 to the motor range

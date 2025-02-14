@@ -1,0 +1,341 @@
+[0.054s] Invoking command in '/workspaces/drone_home-dev/drone-home/ros2_ws/build/custom_messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /workspaces/drone_home-dev/drone-home/ros2_ws/build/custom_messages -- -j6 -l6
+[0.253s] [0mCMake Deprecation Warning at CMakeLists.txt:1 (cmake_minimum_required):
+[0.253s]   Compatibility with CMake < 3.10 will be removed from a future version of
+[0.253s]   CMake.
+[0.253s] 
+[0.253s]   Update the VERSION argument <min> value.  Or, use the <min>...<max> syntax
+[0.253s]   to tell CMake that the project requires at least <min> but has been updated
+[0.253s]   to work with policies introduced by <max> or earlier.
+[0.254s] 
+[0.254s] [0m
+[0.282s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/install/share/ament_cmake/cmake)
+[0.813s] -- Found ament_lint_auto: 0.12.11 (/opt/ros/humble/install/share/ament_lint_auto/cmake)
+[0.970s] -- Found sensor_msgs: 4.2.4 (/opt/ros/humble/install/share/sensor_msgs/cmake)
+[1.032s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/install/share/rosidl_generator_c/cmake)
+[1.039s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/install/share/rosidl_adapter/cmake)
+[1.056s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/install/share/rosidl_generator_cpp/cmake)
+[1.082s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.117s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.266s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/install/share/rosidl_default_generators/cmake)
+[2.236s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/install/share/ament_cmake_ros/cmake)
+[4.481s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[5.353s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[5.360s] [33mCMake Warning (dev) at /opt/ros/humble/install/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:20 (find_package):
+[5.360s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[5.361s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[5.361s]   the cmake_policy command to set the policy and suppress this warning.
+[5.361s] 
+[5.362s] Call Stack (most recent call first):
+[5.362s]   /opt/ros/humble/install/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[5.362s]   /opt/ros/humble/install/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[5.362s]   CMakeLists.txt:29 (rosidl_generate_interfaces)
+[5.363s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[5.364s] [0m
+[5.417s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/install/share/python_cmake_module/cmake)
+[5.419s] [33mCMake Warning (dev) at /opt/ros/humble/install/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:52 (find_package):
+[5.420s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[5.420s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[5.420s]   the cmake_policy command to set the policy and suppress this warning.
+[5.420s] 
+[5.420s] Call Stack (most recent call first):
+[5.421s]   /opt/ros/humble/install/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[5.421s]   /opt/ros/humble/install/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[5.421s]   /opt/ros/humble/install/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[5.421s]   CMakeLists.txt:29 (rosidl_generate_interfaces)
+[5.421s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[5.421s] [0m
+[5.473s] [33mCMake Warning (dev) at /opt/ros/humble/install/share/python_cmake_module/cmake/Modules/FindPythonExtra.cmake:140 (find_package):
+[5.473s]   Policy CMP0148 is not set: The FindPythonInterp and FindPythonLibs modules
+[5.474s]   are removed.  Run "cmake --help-policy CMP0148" for policy details.  Use
+[5.474s]   the cmake_policy command to set the policy and suppress this warning.
+[5.474s] 
+[5.474s] Call Stack (most recent call first):
+[5.474s]   /opt/ros/humble/install/share/rosidl_generator_py/cmake/rosidl_generator_py_generate_interfaces.cmake:23 (find_package)
+[5.474s]   /opt/ros/humble/install/share/ament_cmake_core/cmake/core/ament_execute_extensions.cmake:48 (include)
+[5.475s]   /opt/ros/humble/install/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:286 (ament_execute_extensions)
+[5.475s]   CMakeLists.txt:29 (rosidl_generate_interfaces)
+[5.475s] This warning is for project developers.  Use -Wno-dev to suppress it.
+[5.475s] [0m
+[5.480s] -- Using PYTHON_EXECUTABLE: /usr/local/bin/python3
+[5.481s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[5.481s] -- Using PYTHON_LIBRARIES: /usr/lib/aarch64-linux-gnu/libpython3.10.so
+[5.636s] -- Added test 'lint_cmake' to check CMake code style
+[5.639s] -- Added test 'xmllint' to check XML markup files
+[5.654s] -- Configuring done (5.4s)
+[5.795s] -- Generating done (0.1s)
+[5.818s] -- Build files have been written to: /workspaces/drone_home-dev/drone-home/ros2_ws/build/custom_messages
+[5.860s] [  2%] [34m[1mGenerating C code for ROS interfaces[0m
+[5.871s] [  4%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[5.884s] [  4%] Built target ament_cmake_python_copy_custom_messages
+[6.588s] running egg_info
+[6.636s] writing custom_messages.egg-info/PKG-INFO
+[6.637s] writing dependency_links to custom_messages.egg-info/dependency_links.txt
+[6.638s] writing top-level names to custom_messages.egg-info/top_level.txt
+[6.782s] reading manifest file 'custom_messages.egg-info/SOURCES.txt'
+[6.785s] writing manifest file 'custom_messages.egg-info/SOURCES.txt'
+[6.909s] [  6%] [32mBuilding C object CMakeFiles/custom_messages__rosidl_generator_c.dir/rosidl_generator_c/custom_messages/srv/detail/set_coordinate__functions.c.o[0m
+[6.913s] [  8%] [32mBuilding C object CMakeFiles/custom_messages__rosidl_generator_c.dir/rosidl_generator_c/custom_messages/srv/detail/set_mode__functions.c.o[0m
+[6.914s] [ 10%] [32mBuilding C object CMakeFiles/custom_messages__rosidl_generator_c.dir/rosidl_generator_c/custom_messages/msg/detail/cv__functions.c.o[0m
+[6.922s] [ 10%] Built target ament_cmake_python_build_custom_messages_egg
+[6.963s] [ 10%] Built target custom_messages__cpp
+[6.978s] [ 12%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[6.981s] [ 14%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[6.986s] [ 17%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[7.244s] [ 19%] [32m[1mLinking C shared library libcustom_messages__rosidl_generator_c.so[0m
+[7.318s] [ 19%] Built target custom_messages__rosidl_generator_c
+[7.338s] [ 21%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[7.347s] [ 23%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[7.366s] [ 25%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[7.933s] [ 27%] [32mBuilding CXX object CMakeFiles/custom_messages__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_messages/msg/cv__type_support.cpp.o[0m
+[8.238s] [ 29%] [32mBuilding CXX object CMakeFiles/custom_messages__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_messages/msg/detail/cv__type_support.cpp.o[0m
+[8.432s] [ 31%] [32mBuilding CXX object CMakeFiles/custom_messages__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_messages/msg/cv__type_support.cpp.o[0m
+[8.478s] [ 34%] [32mBuilding C object CMakeFiles/custom_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_messages/msg/detail/cv__type_support.c.o[0m
+[8.494s] [ 36%] [32mBuilding CXX object CMakeFiles/custom_messages__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_messages/msg/detail/cv__type_support_c.cpp.o[0m
+[8.524s] [ 38%] [32mBuilding CXX object CMakeFiles/custom_messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_messages/msg/detail/dds_fastrtps/cv__type_support.cpp.o[0m
+[8.584s] [ 40%] [32mBuilding CXX object CMakeFiles/custom_messages__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_messages/srv/set_coordinate__type_support.cpp.o[0m
+[8.680s] [ 42%] [32mBuilding C object CMakeFiles/custom_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_messages/srv/detail/set_coordinate__type_support.c.o[0m
+[8.746s] [ 44%] [32mBuilding CXX object CMakeFiles/custom_messages__rosidl_typesupport_c.dir/rosidl_typesupport_c/custom_messages/srv/set_mode__type_support.cpp.o[0m
+[8.869s] [ 46%] [32m[1mLinking CXX shared library libcustom_messages__rosidl_typesupport_c.so[0m
+[8.880s] [ 48%] [32mBuilding C object CMakeFiles/custom_messages__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/custom_messages/srv/detail/set_mode__type_support.c.o[0m
+[9.003s] [ 51%] [32m[1mLinking C shared library libcustom_messages__rosidl_typesupport_introspection_c.so[0m
+[9.100s] [ 51%] Built target custom_messages__rosidl_typesupport_c
+[9.115s] [ 53%] [32mBuilding CXX object CMakeFiles/custom_messages__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_messages/srv/detail/set_coordinate__type_support_c.cpp.o[0m
+[9.196s] [ 55%] [32mBuilding CXX object CMakeFiles/custom_messages__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_messages/srv/set_coordinate__type_support.cpp.o[0m
+[9.235s] [ 55%] Built target custom_messages__rosidl_typesupport_introspection_c
+[9.277s] [ 57%] [32mBuilding CXX object CMakeFiles/custom_messages__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/custom_messages/srv/detail/set_mode__type_support_c.cpp.o[0m
+[9.547s] [ 59%] [32mBuilding CXX object CMakeFiles/custom_messages__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_messages/srv/detail/set_coordinate__type_support.cpp.o[0m
+[9.650s] [ 61%] [32mBuilding CXX object CMakeFiles/custom_messages__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/custom_messages/srv/detail/set_mode__type_support.cpp.o[0m
+[9.880s] [ 63%] [32mBuilding CXX object CMakeFiles/custom_messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_messages/srv/detail/dds_fastrtps/set_coordinate__type_support.cpp.o[0m
+[10.187s] [ 65%] [32mBuilding CXX object CMakeFiles/custom_messages__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/custom_messages/srv/detail/dds_fastrtps/set_mode__type_support.cpp.o[0m
+[10.269s] [ 68%] [32mBuilding CXX object CMakeFiles/custom_messages__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/custom_messages/srv/set_mode__type_support.cpp.o[0m
+[10.662s] [ 70%] [32m[1mLinking CXX shared library libcustom_messages__rosidl_typesupport_fastrtps_c.so[0m
+[11.038s] [ 72%] [32m[1mLinking CXX shared library libcustom_messages__rosidl_typesupport_introspection_cpp.so[0m
+[11.129s] [ 72%] Built target custom_messages__rosidl_typesupport_fastrtps_c
+[11.189s] [ 74%] [32m[1mLinking CXX shared library libcustom_messages__rosidl_typesupport_cpp.so[0m
+[11.246s] [ 74%] Built target custom_messages__rosidl_typesupport_introspection_cpp
+[11.259s] [ 74%] Built target custom_messages__rosidl_typesupport_cpp
+[11.638s] [ 76%] [32m[1mLinking CXX shared library libcustom_messages__rosidl_typesupport_fastrtps_cpp.so[0m
+[11.802s] [ 76%] Built target custom_messages__rosidl_typesupport_fastrtps_cpp
+[11.824s] [ 76%] Built target custom_messages
+[11.849s] [ 78%] [34m[1mGenerating Python code for ROS interfaces[0m
+[13.258s] [ 78%] Built target custom_messages__py
+[13.294s] [ 80%] [32mBuilding C object CMakeFiles/custom_messages__rosidl_generator_py.dir/rosidl_generator_py/custom_messages/msg/_cv_s.c.o[0m
+[13.295s] [ 82%] [32mBuilding C object CMakeFiles/custom_messages__rosidl_generator_py.dir/rosidl_generator_py/custom_messages/srv/_set_coordinate_s.c.o[0m
+[13.297s] [ 85%] [32mBuilding C object CMakeFiles/custom_messages__rosidl_generator_py.dir/rosidl_generator_py/custom_messages/srv/_set_mode_s.c.o[0m
+[13.587s] [ 87%] [32m[1mLinking C shared library rosidl_generator_py/custom_messages/libcustom_messages__rosidl_generator_py.so[0m
+[13.656s] [ 87%] Built target custom_messages__rosidl_generator_py
+[13.688s] [ 91%] [32mBuilding C object CMakeFiles/custom_messages__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/custom_messages/_custom_messages_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[13.689s] [ 91%] [32mBuilding C object CMakeFiles/custom_messages__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/custom_messages/_custom_messages_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[13.689s] [ 93%] [32mBuilding C object CMakeFiles/custom_messages__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/custom_messages/_custom_messages_s.ep.rosidl_typesupport_c.c.o[0m
+[13.986s] [ 95%] [32m[1mLinking C shared library rosidl_generator_py/custom_messages/custom_messages_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so[0m
+[13.993s] [ 97%] [32m[1mLinking C shared library rosidl_generator_py/custom_messages/custom_messages_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so[0m
+[13.994s] [100%] [32m[1mLinking C shared library rosidl_generator_py/custom_messages/custom_messages_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so[0m
+[14.065s] [100%] Built target custom_messages__rosidl_typesupport_c__pyext
+[14.077s] [100%] Built target custom_messages__rosidl_typesupport_fastrtps_c__pyext
+[14.088s] [100%] Built target custom_messages__rosidl_typesupport_introspection_c__pyext
+[14.108s] Invoked command in '/workspaces/drone_home-dev/drone-home/ros2_ws/build/custom_messages' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --build /workspaces/drone_home-dev/drone-home/ros2_ws/build/custom_messages -- -j6 -l6
+[14.292s] Invoking command in '/workspaces/drone_home-dev/drone-home/ros2_ws/build/custom_messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --install /workspaces/drone_home-dev/drone-home/ros2_ws/build/custom_messages
+[14.476s] -- Install configuration: ""
+[14.479s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/ament_index/resource_index/rosidl_interfaces/custom_messages
+[14.481s] -- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages
+[14.481s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv
+[14.482s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv/detail
+[14.482s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv/detail/set_mode__functions.h
+[14.482s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv/detail/set_coordinate__functions.c
+[14.482s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv/detail/set_mode__struct.h
+[14.482s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv/detail/set_coordinate__functions.h
+[14.482s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv/detail/set_mode__functions.c
+[14.482s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv/detail/set_coordinate__struct.h
+[14.483s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv/detail/set_mode__type_support.h
+[14.483s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv/detail/set_coordinate__type_support.h
+[14.483s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv/set_mode.h
+[14.483s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv/set_coordinate.h
+[14.483s] -- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/msg
+[14.483s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/msg/cv.h
+[14.483s] -- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/msg/detail
+[14.484s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/msg/detail/cv__type_support.h
+[14.484s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/msg/detail/cv__struct.h
+[14.484s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/msg/detail/cv__functions.c
+[14.484s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/msg/detail/cv__functions.h
+[14.485s] -- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/msg/rosidl_generator_c__visibility_control.h
+[14.485s] -- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/environment/library_path.sh
+[14.485s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/environment/library_path.dsv
+[14.485s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/lib/libcustom_messages__rosidl_generator_c.so
+[14.486s] -- Set non-toolchain portion of runtime path of "/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/lib/libcustom_messages__rosidl_generator_c.so" to ""
+[14.486s] -- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages
+[14.486s] -- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv
+[14.486s] -- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv/detail
+[14.487s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv/detail/set_coordinate__rosidl_typesupport_fastrtps_c.h
+[14.488s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv/detail/set_mode__rosidl_typesupport_fastrtps_c.h
+[14.488s] -- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/msg
+[14.488s] -- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/msg/detail
+[14.488s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/msg/detail/cv__rosidl_typesupport_fastrtps_c.h
+[14.488s] -- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[14.489s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/lib/libcustom_messages__rosidl_typesupport_fastrtps_c.so
+[14.490s] -- Set non-toolchain portion of runtime path of "/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/lib/libcustom_messages__rosidl_typesupport_fastrtps_c.so" to ""
+[14.490s] -- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages
+[14.490s] -- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv
+[14.490s] -- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv/detail
+[14.490s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv/detail/set_coordinate__traits.hpp
+[14.491s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv/detail/set_mode__traits.hpp
+[14.491s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv/detail/set_mode__struct.hpp
+[14.491s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv/detail/set_mode__builder.hpp
+[14.492s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv/detail/set_mode__type_support.hpp
+[14.492s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv/detail/set_coordinate__type_support.hpp
+[14.492s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv/detail/set_coordinate__struct.hpp
+[14.492s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv/detail/set_coordinate__builder.hpp
+[14.493s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv/set_coordinate.hpp
+[14.493s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv/set_mode.hpp
+[14.494s] -- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/msg
+[14.494s] -- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/msg/detail
+[14.494s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/msg/detail/cv__traits.hpp
+[14.494s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/msg/detail/cv__struct.hpp
+[14.494s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/msg/detail/cv__builder.hpp
+[14.494s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/msg/detail/cv__type_support.hpp
+[14.495s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/msg/cv.hpp
+[14.495s] -- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/msg/rosidl_generator_cpp__visibility_control.hpp
+[14.495s] -- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages
+[14.495s] -- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv
+[14.496s] -- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv/detail
+[14.496s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv/detail/set_mode__rosidl_typesupport_fastrtps_cpp.hpp
+[14.496s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv/detail/dds_fastrtps
+[14.496s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv/detail/set_coordinate__rosidl_typesupport_fastrtps_cpp.hpp
+[14.496s] -- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/msg
+[14.496s] -- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/msg/detail
+[14.497s] -- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/msg/detail/dds_fastrtps
+[14.497s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/msg/detail/cv__rosidl_typesupport_fastrtps_cpp.hpp
+[14.497s] -- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[14.497s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/lib/libcustom_messages__rosidl_typesupport_fastrtps_cpp.so
+[14.497s] -- Set non-toolchain portion of runtime path of "/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/lib/libcustom_messages__rosidl_typesupport_fastrtps_cpp.so" to ""
+[14.498s] -- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages
+[14.498s] -- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv
+[14.498s] -- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv/detail
+[14.498s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv/detail/set_coordinate__rosidl_typesupport_introspection_c.h
+[14.498s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv/detail/set_mode__rosidl_typesupport_introspection_c.h
+[14.498s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv/detail/set_mode__type_support.c
+[14.499s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv/detail/set_coordinate__type_support.c
+[14.499s] -- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/msg
+[14.499s] -- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/msg/detail
+[14.499s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/msg/detail/cv__rosidl_typesupport_introspection_c.h
+[14.499s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/msg/detail/cv__type_support.c
+[14.500s] -- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[14.500s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/lib/libcustom_messages__rosidl_typesupport_introspection_c.so
+[14.500s] -- Set non-toolchain portion of runtime path of "/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/lib/libcustom_messages__rosidl_typesupport_introspection_c.so" to ""
+[14.500s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/lib/libcustom_messages__rosidl_typesupport_c.so
+[14.500s] -- Set non-toolchain portion of runtime path of "/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/lib/libcustom_messages__rosidl_typesupport_c.so" to ""
+[14.501s] -- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages
+[14.501s] -- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv
+[14.501s] -- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv/detail
+[14.501s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv/detail/set_mode__type_support.cpp
+[14.501s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv/detail/set_mode__rosidl_typesupport_introspection_cpp.hpp
+[14.502s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv/detail/set_coordinate__type_support.cpp
+[14.502s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/srv/detail/set_coordinate__rosidl_typesupport_introspection_cpp.hpp
+[14.502s] -- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/msg
+[14.502s] -- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/msg/detail
+[14.502s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/msg/detail/cv__type_support.cpp
+[14.502s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/include/custom_messages/custom_messages/msg/detail/cv__rosidl_typesupport_introspection_cpp.hpp
+[14.503s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/lib/libcustom_messages__rosidl_typesupport_introspection_cpp.so
+[14.503s] -- Set non-toolchain portion of runtime path of "/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/lib/libcustom_messages__rosidl_typesupport_introspection_cpp.so" to ""
+[14.504s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/lib/libcustom_messages__rosidl_typesupport_cpp.so
+[14.504s] -- Set non-toolchain portion of runtime path of "/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/lib/libcustom_messages__rosidl_typesupport_cpp.so" to ""
+[14.505s] -- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/environment/pythonpath.sh
+[14.505s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/environment/pythonpath.dsv
+[14.505s] -- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages-0.0.0-py3.10.egg-info
+[14.505s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages-0.0.0-py3.10.egg-info/top_level.txt
+[14.506s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages-0.0.0-py3.10.egg-info/SOURCES.txt
+[14.506s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages-0.0.0-py3.10.egg-info/PKG-INFO
+[14.507s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages-0.0.0-py3.10.egg-info/dependency_links.txt
+[14.507s] -- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages
+[14.507s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/_custom_messages_s.ep.rosidl_typesupport_c.c
+[14.507s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/__init__.py
+[14.508s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/_custom_messages_s.ep.rosidl_typesupport_introspection_c.c
+[14.508s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/_custom_messages_s.ep.rosidl_typesupport_fastrtps_c.c
+[14.509s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/srv
+[14.509s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/srv/__init__.py
+[14.509s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/srv/_set_coordinate_s.c
+[14.509s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/srv/_set_mode_s.c
+[14.510s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/srv/_set_coordinate.py
+[14.510s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/srv/_set_mode.py
+[14.510s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/libcustom_messages__rosidl_generator_py.so
+[14.510s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/custom_messages_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[14.511s] -- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/msg
+[14.511s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/msg/__init__.py
+[14.511s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/msg/_cv_s.c
+[14.512s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/msg/_cv.py
+[14.512s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/custom_messages_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[14.512s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/custom_messages_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[14.596s] Listing '/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages'...
+[14.596s] Compiling '/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/__init__.py'...
+[14.599s] Listing '/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/msg'...
+[14.602s] Compiling '/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/msg/__init__.py'...
+[14.602s] Compiling '/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/msg/_cv.py'...
+[14.604s] Listing '/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/srv'...
+[14.605s] Compiling '/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/srv/__init__.py'...
+[14.605s] Compiling '/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/srv/_set_coordinate.py'...
+[14.609s] Compiling '/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/srv/_set_mode.py'...
+[14.631s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/custom_messages_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[14.632s] -- Set non-toolchain portion of runtime path of "/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/custom_messages_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so" to ""
+[14.633s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/custom_messages_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[14.633s] -- Set non-toolchain portion of runtime path of "/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/custom_messages_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so" to ""
+[14.634s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/custom_messages_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[14.635s] -- Set non-toolchain portion of runtime path of "/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/custom_messages_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so" to ""
+[14.635s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/lib/libcustom_messages__rosidl_generator_py.so
+[14.637s] -- Set non-toolchain portion of runtime path of "/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/lib/libcustom_messages__rosidl_generator_py.so" to ""
+[14.637s] -- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/msg/CV.idl
+[14.637s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/srv/SetCoordinate.idl
+[14.637s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/srv/SetMode.idl
+[14.638s] -- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/msg/CV.msg
+[14.638s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/srv/SetCoordinate.srv
+[14.639s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/srv/SetCoordinate_Request.msg
+[14.639s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/srv/SetCoordinate_Response.msg
+[14.639s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/srv/SetMode.srv
+[14.640s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/srv/SetMode_Request.msg
+[14.640s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/srv/SetMode_Response.msg
+[14.641s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/ament_index/resource_index/package_run_dependencies/custom_messages
+[14.641s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/ament_index/resource_index/parent_prefix_path/custom_messages
+[14.642s] -- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/environment/ament_prefix_path.sh
+[14.642s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/environment/ament_prefix_path.dsv
+[14.643s] -- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/environment/path.sh
+[14.643s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/environment/path.dsv
+[14.643s] -- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/local_setup.bash
+[14.643s] -- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/local_setup.sh
+[14.644s] -- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/local_setup.zsh
+[14.644s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/local_setup.dsv
+[14.644s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/package.dsv
+[14.645s] -- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/ament_index/resource_index/packages/custom_messages
+[14.645s] -- Old export file "/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/cmake/export_custom_messages__rosidl_generator_cExport.cmake" will be replaced.  Removing files [/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/cmake/export_custom_messages__rosidl_generator_cExport-noconfig.cmake].
+[14.645s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/cmake/export_custom_messages__rosidl_generator_cExport.cmake
+[14.646s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/cmake/export_custom_messages__rosidl_generator_cExport-noconfig.cmake
+[14.646s] -- Old export file "/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/cmake/export_custom_messages__rosidl_typesupport_fastrtps_cExport.cmake" will be replaced.  Removing files [/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/cmake/export_custom_messages__rosidl_typesupport_fastrtps_cExport-noconfig.cmake].
+[14.647s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/cmake/export_custom_messages__rosidl_typesupport_fastrtps_cExport.cmake
+[14.647s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/cmake/export_custom_messages__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[14.647s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/cmake/export_custom_messages__rosidl_generator_cppExport.cmake
+[14.648s] -- Old export file "/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/cmake/export_custom_messages__rosidl_typesupport_fastrtps_cppExport.cmake" will be replaced.  Removing files [/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/cmake/export_custom_messages__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake].
+[14.648s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/cmake/export_custom_messages__rosidl_typesupport_fastrtps_cppExport.cmake
+[14.649s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/cmake/export_custom_messages__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[14.650s] -- Old export file "/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/cmake/custom_messages__rosidl_typesupport_introspection_cExport.cmake" will be replaced.  Removing files [/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/cmake/custom_messages__rosidl_typesupport_introspection_cExport-noconfig.cmake].
+[14.650s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/cmake/custom_messages__rosidl_typesupport_introspection_cExport.cmake
+[14.651s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/cmake/custom_messages__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[14.651s] -- Old export file "/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/cmake/custom_messages__rosidl_typesupport_cExport.cmake" will be replaced.  Removing files [/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/cmake/custom_messages__rosidl_typesupport_cExport-noconfig.cmake].
+[14.651s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/cmake/custom_messages__rosidl_typesupport_cExport.cmake
+[14.652s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/cmake/custom_messages__rosidl_typesupport_cExport-noconfig.cmake
+[14.652s] -- Old export file "/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/cmake/custom_messages__rosidl_typesupport_introspection_cppExport.cmake" will be replaced.  Removing files [/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/cmake/custom_messages__rosidl_typesupport_introspection_cppExport-noconfig.cmake].
+[14.652s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/cmake/custom_messages__rosidl_typesupport_introspection_cppExport.cmake
+[14.653s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/cmake/custom_messages__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[14.653s] -- Old export file "/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/cmake/custom_messages__rosidl_typesupport_cppExport.cmake" will be replaced.  Removing files [/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/cmake/custom_messages__rosidl_typesupport_cppExport-noconfig.cmake].
+[14.653s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/cmake/custom_messages__rosidl_typesupport_cppExport.cmake
+[14.654s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/cmake/custom_messages__rosidl_typesupport_cppExport-noconfig.cmake
+[14.654s] -- Old export file "/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/cmake/export_custom_messages__rosidl_generator_pyExport.cmake" will be replaced.  Removing files [/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/cmake/export_custom_messages__rosidl_generator_pyExport-noconfig.cmake].
+[14.655s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/cmake/export_custom_messages__rosidl_generator_pyExport.cmake
+[14.655s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/cmake/export_custom_messages__rosidl_generator_pyExport-noconfig.cmake
+[14.656s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/cmake/rosidl_cmake-extras.cmake
+[14.656s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/cmake/ament_cmake_export_dependencies-extras.cmake
+[14.656s] -- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/cmake/ament_cmake_export_include_directories-extras.cmake
+[14.657s] -- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/cmake/ament_cmake_export_libraries-extras.cmake
+[14.657s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/cmake/ament_cmake_export_targets-extras.cmake
+[14.657s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[14.657s] -- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[14.658s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/cmake/custom_messagesConfig.cmake
+[14.659s] -- Up-to-date: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/cmake/custom_messagesConfig-version.cmake
+[14.659s] -- Installing: /workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/package.xml
+[14.665s] Invoked command in '/workspaces/drone_home-dev/drone-home/ros2_ws/build/custom_messages' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/local/bin/cmake --install /workspaces/drone_home-dev/drone-home/ros2_ws/build/custom_messages

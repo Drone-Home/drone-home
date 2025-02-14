@@ -1,0 +1,19 @@
+[INFO] [launch]: All log files can be found below /root/.ros/log/2025-02-13-12-44-07-394270-drone-home-259
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [cv_controller-1]: process started with pid [261]
+[INFO] [controller-2]: process started with pid [263]
+[INFO] [pwm_publisher-3]: process started with pid [265]
+[INFO] [gps_publisher-4]: process started with pid [267]
+[INFO] [imu_publisher-5]: process started with pid [269]
+[INFO] [drive_hardware-6]: process started with pid [271]
+[cv_controller-1] [INFO] [1739468648.542506242] [drone_home1.sim]: CV Controller running
+[controller-2] [INFO] [1739468648.694156205] [drone_home1.controller]: Controller running
+[imu_publisher-5] [INFO] [1739468650.054616668] [drone_home1.imu_publisher]: Calibration status: (True, 'Calibration (sys:0, gyro:0, accel:3, mag:0)')
+[drive_hardware-6] [INFO] [1739468725.002548358] [drone_home1.drive_hardware]: Service request to change drive mode custom_messages.srv.SetMode_Request(mode='automatic')
+[drive_hardware-6] [INFO] [1739468725.004258818] [drone_home1.drive_hardware]: Drive mode now: automatic
+[drive_hardware-6] [INFO] [1739468729.264012918] [drone_home1.drive_hardware]: Service request to change drive mode custom_messages.srv.SetMode_Request(mode='manual')
+[drive_hardware-6] [INFO] [1739468729.265355889] [drone_home1.drive_hardware]: Drive mode now: manual
+[drive_hardware-6] [INFO] [1739468733.412986181] [drone_home1.drive_hardware]: Service request to change drive mode custom_messages.srv.SetMode_Request(mode='automatic')
+[drive_hardware-6] [INFO] [1739468733.414075178] [drone_home1.drive_hardware]: Drive mode now: automatic
+[drive_hardware-6] [INFO] [1739468735.690223348] [drone_home1.drive_hardware]: Service request to change drive mode custom_messages.srv.SetMode_Request(mode='manual')
+[drive_hardware-6] [INFO] [1739468735.691725680] [drone_home1.drive_hardware]: Drive mode now: manual

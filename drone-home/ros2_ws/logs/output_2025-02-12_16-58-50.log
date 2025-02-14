@@ -1,0 +1,94 @@
+[INFO] [launch]: All log files can be found below /root/.ros/log/2025-02-12-16-58-55-571943-drone-home-644
+[INFO] [launch]: Default logging verbosity is set to INFO
+[WARNING] [controller-2]: there are now at least 2 nodes with the name /drone_home1/sim created within this launch context
+[WARNING] [pwm_publisher-3]: there are now at least 3 nodes with the name /drone_home1/sim created within this launch context
+[WARNING] [gps_publisher-4]: there are now at least 4 nodes with the name /drone_home1/sim created within this launch context
+[WARNING] [imu_publisher-5]: there are now at least 5 nodes with the name /drone_home1/sim created within this launch context
+[WARNING] [drive_hardware-6]: there are now at least 6 nodes with the name /drone_home1/sim created within this launch context
+[INFO] [cv_controller-1]: process started with pid [646]
+[INFO] [controller-2]: process started with pid [648]
+[INFO] [pwm_publisher-3]: process started with pid [650]
+[INFO] [gps_publisher-4]: process started with pid [652]
+[INFO] [imu_publisher-5]: process started with pid [654]
+[INFO] [drive_hardware-6]: process started with pid [656]
+[cv_controller-1] [INFO] [1739397536.284647037] [drone_home1.sim]: CV Controller running
+[controller-2] [INFO] [1739397536.679849514] [drone_home1.sim]: Controller running
+[imu_publisher-5] [INFO] [1739397538.113840202] [drone_home1.sim]: Calibration status: (True, 'Calibration (sys:0, gyro:0, accel:3, mag:0)')
+[controller-2] [INFO] [1739397538.226431202] [drone_home1.sim]: Current Yaw: 75.79326433545963, target = 0.0
+[controller-2] [INFO] [1739397538.227578154] [drone_home1.sim]: Going to 1: 177337.23 meters
+[controller-2] [INFO] [1739397538.326553408] [drone_home1.sim]: Current Yaw: 75.85474064461458, target = -110.28901743236591
+[controller-2] [INFO] [1739397538.327687784] [drone_home1.sim]: Going to 1: 177337.23 meters
+[controller-2] [INFO] [1739397538.427503963] [drone_home1.sim]: Current Yaw: 75.96150257871459, target = -110.28901743236591
+[controller-2] [INFO] [1739397538.428739271] [drone_home1.sim]: Going to 1: 177337.23 meters
+[controller-2] [INFO] [1739397538.526183494] [drone_home1.sim]: Current Yaw: 76.01442430722493, target = -110.28901743236591
+[controller-2] [INFO] [1739397538.527221611] [drone_home1.sim]: Going to 1: 177337.23 meters
+[controller-2] [INFO] [1739397538.626238306] [drone_home1.sim]: Current Yaw: 76.03172412438994, target = -110.28901743236591
+[controller-2] [INFO] [1739397538.627231109] [drone_home1.sim]: Going to 1: 177337.23 meters
+[controller-2] [INFO] [1739397538.726455844] [drone_home1.sim]: Current Yaw: 76.04141442510964, target = -110.28901743236591
+[controller-2] [INFO] [1739397538.727479912] [drone_home1.sim]: Going to 1: 177337.23 meters
+[controller-2] [INFO] [1739397538.826343769] [drone_home1.sim]: Current Yaw: 76.05871860050105, target = -110.28901743236591
+[controller-2] [INFO] [1739397538.827600550] [drone_home1.sim]: Going to 1: 177337.25 meters
+[controller-2] [INFO] [1739397538.926240783] [drone_home1.sim]: Current Yaw: 76.03276368271251, target = -110.28907337507488
+[controller-2] [INFO] [1739397538.927291541] [drone_home1.sim]: Going to 1: 177337.25 meters
+[controller-2] [INFO] [1739397539.026278762] [drone_home1.sim]: Current Yaw: 76.04141442510964, target = -110.28907337507488
+[controller-2] [INFO] [1739397539.027482933] [drone_home1.sim]: Going to 1: 177337.36 meters
+[controller-2] [INFO] [1739397539.126264033] [drone_home1.sim]: Current Yaw: 76.02307376739365, target = -110.28907348616406
+[controller-2] [INFO] [1739397539.127278789] [drone_home1.sim]: Going to 1: 177337.36 meters
+[controller-2] [INFO] [1739397539.226307322] [drone_home1.sim]: Current Yaw: 75.96150257871459, target = -110.28907348616406
+[controller-2] [INFO] [1739397539.227488676] [drone_home1.sim]: Going to 1: 177337.36 meters
+[controller-2] [INFO] [1739397539.326159469] [drone_home1.sim]: Current Yaw: 75.96150257871459, target = -110.28907348616406
+[controller-2] [INFO] [1739397539.327374072] [drone_home1.sim]: Going to 1: 177337.36 meters
+[controller-2] [INFO] [1739397539.426146916] [drone_home1.sim]: Current Yaw: 76.03172412438994, target = -110.28907348616406
+[controller-2] [INFO] [1739397539.427543670] [drone_home1.sim]: Going to 1: 177337.61 meters
+[controller-2] [INFO] [1739397539.526404613] [drone_home1.sim]: Current Yaw: 76.05871860050105, target = -110.28918559382424
+[controller-2] [INFO] [1739397539.527561646] [drone_home1.sim]: Going to 1: 177337.61 meters
+[controller-2] [INFO] [1739397539.626319450] [drone_home1.sim]: Current Yaw: 76.13003857739504, target = -110.28918559382424
+[controller-2] [INFO] [1739397539.627492771] [drone_home1.sim]: Going to 1: 177337.61 meters
+[controller-2] [INFO] [1739397539.726259567] [drone_home1.sim]: Current Yaw: 76.28039503364185, target = -110.28918559382424
+[controller-2] [INFO] [1739397539.727306260] [drone_home1.sim]: Going to 1: 177337.61 meters
+[controller-2] [INFO] [1739397539.826312297] [drone_home1.sim]: Current Yaw: 76.34316838446355, target = -110.28918559382424
+[controller-2] [INFO] [1739397539.827366574] [drone_home1.sim]: Going to 1: 177337.87 meters
+[controller-2] [INFO] [1739397539.926270367] [drone_home1.sim]: Current Yaw: 76.44065975208983, target = -110.28929770157048
+[controller-2] [INFO] [1739397539.927314756] [drone_home1.sim]: Going to 1: 177337.87 meters
+[controller-2] [INFO] [1739397540.026239157] [drone_home1.sim]: Current Yaw: 76.47642729066192, target = -110.28929770157048
+[controller-2] [INFO] [1739397540.027244761] [drone_home1.sim]: Going to 1: 177337.87 meters
+[controller-2] [INFO] [1739397540.126164584] [drone_home1.sim]: Current Yaw: 76.48612939542471, target = -110.28929770157048
+[controller-2] [INFO] [1739397540.127138123] [drone_home1.sim]: Going to 1: 177337.87 meters
+[controller-2] [INFO] [1739397540.226442184] [drone_home1.sim]: Current Yaw: 76.48612939542471, target = -110.28929770157048
+[controller-2] [INFO] [1739397540.227501613] [drone_home1.sim]: Going to 1: 177337.98 meters
+[controller-2] [INFO] [1739397540.326170804] [drone_home1.sim]: Current Yaw: 76.36915490199527, target = -110.28929781275987
+[controller-2] [INFO] [1739397540.327347805] [drone_home1.sim]: Going to 1: 177337.98 meters
+[controller-2] [INFO] [1739397540.426202698] [drone_home1.sim]: Current Yaw: 76.36915490199527, target = -110.28929781275987
+[controller-2] [INFO] [1739397540.427381492] [drone_home1.sim]: Going to 1: 177338.21 meters
+[controller-2] [INFO] [1739397540.526205632] [drone_home1.sim]: Current Yaw: 76.36915490199527, target = -110.28935397791338
+[controller-2] [INFO] [1739397540.527226500] [drone_home1.sim]: Going to 1: 177338.21 meters
+[controller-2] [INFO] [1739397540.626199670] [drone_home1.sim]: Current Yaw: 76.36915490199527, target = -110.28935397791338
+[controller-2] [INFO] [1739397540.627223898] [drone_home1.sim]: Going to 1: 177338.21 meters
+[controller-2] [INFO] [1739397540.726176330] [drone_home1.sim]: Current Yaw: 76.36915490199527, target = -110.28935397791338
+[controller-2] [INFO] [1739397540.727186126] [drone_home1.sim]: Going to 1: 177338.21 meters
+[controller-2] [INFO] [1739397540.826206369] [drone_home1.sim]: Current Yaw: 76.36915490199527, target = -110.28935397791338
+[controller-2] [INFO] [1739397540.827228197] [drone_home1.sim]: Going to 1: 177338.43 meters
+[controller-2] [INFO] [1739397540.926178198] [drone_home1.sim]: Current Yaw: 76.36915490199527, target = -110.289354200426
+[controller-2] [INFO] [1739397540.927198618] [drone_home1.sim]: Going to 1: 177338.43 meters
+[controller-2] [INFO] [1739397541.026183563] [drone_home1.sim]: Current Yaw: 76.36915490199527, target = -110.289354200426
+[controller-2] [INFO] [1739397541.027213040] [drone_home1.sim]: Going to 1: 177338.43 meters
+[controller-2] [INFO] [1739397541.126239393] [drone_home1.sim]: Current Yaw: 76.36915490199527, target = -110.289354200426
+[controller-2] [INFO] [1739397541.127247204] [drone_home1.sim]: Going to 1: 177338.43 meters
+[controller-2] [INFO] [1739397541.226238452] [drone_home1.sim]: Current Yaw: 76.36915490199527, target = -110.289354200426
+[controller-2] [INFO] [1739397541.227254296] [drone_home1.sim]: Going to 1: 177338.43 meters
+[controller-2] [INFO] [1739397541.326268297] [drone_home1.sim]: Current Yaw: 76.36915490199527, target = -110.289354200426
+[controller-2] [INFO] [1739397541.327297133] [drone_home1.sim]: Going to 1: 177338.43 meters
+[controller-2] [INFO] [1739397541.426276701] [drone_home1.sim]: Current Yaw: 76.36915490199527, target = -110.289354200426
+[controller-2] [INFO] [1739397541.427340354] [drone_home1.sim]: Going to 1: 177338.43 meters
+[controller-2] [INFO] [1739397541.526218318] [drone_home1.sim]: Current Yaw: 76.36915490199527, target = -110.289354200426
+[controller-2] [INFO] [1739397541.527263827] [drone_home1.sim]: Going to 1: 177338.43 meters
+[controller-2] [INFO] [1739397541.626272900] [drone_home1.sim]: Current Yaw: 76.36915490199527, target = -110.289354200426
+[controller-2] [INFO] [1739397541.627332009] [drone_home1.sim]: Going to 1: 177338.41 meters
+[controller-2] [INFO] [1739397541.726322777] [drone_home1.sim]: Current Yaw: 76.36915490199527, target = -110.28929825770366
+[controller-2] [INFO] [1739397541.727401343] [drone_home1.sim]: Going to 1: 177338.41 meters
+[controller-2] [INFO] [1739397541.826609239] [drone_home1.sim]: Current Yaw: 76.36915490199527, target = -110.28929825770366
+[controller-2] [INFO] [1739397541.827679677] [drone_home1.sim]: Going to 1: 177338.41 meters
+[controller-2] [INFO] [1739397541.926481606] [drone_home1.sim]: Current Yaw: 76.36915490199527, target = -110.28929825770366
+[controller-2] [INFO] [1739397541.927517643] [drone_home1.sim]: Going to 1: 177338.41 meters
+[controller-2] [INFO] [1739397542.026587485] [drone_home1.sim]: Current Yaw: 76.36915490199527, target = -110.28929825770366
+[controller-2] [INFO] [1739397542.027624514] [drone_home1.sim]: Going to 1: 177338.41 meters

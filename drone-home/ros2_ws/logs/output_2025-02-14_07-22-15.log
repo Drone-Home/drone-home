@@ -1,0 +1,30 @@
+[INFO] [launch]: All log files can be found below /root/.ros/log/2025-02-14-07-22-21-119996-drone-home-901
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [cv_controller-1]: process started with pid [903]
+[INFO] [controller-2]: process started with pid [905]
+[INFO] [pwm_publisher-3]: process started with pid [907]
+[INFO] [gps_publisher-4]: process started with pid [909]
+[INFO] [imu_publisher-5]: process started with pid [911]
+[INFO] [drive_hardware-6]: process started with pid [913]
+[drive_hardware-6] Traceback (most recent call last):
+[drive_hardware-6]   File "/workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/lib/drone_home/drive_hardware", line 33, in <module>
+[drive_hardware-6]     sys.exit(load_entry_point('drone-home==0.0.0', 'console_scripts', 'drive_hardware')())
+[drive_hardware-6]   File "/workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/lib/drone_home/drive_hardware", line 25, in importlib_load_entry_point
+[drive_hardware-6]     return next(matches).load()
+[drive_hardware-6]   File "/usr/lib/python3.10/importlib/metadata/__init__.py", line 171, in load
+[drive_hardware-6]     module = import_module(match.group('module'))
+[drive_hardware-6]   File "/usr/lib/python3.10/importlib/__init__.py", line 126, in import_module
+[drive_hardware-6]     return _bootstrap._gcd_import(name[level:], package, level)
+[drive_hardware-6]   File "<frozen importlib._bootstrap>", line 1050, in _gcd_import
+[drive_hardware-6]   File "<frozen importlib._bootstrap>", line 1027, in _find_and_load
+[drive_hardware-6]   File "<frozen importlib._bootstrap>", line 1006, in _find_and_load_unlocked
+[drive_hardware-6]   File "<frozen importlib._bootstrap>", line 688, in _load_unlocked
+[drive_hardware-6]   File "<frozen importlib._bootstrap_external>", line 883, in exec_module
+[drive_hardware-6]   File "<frozen importlib._bootstrap>", line 241, in _call_with_frames_removed
+[drive_hardware-6]   File "/workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/lib/python3.10/site-packages/drone_home/ackermann_drive.py", line 8, in <module>
+[drive_hardware-6]     from custom_messages.srv import ServoCommand 
+[drive_hardware-6] ImportError: cannot import name 'ServoCommand' from 'custom_messages.srv' (/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/local/lib/python3.10/dist-packages/custom_messages/srv/__init__.py)
+[ERROR] [drive_hardware-6]: process has died [pid 913, exit code 1, cmd '/workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/lib/drone_home/drive_hardware --ros-args -r __node:=drive_hardware -r __ns:=/drone_home1'].
+[cv_controller-1] [INFO] [1739535742.266834096] [drone_home1.sim]: CV Controller running
+[controller-2] [INFO] [1739535742.338291705] [drone_home1.controller]: Controller running
+[imu_publisher-5] [INFO] [1739535743.698783766] [drone_home1.imu_publisher]: Calibration status: (True, 'Calibration (sys:0, gyro:0, accel:3, mag:0)')

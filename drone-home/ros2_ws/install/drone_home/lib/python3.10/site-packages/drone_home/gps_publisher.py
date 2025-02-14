@@ -73,7 +73,7 @@ class GPSSensor:
 
         if(debug):
             navsat_msg.latitude = 29.6396803
-            navsat_msg.longitude = -82.3612485
+            navsat_msg.longitude = -83.3612485
 
         # Set NavSatStatus (GPS_FIX or no fix)
         navsat_msg.status = NavSatStatus() 

@@ -9,29 +9,35 @@ def generate_launch_description():
             executable='cv_controller',
             name='sim',
         ),
+    Node(
+            package='drone_home',
+            namespace='drone_home1',
+            executable='controller',
+            name='controller',
+        ),
 	Node(
             package='drone_home',
             namespace='drone_home1',
             executable='pwm_publisher',
-            name='sim',
+            name='pwm_publisher',
         ),
 	Node(
 	    package='drone_home',
             namespace='drone_home1',
             executable='gps_publisher',
-            name='sim'
+            name='gps_publisher'
         ),
         Node(
             package='drone_home',
             namespace='drone_home1',
             executable='imu_publisher',
-            name='sim'
+            name='imu_publisher'
         ),
         Node(
             package='drone_home',
             namespace='drone_home1',
             executable='drive_hardware',
-            name='sim'
+            name='drive_hardware'
         ),
 
 

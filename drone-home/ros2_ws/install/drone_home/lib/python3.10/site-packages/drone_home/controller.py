@@ -3,6 +3,7 @@ from rclpy.node import Node
 from ackermann_msgs.msg import AckermannDriveStamped
 from geometry_msgs.msg import Quaternion, PoseStamped
 from sensor_msgs.msg import NavSatFix, NavSatStatus
+from custom_messages.srv import SetCoordinate 
 import tf2_ros
 import math
 import time
@@ -13,6 +14,9 @@ class Controller(Node):
 
     def __init__(self):
         super().__init__('controller')
+
+        # Service to set the target coordinate
+        self.srv = self.create_service(SetCoordinate, 'set_target_coordinate', self.set_target_coordinate_callback)
 
         self.waypoints = [
         (28.069556, -82.724286),
@@ -49,8 +53,15 @@ class Controller(Node):
         self.current_quaternion = Quaternion(x=0.0, y=0.0, z=0.0, w=0.0)
         self.current_position = NavSatFix(latitude = -1.0, longitude = -1.0)
 
-        self.get_logger().info(f"Controller running")
+        self.get_logger().info("Controller running")
 
+    def set_target_coordinate_callback(self, request, response):
+        response.success = True
+        self.get_logger().info(f"Service request to change coordinate {request}")
+        self.waypoints = [(request.new_coordinate.latitude, request.new_coordinate.longitude)]
+        self.get_logger().info(f"Waypoints now: {self.waypoints}")
+        return response
+    
     def pose_callback(self, msg):
         # Update the current quaternion from the PoseStamped message
         self.current_quaternion = msg.pose.orientation
@@ -97,7 +108,7 @@ class Controller(Node):
                 self.current_waypoint_index = 0
         
         #self.get_logger().info((f"Bearing: {bearing:.2f}°"))
-        self.get_logger().info((f"Going to {self.current_waypoint_index+1}: {distance:.2f} meters"))
+        #self.get_logger().info((f"Going to {self.current_waypoint_index+1}: {distance:.2f} meters")) TODO uncomment
 
         self.target_quaternion = self.euler_to_quaternion(0.0, 0.0, radians(bearing))
 
@@ -115,7 +126,7 @@ class Controller(Node):
         
         diff = self.quaternion_multiply(self.quaternion_conjugate(current_quaternion), self.target_quaternion)
     
-        self.get_logger().info(f"Current Yaw: {degrees(current_yaw)}, target = {degrees(target_yaw)}")
+        #self.get_logger().info(f"Current Yaw: {degrees(current_yaw)}, target = {degrees(target_yaw)}") TODO uncomment
         #self.get_logger().info(f"CurrentDiff: {degrees(self.euler_from_quaternion(diff)[2])}")
         
 
@@ -123,8 +134,6 @@ class Controller(Node):
         heading_error = self.euler_from_quaternion(diff)[2]
         proportional_gain = 2.8 # 1.5
         return proportional_gain * heading_error
-
-        
 
     def euler_to_quaternion(self, roll, pitch, yaw):
         # Converts Euler angles (in radians) to a Quaternion message

@@ -1,0 +1,36 @@
+[INFO] [launch]: All log files can be found below /root/.ros/log/2025-02-13-13-02-37-065520-drone-home-2163
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [cv_controller-1]: process started with pid [2165]
+[INFO] [controller-2]: process started with pid [2167]
+[INFO] [pwm_publisher-3]: process started with pid [2169]
+[INFO] [gps_publisher-4]: process started with pid [2171]
+[INFO] [imu_publisher-5]: process started with pid [2173]
+[INFO] [drive_hardware-6]: process started with pid [2175]
+[controller-2] [INFO] [1739469758.359643082] [drone_home1.controller]: Controller running
+[cv_controller-1] [INFO] [1739469758.414391575] [drone_home1.sim]: CV Controller running
+[drive_hardware-6] Traceback (most recent call last):
+[drive_hardware-6]   File "/workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/lib/drone_home/drive_hardware", line 33, in <module>
+[drive_hardware-6]     sys.exit(load_entry_point('drone-home==0.0.0', 'console_scripts', 'drive_hardware')())
+[drive_hardware-6]   File "/workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/lib/python3.10/site-packages/drone_home/ackermann_drive.py", line 147, in main
+[drive_hardware-6]     rclpy.spin(drive_subscriber)
+[drive_hardware-6]   File "/opt/ros/humble/install/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 226, in spin
+[drive_hardware-6]     executor.spin_once()
+[drive_hardware-6]   File "/opt/ros/humble/install/local/lib/python3.10/dist-packages/rclpy/executors.py", line 739, in spin_once
+[drive_hardware-6]     self._spin_once_impl(timeout_sec)
+[drive_hardware-6]   File "/opt/ros/humble/install/local/lib/python3.10/dist-packages/rclpy/executors.py", line 736, in _spin_once_impl
+[drive_hardware-6]     raise handler.exception()
+[drive_hardware-6]   File "/opt/ros/humble/install/local/lib/python3.10/dist-packages/rclpy/task.py", line 239, in __call__
+[drive_hardware-6]     self._handler.send(None)
+[drive_hardware-6]   File "/opt/ros/humble/install/local/lib/python3.10/dist-packages/rclpy/executors.py", line 437, in handler
+[drive_hardware-6]     await call_coroutine(entity, arg)
+[drive_hardware-6]   File "/opt/ros/humble/install/local/lib/python3.10/dist-packages/rclpy/executors.py", line 351, in _execute_timer
+[drive_hardware-6]     await await_or_execute(tmr.callback)
+[drive_hardware-6]   File "/opt/ros/humble/install/local/lib/python3.10/dist-packages/rclpy/executors.py", line 107, in await_or_execute
+[drive_hardware-6]     return callback(*args)
+[drive_hardware-6]   File "/workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/lib/python3.10/site-packages/drone_home/ackermann_drive.py", line 124, in timer_callback
+[drive_hardware-6]     self.status_publisher.publish(info)
+[drive_hardware-6]   File "/opt/ros/humble/install/local/lib/python3.10/dist-packages/rclpy/publisher.py", line 74, in publish
+[drive_hardware-6]     raise TypeError('Expected {}, got {}'.format(self.msg_type, type(msg)))
+[drive_hardware-6] TypeError: Expected <class 'std_msgs.msg._string.String'>, got <class 'str'>
+[ERROR] [drive_hardware-6]: process has died [pid 2175, exit code 1, cmd '/workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/lib/drone_home/drive_hardware --ros-args -r __node:=drive_hardware -r __ns:=/drone_home1'].
+[imu_publisher-5] [INFO] [1739469759.872903588] [drone_home1.imu_publisher]: Calibration status: (True, 'Calibration (sys:0, gyro:0, accel:3, mag:0)')

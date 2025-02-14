@@ -1,0 +1,21 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from custom_messages/srv/SetMode.srv
+// generated code does not contain a copyright notice
+
+
+module custom_messages {
+  module srv {
+    @verbatim (language="comment", text=
+      "Used to update the mode in ackermann drive (automatic or manual)")
+    struct SetMode_Request {
+      @verbatim (language="comment", text=
+        "Set mode. \"automatic\" or \"manual\"")
+      string mode;
+    };
+    struct SetMode_Response {
+      @verbatim (language="comment", text=
+        "indicate successful trigger")
+      boolean success;
+    };
+  };
+};
