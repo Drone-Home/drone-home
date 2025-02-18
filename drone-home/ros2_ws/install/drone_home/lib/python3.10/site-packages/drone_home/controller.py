@@ -3,7 +3,8 @@ from rclpy.node import Node
 from ackermann_msgs.msg import AckermannDriveStamped
 from geometry_msgs.msg import Quaternion, PoseStamped
 from sensor_msgs.msg import NavSatFix, NavSatStatus
-from custom_messages.srv import SetCoordinate 
+from custom_messages.srv import SetCoordinate
+from std_msgs.msg import String
 import tf2_ros
 import math
 import time
@@ -52,6 +53,9 @@ class Controller(Node):
         # current quaternion (updated from subscriber)
         self.current_quaternion = Quaternion(x=0.0, y=0.0, z=0.0, w=0.0)
         self.current_position = NavSatFix(latitude = -1.0, longitude = -1.0)
+
+        # Status publisher
+        self.status_publisher = self.create_publisher(String, 'vehicle/gps_controller_status', 10)
 
         self.get_logger().info("Controller running")
 
@@ -112,6 +116,10 @@ class Controller(Node):
 
         self.target_quaternion = self.euler_to_quaternion(0.0, 0.0, radians(bearing))
 
+        # publish target position
+        info = f"{lat2}, {lon2}"
+        # Publish status info
+        self.status_publisher.publish(String(data = info))
 
         # Create and publish AckermannDrive message
         drive_msg = AckermannDriveStamped()

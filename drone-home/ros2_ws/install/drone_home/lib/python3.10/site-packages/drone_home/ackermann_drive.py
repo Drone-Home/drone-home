@@ -94,17 +94,27 @@ class DriveSubscriber(Node):
 
         # If the pwm controller is slightly pressed it overrides manual
         # If pwm controller turns off or out of range use 0 values
-        pwm_drive_active = drive_power_pwm > .2 or drive_power_pwm < -.2
-        pwm_steering_active = steering_angle_pwm > radians(4.0) or steering_angle_pwm < radians(-4.0)
+        NO_CONTROLLER_MODE = True # allow for no RC controller to be used for debugging
+        pwm_drive_active = not NO_CONTROLLER_MODE and (drive_power_pwm > .2 or drive_power_pwm < -.2)
+        pwm_steering_active = not NO_CONTROLLER_MODE and (steering_angle_pwm > radians(4.0) or steering_angle_pwm < radians(-4.0))
         web_active = drive_power_web != 0 or steering_angle_web != 0
-        controller_disconnected = steering_angle_pwm == -1.0 or steering_angle_pwm == 1.0
+        controller_disconnected = not NO_CONTROLLER_MODE and (steering_angle_pwm == -1.0 or steering_angle_pwm == 1.0)
         manual_drive_mode = self.drive_mode == "manual"
+
+        cv_drive_active = steering_angle_cv != -1.0 # if cv_controller returns -1.0 steering then there are no recent frames
 
         # Defult is cv controller TODO multiplex cv and GPS
         if(not manual_drive_mode): # If mode is manual then do not use any of the automatic controllers
-            steering_angle = steering_angle_cv
-            drive_power = drive_power_cv
-            info = "CV drive active"
+            if (cv_drive_active):
+                # cv drive has frames. THRESHOLD seconds in cv_controller
+                steering_angle = steering_angle_cv
+                drive_power = drive_power_cv
+                info = "CV drive active"
+            else:
+                # gps if no cv detections and auto drive on
+                steering_angle = steering_angle_auto
+                drive_power = drive_power_auto
+                info = "GPS drive active"
         else:
             steering_angle = 0
             drive_power = 0

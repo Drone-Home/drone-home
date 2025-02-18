@@ -1,0 +1,8 @@
+{
+    "file_path": "/workspaces/drone_home-dev/drone-home/ros2_ws/web_data.json",
+    "data": {
+        "target_lat": "29.644",
+        "target_lon": "-82.356",
+        "control_mode": "manual"
+    }
+}
