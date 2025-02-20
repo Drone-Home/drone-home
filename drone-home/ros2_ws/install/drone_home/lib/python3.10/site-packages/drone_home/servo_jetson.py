@@ -73,7 +73,7 @@ class ServoController:
             self.pca,
             port=6,
             trim=0,
-            min_angle=-135/2,
+            min_angle=-135/2 + 10,
             max_angle=135/2,
             actuation_range=135
         )

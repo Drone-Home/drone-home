@@ -1,0 +1,11 @@
+[INFO] [launch]: All log files can be found below /root/.ros/log/2025-02-19-21-29-36-983092-drone-home-22010
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [cv_controller-1]: process started with pid [22014]
+[INFO] [controller-2]: process started with pid [22016]
+[INFO] [pwm_publisher-3]: process started with pid [22018]
+[INFO] [gps_publisher-4]: process started with pid [22020]
+[INFO] [imu_publisher-5]: process started with pid [22022]
+[INFO] [drive_hardware-6]: process started with pid [22024]
+[cv_controller-1] [INFO] [1740018578.079540842] [drone_home1.sim]: CV Controller running
+[controller-2] [INFO] [1740018578.269503629] [drone_home1.controller]: Controller running
+[imu_publisher-5] [INFO] [1740018579.637151599] [drone_home1.imu_publisher]: Calibration status: (True, 'Calibration (sys:0, gyro:0, accel:3, mag:0)')
