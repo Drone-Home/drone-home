@@ -22,7 +22,7 @@ The **Drone Home** project combines GPS, IMU, and computer vision for manual and
 - Once the container is running, clone the website:
   ```cd python_tests && git clone https://github.com/Drone-Home/RCFLASK```
 - start the website and ROS systems by running:  
-  ```../tmux/run.sh```
+  ```cd tmux && ./run.sh```
 - The website will be running in a tmux session named `"web"` and ROS2 will be running in a session named `"ros"`
 - The website will run on the Jetson on port 5001
 - To see the web background process terminal:  
