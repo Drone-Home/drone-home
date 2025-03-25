@@ -1,0 +1,31 @@
+[INFO] [launch]: All log files can be found below /root/.ros/log/2025-02-20-10-27-34-415020-drone-home-276
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [cv_controller-1]: process started with pid [278]
+[INFO] [controller-2]: process started with pid [280]
+[INFO] [pwm_publisher-3]: process started with pid [282]
+[INFO] [gps_publisher-4]: process started with pid [284]
+[INFO] [imu_publisher-5]: process started with pid [286]
+[INFO] [drive_hardware-6]: process started with pid [288]
+[cv_controller-1] [INFO] [1740065255.842547665] [drone_home1.sim]: CV Controller running
+[controller-2] [INFO] [1740065256.133974897] [drone_home1.controller]: Controller running
+[imu_publisher-5] [INFO] [1740065257.534348401] [drone_home1.imu_publisher]: Calibration status: (False, 'Calibration (sys:0, gyro:0, accel:3, mag:0)')
+[imu_publisher-5] [INFO] [1740065258.037706705] [drone_home1.imu_publisher]: Calibration status: (False, 'Calibration (sys:0, gyro:3, accel:3, mag:0)')
+[imu_publisher-5] [INFO] [1740065258.541363377] [drone_home1.imu_publisher]: Calibration status: (False, 'Calibration (sys:3, gyro:3, accel:3, mag:0)')
+[imu_publisher-5] [INFO] [1740065259.044566033] [drone_home1.imu_publisher]: Calibration status: (False, 'Calibration (sys:3, gyro:3, accel:3, mag:0)')
+[imu_publisher-5] [INFO] [1740065259.548355665] [drone_home1.imu_publisher]: Calibration status: (False, 'Calibration (sys:3, gyro:3, accel:3, mag:0)')
+[imu_publisher-5] [INFO] [1740065260.051535793] [drone_home1.imu_publisher]: Calibration status: (False, 'Calibration (sys:3, gyro:3, accel:3, mag:0)')
+[imu_publisher-5] [INFO] [1740065260.555003633] [drone_home1.imu_publisher]: Calibration status: (False, 'Calibration (sys:3, gyro:3, accel:3, mag:0)')
+[imu_publisher-5] [INFO] [1740065261.058555377] [drone_home1.imu_publisher]: Calibration status: (False, 'Calibration (sys:3, gyro:3, accel:3, mag:0)')
+[imu_publisher-5] [INFO] [1740065261.561568433] [drone_home1.imu_publisher]: Calibration status: (False, 'Calibration (sys:3, gyro:3, accel:3, mag:0)')
+[imu_publisher-5] [INFO] [1740065262.064327537] [drone_home1.imu_publisher]: Calibration status: (False, 'Calibration (sys:3, gyro:3, accel:3, mag:0)')
+[controller-2] [INFO] [1740065262.523743601] [drone_home1.controller]: Service request to change coordinate custom_messages.srv.SetCoordinate_Request(new_coordinate=sensor_msgs.msg.NavSatFix(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=0, nanosec=0), frame_id=''), status=sensor_msgs.msg.NavSatStatus(status=0, service=0), latitude=29.632, longitude=-82.3623, altitude=0.0, position_covariance=array([0., 0., 0., 0., 0., 0., 0., 0., 0.]), position_covariance_type=0))
+[controller-2] [INFO] [1740065262.524570321] [drone_home1.controller]: Waypoints now: [(29.632, -82.3623)]
+[drive_hardware-6] [INFO] [1740065262.556862609] [drone_home1.drive_hardware]: Service request to change drive mode custom_messages.srv.SetMode_Request(mode='manual')
+[drive_hardware-6] [INFO] [1740065262.558613041] [drone_home1.drive_hardware]: Drive mode now: manual
+[imu_publisher-5] [INFO] [1740065262.567489809] [drone_home1.imu_publisher]: Calibration status: (False, 'Calibration (sys:3, gyro:3, accel:3, mag:0)')
+[imu_publisher-5] [INFO] [1740065263.070069809] [drone_home1.imu_publisher]: Calibration status: (False, 'Calibration (sys:3, gyro:3, accel:3, mag:0)')
+[imu_publisher-5] [INFO] [1740065263.572767121] [drone_home1.imu_publisher]: Calibration status: (False, 'Calibration (sys:3, gyro:3, accel:3, mag:0)')
+[imu_publisher-5] [INFO] [1740065264.075693585] [drone_home1.imu_publisher]: Calibration status: (False, 'Calibration (sys:3, gyro:3, accel:3, mag:0)')
+[imu_publisher-5] [INFO] [1740065264.578441297] [drone_home1.imu_publisher]: Calibration status: (False, 'Calibration (sys:3, gyro:3, accel:3, mag:0)')
+[imu_publisher-5] [INFO] [1740065265.081548689] [drone_home1.imu_publisher]: Calibration status: (False, 'Calibration (sys:3, gyro:3, accel:3, mag:0)')
+[imu_publisher-5] [INFO] [1740065265.584116529] [drone_home1.imu_publisher]: Calibration status: (False, 'Calibration (sys:3, gyro:3, accel:3, mag:0)')

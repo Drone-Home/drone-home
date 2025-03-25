@@ -2,3 +2,4 @@
 /python_tests/RCFLASK/
 /python_tests/RCFLASK_rostest/
 /drone-home/ros2_ws/build/
+./fix_git.sh

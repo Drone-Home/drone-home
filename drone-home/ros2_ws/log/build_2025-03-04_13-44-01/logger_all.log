@@ -1,0 +1,238 @@
+[1.599s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build']
+[1.600s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=False, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=6, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffa2742680>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0xffffa2742200>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0xffffa2742200>>)
+[2.229s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[2.230s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[2.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[2.231s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[2.232s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[2.233s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[2.233s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/workspaces/drone_home-dev/drone-home/ros2_ws'
+[2.235s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[2.236s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[2.237s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[2.238s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[2.239s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[2.239s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[2.240s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[2.241s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[2.241s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[2.450s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[2.451s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[2.452s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[2.452s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[2.453s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[2.454s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[2.455s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[2.455s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[2.457s] Level 1:colcon.colcon_core.package_identification:_identify(custom_messages) by extensions ['ignore', 'ignore_ament_install']
+[2.458s] Level 1:colcon.colcon_core.package_identification:_identify(custom_messages) by extension 'ignore'
+[2.458s] Level 1:colcon.colcon_core.package_identification:_identify(custom_messages) by extension 'ignore_ament_install'
+[2.459s] Level 1:colcon.colcon_core.package_identification:_identify(custom_messages) by extensions ['colcon_pkg']
+[2.460s] Level 1:colcon.colcon_core.package_identification:_identify(custom_messages) by extension 'colcon_pkg'
+[2.460s] Level 1:colcon.colcon_core.package_identification:_identify(custom_messages) by extensions ['colcon_meta']
+[2.460s] Level 1:colcon.colcon_core.package_identification:_identify(custom_messages) by extension 'colcon_meta'
+[2.461s] Level 1:colcon.colcon_core.package_identification:_identify(custom_messages) by extensions ['ros']
+[2.461s] Level 1:colcon.colcon_core.package_identification:_identify(custom_messages) by extension 'ros'
+[2.495s] DEBUG:colcon.colcon_core.package_identification:Package 'custom_messages' with type 'ros.ament_cmake' and name 'custom_messages'
+[2.496s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[2.499s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[2.499s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[2.501s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['ignore', 'ignore_ament_install']
+[2.503s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ignore'
+[2.504s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ignore_ament_install'
+[2.505s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['colcon_pkg']
+[2.505s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'colcon_pkg'
+[2.506s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['colcon_meta']
+[2.507s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'colcon_meta'
+[2.507s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['ros']
+[2.508s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'ros'
+[2.509s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['cmake', 'python']
+[2.510s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'cmake'
+[2.510s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'python'
+[2.511s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extensions ['python_setup_py']
+[2.512s] Level 1:colcon.colcon_core.package_identification:_identify(launch) by extension 'python_setup_py'
+[2.513s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['ignore', 'ignore_ament_install']
+[2.514s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'ignore'
+[2.515s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'ignore_ament_install'
+[2.516s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['colcon_pkg']
+[2.517s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'colcon_pkg'
+[2.517s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['colcon_meta']
+[2.518s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'colcon_meta'
+[2.519s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['ros']
+[2.520s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'ros'
+[2.527s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['cmake', 'python']
+[2.528s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'cmake'
+[2.529s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'python'
+[2.530s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extensions ['python_setup_py']
+[2.531s] Level 1:colcon.colcon_core.package_identification:_identify(launch/__pycache__) by extension 'python_setup_py'
+[2.534s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[2.536s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[2.536s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[2.542s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extensions ['ignore', 'ignore_ament_install']
+[2.543s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extension 'ignore'
+[2.546s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extension 'ignore_ament_install'
+[2.547s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extensions ['colcon_pkg']
+[2.548s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extension 'colcon_pkg'
+[2.549s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extensions ['colcon_meta']
+[2.549s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extension 'colcon_meta'
+[2.550s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extensions ['ros']
+[2.550s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extension 'ros'
+[2.552s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extensions ['cmake', 'python']
+[2.554s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extension 'cmake'
+[2.555s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extension 'python'
+[2.556s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extensions ['python_setup_py']
+[2.556s] Level 1:colcon.colcon_core.package_identification:_identify(logs) by extension 'python_setup_py'
+[2.557s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[2.559s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[2.560s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[2.560s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[2.561s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[2.562s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[2.562s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[2.563s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[2.563s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[2.565s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[2.565s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[2.566s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[2.566s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[2.567s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[2.568s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_home) by extensions ['ignore', 'ignore_ament_install']
+[2.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_home) by extension 'ignore'
+[2.570s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_home) by extension 'ignore_ament_install'
+[2.571s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_home) by extensions ['colcon_pkg']
+[2.572s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_home) by extension 'colcon_pkg'
+[2.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_home) by extensions ['colcon_meta']
+[2.573s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_home) by extension 'colcon_meta'
+[2.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_home) by extensions ['ros']
+[2.574s] Level 1:colcon.colcon_core.package_identification:_identify(src/drone_home) by extension 'ros'
+[2.581s] DEBUG:colcon.colcon_core.package_identification:Package 'src/drone_home' with type 'ros.ament_python' and name 'drone_home'
+[2.583s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[2.584s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[2.585s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[2.585s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[2.586s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[2.884s] Level 5:colcon.colcon_core.verb:set package 'custom_messages' build argument 'cmake_args' from command line to 'None'
+[2.885s] Level 5:colcon.colcon_core.verb:set package 'custom_messages' build argument 'cmake_target' from command line to 'None'
+[2.885s] Level 5:colcon.colcon_core.verb:set package 'custom_messages' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.886s] Level 5:colcon.colcon_core.verb:set package 'custom_messages' build argument 'cmake_clean_cache' from command line to 'False'
+[2.886s] Level 5:colcon.colcon_core.verb:set package 'custom_messages' build argument 'cmake_clean_first' from command line to 'False'
+[2.887s] Level 5:colcon.colcon_core.verb:set package 'custom_messages' build argument 'cmake_force_configure' from command line to 'False'
+[2.887s] Level 5:colcon.colcon_core.verb:set package 'custom_messages' build argument 'ament_cmake_args' from command line to 'None'
+[2.887s] Level 5:colcon.colcon_core.verb:set package 'custom_messages' build argument 'catkin_cmake_args' from command line to 'None'
+[2.888s] Level 5:colcon.colcon_core.verb:set package 'custom_messages' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.888s] DEBUG:colcon.colcon_core.verb:Building package 'custom_messages' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspaces/drone_home-dev/drone-home/ros2_ws/build/custom_messages', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages', 'merge_install': False, 'path': '/workspaces/drone_home-dev/drone-home/ros2_ws/custom_messages', 'symlink_install': False, 'test_result_base': None}
+[2.893s] Level 5:colcon.colcon_core.verb:set package 'drone_home' build argument 'cmake_args' from command line to 'None'
+[2.895s] Level 5:colcon.colcon_core.verb:set package 'drone_home' build argument 'cmake_target' from command line to 'None'
+[2.895s] Level 5:colcon.colcon_core.verb:set package 'drone_home' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[2.895s] Level 5:colcon.colcon_core.verb:set package 'drone_home' build argument 'cmake_clean_cache' from command line to 'False'
+[2.896s] Level 5:colcon.colcon_core.verb:set package 'drone_home' build argument 'cmake_clean_first' from command line to 'False'
+[2.896s] Level 5:colcon.colcon_core.verb:set package 'drone_home' build argument 'cmake_force_configure' from command line to 'False'
+[2.896s] Level 5:colcon.colcon_core.verb:set package 'drone_home' build argument 'ament_cmake_args' from command line to 'None'
+[2.897s] Level 5:colcon.colcon_core.verb:set package 'drone_home' build argument 'catkin_cmake_args' from command line to 'None'
+[2.897s] Level 5:colcon.colcon_core.verb:set package 'drone_home' build argument 'catkin_skip_building_tests' from command line to 'False'
+[2.898s] DEBUG:colcon.colcon_core.verb:Building package 'drone_home' with the following arguments: {'ament_cmake_args': None, 'build_base': '/workspaces/drone_home-dev/drone-home/ros2_ws/build/drone_home', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home', 'merge_install': False, 'path': '/workspaces/drone_home-dev/drone-home/ros2_ws/src/drone_home', 'symlink_install': False, 'test_result_base': None}
+[2.900s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[2.911s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[2.914s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/workspaces/drone_home-dev/drone-home/ros2_ws/custom_messages' with build type 'ament_cmake'
+[2.917s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/workspaces/drone_home-dev/drone-home/ros2_ws/custom_messages'
+[2.959s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[2.962s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[2.963s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.117s] INFO:colcon.colcon_ros.task.ament_python.build:Building ROS package in '/workspaces/drone_home-dev/drone-home/ros2_ws/src/drone_home' with build type 'ament_python'
+[3.121s] Level 1:colcon.colcon_core.shell:create_environment_hook('drone_home', 'ament_prefix_path')
+[3.126s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/share/drone_home/hook/ament_prefix_path.ps1'
+[3.135s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/share/drone_home/hook/ament_prefix_path.dsv'
+[3.142s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/share/drone_home/hook/ament_prefix_path.sh'
+[3.153s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[3.154s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[3.333s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/drone_home-dev/drone-home/ros2_ws/build/custom_messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home:/opt/ros/humble /usr/local/bin/cmake --build /workspaces/drone_home-dev/drone-home/ros2_ws/build/custom_messages -- -j6 -l6
+[6.863s] INFO:colcon.colcon_core.task.python.build:Building Python package in '/workspaces/drone_home-dev/drone-home/ros2_ws/src/drone_home'
+[6.865s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[6.866s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[10.688s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/drone_home-dev/drone-home/ros2_ws/build/custom_messages' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home:/opt/ros/humble /usr/local/bin/cmake --build /workspaces/drone_home-dev/drone-home/ros2_ws/build/custom_messages -- -j6 -l6
+[11.549s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/drone_home-dev/drone-home/ros2_ws/build/custom_messages': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home:/opt/ros/humble /usr/local/bin/cmake --install /workspaces/drone_home-dev/drone-home/ros2_ws/build/custom_messages
+[13.371s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_messages)
+[13.389s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/drone_home-dev/drone-home/ros2_ws/build/custom_messages' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home:/opt/ros/humble /usr/local/bin/cmake --install /workspaces/drone_home-dev/drone-home/ros2_ws/build/custom_messages
+[13.441s] Level 1:colcon.colcon_core.environment:checking '/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages' for CMake module files
+[13.453s] Level 1:colcon.colcon_core.environment:checking '/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages' for CMake config files
+[13.456s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_messages', 'cmake_prefix_path')
+[13.458s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/hook/cmake_prefix_path.ps1'
+[13.470s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/hook/cmake_prefix_path.dsv'
+[13.478s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/hook/cmake_prefix_path.sh'
+[13.490s] Level 1:colcon.colcon_core.environment:checking '/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/lib'
+[13.493s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_messages', 'ld_library_path_lib')
+[13.500s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/hook/ld_library_path_lib.ps1'
+[13.504s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/hook/ld_library_path_lib.dsv'
+[13.512s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/hook/ld_library_path_lib.sh'
+[13.518s] Level 1:colcon.colcon_core.environment:checking '/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/bin'
+[13.519s] Level 1:colcon.colcon_core.environment:checking '/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/lib/pkgconfig/custom_messages.pc'
+[13.521s] Level 1:colcon.colcon_core.environment:checking '/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/lib/python3.10/site-packages'
+[13.536s] Level 1:colcon.colcon_core.environment:checking '/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/bin'
+[13.540s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/package.ps1'
+[13.554s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/package.dsv'
+[13.562s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/package.sh'
+[13.573s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/package.bash'
+[13.582s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/package.zsh'
+[13.599s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/colcon-core/packages/custom_messages)
+[13.607s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(custom_messages)
+[13.609s] Level 1:colcon.colcon_core.environment:checking '/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages' for CMake module files
+[13.617s] Level 1:colcon.colcon_core.environment:checking '/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages' for CMake config files
+[13.620s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_messages', 'cmake_prefix_path')
+[13.623s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/hook/cmake_prefix_path.ps1'
+[13.629s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/hook/cmake_prefix_path.dsv'
+[13.634s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/hook/cmake_prefix_path.sh'
+[13.643s] Level 1:colcon.colcon_core.environment:checking '/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/lib'
+[13.645s] Level 1:colcon.colcon_core.shell:create_environment_hook('custom_messages', 'ld_library_path_lib')
+[13.648s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/hook/ld_library_path_lib.ps1'
+[13.655s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/hook/ld_library_path_lib.dsv'
+[13.660s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/hook/ld_library_path_lib.sh'
+[13.668s] Level 1:colcon.colcon_core.environment:checking '/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/bin'
+[13.669s] Level 1:colcon.colcon_core.environment:checking '/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/lib/pkgconfig/custom_messages.pc'
+[13.673s] Level 1:colcon.colcon_core.environment:checking '/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/lib/python3.10/site-packages'
+[13.676s] Level 1:colcon.colcon_core.environment:checking '/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/bin'
+[13.680s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/package.ps1'
+[13.689s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/package.dsv'
+[13.696s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/package.sh'
+[13.703s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/package.bash'
+[13.710s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/custom_messages/package.zsh'
+[13.716s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/drone_home-dev/drone-home/ros2_ws/install/custom_messages/share/colcon-core/packages/custom_messages)
+[16.082s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/workspaces/drone_home-dev/drone-home/ros2_ws/src/drone_home': PYTHONPATH=/workspaces/drone_home-dev/drone-home/ros2_ws/build/drone_home/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/drone_home build --build-base /workspaces/drone_home-dev/drone-home/ros2_ws/build/drone_home/build install --record /workspaces/drone_home-dev/drone-home/ros2_ws/build/drone_home/install.log --single-version-externally-managed install_data
+[21.487s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/workspaces/drone_home-dev/drone-home/ros2_ws/src/drone_home' returned '0': PYTHONPATH=/workspaces/drone_home-dev/drone-home/ros2_ws/build/drone_home/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/drone_home build --build-base /workspaces/drone_home-dev/drone-home/ros2_ws/build/drone_home/build install --record /workspaces/drone_home-dev/drone-home/ros2_ws/build/drone_home/install.log --single-version-externally-managed install_data
+[21.482s] Level 1:colcon.colcon_core.environment:checking '/workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home' for CMake module files
+[21.497s] Level 1:colcon.colcon_core.environment:checking '/workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home' for CMake config files
+[21.506s] Level 1:colcon.colcon_core.environment:checking '/workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/lib'
+[21.507s] Level 1:colcon.colcon_core.environment:checking '/workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/bin'
+[21.508s] Level 1:colcon.colcon_core.environment:checking '/workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/lib/pkgconfig/drone_home.pc'
+[21.510s] Level 1:colcon.colcon_core.environment:checking '/workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/lib/python3.10/site-packages'
+[21.511s] Level 1:colcon.colcon_core.shell:create_environment_hook('drone_home', 'pythonpath')
+[21.513s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/share/drone_home/hook/pythonpath.ps1'
+[21.517s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/share/drone_home/hook/pythonpath.dsv'
+[21.521s] INFO:colcon.colcon_core.shell:Creating environment hook '/workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/share/drone_home/hook/pythonpath.sh'
+[21.528s] Level 1:colcon.colcon_core.environment:checking '/workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/bin'
+[21.528s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(drone_home)
+[21.531s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/share/drone_home/package.ps1'
+[21.536s] INFO:colcon.colcon_core.shell:Creating package descriptor '/workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/share/drone_home/package.dsv'
+[21.541s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/share/drone_home/package.sh'
+[21.545s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/share/drone_home/package.bash'
+[21.552s] INFO:colcon.colcon_core.shell:Creating package script '/workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/share/drone_home/package.zsh'
+[21.556s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/share/colcon-core/packages/drone_home)
+[21.568s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[21.570s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[21.572s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[21.573s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[21.642s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.notify_send': Could not find 'notify-send'
+[21.643s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[21.644s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[21.645s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[21.646s] DEBUG:colcon.colcon_notification.desktop_notification.notify2:Failed to initialize notify2: org.freedesktop.DBus.Error.NotSupported: Unable to autolaunch a dbus-daemon without a $DISPLAY for X11
+[21.647s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[21.654s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspaces/drone_home-dev/drone-home/ros2_ws/install/local_setup.ps1'
+[21.664s] INFO:colcon.colcon_core.shell:Creating prefix util module '/workspaces/drone_home-dev/drone-home/ros2_ws/install/_local_setup_util_ps1.py'
+[21.679s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspaces/drone_home-dev/drone-home/ros2_ws/install/setup.ps1'
+[21.691s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspaces/drone_home-dev/drone-home/ros2_ws/install/local_setup.sh'
+[21.698s] INFO:colcon.colcon_core.shell:Creating prefix util module '/workspaces/drone_home-dev/drone-home/ros2_ws/install/_local_setup_util_sh.py'
+[21.704s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspaces/drone_home-dev/drone-home/ros2_ws/install/setup.sh'
+[21.716s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspaces/drone_home-dev/drone-home/ros2_ws/install/local_setup.bash'
+[21.721s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspaces/drone_home-dev/drone-home/ros2_ws/install/setup.bash'
+[21.733s] INFO:colcon.colcon_core.shell:Creating prefix script '/workspaces/drone_home-dev/drone-home/ros2_ws/install/local_setup.zsh'
+[21.738s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/workspaces/drone_home-dev/drone-home/ros2_ws/install/setup.zsh'

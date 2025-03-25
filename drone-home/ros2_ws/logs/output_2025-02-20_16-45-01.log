@@ -1,0 +1,19 @@
+[INFO] [launch]: All log files can be found below /root/.ros/log/2025-02-20-16-45-08-482832-drone-home-328
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [cv_controller-1]: process started with pid [330]
+[INFO] [controller-2]: process started with pid [332]
+[INFO] [pwm_publisher-3]: process started with pid [334]
+[INFO] [gps_publisher-4]: process started with pid [336]
+[INFO] [imu_publisher-5]: process started with pid [338]
+[INFO] [drive_hardware-6]: process started with pid [340]
+[cv_controller-1] [INFO] [1740087909.939412915] [drone_home1.sim]: CV Controller running
+[controller-2] [INFO] [1740087910.287290697] [drone_home1.controller]: Controller running
+[imu_publisher-5] [INFO] [1740087911.517222223] [drone_home1.imu_publisher]: Calibration status: (True, 'Calibration (sys:0, gyro:0, accel:3, mag:3)')
+[controller-2] [INFO] [1740087916.610063821] [drone_home1.controller]: Service request to change coordinate custom_messages.srv.SetCoordinate_Request(new_coordinate=sensor_msgs.msg.NavSatFix(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=0, nanosec=0), frame_id=''), status=sensor_msgs.msg.NavSatStatus(status=0, service=0), latitude=29.0, longitude=80.0, altitude=0.0, position_covariance=array([0., 0., 0., 0., 0., 0., 0., 0., 0.]), position_covariance_type=0))
+[controller-2] [INFO] [1740087916.611013902] [drone_home1.controller]: Waypoints now: [(29.0, 80.0)]
+[drive_hardware-6] [INFO] [1740087916.769284272] [drone_home1.drive_hardware]: Service request to change drive mode custom_messages.srv.SetMode_Request(mode='automatic')
+[drive_hardware-6] [INFO] [1740087916.770348800] [drone_home1.drive_hardware]: Drive mode now: automatic
+[drive_hardware-6] [INFO] [1740087920.889655397] [drone_home1.drive_hardware]: Service request to change drive mode custom_messages.srv.SetMode_Request(mode='manual')
+[drive_hardware-6] [INFO] [1740087920.890634956] [drone_home1.drive_hardware]: Drive mode now: manual
+[drive_hardware-6] [INFO] [1740087927.047569462] [drone_home1.drive_hardware]: Service request to change drive mode custom_messages.srv.SetMode_Request(mode='automatic')
+[drive_hardware-6] [INFO] [1740087927.048450193] [drone_home1.drive_hardware]: Drive mode now: automatic

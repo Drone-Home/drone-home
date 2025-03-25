@@ -78,7 +78,8 @@ class Controller(Node):
         current_quaternion = self.current_quaternion
         if current_quaternion == Quaternion(x=0.0, y=0.0, z=0.0, w=0.0) or self.current_position.latitude == -1.0: # TODO add check for GPS later
             # Not calibrated yet
-            #self.get_logger().info(f"Not calibrated yet")
+            #self.get_logger().info("Not calibrated yet")
+            # TODO return not calibrated or do in car yaw
             return
         
         # Calculate the proportional steering angle based on heading difference

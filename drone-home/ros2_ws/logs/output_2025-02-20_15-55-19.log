@@ -1,0 +1,17 @@
+[INFO] [launch]: All log files can be found below /root/.ros/log/2025-02-20-15-55-24-679250-drone-home-519
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [cv_controller-1]: process started with pid [521]
+[INFO] [controller-2]: process started with pid [523]
+[INFO] [pwm_publisher-3]: process started with pid [525]
+[INFO] [gps_publisher-4]: process started with pid [527]
+[INFO] [imu_publisher-5]: process started with pid [529]
+[INFO] [drive_hardware-6]: process started with pid [531]
+[cv_controller-1] [INFO] [1740084925.655397212] [drone_home1.sim]: CV Controller running
+[controller-2] [INFO] [1740084925.760781877] [drone_home1.controller]: Controller running
+[imu_publisher-5] [INFO] [1740084927.232165011] [drone_home1.imu_publisher]: Calibration status: (True, 'Calibration (sys:0, gyro:0, accel:3, mag:0)')
+[controller-2] [INFO] [1740085265.179954842] [drone_home1.controller]: Service request to change coordinate custom_messages.srv.SetCoordinate_Request(new_coordinate=sensor_msgs.msg.NavSatFix(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=0, nanosec=0), frame_id=''), status=sensor_msgs.msg.NavSatStatus(status=0, service=0), latitude=29.639767, longitude=-82.361444, altitude=0.0, position_covariance=array([0., 0., 0., 0., 0., 0., 0., 0., 0.]), position_covariance_type=0))
+[controller-2] [INFO] [1740085265.181543595] [drone_home1.controller]: Waypoints now: [(29.639767, -82.361444)]
+[drive_hardware-6] [INFO] [1740085265.350637914] [drone_home1.drive_hardware]: Service request to change drive mode custom_messages.srv.SetMode_Request(mode='manual')
+[drive_hardware-6] [INFO] [1740085265.352151463] [drone_home1.drive_hardware]: Drive mode now: manual
+[controller-2] [INFO] [1740085314.289143683] [drone_home1.controller]: Service request to change coordinate custom_messages.srv.SetCoordinate_Request(new_coordinate=sensor_msgs.msg.NavSatFix(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=0, nanosec=0), frame_id=''), status=sensor_msgs.msg.NavSatStatus(status=0, service=0), latitude=29.0, longitude=80.0, altitude=0.0, position_covariance=array([0., 0., 0., 0., 0., 0., 0., 0., 0.]), position_covariance_type=0))
+[controller-2] [INFO] [1740085314.290169454] [drone_home1.controller]: Waypoints now: [(29.0, 80.0)]

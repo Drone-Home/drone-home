@@ -57,7 +57,7 @@ class ServoController:
             self.pca,
             port=2,
             trim=-3,
-            min_angle=-5,
+            min_angle=-6,
             max_angle=90,
             actuation_range=180
         )
@@ -65,16 +65,16 @@ class ServoController:
             self.pca,
             port=4,
             trim=0,
-            min_angle=-135/2,
-            max_angle=135/2,
-            actuation_range=135
+            min_angle=-45,
+            max_angle=45,
+            actuation_range=210
         )
         self.charge_servo2 = CustomServo( # Up/down axis
             self.pca,
             port=6,
             trim=0,
-            min_angle=-135/2 + 10,
-            max_angle=135/2,
+            min_angle=-135/2 + 35,
+            max_angle=135/2 - 20,
             actuation_range=135
         )
 

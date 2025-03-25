@@ -1,0 +1,60 @@
+[INFO] [launch]: All log files can be found below /root/.ros/log/2025-02-20-08-53-59-778123-drone-home-3561
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [cv_controller-1]: process started with pid [3565]
+[INFO] [controller-2]: process started with pid [3567]
+[INFO] [pwm_publisher-3]: process started with pid [3569]
+[INFO] [gps_publisher-4]: process started with pid [3571]
+[INFO] [imu_publisher-5]: process started with pid [3573]
+[INFO] [drive_hardware-6]: process started with pid [3575]
+[cv_controller-1] [INFO] [1740059640.965979035] [drone_home1.sim]: CV Controller running
+[controller-2] [INFO] [1740059640.988909085] [drone_home1.controller]: Controller running
+[controller-2] [INFO] [1740059641.038925034] [drone_home1.controller]: Not calibrated yet
+[controller-2] [INFO] [1740059641.138753470] [drone_home1.controller]: Not calibrated yet
+[controller-2] [INFO] [1740059641.238812344] [drone_home1.controller]: Not calibrated yet
+[controller-2] [INFO] [1740059641.338728814] [drone_home1.controller]: Not calibrated yet
+[controller-2] [INFO] [1740059641.438725959] [drone_home1.controller]: Not calibrated yet
+[controller-2] [INFO] [1740059641.538757152] [drone_home1.controller]: Not calibrated yet
+[controller-2] [INFO] [1740059641.638744344] [drone_home1.controller]: Not calibrated yet
+[controller-2] [INFO] [1740059641.738870228] [drone_home1.controller]: Not calibrated yet
+[controller-2] [INFO] [1740059641.839191317] [drone_home1.controller]: Not calibrated yet
+[controller-2] [INFO] [1740059641.938852036] [drone_home1.controller]: Not calibrated yet
+[controller-2] [INFO] [1740059642.039167876] [drone_home1.controller]: Not calibrated yet
+[controller-2] [INFO] [1740059642.140206870] [drone_home1.controller]: Not calibrated yet
+[imu_publisher-5] [INFO] [1740059642.228559207] [drone_home1.imu_publisher]: Calibration status: (False, 'Calibration (sys:0, gyro:0, accel:3, mag:0)')
+[controller-2] [INFO] [1740059642.238735624] [drone_home1.controller]: Not calibrated yet
+[controller-2] [INFO] [1740059642.339033446] [drone_home1.controller]: Not calibrated yet
+[controller-2] [INFO] [1740059642.438765142] [drone_home1.controller]: Not calibrated yet
+[controller-2] [INFO] [1740059642.539146807] [drone_home1.controller]: Not calibrated yet
+[controller-2] [INFO] [1740059642.638741188] [drone_home1.controller]: Not calibrated yet
+[imu_publisher-5] [INFO] [1740059642.731240542] [drone_home1.imu_publisher]: Calibration status: (False, 'Calibration (sys:0, gyro:3, accel:3, mag:0)')
+[controller-2] [INFO] [1740059642.740375204] [drone_home1.controller]: Not calibrated yet
+[controller-2] [INFO] [1740059642.838737490] [drone_home1.controller]: Not calibrated yet
+[controller-2] [INFO] [1740059642.938777066] [drone_home1.controller]: Not calibrated yet
+[controller-2] [INFO] [1740059643.038905796] [drone_home1.controller]: Not calibrated yet
+[controller-2] [INFO] [1740059643.139008668] [drone_home1.controller]: Not calibrated yet
+[imu_publisher-5] [INFO] [1740059643.233877776] [drone_home1.imu_publisher]: Calibration status: (False, 'Calibration (sys:3, gyro:3, accel:1, mag:0)')
+[controller-2] [INFO] [1740059643.239093299] [drone_home1.controller]: Not calibrated yet
+[controller-2] [INFO] [1740059643.338825922] [drone_home1.controller]: Not calibrated yet
+[controller-2] [INFO] [1740059643.439261027] [drone_home1.controller]: Not calibrated yet
+[controller-2] [INFO] [1740059643.538744171] [drone_home1.controller]: Not calibrated yet
+[controller-2] [INFO] [1740059643.639249421] [drone_home1.controller]: Not calibrated yet
+[imu_publisher-5] [INFO] [1740059643.736204278] [drone_home1.imu_publisher]: Calibration status: (False, 'Calibration (sys:3, gyro:3, accel:1, mag:0)')
+[controller-2] [INFO] [1740059643.739360934] [drone_home1.controller]: Not calibrated yet
+[controller-2] [INFO] [1740059643.838771628] [drone_home1.controller]: Not calibrated yet
+[controller-2] [INFO] [1740059643.941239968] [drone_home1.controller]: Not calibrated yet
+[controller-2] [INFO] [1740059644.038798040] [drone_home1.controller]: Not calibrated yet
+[controller-2] [INFO] [1740059644.138788555] [drone_home1.controller]: Not calibrated yet
+[imu_publisher-5] [INFO] [1740059644.239120168] [drone_home1.imu_publisher]: Calibration status: (False, 'Calibration (sys:3, gyro:3, accel:1, mag:0)')
+[controller-2] [INFO] [1740059644.239911100] [drone_home1.controller]: Not calibrated yet
+[controller-2] [INFO] [1740059644.338855381] [drone_home1.controller]: Not calibrated yet
+[controller-2] [INFO] [1740059644.438864362] [drone_home1.controller]: Not calibrated yet
+[controller-2] [INFO] [1740059644.539287944] [drone_home1.controller]: Not calibrated yet
+[controller-2] [INFO] [1740059644.641655416] [drone_home1.controller]: Not calibrated yet
+[controller-2] [INFO] [1740059644.738802404] [drone_home1.controller]: Not calibrated yet
+[imu_publisher-5] [INFO] [1740059644.742061590] [drone_home1.imu_publisher]: Calibration status: (False, 'Calibration (sys:3, gyro:3, accel:1, mag:0)')
+[controller-2] [INFO] [1740059644.839257220] [drone_home1.controller]: Not calibrated yet
+[controller-2] [INFO] [1740059644.938836397] [drone_home1.controller]: Not calibrated yet
+[controller-2] [INFO] [1740059645.038811808] [drone_home1.controller]: Not calibrated yet
+[controller-2] [INFO] [1740059645.138878612] [drone_home1.controller]: Not calibrated yet
+[controller-2] [INFO] [1740059645.239083916] [drone_home1.controller]: Not calibrated yet
+[imu_publisher-5] [INFO] [1740059645.244799356] [drone_home1.imu_publisher]: Calibration status: (False, 'Calibration (sys:3, gyro:3, accel:1, mag:0)')

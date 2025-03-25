@@ -8,3 +8,6 @@ sudo nvpmodel -m 0
 
 MAXN mode
 sudo nvpmodel -m 2
+
+fix permissions:
+sudo chown -R jet:jet .

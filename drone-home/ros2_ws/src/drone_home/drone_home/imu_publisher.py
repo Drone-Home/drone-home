@@ -11,7 +11,7 @@ class IMUSensor:
     def __init__(self):
         i2c = board.I2C()
         self.sensor = adafruit_bno055.BNO055_I2C(i2c)
-        self.sensor.offsets_magnetometer = (-451, -890, -312) #TODO get new calibration values when mounted
+        self.sensor.offsets_magnetometer = (-447, -896, -311) #TODO get new calibration values when mounted
         self.sensor.offsets_accelerometer = (11, -90, -29)
 
     def get_euler_angles(self):
@@ -48,6 +48,10 @@ class IMUSensor:
     def calibrated(self):
         time.sleep(1)
         return self.sensor.calibration_status, self.sensor.offsets_magnetometer
+    
+    def printCalibration(self):
+        time.sleep(1)
+        return self.sensor.calibration_status, self.sensor.offsets_magnetometer, self.sensor.offsets_accelerometer
 
 class IMUPublisher(Node):
     def __init__(self):
@@ -71,7 +75,7 @@ class IMUPublisher(Node):
     def timer_callback(self):
         
         # For getting calibration values
-        #self.get_logger().info(f"Calibration magnetometer values: {self.imu_sensor.calibrated()}")
+        #self.get_logger().info(f"Calibration magnetometer, accel values: {self.imu_sensor.printCalibration()}")
 
         # Publish Pose. Initial position is north
         pose_msg = PoseStamped()

@@ -1,0 +1,15 @@
+[INFO] [launch]: All log files can be found below /root/.ros/log/2025-02-24-20-28-13-478022-drone-home-347
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [cv_controller-1]: process started with pid [349]
+[INFO] [controller-2]: process started with pid [351]
+[INFO] [pwm_publisher-3]: process started with pid [353]
+[INFO] [gps_publisher-4]: process started with pid [355]
+[INFO] [imu_publisher-5]: process started with pid [357]
+[INFO] [drive_hardware-6]: process started with pid [359]
+[cv_controller-1] [INFO] [1740446894.728152244] [drone_home1.sim]: CV Controller running
+[controller-2] [INFO] [1740446894.787324171] [drone_home1.controller]: Controller running
+[imu_publisher-5] [INFO] [1740446896.102195518] [drone_home1.imu_publisher]: Calibration status: (True, 'Calibration (sys:0, gyro:0, accel:3, mag:0)')
+[controller-2] [INFO] [1740446901.334492163] [drone_home1.controller]: Service request to change coordinate custom_messages.srv.SetCoordinate_Request(new_coordinate=sensor_msgs.msg.NavSatFix(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=0, nanosec=0), frame_id=''), status=sensor_msgs.msg.NavSatStatus(status=0, service=0), latitude=29.0, longitude=80.0, altitude=0.0, position_covariance=array([0., 0., 0., 0., 0., 0., 0., 0., 0.]), position_covariance_type=0))
+[controller-2] [INFO] [1740446901.335727473] [drone_home1.controller]: Waypoints now: [(29.0, 80.0)]
+[drive_hardware-6] [INFO] [1740446901.489072509] [drone_home1.drive_hardware]: Service request to change drive mode custom_messages.srv.SetMode_Request(mode='automatic')
+[drive_hardware-6] [INFO] [1740446901.490201642] [drone_home1.drive_hardware]: Drive mode now: automatic

@@ -21,12 +21,16 @@ else
     # Update base image with Dockerfile to install dependencies for project
     docker build -t $MODIFIED_CONTAINER_NAME "${LOCAL_DEV_DIR}Docker" --build-arg BASE_IMAGE="$BASE_CONTAINER_NAME" --debug        
 
+    # First time run in detached mode to run in background
     echo "Starting new container..."
-    jetson-containers run \
+    jetson-containers run -d \
         --privileged \
+        -v /dev:/dev \
         --workdir $INTERNAL_PATH \
         --name $MODIFIED_CONTAINER_ID \
         -v $LOCAL_DEV_DIR:$INTERNAL_PATH \
-        $MODIFIED_CONTAINER_NAME
+        $MODIFIED_CONTAINER_NAME /bin/bash -c "cd /workspaces/drone_home-dev/tmux/ && ./run.sh && bash" # Auto run tmux scripts
+        #-c "tmux/run.sh && bash"
+    
 fi
     

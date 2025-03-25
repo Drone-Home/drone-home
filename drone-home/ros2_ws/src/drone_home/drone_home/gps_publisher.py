@@ -72,8 +72,8 @@ class GPSSensor:
         navsat_msg.altitude = self.gps.altitude_m if self.gps.altitude_m is not None else 0.0
 
         if(debug):
-            navsat_msg.latitude = 29.6396803
-            navsat_msg.longitude = -83.3612485
+            navsat_msg.latitude = 29.647255
+            navsat_msg.longitude = -82.347839
 
         # Set NavSatStatus (GPS_FIX or no fix)
         navsat_msg.status = NavSatStatus() 
@@ -104,7 +104,7 @@ class GPSPublisher(Node):
 
     def timer_callback(self):
         # Debug mode publishes a defined GPS points (gps still needs to be connected)
-        debug = False
+        debug = True
 
         # Publish GPS
         update_string = self.gps_sensor.update()
