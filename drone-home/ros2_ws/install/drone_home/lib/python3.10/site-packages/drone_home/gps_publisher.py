@@ -10,16 +10,19 @@ from std_msgs.msg import String
 from sensor_msgs.msg import NavSatFix, NavSatStatus
 
 class GPSSensor:
-    def __init__(self):
+    def __init__(self, ros_self):
         # Get GPS device by name
         #device = "/dev/serial/by-id/usb-Silicon_Labs_CP2102N_USB_to_UART_Bridge_Controller_3a054ddbab9eec11b3a69579a29c855c-if00-port0"
         device = "/dev/ttyUSB0"
         try:
-            self.uart = serial.Serial(device, baudrate=57600, timeout=10) # gps3.py on desktop chnges the baudrate from 9600 to 57600. Need to do if onbuard battery dies and resets rate
+            self.uart = serial.Serial(device, baudrate=57600, timeout=10) # gps3.py on desktop chnges the baudrate from 9600 to 57600. Need to do if onboard battery dies and resets rate
             self.gps = adafruit_gps.GPS(self.uart, debug=False)
+            self.ros_log = ros_self
             print(f"Connected GPS on {device}")
+            self.ros_log.get_logger().info(f"Connected GPS on {device}")
         except serial.SerialException:
             print(f"Could not open GPS on port {device}")
+            self.ros_log.get_logger().info(f"Could not open GPS on port {device}")
 
         # Set GPS update rates and output message rates
         self.gps.send_command(b"PMTK314,0,1,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0")
@@ -39,6 +42,7 @@ class GPSSensor:
             return "Updated"
         except Exception as e:
             print(f"GPS Error: {e}")
+            self.ros_log.get_logger().info(f"GPS Error: {e}")
             try:
                 # Try to reconnect GPS on error
                 time.sleep(1)
@@ -95,10 +99,11 @@ class GPSPublisher(Node):
         self.gps_publisher = self.create_publisher(NavSatFix, 'gps/fix', 10)
         
         # Initialize GPS
-        self.gps_sensor = GPSSensor()
+        self.gps_sensor = GPSSensor(self)
+        self.get_logger().info("GPS Initialized")
 
         # Update rate            
-        timer_period = 1/10 #1.0 #0.01  # 10 hz
+        timer_period = 1/20 #1.0 #0.01  # 20 hz = 2 times sample of GPS 10Hz
         self.timer = self.create_timer(timer_period, self.timer_callback)
         self.i = 0
 
@@ -113,7 +118,6 @@ class GPSPublisher(Node):
         navsat_msg.header.frame_id = "gps_sensor"
         if navsat_msg is not None:
             self.gps_publisher.publish(navsat_msg)
-            #self.get_logger().info(f"Published GPS data: {navsat_msg.status}, {navsat_msg.longitude}")
 
         self.i += 1
 

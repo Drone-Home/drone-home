@@ -95,15 +95,15 @@ class DriveSubscriber(Node):
         # If the pwm controller is slightly pressed it overrides manual
         # If pwm controller turns off or out of range use 0 values
         NO_CONTROLLER_MODE = False # allow for no RC controller to be used for debugging
-        pwm_drive_active = not NO_CONTROLLER_MODE and (drive_power_pwm > .2 or drive_power_pwm < -.2)
-        pwm_steering_active = not NO_CONTROLLER_MODE and (steering_angle_pwm > radians(4.0) or steering_angle_pwm < radians(-4.0))
+        pwm_drive_active = not NO_CONTROLLER_MODE and (drive_power_pwm > .25 or drive_power_pwm < -.25)
+        pwm_steering_active = not NO_CONTROLLER_MODE and (steering_angle_pwm > radians(4.1) or steering_angle_pwm < radians(-4.1))
         web_drive_active = drive_power_web != 0
         web_steering_active = steering_angle_web != 0
         controller_disconnected = not NO_CONTROLLER_MODE and (steering_angle_pwm == -1.0 or steering_angle_pwm == 1.0)
         manual_drive_mode = self.drive_mode == "manual"
 
         cv_drive_active = steering_angle_cv != -1.0 # if cv_controller returns -1.0 steering then there are no recent frames
-        cv_drive_active = True
+        cv_drive_active = True # disable GPS drive
 
         # Defult is cv controller TODO multiplex cv and GPS
         if(not manual_drive_mode): # If mode is manual then do not use any of the automatic controllers
@@ -134,7 +134,7 @@ class DriveSubscriber(Node):
         # if web controller if active use it
         if web_drive_active:
             drive_power = drive_power_web
-            info = "Web drive active"
+            #info = "Web drive active"
         if web_steering_active:
             steering_angle = steering_angle_web
             info = "Web steer active"

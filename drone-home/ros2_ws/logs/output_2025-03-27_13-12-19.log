@@ -1,0 +1,40 @@
+[INFO] [launch]: All log files can be found below /root/.ros/log/2025-03-27-13-12-24-653590-drone-home-327
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [cv_controller-1]: process started with pid [329]
+[INFO] [controller-2]: process started with pid [331]
+[INFO] [pwm_publisher-3]: process started with pid [333]
+[INFO] [gps_publisher-4]: process started with pid [335]
+[INFO] [imu_publisher-5]: process started with pid [337]
+[INFO] [drive_hardware-6]: process started with pid [339]
+[cv_controller-1] [INFO] [1743095545.635374979] [drone_home1.sim]: CV Controller running
+[controller-2] [INFO] [1743095545.789969119] [drone_home1.controller]: Controller running
+[gps_publisher-4] Traceback (most recent call last):
+[gps_publisher-4]   File "/usr/local/lib/python3.10/dist-packages/serial/serialposix.py", line 322, in open
+[gps_publisher-4]     self.fd = os.open(self.portstr, os.O_RDWR | os.O_NOCTTY | os.O_NONBLOCK)
+[gps_publisher-4] FileNotFoundError: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+[gps_publisher-4] 
+[gps_publisher-4] During handling of the above exception, another exception occurred:
+[gps_publisher-4] 
+[gps_publisher-4] Traceback (most recent call last):
+[gps_publisher-4]   File "/workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/lib/python3.10/site-packages/drone_home/gps_publisher.py", line 18, in __init__
+[gps_publisher-4]     self.uart = serial.Serial(device, baudrate=57600, timeout=10) # gps3.py on desktop chnges the baudrate from 9600 to 57600. Need to do if onbuard battery dies and resets rate
+[gps_publisher-4]   File "/usr/local/lib/python3.10/dist-packages/serial/serialutil.py", line 244, in __init__
+[gps_publisher-4]     self.open()
+[gps_publisher-4]   File "/usr/local/lib/python3.10/dist-packages/serial/serialposix.py", line 325, in open
+[gps_publisher-4]     raise SerialException(msg.errno, "could not open port {}: {}".format(self._port, msg))
+[gps_publisher-4] serial.serialutil.SerialException: [Errno 2] could not open port /dev/ttyUSB0: [Errno 2] No such file or directory: '/dev/ttyUSB0'
+[gps_publisher-4] 
+[gps_publisher-4] During handling of the above exception, another exception occurred:
+[gps_publisher-4] 
+[gps_publisher-4] Traceback (most recent call last):
+[gps_publisher-4]   File "/workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/lib/drone_home/gps_publisher", line 33, in <module>
+[gps_publisher-4]     sys.exit(load_entry_point('drone-home==0.0.0', 'console_scripts', 'gps_publisher')())
+[gps_publisher-4]   File "/workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/lib/python3.10/site-packages/drone_home/gps_publisher.py", line 132, in main
+[gps_publisher-4]     gps_publisher = GPSPublisher()
+[gps_publisher-4]   File "/workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/lib/python3.10/site-packages/drone_home/gps_publisher.py", line 103, in __init__
+[gps_publisher-4]     self.gps_sensor = GPSSensor(self)
+[gps_publisher-4]   File "/workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/lib/python3.10/site-packages/drone_home/gps_publisher.py", line 25, in __init__
+[gps_publisher-4]     self.ros_log.get_logger().info(f"Could not open GPS on port {device}")
+[gps_publisher-4] AttributeError: 'GPSSensor' object has no attribute 'ros_log'
+[ERROR] [gps_publisher-4]: process has died [pid 335, exit code 1, cmd '/workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/lib/drone_home/gps_publisher --ros-args -r __node:=gps_publisher -r __ns:=/drone_home1'].
+[imu_publisher-5] [INFO] [1743095547.088693862] [drone_home1.imu_publisher]: Calibration status: (True, 'Calibration (sys:0, gyro:0, accel:3, mag:0)')

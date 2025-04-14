@@ -1,0 +1,15 @@
+[INFO] [launch]: All log files can be found below /root/.ros/log/2025-03-27-12-48-19-747953-drone-home-773
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [cv_controller-1]: process started with pid [775]
+[INFO] [controller-2]: process started with pid [777]
+[INFO] [pwm_publisher-3]: process started with pid [779]
+[INFO] [gps_publisher-4]: process started with pid [781]
+[INFO] [imu_publisher-5]: process started with pid [783]
+[INFO] [drive_hardware-6]: process started with pid [785]
+[cv_controller-1] [INFO] [1743094100.613952582] [drone_home1.sim]: CV Controller running
+[gps_publisher-4] [INFO] [1743094100.916833788] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=0), -82.347839
+[controller-2] [INFO] [1743094100.921337896] [drone_home1.controller]: Controller running
+[gps_publisher-4] [INFO] [1743094100.948497804] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=0), -82.347839
+[gps_publisher-4] [INFO] [1743094101.048670444] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=0), -82.347839
+[gps_publisher-4] [INFO] [1743094101.148378695] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=0), -82.347839
+[imu_publisher-5] [INFO] [1743094102.329586143] [drone_home1.imu_publisher]: Calibration status: (True, 'Calibration (sys:0, gyro:0, accel:3, mag:0)')

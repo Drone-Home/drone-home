@@ -1,0 +1,7 @@
+/usr/local/lib/python3.10/dist-packages/setuptools/_distutils/dist.py:270: UserWarning: Unknown distribution option: 'tests_require'
+  warnings.warn(msg)
+  File "/workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/lib/python3.10/site-packages/drone_home/controller.py", line 116
+    self.get_logger().info((f"Going to {self.current_waypoint_index+1}: {distance:.2f} meters")) //TODO uncomment
+                                                                                                        ^^^^^^^^^
+SyntaxError: invalid syntax
+

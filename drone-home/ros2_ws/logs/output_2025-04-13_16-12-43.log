@@ -1,0 +1,38 @@
+[INFO] [launch]: All log files can be found below /root/.ros/log/2025-04-13-16-12-49-062992-drone-home-3767
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [cv_controller-1]: process started with pid [3769]
+[INFO] [controller-2]: process started with pid [3771]
+[INFO] [pwm_publisher-3]: process started with pid [3773]
+[INFO] [gps_publisher-4]: process started with pid [3775]
+[INFO] [imu_publisher-5]: process started with pid [3777]
+[INFO] [drive_hardware-6]: process started with pid [3779]
+[controller-2] [INFO] [1744575170.324538825] [drone_home1.controller]: Controller running
+[cv_controller-1] [INFO] [1744575170.513419482] [drone_home1.sim]: CV Controller running
+[gps_publisher-4] [INFO] [1744575170.615691358] [drone_home1.gps_publisher]: Connected GPS on /dev/ttyUSB0
+[gps_publisher-4] [INFO] [1744575170.617267341] [drone_home1.gps_publisher]: GPS Initialized
+[gps_publisher-4] Traceback (most recent call last):
+[gps_publisher-4]   File "/workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/lib/drone_home/gps_publisher", line 33, in <module>
+[gps_publisher-4]     sys.exit(load_entry_point('drone-home==0.0.0', 'console_scripts', 'gps_publisher')())
+[gps_publisher-4]   File "/workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/lib/python3.10/site-packages/drone_home/gps_publisher.py", line 128, in main
+[gps_publisher-4]     rclpy.spin(gps_publisher)
+[gps_publisher-4]   File "/opt/ros/humble/install/local/lib/python3.10/dist-packages/rclpy/__init__.py", line 226, in spin
+[gps_publisher-4]     executor.spin_once()
+[gps_publisher-4]   File "/opt/ros/humble/install/local/lib/python3.10/dist-packages/rclpy/executors.py", line 739, in spin_once
+[gps_publisher-4]     self._spin_once_impl(timeout_sec)
+[gps_publisher-4]   File "/opt/ros/humble/install/local/lib/python3.10/dist-packages/rclpy/executors.py", line 736, in _spin_once_impl
+[gps_publisher-4]     raise handler.exception()
+[gps_publisher-4]   File "/opt/ros/humble/install/local/lib/python3.10/dist-packages/rclpy/task.py", line 239, in __call__
+[gps_publisher-4]     self._handler.send(None)
+[gps_publisher-4]   File "/opt/ros/humble/install/local/lib/python3.10/dist-packages/rclpy/executors.py", line 437, in handler
+[gps_publisher-4]     await call_coroutine(entity, arg)
+[gps_publisher-4]   File "/opt/ros/humble/install/local/lib/python3.10/dist-packages/rclpy/executors.py", line 351, in _execute_timer
+[gps_publisher-4]     await await_or_execute(tmr.callback)
+[gps_publisher-4]   File "/opt/ros/humble/install/local/lib/python3.10/dist-packages/rclpy/executors.py", line 107, in await_or_execute
+[gps_publisher-4]     return callback(*args)
+[gps_publisher-4]   File "/workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/lib/python3.10/site-packages/drone_home/gps_publisher.py", line 116, in timer_callback
+[gps_publisher-4]     navsat_msg = self.gps_sensor.get_navsatfix_msg(debug)
+[gps_publisher-4] NameError: name 'debug' is not defined
+[ERROR] [gps_publisher-4]: process has died [pid 3775, exit code 1, cmd '/workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/lib/drone_home/gps_publisher --ros-args -r __node:=gps_publisher -r __ns:=/drone_home1'].
+[imu_publisher-5] [INFO] [1744575172.035185446] [drone_home1.imu_publisher]: Calibration status: (True, 'Calibration (sys:0, gyro:0, accel:3, mag:0)')
+[controller-2] [INFO] [1744575180.578767703] [drone_home1.controller]: Service request to change coordinate custom_messages.srv.SetCoordinate_Request(new_coordinate=sensor_msgs.msg.NavSatFix(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=0, nanosec=0), frame_id=''), status=sensor_msgs.msg.NavSatStatus(status=0, service=0), latitude=29.63966, longitude=-82.361216, altitude=0.0, position_covariance=array([0., 0., 0., 0., 0., 0., 0., 0., 0.]), position_covariance_type=0))
+[controller-2] [INFO] [1744575180.580239844] [drone_home1.controller]: Waypoints now: [(29.63966, -82.361216)]

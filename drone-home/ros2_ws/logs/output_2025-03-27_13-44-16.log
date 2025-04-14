@@ -1,0 +1,21 @@
+[INFO] [launch]: All log files can be found below /root/.ros/log/2025-03-27-13-44-23-167326-drone-home-326
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [cv_controller-1]: process started with pid [328]
+[INFO] [controller-2]: process started with pid [330]
+[INFO] [pwm_publisher-3]: process started with pid [332]
+[INFO] [gps_publisher-4]: process started with pid [334]
+[INFO] [imu_publisher-5]: process started with pid [336]
+[INFO] [drive_hardware-6]: process started with pid [338]
+[controller-2] [INFO] [1743097464.727635405] [drone_home1.controller]: Controller running
+[cv_controller-1] [INFO] [1743097464.739834111] [drone_home1.sim]: CV Controller running
+[gps_publisher-4] [INFO] [1743097464.936915001] [drone_home1.gps_publisher]: Connected GPS on /dev/ttyUSB0
+[gps_publisher-4] [INFO] [1743097464.938344198] [drone_home1.gps_publisher]: GPS Initialized
+[imu_publisher-5] [INFO] [1743097466.263898328] [drone_home1.imu_publisher]: Calibration status: (True, 'Calibration (sys:0, gyro:0, accel:3, mag:0)')
+[controller-2] [INFO] [1743097471.108463164] [drone_home1.controller]: Service request to change coordinate custom_messages.srv.SetCoordinate_Request(new_coordinate=sensor_msgs.msg.NavSatFix(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=0, nanosec=0), frame_id=''), status=sensor_msgs.msg.NavSatStatus(status=0, service=0), latitude=29.64736, longitude=-82.34719, altitude=0.0, position_covariance=array([0., 0., 0., 0., 0., 0., 0., 0., 0.]), position_covariance_type=0))
+[controller-2] [INFO] [1743097471.109365476] [drone_home1.controller]: Waypoints now: [(29.64736, -82.34719)]
+[drive_hardware-6] [INFO] [1743097471.261805942] [drone_home1.drive_hardware]: Service request to change drive mode custom_messages.srv.SetMode_Request(mode='manual')
+[drive_hardware-6] [INFO] [1743097471.262794528] [drone_home1.drive_hardware]: Drive mode now: manual
+[controller-2] [INFO] [1743097576.070158493] [drone_home1.controller]: Service request to change coordinate custom_messages.srv.SetCoordinate_Request(new_coordinate=sensor_msgs.msg.NavSatFix(header=std_msgs.msg.Header(stamp=builtin_interfaces.msg.Time(sec=0, nanosec=0), frame_id=''), status=sensor_msgs.msg.NavSatStatus(status=0, service=0), latitude=29.64736, longitude=-82.34719, altitude=0.0, position_covariance=array([0., 0., 0., 0., 0., 0., 0., 0., 0.]), position_covariance_type=0))
+[controller-2] [INFO] [1743097576.071784588] [drone_home1.controller]: Waypoints now: [(29.64736, -82.34719)]
+[drive_hardware-6] [INFO] [1743097576.212921157] [drone_home1.drive_hardware]: Service request to change drive mode custom_messages.srv.SetMode_Request(mode='manual')
+[drive_hardware-6] [INFO] [1743097576.213793229] [drone_home1.drive_hardware]: Drive mode now: manual

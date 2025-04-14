@@ -1,0 +1,22 @@
+[INFO] [launch]: All log files can be found below /root/.ros/log/2025-03-27-12-45-59-358808-drone-home-550
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [cv_controller-1]: process started with pid [552]
+[INFO] [controller-2]: process started with pid [554]
+[INFO] [pwm_publisher-3]: process started with pid [556]
+[INFO] [gps_publisher-4]: process started with pid [558]
+[INFO] [imu_publisher-5]: process started with pid [560]
+[INFO] [drive_hardware-6]: process started with pid [562]
+[gps_publisher-4] Traceback (most recent call last):
+[gps_publisher-4]   File "/workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/lib/drone_home/gps_publisher", line 33, in <module>
+[gps_publisher-4]     sys.exit(load_entry_point('drone-home==0.0.0', 'console_scripts', 'gps_publisher')())
+[gps_publisher-4]   File "/workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/lib/python3.10/site-packages/drone_home/gps_publisher.py", line 124, in main
+[cv_controller-1] [INFO] [1743093960.372748684] [drone_home1.sim]: CV Controller running
+[gps_publisher-4]     gps_publisher = GPSPublisher()
+[gps_publisher-4]   File "/workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/lib/python3.10/site-packages/drone_home/gps_publisher.py", line 99, in __init__
+[gps_publisher-4]     self.gps_sensor = GPSSensor()
+[gps_publisher-4]   File "/workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/lib/python3.10/site-packages/drone_home/gps_publisher.py", line 21, in __init__
+[gps_publisher-4]     self.get_logger().info(f"Connected GPS on {device}")
+[gps_publisher-4] AttributeError: 'GPSSensor' object has no attribute 'get_logger'
+[controller-2] [INFO] [1743093960.499572990] [drone_home1.controller]: Controller running
+[ERROR] [gps_publisher-4]: process has died [pid 558, exit code 1, cmd '/workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/lib/drone_home/gps_publisher --ros-args -r __node:=gps_publisher -r __ns:=/drone_home1'].
+[imu_publisher-5] [INFO] [1743093961.871436774] [drone_home1.imu_publisher]: Calibration status: (True, 'Calibration (sys:0, gyro:0, accel:3, mag:0)')

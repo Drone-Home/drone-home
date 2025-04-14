@@ -1,0 +1,28 @@
+[INFO] [launch]: All log files can be found below /root/.ros/log/2025-03-27-13-14-31-282668-drone-home-323
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [cv_controller-1]: process started with pid [326]
+[INFO] [controller-2]: process started with pid [328]
+[INFO] [pwm_publisher-3]: process started with pid [330]
+[INFO] [gps_publisher-4]: process started with pid [332]
+[INFO] [imu_publisher-5]: process started with pid [334]
+[INFO] [drive_hardware-6]: process started with pid [336]
+[cv_controller-1] [INFO] [1743095672.524677872] [drone_home1.sim]: CV Controller running
+[controller-2] [INFO] [1743095672.833253456] [drone_home1.controller]: Controller running
+[gps_publisher-4] [INFO] [1743095672.868192688] [drone_home1.gps_publisher]: Connected GPS on /dev/ttyUSB0
+[gps_publisher-4] [INFO] [1743095672.869635376] [drone_home1.gps_publisher]: GPS Initialized
+[gps_publisher-4] [INFO] [1743095672.924339696] [drone_home1.gps_publisher]: none
+[gps_publisher-4] [INFO] [1743095672.925357808] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095672.971487536] [drone_home1.gps_publisher]: none
+[gps_publisher-4] [INFO] [1743095672.972484144] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095673.021659664] [drone_home1.gps_publisher]: none
+[gps_publisher-4] [INFO] [1743095673.022677168] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095673.071524496] [drone_home1.gps_publisher]: none
+[gps_publisher-4] [INFO] [1743095673.072519152] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095673.121467536] [drone_home1.gps_publisher]: none
+[gps_publisher-4] [INFO] [1743095673.122683472] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095673.171471152] [drone_home1.gps_publisher]: none
+[gps_publisher-4] [INFO] [1743095673.172442000] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095673.221506672] [drone_home1.gps_publisher]: none
+[gps_publisher-4] [INFO] [1743095673.222602768] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095673.271759792] [drone_home1.gps_publisher]: none
+[imu_publisher-5] [INFO] [1743095674.210966064] [drone_home1.imu_publisher]: Calibration status: (True, 'Calibration (sys:0, gyro:0, accel:3, mag:0)')

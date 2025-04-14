@@ -1,0 +1,17 @@
+[INFO] [launch]: All log files can be found below /root/.ros/log/2025-04-13-15-19-40-147382-drone-home-2100
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [cv_controller-1]: process started with pid [2104]
+[INFO] [controller-2]: process started with pid [2106]
+[INFO] [pwm_publisher-3]: process started with pid [2108]
+[INFO] [gps_publisher-4]: process started with pid [2110]
+[INFO] [imu_publisher-5]: process started with pid [2112]
+[INFO] [drive_hardware-6]: process started with pid [2114]
+[cv_controller-1] [INFO] [1744571981.459969589] [drone_home1.sim]: CV Controller running
+[gps_publisher-4] [INFO] [1744571981.471589339] [drone_home1.gps_publisher]: Connected GPS on /dev/ttyUSB0
+[gps_publisher-4] [INFO] [1744571981.472809387] [drone_home1.gps_publisher]: GPS Initialized
+[controller-2] [INFO] [1744571981.672211867] [drone_home1.controller]: Controller running
+[imu_publisher-5] [INFO] [1744571983.018204901] [drone_home1.imu_publisher]: Calibration status: (False, 'Calibration (sys:0, gyro:0, accel:3, mag:0)')
+[imu_publisher-5] [INFO] [1744571983.523332311] [drone_home1.imu_publisher]: Calibration status: (False, 'Calibration (sys:1, gyro:3, accel:3, mag:0)')
+[imu_publisher-5] [INFO] [1744571984.027934612] [drone_home1.imu_publisher]: Calibration status: (False, 'Calibration (sys:3, gyro:3, accel:1, mag:0)')
+[imu_publisher-5] [INFO] [1744571984.531420291] [drone_home1.imu_publisher]: Calibration status: (False, 'Calibration (sys:3, gyro:3, accel:1, mag:0)')
+[imu_publisher-5] [INFO] [1744571985.034878670] [drone_home1.imu_publisher]: Calibration status: (False, 'Calibration (sys:3, gyro:3, accel:1, mag:0)')

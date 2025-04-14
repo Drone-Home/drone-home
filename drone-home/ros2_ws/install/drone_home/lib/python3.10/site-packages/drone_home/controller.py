@@ -20,17 +20,9 @@ class Controller(Node):
         self.srv = self.create_service(SetCoordinate, 'set_target_coordinate', self.set_target_coordinate_callback)
 
         self.waypoints = [
-        (28.069556, -82.724286),
-        #(29.6404980, -82.3605938),
-        #(29.6404013, -82.3605922),
-        #(29.6404035, -82.3604530)
+        (29.639661, -82.361216),
         ]
-        '''
-        (29.6404917, -82.3604188),  # 1
-        (29.6404941, -82.3605006),  # 2
-        (29.6404259, -82.3605003),  # 3
-        (29.6404263, -82.3604182),  # 4
-        '''
+
         self.current_waypoint_index = 0  # Start with the first waypoint
         self.distance_threshold = 2.5  # Distance threshold in meters to switch waypoints
 
@@ -96,7 +88,7 @@ class Controller(Node):
         # target GPS
         lat1, lon1 = self.current_position.latitude, self.current_position.longitude   # New York
         lat2, lon2 = self.waypoints[self.current_waypoint_index]
-        #lat2, lon2 = 29.6337427, -82.3609089 # country village  # 29.6337850, -82.3609108 - arrow
+        #lat2, lon2 = 29.6337427, -82.3609089 
 
         bearing = GeoTools.get_bearing(lat1, lon1, lat2, lon2)
         distance = GeoTools.geo_distance(lat1, lon1, lat2, lon2)
@@ -113,7 +105,7 @@ class Controller(Node):
                 self.current_waypoint_index = 0
         
         #self.get_logger().info((f"Bearing: {bearing:.2f}°"))
-        #self.get_logger().info((f"Going to {self.current_waypoint_index+1}: {distance:.2f} meters")) TODO uncomment
+        #self.get_logger().info((f"Going to {self.waypoints}: {distance:.2f} meters")) #TODO uncomment
 
         self.target_quaternion = self.euler_to_quaternion(0.0, 0.0, radians(bearing))
 

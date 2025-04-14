@@ -1,0 +1,1767 @@
+[INFO] [launch]: All log files can be found below /root/.ros/log/2025-04-13-16-08-56-152584-drone-home-2884
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [cv_controller-1]: process started with pid [2886]
+[INFO] [controller-2]: process started with pid [2888]
+[INFO] [pwm_publisher-3]: process started with pid [2890]
+[INFO] [gps_publisher-4]: process started with pid [2892]
+[INFO] [imu_publisher-5]: process started with pid [2894]
+[INFO] [drive_hardware-6]: process started with pid [2896]
+[cv_controller-1] [INFO] [1744574937.671698712] [drone_home1.sim]: CV Controller running
+[gps_publisher-4] [INFO] [1744574937.947530447] [drone_home1.gps_publisher]: Connected GPS on /dev/ttyUSB0
+[gps_publisher-4] [INFO] [1744574937.949982704] [drone_home1.gps_publisher]: GPS Initialized
+[controller-2] [INFO] [1744574938.051558515] [drone_home1.controller]: Controller running
+[imu_publisher-5] [INFO] [1744574939.418752093] [drone_home1.imu_publisher]: Calibration status: (True, 'Calibration (sys:0, gyro:0, accel:3, mag:0)')
+[controller-2] [INFO] [1744574939.484488254] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574939.485575826] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574939.584538320] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574939.585459237] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574939.684479235] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574939.685441752] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574939.784647252] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574939.785662312] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574939.887738594] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574939.890784414] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574939.984546202] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574939.987876403] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574940.084698218] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574940.087999972] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574940.184709667] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574940.185653816] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574940.284644861] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574940.288321460] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574940.384290906] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574940.388731080] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574940.484397138] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574940.487886475] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574940.585280642] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574940.586276279] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574940.685426393] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574940.689330253] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574940.785550257] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574940.788126804] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574940.884643253] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574940.887047034] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574940.984828300] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574940.985864737] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574941.084494760] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574941.085487198] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574941.184434153] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574941.188162305] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574941.284601063] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574941.287173835] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574941.385416254] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574941.386926030] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574941.484584264] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574941.485496222] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574941.584284971] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574941.585224449] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574941.684418057] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574941.687196171] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574941.784492361] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574941.785447230] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574941.884542408] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574941.885581789] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574941.984330698] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574941.987190955] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574942.084313961] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574942.085248704] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574942.186749878] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574942.187720876] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574942.284664594] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574942.285627400] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574942.384493019] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574942.385435121] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574942.486596491] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574942.490361667] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574942.584435656] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574942.585362270] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574942.684480942] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574942.685432132] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574942.785982852] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574942.786985210] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574942.884779543] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574942.886206824] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574942.984570624] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574942.985529558] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574943.084558565] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574943.085609691] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574943.184326228] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574943.190077594] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574943.284265953] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574943.285197816] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574943.384352525] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574943.385248899] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574943.488843052] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574943.489772290] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574943.584404677] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574943.585322908] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574943.688946499] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574943.696785716] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574943.784599100] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574943.785603730] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574943.885956602] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574943.887121519] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574943.984613621] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574943.988352047] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574944.085056923] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574944.088244860] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574944.184627282] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574944.185852166] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574944.284964192] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574944.285967223] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574944.385167569] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574944.388182579] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574944.484452714] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574944.486962961] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574944.585920462] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574944.588758162] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574944.685098056] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574944.688940451] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574944.785044891] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574944.786463693] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574944.886236833] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574944.887461845] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574944.986369682] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574944.987308521] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574945.085284717] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574945.086250980] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574945.189697788] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574945.190667347] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574945.286210996] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574945.287179851] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574945.385759952] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574945.386747047] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574945.487091387] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574945.488186385] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574945.584614122] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574945.585536577] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574945.684566786] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574945.685509689] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574945.784492667] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574945.785452658] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574945.884803215] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574945.885735943] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574945.985425633] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574945.986333209] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574946.085102874] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574946.086019154] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574946.184419933] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574946.185327829] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574946.284503609] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574946.285408113] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574946.384613173] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574946.385555085] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574946.486045797] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574946.487102363] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574946.585908803] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574946.586856315] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574946.684568588] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574946.685580803] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574946.784853990] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574946.785852637] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574946.884783172] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574946.885742395] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574946.984600098] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574946.985521114] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574947.084686524] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574947.085670228] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574947.185118682] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574947.186094546] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574947.284724063] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574947.288041571] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574947.385305020] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574947.387422410] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574947.484619300] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574947.485638811] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574947.584602310] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574947.585499710] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574947.684772550] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574947.685772957] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574947.784672648] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574947.785592993] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574947.884462412] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574947.885370116] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574947.984503053] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574947.985441061] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574948.084378830] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574948.085313638] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574948.184578930] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574948.185923687] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574948.284942774] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574948.285949037] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574948.387164906] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574948.388682557] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574948.484384391] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574948.485309055] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574948.584450477] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574948.585378501] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574948.684435859] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574948.685355852] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574948.784624632] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574948.785564528] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574948.884212162] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574948.885123578] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574948.984519846] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574948.985447678] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574949.084576041] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574949.085537217] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574949.186823074] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574949.189788586] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574949.284446943] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574949.285410648] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574949.384340939] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574949.385272547] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574949.486249542] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574949.490082728] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574949.584578782] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574949.585580598] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574949.684481577] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574949.689442818] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574949.784496884] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574949.788885137] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574949.884517983] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574949.885407799] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574949.984554441] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574949.985480386] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574950.084409618] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574950.086782304] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574950.184779550] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574950.188264131] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574950.284611022] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574950.285850564] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574950.384501565] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574950.385763476] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574950.484777738] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574950.488018033] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574950.584828696] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574950.585832336] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574950.684569385] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574950.685799999] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574950.785165395] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574950.786847782] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574950.884472839] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574950.885477727] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574950.984581013] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574950.985510766] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574951.084391010] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574951.085391546] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574951.184476339] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574951.187090401] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574951.284751268] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574951.287227282] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574951.384343321] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574951.386869383] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574951.484110797] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574951.484977063] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574951.584296510] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574951.585452150] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574951.684426032] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574951.686411138] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574951.784709344] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574951.785802552] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574951.884924817] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574951.885901066] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574951.984685221] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574951.985890077] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574952.085298992] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574952.086492936] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574952.184522379] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574952.185493221] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574952.286612243] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574952.290576856] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574952.386822696] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574952.387777473] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574952.485315784] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574952.486577823] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574952.584671394] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574952.585585468] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574952.684180891] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574952.685594066] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574952.784730830] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574952.785640519] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574952.884222343] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574952.885113345] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574952.984778809] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574952.985837714] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574953.085310408] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574953.087981751] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574953.184667621] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574953.185646847] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574953.284437728] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574953.286845392] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574953.384690679] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574953.387804291] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574953.485672266] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574953.486574884] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574953.584699209] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574953.585663811] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574953.685168607] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574953.686748661] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574953.784444125] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574953.785744213] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574953.884790004] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574953.887812289] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574953.986001157] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574953.987941913] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574954.084934242] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574954.088492556] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574954.184672671] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574954.187870028] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574954.285018521] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574954.286019699] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574954.384469657] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574954.387279463] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574954.484948882] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574954.486856134] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574954.586263366] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574954.587612157] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574954.685829764] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574954.686739583] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574954.784239370] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574954.785160772] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574954.884398821] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574954.885715389] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574954.985182652] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574954.986750259] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574955.084991542] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574955.088237571] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574955.184595479] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574955.185499313] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574955.284197464] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574955.285078066] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574955.384314934] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574955.385223792] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574955.484426932] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574955.485348494] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574955.584687025] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574955.587226530] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574955.684631056] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574955.687328448] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574955.784495919] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574955.785478218] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574955.884399566] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574955.887072895] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574955.984446733] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574955.985410247] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574956.085000484] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574956.086368093] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574956.184331657] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574956.185885568] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574956.284552969] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574956.285735490] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574956.384552330] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574956.385483429] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574956.484923209] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574956.488153975] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574956.584196046] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574956.585123625] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574956.684911659] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574956.688022714] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574956.786243365] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574956.789147701] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574956.884105457] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574956.886856514] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574956.984849006] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574956.985943176] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574957.084587724] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574957.085964741] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574957.184267665] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574957.187430177] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574957.284432371] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574957.285320079] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574957.384325239] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574957.387551271] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574957.484366426] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574957.485279669] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574957.585012378] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574957.586048789] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574957.684802014] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574957.685867033] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574957.784460675] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574957.785601917] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574957.884946084] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574957.885924479] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574957.984415754] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574957.985362245] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574958.084562919] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574958.085504899] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574958.184824107] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574958.185799430] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574958.284312370] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574958.286159946] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574958.384563446] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574958.385467026] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574958.484751674] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574958.485903381] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574958.584379233] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574958.589249962] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574958.684365126] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574958.685311490] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574958.785034536] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574958.789040885] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574958.884691119] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574958.885651306] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574958.984482356] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574958.985570287] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574959.084583604] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574959.085706671] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574959.184805818] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574959.189715172] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574959.284872832] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574959.285775292] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574959.384699815] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574959.385623811] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574959.484417615] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574959.485337195] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574959.585027347] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574959.587959078] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574959.684334205] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574959.687106576] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574959.784537698] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574959.788109522] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574959.884855047] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574959.885790147] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574959.984742830] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574959.985777898] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574960.084610513] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574960.085563821] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574960.184787512] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574960.185794868] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574960.284613184] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574960.285623836] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574960.384744264] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574960.385670756] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574960.484781199] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574960.485748203] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574960.584629112] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574960.585666548] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574960.686061850] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574960.689786987] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574960.784479400] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574960.785441572] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574960.888957598] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574960.890009369] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574960.985145749] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574960.986213969] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574961.084781433] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574961.085739606] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574961.184271428] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574961.185194081] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574961.284602604] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574961.285515368] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574961.385741328] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574961.386749453] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574961.484429310] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574961.485317339] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574961.585575267] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574961.589095190] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574961.684351792] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574961.685272461] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574961.784441977] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574961.785349366] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574961.884278851] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574961.885184159] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574961.984320363] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574961.985206760] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574962.084575054] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574962.085515403] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574962.184844375] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574962.185816659] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574962.284979936] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574962.290900812] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574962.384509003] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574962.385411592] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574962.484230486] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574962.487685386] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574962.584376991] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574962.585260220] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574962.685739044] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574962.687546686] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574962.785293583] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574962.786899914] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574962.884489180] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574962.885667032] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574962.984576261] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574962.985485730] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574963.084272170] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574963.085199015] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574963.184554708] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574963.185475953] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574963.284546462] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574963.285486811] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574963.384415817] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574963.385388774] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574963.485051153] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574963.485953582] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574963.584144510] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574963.585054875] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574963.684237480] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574963.685127013] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574963.785016208] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574963.788408901] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574963.884400796] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574963.885307865] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574963.985143844] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574963.986738207] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574964.084508714] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574964.085434280] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574964.184674932] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574964.188149355] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574964.284402176] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574964.286661785] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574964.384614089] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574964.385551751] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574964.484667508] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574964.487242989] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574964.585101437] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574964.586674617] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574964.685372903] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574964.688523166] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574964.784928883] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574964.785902448] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574964.884961085] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574964.887603638] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574964.984916872] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574964.987318401] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574965.084274382] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574965.085223116] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574965.184490968] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574965.185454102] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574965.284644226] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574965.287591131] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574965.384621613] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574965.385643562] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574965.485350934] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574965.486617555] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574965.584544482] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574965.585450720] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574965.684376365] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574965.685325835] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574965.784778935] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574965.785737300] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574965.884313603] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574965.885222080] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574965.984538605] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574965.985467434] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574966.084362705] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574966.085352143] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574966.184389211] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574966.186899702] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574966.284626085] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574966.285658819] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574966.384860687] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574966.388546695] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574966.484684378] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574966.485723352] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574966.585093635] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574966.586110209] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574966.685734988] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574966.687159625] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574966.784303002] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574966.786764276] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574966.884428132] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574966.885374882] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574966.984785453] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574966.985658028] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574967.084513010] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574967.085848751] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574967.184228540] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574967.185096027] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574967.284452422] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574967.285437796] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574967.384516431] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574967.385491342] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574967.485614775] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574967.486545846] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574967.585110978] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574967.587615294] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574967.685655051] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574967.687057833] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574967.785486261] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574967.787077938] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574967.885995806] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574967.887000540] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574967.984368203] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574967.985275465] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574968.084350766] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574968.085259853] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574968.184380375] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574968.185281430] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574968.284919232] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574968.285976542] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574968.385053193] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574968.388647555] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574968.484674162] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574968.485608529] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574968.584612924] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574968.585599450] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574968.684783685] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574968.685696323] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574968.784516654] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574968.785467469] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574968.884618455] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574968.885540822] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574968.984517697] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574968.985407231] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574969.084497635] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574969.085409218] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574969.184919018] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574969.185876361] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574969.284378227] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574969.285288626] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574969.384515675] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574969.385441210] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574969.485436227] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574969.488169343] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574969.584558124] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574969.586941577] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574969.684708372] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574969.685993394] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574969.784474012] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574969.785382427] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574969.886063299] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574969.887000002] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574969.985098988] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574969.986298379] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574970.084568238] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574970.085609677] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574970.185636756] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574970.186886227] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574970.284410684] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574970.285316603] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574970.384664867] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574970.385610722] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574970.484928042] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574970.485984329] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574970.584280881] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574970.585205168] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574970.684220792] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574970.685140087] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574970.784326271] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574970.785559358] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574970.885922309] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574970.886937348] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574970.984498669] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574970.985426828] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574971.085258572] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574971.086182412] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574971.185941681] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574971.187536656] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574971.285296439] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574971.286594583] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574971.384888413] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574971.385853949] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574971.484598531] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574971.485543714] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574971.584446601] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574971.585678312] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574971.684379022] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574971.685300558] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574971.784396692] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574971.785348179] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574971.884416665] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574971.885397721] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574971.984795487] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574971.988399837] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574972.086026492] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574972.087062620] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574972.184520897] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574972.187319488] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574972.284583493] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574972.286696772] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574972.384381737] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574972.385408360] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574972.484335501] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574972.485264332] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574972.584574768] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574972.585501040] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574972.684223828] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574972.685112628] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574972.784990264] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574972.785912696] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574972.884682460] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574972.885900956] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574972.984707872] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574972.985970464] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574973.084766268] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574973.085687484] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574973.184519614] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574973.185432382] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574973.284737856] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574973.287570336] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574973.384127874] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574973.386816194] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574973.484937668] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574973.485866372] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574973.585017766] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574973.586555686] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574973.684756168] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574973.685698728] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574973.784603530] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574973.785557994] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574973.884360652] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574973.885248268] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574973.984927950] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574973.985887502] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574974.084304744] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574974.085393256] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574974.184366728] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574974.185722440] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574974.285025640] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574974.285966472] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574974.384304935] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574974.385256296] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574974.484498855] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574974.485384424] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574974.584436679] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574974.585348935] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574974.684429287] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574974.685382887] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574974.784653351] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574974.786001543] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574974.884483303] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574974.885524583] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574974.984298438] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574974.985162215] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574975.085506751] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574975.087252352] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574975.184495484] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574975.185389884] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574975.285674842] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574975.286765051] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574975.385210295] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574975.386097016] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574975.484651636] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574975.485562453] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574975.584543761] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574975.585444306] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574975.684400495] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574975.685391887] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574975.785124589] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574975.786321741] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574975.885446794] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574975.886860651] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574975.984689031] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574975.987327785] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574976.084417020] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574976.085365981] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574976.184261623] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574976.186878745] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574976.284376562] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574976.285325203] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574976.384466413] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574976.385370894] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574976.484643688] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574976.487486858] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574976.584768547] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574976.588795302] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574976.685294750] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574976.686754239] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574976.784934041] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574976.786502842] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574976.885135924] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574976.890460536] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574976.984404494] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574976.987018800] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574977.084500896] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574977.085490689] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574977.186005402] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574977.187495164] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574977.284408944] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574977.285324369] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574977.385401833] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574977.386363370] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574977.484898817] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574977.485938946] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574977.584478968] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574977.585389753] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574977.689009718] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574977.697331936] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574977.784485608] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574977.785426793] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574977.884475840] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574977.888406853] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574977.984467000] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574977.986286010] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574978.084593288] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574978.085536489] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574978.184358236] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574978.185345214] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574978.285078610] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574978.286600724] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574978.384637510] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574978.385633576] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574978.484538107] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574978.485559997] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574978.584570928] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574978.586471699] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574978.685448070] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574978.686393960] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574978.784558682] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574978.785499995] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574978.884438991] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574978.885343504] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574978.984072707] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574978.985353829] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574979.084351631] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574979.087415381] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574979.184633377] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574979.187383270] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574979.284659667] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574979.285664309] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574979.384999429] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574979.386265128] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574979.486000441] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574979.489199422] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574979.584627624] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574979.585572522] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574979.685091610] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574979.688410048] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574979.785075884] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574979.786658031] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574979.884421404] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574979.885477982] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574979.984204590] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574979.985067247] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574980.084342358] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574980.085236664] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574980.185064806] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574980.186023144] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574980.284735507] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574980.285683797] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574980.384832930] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574980.385792932] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574980.484221390] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574980.485100560] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574980.584531517] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574980.585467007] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574980.684534795] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574980.685533325] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574980.784423449] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574980.785370107] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574980.884468231] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574980.885371017] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574980.984471637] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574980.985384695] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574981.084400858] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574981.085841822] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574981.184338820] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574981.185229862] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574981.284427887] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574981.287266486] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574981.384668442] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574981.385622620] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574981.484475620] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574981.485475686] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574981.584820303] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574981.585849297] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574981.684647321] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574981.685662907] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574981.784494915] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574981.785530277] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574981.884446253] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574981.885502831] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574981.984693400] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574981.985658106] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574982.084485304] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574982.085397211] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574982.184516191] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574982.185438689] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574982.284408741] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574982.285329575] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574982.384436203] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574982.386961778] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574982.484583858] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574982.485513717] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574982.584679065] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574982.587044959] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574982.684464319] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574982.687295590] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574982.784432421] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574982.786171305] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574982.885855919] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574982.886806417] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574982.984677234] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574982.985593909] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574983.084512079] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574983.085456753] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574983.184666257] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574983.185646580] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574983.284640531] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574983.287611420] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574983.384469141] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574983.385430072] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574983.484635128] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574983.485549306] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574983.585052859] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574983.586547071] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574983.684487580] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574983.685500447] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574983.784860863] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574983.785850594] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574983.884472352] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574983.885390851] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574983.984473026] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574983.985402597] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574984.084758652] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574984.085847487] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574984.184738457] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574984.186122558] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574984.284668631] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574984.286235324] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574984.384595796] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574984.385509335] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574984.484786771] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574984.487537788] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574984.584426895] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574984.587597209] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574984.684347021] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574984.685254704] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574984.784542347] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574984.785481934] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574984.884422345] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574984.885322572] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574984.985701611] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574984.987213583] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574985.084908636] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574985.086633570] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574985.184894805] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574985.187924768] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574985.284546989] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574985.285872754] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574985.384467910] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574985.385774059] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574985.485191394] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574985.489008111] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574985.585617020] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574985.586707712] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574985.684527602] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574985.685533461] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574985.784551435] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574985.785744495] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574985.884673349] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574985.887477582] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574985.985432288] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574985.988301962] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574986.084797453] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574986.087182102] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574986.184730593] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574986.186848681] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574986.284428053] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574986.287343007] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574986.384653706] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574986.385571629] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574986.484604766] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574986.485757058] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574986.584320209] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574986.586316601] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574986.684461222] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574986.685385226] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574986.785027581] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574986.787499046] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574986.884324686] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574986.885230290] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574986.984411811] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574986.985323910] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574987.084510797] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574987.085778194] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574987.184587549] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574987.187912970] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574987.284403115] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574987.288568028] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574987.384578075] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574987.386696740] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574987.486034097] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574987.489977856] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574987.585016828] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574987.586079776] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574987.684431497] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574987.685379789] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574987.784653753] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574987.787194563] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574987.884509224] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574987.889956477] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574987.984630615] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574987.989181674] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574988.084658300] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574988.085615649] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574988.184875367] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574988.186531278] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574988.284239695] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574988.285171827] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574988.384286329] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574988.385195293] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574988.484638084] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574988.485649001] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574988.584378221] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574988.585338513] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574988.684698969] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574988.685846014] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574988.785705127] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574988.786712619] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574988.884874926] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574988.885959218] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574988.984553814] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574988.985560347] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574989.084425781] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574989.086227229] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574989.184691675] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574989.185675839] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574989.284510815] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574989.287119274] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574989.385477384] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574989.388976599] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574989.484543848] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574989.485455436] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574989.585313328] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574989.586185812] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574989.684642002] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574989.685550198] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574989.784462997] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574989.785377305] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574989.884408442] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574989.885303262] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574989.984659615] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574989.987536844] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574990.085563645] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574990.086478018] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574990.185887422] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574990.190790005] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574990.284504310] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574990.285500219] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574990.384442293] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574990.387333187] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574990.484518068] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574990.485546713] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574990.584591987] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574990.585575384] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574990.684449874] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574990.685534039] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574990.784634769] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574990.785708150] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574990.884617360] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574990.888138401] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574990.985921685] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574990.986796057] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574991.084295585] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574991.085280838] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574991.184571356] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574991.185666721] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574991.284711638] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574991.285631578] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574991.384605486] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574991.385903029] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574991.484481094] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574991.485497900] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574991.584549664] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574991.585625445] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574991.684858234] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574991.692448289] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574991.784385681] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574991.785303414] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574991.885825617] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574991.887354873] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574991.984411331] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574991.985349416] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574992.085028596] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574992.086577789] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574992.184351652] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574992.185238440] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574992.284038901] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574992.284900090] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574992.384417482] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574992.386810487] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574992.484566366] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574992.487715374] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574992.584383280] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574992.585318965] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574992.684542787] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574992.687472627] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574992.784349237] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574992.787864232] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574992.884360232] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574992.885340461] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574992.984228474] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574992.986597895] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574993.084641220] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574993.085609162] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574993.184374256] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574993.185286549] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574993.284375068] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574993.285275393] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574993.384322793] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574993.385219790] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574993.484479510] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574993.485449276] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574993.584328834] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574993.587544500] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574993.684483951] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574993.688239524] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574993.784676157] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574993.785670467] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574993.884508233] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574993.885717328] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574993.984199572] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574993.985956510] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574994.084352438] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574994.085335612] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574994.185236865] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574994.186229927] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574994.284376386] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574994.285273320] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574994.384505449] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574994.385528143] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574994.484317230] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574994.485251828] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574994.584504566] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574994.585466043] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574994.684861534] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574994.685821891] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574994.785316039] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574994.788407161] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574994.884482632] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574994.887111607] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574994.984458286] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574994.985401139] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574995.084393192] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574995.087193017] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574995.184388360] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574995.185361774] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574995.284307207] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574995.285206188] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574995.384071653] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574995.385088875] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574995.484172965] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574995.486798869] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574995.584506150] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574995.585716718] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574995.684900680] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574995.687397271] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574995.785202441] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574995.786152431] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574995.884451140] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574995.885762956] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574995.984546084] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574995.985549995] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574996.084612921] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574996.085593439] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574996.184865139] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574996.186996160] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574996.284332232] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574996.285224206] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574996.384311681] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574996.385282215] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574996.484696060] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574996.485628929] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574996.584692244] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574996.585585882] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574996.685019279] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574996.686086326] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574996.784420036] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574996.787469207] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574996.884542685] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574996.885482403] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574996.984704055] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574996.987469352] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574997.084252832] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574997.086671920] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574997.184318642] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574997.185213464] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574997.284308740] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574997.285204842] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574997.385649150] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574997.386680933] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574997.484508456] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574997.485461998] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574997.584377529] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574997.586804777] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574997.684370410] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574997.685668083] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574997.784255387] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574997.786506506] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574997.884396525] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574997.887775908] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574997.984366463] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574997.985434630] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574998.084256420] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574998.085184714] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574998.184429455] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574998.187683717] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574998.284409625] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574998.285316479] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574998.384438403] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574998.387028693] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574998.484535406] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574998.487086272] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574998.584390168] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574998.588439155] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574998.684701060] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574998.688726911] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574998.784533133] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574998.785496468] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574998.884606072] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574998.885608191] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574998.984976549] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574998.985928939] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574999.086251916] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574999.089211233] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574999.184729572] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574999.185763691] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574999.284637638] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574999.285637421] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574999.384605097] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574999.385554863] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574999.484272265] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574999.485176175] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574999.584498701] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574999.586609372] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574999.684459344] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574999.688327531] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574999.784494643] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574999.785472538] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574999.884899993] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574999.887443787] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744574999.984268087] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744574999.986561191] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575000.087750951] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575000.088733102] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575000.184475498] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575000.185957813] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575000.284059298] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575000.284939784] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575000.384979844] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575000.388068250] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575000.485067424] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575000.488001685] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575000.584305589] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575000.585277788] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575000.684102287] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575000.686110013] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575000.784120074] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575000.785243890] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575000.884596777] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575000.885544432] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575000.984325858] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575000.985247592] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575001.084481969] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575001.085386520] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575001.184567077] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575001.185686382] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575001.286122404] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575001.287073964] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575001.385047760] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575001.386679740] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575001.484549855] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575001.487064658] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575001.584450866] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575001.586944868] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575001.684589926] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575001.685744015] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575001.784270935] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575001.785173502] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575001.884398411] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575001.886418810] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575001.984159613] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575001.985042755] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575002.084027650] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575002.085110122] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575002.184163790] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575002.185044661] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575002.284725950] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575002.285763462] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575002.384346502] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575002.385286318] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575002.484422930] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575002.485318585] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575002.584955585] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575002.586520878] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575002.684248391] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575002.685159214] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575002.784155698] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575002.785014456] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575002.884518208] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575002.885435271] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575002.984956942] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575002.987516898] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575003.084991885] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575003.088415497] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575003.184223594] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575003.185533749] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575003.284184013] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575003.285322198] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575003.384371153] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575003.385877725] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575003.484350996] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575003.485331420] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575003.584426968] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575003.585443392] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575003.684154041] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575003.685399587] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575003.784875329] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575003.785786345] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575003.884195423] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575003.885748875] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575003.984328867] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575003.985231370] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575004.084530651] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575004.085562531] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575004.184413716] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575004.185836288] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575004.285220182] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575004.286637825] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575004.384330377] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575004.385220272] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575004.485032265] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575004.486589910] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575004.584927939] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575004.586472848] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575004.684199288] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575004.685088575] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575004.784157394] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575004.785044249] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575004.884219629] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575004.885111444] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575004.984636139] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575004.985572531] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575005.084577112] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575005.085571296] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575005.184300296] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575005.185232304] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575005.285174177] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575005.286918448] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575005.385278676] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575005.386853921] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575005.484439519] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575005.485363623] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575005.584450289] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575005.585380921] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575005.684079744] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575005.684939527] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575005.784434101] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575005.785418365] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575005.884329478] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575005.885301742] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575005.984213335] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575005.985298368] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575006.084248892] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575006.085175172] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575006.184250693] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575006.185153773] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575006.284256271] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575006.285157718] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575006.384655803] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575006.385553635] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575006.484276129] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575006.485948048] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575006.584188522] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575006.585832792] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575006.684515766] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575006.685465054] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575006.784604320] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575006.786097325] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575006.884829707] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575006.886229495] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575006.984298640] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575006.985191671] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575007.084527277] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575007.085459702] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575007.184255019] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575007.185155283] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575007.285129107] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575007.286712833] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575007.385044787] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575007.386619201] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575007.484951698] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575007.486552513] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575007.584348365] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575007.585394742] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575007.684326605] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575007.685231253] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575007.784507407] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575007.785434455] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575007.884202925] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575007.885129397] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575007.984275566] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575007.985368247] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575008.084143263] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575008.085109000] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575008.184016437] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575008.184913501] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575008.284271630] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575008.285161847] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575008.384321222] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575008.385338831] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575008.484364734] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575008.485282630] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575008.584304660] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575008.587098222] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575008.684215466] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575008.685883578] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575008.784448260] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575008.785436781] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575008.884388442] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575008.885321635] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575008.984257392] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575008.985386747] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575009.084383931] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575009.085461797] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575009.184410345] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575009.185466739] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575009.284245653] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575009.285183486] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575009.384345028] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575009.385400302] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575009.484831862] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575009.486677032] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575009.584340704] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575009.585277256] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575009.684203756] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575009.685082964] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575009.784262874] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575009.785522054] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575009.884171783] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575009.885044624] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575009.984702170] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575009.985760932] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575010.084223510] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575010.085151775] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575010.184434492] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575010.185372197] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575010.284361376] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575010.285346377] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575010.384097409] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575010.385938611] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575010.484241415] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575010.485273169] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575010.584146218] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575010.585040691] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575010.684284880] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575010.685227225] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575010.784388373] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575010.785384895] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575010.884978399] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575010.887110740] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575010.984217596] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575010.985162726] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575011.084370868] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575011.085319870] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575011.184190285] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575011.185080502] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575011.284343081] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575011.285267890] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575011.384344676] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575011.385244493] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575011.484112156] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575011.484972709] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575011.584163991] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575011.585042848] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575011.684425909] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575011.685532288] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575011.784365615] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575011.785288664] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575011.884181736] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575011.885083536] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575011.984222211] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575011.985353806] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575012.084232847] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575012.085224761] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575012.184247232] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575012.185213034] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575012.284134992] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575012.285065721] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575012.384269666] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575012.385234924] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575012.484555222] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575012.485688993] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575012.584170723] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575012.585363119] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575012.684448086] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575012.685791972] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575012.784499400] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575012.785837557] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575012.884176853] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575012.885822406] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575012.984526377] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575012.985581908] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575013.084134600] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575013.085027153] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575013.184185999] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575013.185489213] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575013.284078581] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575013.285074143] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575013.384416095] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575013.385346921] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575013.484468711] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575013.485411952] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575013.584351052] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575013.585793275] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575013.684493076] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575013.685446782] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575013.784153464] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575013.785058593] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575013.884532450] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575013.886701689] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575013.984384200] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575013.985293169] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575014.084305087] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575014.085214025] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575014.184103450] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575014.185111140] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575014.284302552] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575014.285191842] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575014.384411894] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575014.385389408] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575014.484661301] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575014.485683296] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575014.585228632] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575014.586831689] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575014.684400236] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575014.685335254] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575014.784315815] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575014.785206865] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575014.885155053] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575014.886128599] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575014.984659236] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575014.987619875] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575015.084712371] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575015.085645117] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575015.184392994] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575015.185279627] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575015.284555926] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575015.285463424] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575015.384372102] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575015.385299216] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575015.484196086] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575015.485085728] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575015.584008199] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575015.584869456] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575015.684183227] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575015.685193446] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575015.784847188] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575015.786253347] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575015.884327649] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575015.885263627] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575015.984393044] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575015.986136678] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575016.085101247] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575016.087142933] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575016.184515552] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575016.186698680] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575016.284324614] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575016.285254704] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575016.384245485] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575016.385155479] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575016.484459063] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575016.485424129] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575016.584193980] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575016.585076069] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575016.684430726] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575016.685417777] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575016.784548111] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575016.785506553] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575016.884472726] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575016.885426816] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575016.984440541] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575016.985413288] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575017.084402166] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575017.085329920] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575017.184389459] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575017.185297949] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575017.284276654] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575017.285319578] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575017.384345356] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575017.385232886] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575017.484564716] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575017.485452885] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575017.584889964] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575017.586457278] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575017.684908617] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575017.686156759] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575017.784273599] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575017.785258442] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575017.884271644] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575017.886753976] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575017.984250393] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575017.985152707] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575018.084473674] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575018.085420340] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575018.185259237] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575018.187794242] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575018.284254731] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575018.285165878] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575018.384174205] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575018.385157896] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575018.484375793] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575018.485287676] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575018.584524837] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575018.585476848] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575018.684435382] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575018.685355425] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575018.784430472] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575018.785362323] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575018.884169111] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575018.885088514] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575018.984383500] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575018.985299990] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575019.084184365] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575019.085068951] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575019.184531992] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575019.185519875] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575019.284042201] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575019.284927556] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575019.384555046] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575019.385510769] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575019.484583310] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575019.485588345] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575019.584486324] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575019.585603649] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575019.684520507] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575019.685593800] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575019.784122718] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575019.785061545] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575019.884902350] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575019.886477568] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575019.984375023] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575019.985423867] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575020.085104656] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575020.086670018] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575020.184293026] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575020.185287278] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575020.284345374] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575020.285300042] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575020.384327482] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575020.385357190] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575020.484189364] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575020.485224641] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575020.584159504] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575020.585097371] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575020.684219117] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575020.685111479] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575020.784084519] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575020.785127827] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575020.885046446] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575020.886620289] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575020.985201644] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575020.986777279] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575021.084646482] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575021.085672574] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575021.184841605] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575021.186214325] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575021.284465969] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575021.285374652] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575021.384629316] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575021.385562639] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575021.484053357] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575021.484960344] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575021.584857832] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575021.586914016] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575021.684917273] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575021.686442379] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575021.784990218] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575021.786557597] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575021.884966907] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575021.886537773] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575021.985162477] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575021.986724384] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575022.084863499] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575022.085775990] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575022.184933361] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575022.186522916] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575022.285119640] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575022.286705836] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575022.385082877] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575022.386624080] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575022.484168087] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575022.485054722] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575022.584553281] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575022.585631278] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575022.684676519] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575022.685649523] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575022.784549035] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575022.785452598] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575022.884265420] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575022.885194872] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575022.984856505] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575022.986411307] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575023.084846318] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575023.086446434] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575023.184445314] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575023.185338797] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575023.284952258] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575023.286954651] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575023.385101117] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575023.387165847] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575023.484743122] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575023.485790303] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575023.584918958] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575023.586504705] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575023.684334368] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575023.685280076] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575023.784905216] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575023.786803448] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575023.884922554] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575023.886482317] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575023.985000692] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575023.986567976] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575024.084923805] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575024.086465809] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575024.184057888] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575024.184994988] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575024.284234447] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575024.285297405] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575024.385061223] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575024.386773117] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575024.485183895] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575024.486567784] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575024.585571657] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575024.587330047] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575024.685124657] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575024.686761030] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575024.784247795] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575024.785155583] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575024.884449635] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575024.885347887] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575024.984145677] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575024.985063065] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575025.084310829] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575025.085192920] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575025.185408253] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575025.187508791] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575025.284250415] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575025.285153275] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575025.384529172] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575025.385454112] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575025.484505654] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575025.485666885] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575025.584905916] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575025.586437296] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575025.685045248] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575025.686757366] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575025.785496359] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575025.786393203] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575025.884288761] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575025.886311315] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575025.984385180] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575025.985287143] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575026.084688497] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575026.087340596] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575026.184693991] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575026.187727822] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575026.285065857] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575026.286044750] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575026.385146904] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575026.386183237] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575026.484663239] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575026.485586771] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575026.584850527] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575026.586299281] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575026.687654872] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575026.688609413] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575026.784511013] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575026.785454193] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575026.884625820] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575026.885552552] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575026.984546576] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575026.985427260] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters
+[controller-2] [INFO] [1744575027.084339251] [drone_home1.controller]: Bearing: 248.90°
+[controller-2] [INFO] [1744575027.085603843] [drone_home1.controller]: Going to [(28.069556, -82.724286)]: 179221.33 meters

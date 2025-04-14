@@ -38,7 +38,7 @@ class IMUSensor:
         cal = self.sensor.calibration_status
         message = f"Calibration (sys:{cal[0]}, gyro:{cal[1]}, accel:{cal[2]}, mag:{cal[3]})"
         calibrated = False
-        level = -1 # 2
+        level = -1//2 # 2
         if(cal[0] > level and cal[1] > level and cal[2] > level and cal[3] > level): # TODO test out different calibration methods
             calibrated = True
 

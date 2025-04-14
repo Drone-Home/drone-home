@@ -1,0 +1,983 @@
+[INFO] [launch]: All log files can be found below /root/.ros/log/2025-03-27-13-18-03-458702-drone-home-775
+[INFO] [launch]: Default logging verbosity is set to INFO
+[INFO] [cv_controller-1]: process started with pid [777]
+[INFO] [controller-2]: process started with pid [779]
+[INFO] [pwm_publisher-3]: process started with pid [781]
+[INFO] [gps_publisher-4]: process started with pid [783]
+[INFO] [imu_publisher-5]: process started with pid [785]
+[INFO] [drive_hardware-6]: process started with pid [787]
+[controller-2] [INFO] [1743095884.439826829] [drone_home1.controller]: Controller running
+[cv_controller-1] [INFO] [1743095884.469748445] [drone_home1.sim]: CV Controller running
+[gps_publisher-4] [INFO] [1743095884.521028130] [drone_home1.gps_publisher]: Connected GPS on /dev/ttyUSB0
+[gps_publisher-4] [INFO] [1743095884.524099329] [drone_home1.gps_publisher]: GPS Initialized
+[gps_publisher-4] [INFO] [1743095884.576827473] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095884.578474758] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095884.626894871] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095884.628445351] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095884.676918746] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095884.678495180] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095884.726945502] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095884.728381704] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095884.776235899] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095884.777751786] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095884.826367108] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095884.829415779] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095884.876757051] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095884.879625872] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095884.926858818] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095884.929177691] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095884.977383968] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095884.979462444] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095885.026868347] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095885.028739643] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095885.076806332] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095885.078405678] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095885.126808480] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095885.128243786] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095885.176777602] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095885.179125371] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095885.226754533] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095885.228210704] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095885.276696902] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095885.278171922] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095885.326745773] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095885.328217848] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095885.376683886] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095885.378164761] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095885.427508156] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095885.429443359] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095885.478119583] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095885.480457783] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095885.528086753] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095885.530388696] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095885.576794435] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095885.578408726] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095885.626917902] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095885.629195778] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095885.676833837] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095885.678766416] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095885.726872147] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095885.728736051] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095885.776746961] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095885.778270495] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095885.826755925] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095885.828276387] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095885.876751673] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095885.878280519] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095885.926780831] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095885.928316237] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095885.976734240] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095885.978410294] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[imu_publisher-5] [INFO] [1743095885.998118153] [drone_home1.imu_publisher]: Calibration status: (True, 'Calibration (sys:0, gyro:0, accel:3, mag:0)')
+[gps_publisher-4] [INFO] [1743095886.026823645] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095886.028434638] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095886.076745503] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095886.078225226] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095886.126799368] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095886.128341686] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095886.176701321] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095886.178170451] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095886.226759122] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095886.229343957] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095886.276726807] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095886.278922630] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095886.326787808] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095886.328817511] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095886.376986512] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095886.378730921] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095886.427096636] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095886.428741008] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095886.476755537] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095886.478744246] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095886.526825371] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095886.530134755] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095886.576897829] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095886.578479605] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.36258
+[gps_publisher-4] [INFO] [1743095886.626906891] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095886.628558719] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.36258
+[gps_publisher-4] [INFO] [1743095886.676748394] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095886.678224468] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.36258
+[gps_publisher-4] [INFO] [1743095886.727424530] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095886.729567999] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.36258
+[gps_publisher-4] [INFO] [1743095886.777483227] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095886.779448639] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.36258
+[gps_publisher-4] [INFO] [1743095886.827261366] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095886.829679153] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.36258
+[gps_publisher-4] [INFO] [1743095886.876803237] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095886.878650851] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.36258
+[gps_publisher-4] [INFO] [1743095886.926797323] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095886.928298039] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.36258
+[gps_publisher-4] [INFO] [1743095886.976718286] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095886.978387810] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.36258
+[gps_publisher-4] [INFO] [1743095887.026855119] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095887.028422493] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.36258
+[gps_publisher-4] [INFO] [1743095887.076663822] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095887.078451048] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362581
+[gps_publisher-4] [INFO] [1743095887.126806462] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095887.128553078] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362581
+[gps_publisher-4] [INFO] [1743095887.176711810] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095887.184629007] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362581
+[gps_publisher-4] [INFO] [1743095887.226935222] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095887.229613372] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362581
+[gps_publisher-4] [INFO] [1743095887.276835258] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095887.278288483] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362581
+[gps_publisher-4] [INFO] [1743095887.327120689] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095887.328679680] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362581
+[gps_publisher-4] [INFO] [1743095887.376844557] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095887.378624134] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362581
+[gps_publisher-4] [INFO] [1743095887.427030079] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095887.428541450] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362581
+[gps_publisher-4] [INFO] [1743095887.476767803] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095887.478247429] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362581
+[gps_publisher-4] [INFO] [1743095887.526768931] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095887.528751175] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362581
+[gps_publisher-4] [INFO] [1743095887.576729514] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095887.578304761] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362581
+[gps_publisher-4] [INFO] [1743095887.626741300] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095887.629829455] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362581
+[gps_publisher-4] [INFO] [1743095887.676818465] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095887.678399504] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362581
+[gps_publisher-4] [INFO] [1743095887.726863532] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095887.728373176] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362581
+[gps_publisher-4] [INFO] [1743095887.776750159] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095887.778153365] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362581
+[gps_publisher-4] [INFO] [1743095887.826880959] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095887.828332455] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362581
+[gps_publisher-4] [INFO] [1743095887.876765506] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095887.878587389] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.36258
+[gps_publisher-4] [INFO] [1743095887.926802124] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095887.928252917] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.36258
+[gps_publisher-4] [INFO] [1743095887.977316367] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095887.979172524] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.36258
+[gps_publisher-4] [INFO] [1743095888.026944442] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095888.028653326] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.36258
+[gps_publisher-4] [INFO] [1743095888.077060043] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095888.078895462] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095888.127058103] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095888.128896306] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095888.177187402] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095888.178922624] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095888.227282939] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095888.228758532] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095888.276915860] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095888.278591431] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095888.326992964] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095888.328631958] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095888.376878667] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095888.378460025] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095888.426969819] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095888.428602540] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095888.477055116] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095888.479040270] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095888.527282851] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095888.530080878] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095888.576726836] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095888.578382758] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095888.626891464] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095888.628947182] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095888.676743628] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095888.678307034] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095888.726884256] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095888.728551666] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095888.776912237] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095888.778756136] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095888.827030399] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095888.828514600] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095888.876711579] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095888.878284745] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095888.926840654] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095888.928390650] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095888.976951007] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095888.978786394] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095889.026834202] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095889.028351076] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095889.076738885] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095889.078311826] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362576
+[gps_publisher-4] [INFO] [1743095889.126962623] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095889.128698964] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362576
+[gps_publisher-4] [INFO] [1743095889.176791911] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095889.179386726] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095889.227055235] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095889.229463705] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095889.277164408] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095889.279152986] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095889.327070275] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095889.328935903] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095889.376791429] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095889.378439478] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095889.426823159] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095889.428640816] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095889.476696512] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095889.478138055] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095889.526864984] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095889.528546218] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095889.576716384] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095889.578546234] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.36258
+[gps_publisher-4] [INFO] [1743095889.627024671] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095889.628520104] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.36258
+[gps_publisher-4] [INFO] [1743095889.676711135] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095889.680331057] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.36258
+[gps_publisher-4] [INFO] [1743095889.726766546] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095889.728208280] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.36258
+[gps_publisher-4] [INFO] [1743095889.777580457] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095889.779326079] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.36258
+[gps_publisher-4] [INFO] [1743095889.826892151] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095889.829084547] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.36258
+[gps_publisher-4] [INFO] [1743095889.876784834] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095889.878253034] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.36258
+[gps_publisher-4] [INFO] [1743095889.926827635] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095889.928294203] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.36258
+[gps_publisher-4] [INFO] [1743095889.976717918] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095889.978179365] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.36258
+[gps_publisher-4] [INFO] [1743095890.026735427] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095890.028205354] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.36258
+[gps_publisher-4] [INFO] [1743095890.076697269] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095890.078729207] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.36258
+[gps_publisher-4] [INFO] [1743095890.126750091] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095890.128194833] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.36258
+[gps_publisher-4] [INFO] [1743095890.176685724] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095890.178126337] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362581
+[gps_publisher-4] [INFO] [1743095890.226803029] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095890.228271420] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362581
+[gps_publisher-4] [INFO] [1743095890.276719173] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095890.278493498] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362581
+[gps_publisher-4] [INFO] [1743095890.326799644] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095890.328319942] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362581
+[gps_publisher-4] [INFO] [1743095890.376674986] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095890.378110031] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362581
+[gps_publisher-4] [INFO] [1743095890.426816900] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095890.429003886] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362581
+[gps_publisher-4] [INFO] [1743095890.477021954] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095890.479298064] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362581
+[gps_publisher-4] [INFO] [1743095890.526869230] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095890.528370583] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362581
+[gps_publisher-4] [INFO] [1743095890.576884483] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095890.579834994] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362581
+[gps_publisher-4] [INFO] [1743095890.627310315] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095890.629542615] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362581
+[gps_publisher-4] [INFO] [1743095890.676718818] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095890.679282654] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362581
+[gps_publisher-4] [INFO] [1743095890.726874782] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095890.728482731] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362581
+[gps_publisher-4] [INFO] [1743095890.776698121] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095890.778504288] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362581
+[gps_publisher-4] [INFO] [1743095890.826828803] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095890.828251912] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362581
+[gps_publisher-4] [INFO] [1743095890.876694416] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095890.878419779] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362581
+[gps_publisher-4] [INFO] [1743095890.926795369] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095890.928214317] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362581
+[gps_publisher-4] [INFO] [1743095890.976745242] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095890.978184831] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.36258
+[gps_publisher-4] [INFO] [1743095891.026731618] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095891.028222441] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.36258
+[gps_publisher-4] [INFO] [1743095891.076710905] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095891.078158398] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.36258
+[gps_publisher-4] [INFO] [1743095891.126860632] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095891.128346975] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.36258
+[gps_publisher-4] [INFO] [1743095891.176761900] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095891.178216529] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.36258
+[gps_publisher-4] [INFO] [1743095891.226808038] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095891.228628989] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.36258
+[gps_publisher-4] [INFO] [1743095891.276695929] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095891.278630421] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095891.326838040] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095891.328234331] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095891.376760172] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095891.380467550] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095891.426828712] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095891.428425588] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095891.476729147] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095891.478174784] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095891.526820152] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095891.528694609] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095891.576788846] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095891.579291334] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095891.626932621] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095891.628548859] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095891.676668473] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095891.678387659] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095891.727276206] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095891.728872379] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095891.776717004] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095891.778188498] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095891.826871083] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095891.828626751] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095891.876790208] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095891.879789775] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.36258
+[gps_publisher-4] [INFO] [1743095891.926943135] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095891.928638576] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.36258
+[gps_publisher-4] [INFO] [1743095891.977379148] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095891.979026619] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.36258
+[gps_publisher-4] [INFO] [1743095892.026837695] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095892.029410233] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.36258
+[gps_publisher-4] [INFO] [1743095892.076798523] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095892.078248255] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.36258
+[gps_publisher-4] [INFO] [1743095892.127044035] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095892.128556299] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.36258
+[gps_publisher-4] [INFO] [1743095892.176765875] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095892.178899864] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.36258
+[gps_publisher-4] [INFO] [1743095892.227479634] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095892.229262214] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.36258
+[gps_publisher-4] [INFO] [1743095892.277502544] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095892.279481294] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.36258
+[gps_publisher-4] [INFO] [1743095892.326839150] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095892.328256017] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.36258
+[gps_publisher-4] [INFO] [1743095892.376927727] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095892.380480823] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.36258
+[gps_publisher-4] [INFO] [1743095892.426839112] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095892.429908409] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.36258
+[gps_publisher-4] [INFO] [1743095892.476811140] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095892.478293898] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362581
+[gps_publisher-4] [INFO] [1743095892.526894501] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095892.528388012] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362581
+[gps_publisher-4] [INFO] [1743095892.576790397] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095892.578535216] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362581
+[gps_publisher-4] [INFO] [1743095892.627137387] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095892.628656723] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362581
+[gps_publisher-4] [INFO] [1743095892.677735044] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095892.679368273] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.36258
+[gps_publisher-4] [INFO] [1743095892.726887257] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095892.729220807] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.36258
+[gps_publisher-4] [INFO] [1743095892.776787121] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095892.778522756] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.36258
+[gps_publisher-4] [INFO] [1743095892.826889811] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095892.828344664] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.36258
+[gps_publisher-4] [INFO] [1743095892.876837614] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095892.878284530] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.36258
+[gps_publisher-4] [INFO] [1743095892.927295809] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095892.928836778] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.36258
+[gps_publisher-4] [INFO] [1743095892.977414659] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095892.979242202] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.36258
+[gps_publisher-4] [INFO] [1743095893.026986337] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095893.028514377] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.36258
+[gps_publisher-4] [INFO] [1743095893.077921263] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095893.079423894] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.36258
+[gps_publisher-4] [INFO] [1743095893.126836447] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095893.128261026] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.36258
+[gps_publisher-4] [INFO] [1743095893.176731197] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095893.178125150] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.36258
+[gps_publisher-4] [INFO] [1743095893.226802466] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095893.228269095] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.36258
+[gps_publisher-4] [INFO] [1743095893.277465092] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095893.279356156] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.36258
+[gps_publisher-4] [INFO] [1743095893.327084052] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095893.328495286] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.36258
+[gps_publisher-4] [INFO] [1743095893.377210173] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095893.378869962] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.36258
+[gps_publisher-4] [INFO] [1743095893.426828589] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095893.428280561] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.36258
+[gps_publisher-4] [INFO] [1743095893.476730283] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095893.478218321] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.36258
+[gps_publisher-4] [INFO] [1743095893.526855251] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095893.528278486] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.36258
+[gps_publisher-4] [INFO] [1743095893.576818388] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095893.578284505] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.36258
+[gps_publisher-4] [INFO] [1743095893.626934012] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095893.628360799] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.36258
+[gps_publisher-4] [INFO] [1743095893.676785784] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095893.678196409] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.36258
+[gps_publisher-4] [INFO] [1743095893.726869694] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095893.728293248] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.36258
+[gps_publisher-4] [INFO] [1743095893.776767420] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095893.778172669] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.36258
+[gps_publisher-4] [INFO] [1743095893.826878531] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095893.828327719] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.36258
+[gps_publisher-4] [INFO] [1743095893.876835076] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095893.878303624] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.36258
+[gps_publisher-4] [INFO] [1743095893.926940907] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095893.928403855] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.36258
+[gps_publisher-4] [INFO] [1743095893.976844841] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095893.978376272] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.36258
+[gps_publisher-4] [INFO] [1743095894.026937509] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095894.028472204] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.36258
+[gps_publisher-4] [INFO] [1743095894.077074355] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095894.078999756] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095894.128525823] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095894.130856490] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095894.178221881] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095894.180489794] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095894.228291204] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095894.230574606] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095894.278169287] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095894.280412686] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095894.328306069] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095894.330646305] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095894.378199448] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095894.380440064] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095894.428398250] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095894.430695316] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095894.476801320] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095894.478305262] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095894.526892981] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095894.528434396] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095894.576767095] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095894.578241435] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095894.626941127] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095894.628517296] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095894.676844811] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095894.678366705] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095894.726815090] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095894.728255892] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095894.776763351] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095894.778554058] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095894.826842467] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095894.828406828] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095894.876743335] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095894.878123431] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095894.926851252] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095894.928321240] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095894.976795354] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095894.978278206] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095895.026896284] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095895.028380096] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095895.076805222] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095895.078258504] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095895.126885208] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095895.128395165] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095895.176764257] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095895.178248101] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095895.227449423] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095895.229251521] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095895.276952518] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095895.278441514] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095895.326848016] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095895.328259472] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095895.377314515] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095895.379170600] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095895.426810667] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095895.428241644] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095895.477155241] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095895.478741841] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095895.528047840] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095895.530135295] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095895.576724274] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095895.578170708] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095895.626798435] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095895.628200932] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095895.676693133] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095895.678023914] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095895.728224513] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095895.732661004] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095895.776732811] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095895.778170221] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095895.826972773] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095895.830120917] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095895.876840749] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095895.879467013] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095895.926857628] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095895.930617000] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095895.976780999] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095895.978564697] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095896.028247821] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095896.030580503] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095896.076896805] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095896.078259875] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095896.126810358] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095896.128240503] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095896.176774569] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095896.179551751] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362576
+[gps_publisher-4] [INFO] [1743095896.226833729] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095896.228510285] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362576
+[gps_publisher-4] [INFO] [1743095896.276769075] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095896.278272663] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362576
+[gps_publisher-4] [INFO] [1743095896.326834411] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095896.329440193] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362576
+[gps_publisher-4] [INFO] [1743095896.376744508] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095896.379953453] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362576
+[gps_publisher-4] [INFO] [1743095896.426922553] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095896.428648615] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362576
+[gps_publisher-4] [INFO] [1743095896.476804520] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095896.478306540] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362576
+[gps_publisher-4] [INFO] [1743095896.526832510] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095896.528418182] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362576
+[gps_publisher-4] [INFO] [1743095896.576768624] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095896.578168880] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362576
+[gps_publisher-4] [INFO] [1743095896.626890539] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095896.628476786] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362576
+[gps_publisher-4] [INFO] [1743095896.676729784] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095896.678718482] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362576
+[gps_publisher-4] [INFO] [1743095896.726794256] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095896.728700262] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362576
+[gps_publisher-4] [INFO] [1743095896.776738883] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095896.778440880] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095896.826829724] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095896.828341952] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095896.876720524] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095896.878699749] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095896.927097074] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095896.931106119] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095896.976734166] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095896.978494822] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095897.026829605] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095897.028266981] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095897.076725404] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095897.078247200] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095897.126840029] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095897.128258077] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095897.176791543] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095897.178502115] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362576
+[gps_publisher-4] [INFO] [1743095897.226895319] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095897.229003126] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362576
+[gps_publisher-4] [INFO] [1743095897.276806991] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095897.278319603] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362576
+[gps_publisher-4] [INFO] [1743095897.326944081] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095897.328415923] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362576
+[gps_publisher-4] [INFO] [1743095897.376745188] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095897.378576086] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095897.426848517] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095897.428506287] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095897.476932260] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095897.478486730] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095897.526871485] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095897.528669742] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095897.576816183] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095897.578810352] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095897.626987610] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095897.628417914] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095897.677116700] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095897.680047743] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095897.726831371] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095897.728325006] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095897.776702305] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095897.778053886] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362576
+[gps_publisher-4] [INFO] [1743095897.826831811] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095897.828533999] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362576
+[gps_publisher-4] [INFO] [1743095897.876766556] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095897.878281088] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095897.926862652] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095897.928562088] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095897.976938779] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095897.979320294] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095898.026862474] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095898.028898820] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095898.078237130] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095898.081168587] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095898.126816334] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095898.128700481] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095898.176854451] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095898.178544606] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095898.226867959] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095898.228687527] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095898.276802103] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095898.278387229] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095898.326871261] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095898.328562568] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095898.376724442] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095898.378238781] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362576
+[gps_publisher-4] [INFO] [1743095898.426835874] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095898.428352325] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362576
+[gps_publisher-4] [INFO] [1743095898.476704928] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095898.478702040] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362576
+[gps_publisher-4] [INFO] [1743095898.526907340] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095898.528675930] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362576
+[gps_publisher-4] [INFO] [1743095898.576821163] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095898.578424082] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362576
+[gps_publisher-4] [INFO] [1743095898.626907602] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095898.630269799] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362576
+[gps_publisher-4] [INFO] [1743095898.677154592] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095898.678783048] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362576
+[gps_publisher-4] [INFO] [1743095898.727391182] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095898.729453193] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362576
+[gps_publisher-4] [INFO] [1743095898.778449728] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095898.780733669] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362576
+[gps_publisher-4] [INFO] [1743095898.828179095] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095898.831240991] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362576
+[gps_publisher-4] [INFO] [1743095898.876899394] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095898.878452263] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362576
+[gps_publisher-4] [INFO] [1743095898.927107022] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095898.928712981] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362576
+[gps_publisher-4] [INFO] [1743095898.976714336] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095898.978216867] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362576
+[gps_publisher-4] [INFO] [1743095899.026790749] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095899.028616493] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362576
+[gps_publisher-4] [INFO] [1743095899.076747110] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095899.078548341] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362576
+[gps_publisher-4] [INFO] [1743095899.126848757] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095899.128327030] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362576
+[gps_publisher-4] [INFO] [1743095899.176791646] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095899.178461799] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362576
+[gps_publisher-4] [INFO] [1743095899.226830346] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095899.229041547] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362576
+[gps_publisher-4] [INFO] [1743095899.276717360] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095899.278215538] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362576
+[gps_publisher-4] [INFO] [1743095899.326833632] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095899.328282528] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362576
+[gps_publisher-4] [INFO] [1743095899.376774089] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095899.378557111] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362576
+[gps_publisher-4] [INFO] [1743095899.427038271] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095899.428926962] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362576
+[gps_publisher-4] [INFO] [1743095899.476809920] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095899.478320930] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362576
+[gps_publisher-4] [INFO] [1743095899.527085847] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095899.528748000] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362576
+[gps_publisher-4] [INFO] [1743095899.576681457] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095899.578168914] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362576
+[gps_publisher-4] [INFO] [1743095899.627097742] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095899.630448864] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362576
+[gps_publisher-4] [INFO] [1743095899.676784683] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095899.679565221] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362576
+[gps_publisher-4] [INFO] [1743095899.727002495] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095899.728455519] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362576
+[gps_publisher-4] [INFO] [1743095899.776811906] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095899.778800793] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095899.826954387] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095899.828826949] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095899.876817144] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095899.878277112] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095899.927292792] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095899.928994658] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095899.976730538] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095899.978112967] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095900.027508717] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095900.030083645] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095900.076996010] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095900.078972896] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095900.128645476] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095900.131778188] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095900.178189860] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095900.181117986] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095900.227311569] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095900.229557714] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095900.276929939] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095900.278451829] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095900.326798657] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095900.328320003] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095900.376737809] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095900.378395769] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095900.426796327] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095900.428327177] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095900.476719063] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095900.479366921] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095900.526914770] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095900.528602331] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095900.576687515] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095900.578347651] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095900.627022205] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095900.628475548] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095900.676790502] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095900.678257733] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095900.726773080] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095900.728486594] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=9), -82.362578
+[gps_publisher-4] [INFO] [1743095900.776883984] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095900.779092592] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=10), -82.362576
+[gps_publisher-4] [INFO] [1743095900.827041802] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095900.829065346] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=10), -82.362576
+[gps_publisher-4] [INFO] [1743095900.876755185] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095900.878210736] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=10), -82.362576
+[gps_publisher-4] [INFO] [1743095900.926951084] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095900.929533628] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=10), -82.362576
+[gps_publisher-4] [INFO] [1743095900.977023906] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095900.978605799] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=10), -82.362576
+[gps_publisher-4] [INFO] [1743095901.026863781] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095901.028843066] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=10), -82.362576
+[gps_publisher-4] [INFO] [1743095901.076718490] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095901.078113462] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=10), -82.362575
+[gps_publisher-4] [INFO] [1743095901.126825146] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095901.128274616] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=10), -82.362575
+[gps_publisher-4] [INFO] [1743095901.176838487] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095901.178403194] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=10), -82.362575
+[gps_publisher-4] [INFO] [1743095901.226776175] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095901.228457431] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=10), -82.362575
+[gps_publisher-4] [INFO] [1743095901.276865423] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095901.278609113] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=10), -82.362575
+[gps_publisher-4] [INFO] [1743095901.326819912] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095901.328515057] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=10), -82.362575
+[gps_publisher-4] [INFO] [1743095901.376788163] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095901.378629681] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=10), -82.362575
+[gps_publisher-4] [INFO] [1743095901.426851649] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095901.428319904] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=10), -82.362575
+[gps_publisher-4] [INFO] [1743095901.476961953] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095901.478430848] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.362575
+[gps_publisher-4] [INFO] [1743095901.527013471] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095901.528674822] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.362575
+[gps_publisher-4] [INFO] [1743095901.576752527] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095901.579971737] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.362575
+[gps_publisher-4] [INFO] [1743095901.627112698] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095901.632418685] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.362575
+[gps_publisher-4] [INFO] [1743095901.677000401] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095901.679356982] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.362575
+[gps_publisher-4] [INFO] [1743095901.726857094] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095901.728371015] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.362575
+[gps_publisher-4] [INFO] [1743095901.776682043] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095901.778277503] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.362575
+[gps_publisher-4] [INFO] [1743095901.826839677] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095901.828302299] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.362575
+[gps_publisher-4] [INFO] [1743095901.876737684] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095901.878296119] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.362573
+[gps_publisher-4] [INFO] [1743095901.926841364] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095901.928260017] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.362573
+[gps_publisher-4] [INFO] [1743095901.976820399] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095901.979972374] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.362573
+[gps_publisher-4] [INFO] [1743095902.028511464] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095902.031032851] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.362573
+[gps_publisher-4] [INFO] [1743095902.078395464] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095902.082349839] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.362573
+[gps_publisher-4] [INFO] [1743095902.126962448] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095902.129358389] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.362573
+[gps_publisher-4] [INFO] [1743095902.176707913] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095902.178088420] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.362573
+[gps_publisher-4] [INFO] [1743095902.226796881] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095902.228209741] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.362573
+[gps_publisher-4] [INFO] [1743095902.276724883] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095902.278261780] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.362573
+[gps_publisher-4] [INFO] [1743095902.326858173] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095902.328433344] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.362573
+[gps_publisher-4] [INFO] [1743095902.376728508] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095902.378170361] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.362573
+[gps_publisher-4] [INFO] [1743095902.426763426] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095902.428222367] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.362573
+[gps_publisher-4] [INFO] [1743095902.476691843] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095902.478122528] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.362573
+[gps_publisher-4] [INFO] [1743095902.526831949] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095902.528250633] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.362573
+[gps_publisher-4] [INFO] [1743095902.576760111] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095902.578431350] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.362575
+[gps_publisher-4] [INFO] [1743095902.626826006] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095902.628274707] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.362575
+[gps_publisher-4] [INFO] [1743095902.676738391] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095902.678288792] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.362575
+[gps_publisher-4] [INFO] [1743095902.726819711] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095902.730146155] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.362575
+[gps_publisher-4] [INFO] [1743095902.776686173] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095902.778161052] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.362575
+[gps_publisher-4] [INFO] [1743095902.826837672] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095902.828289190] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.362575
+[gps_publisher-4] [INFO] [1743095902.876732552] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095902.878184262] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.362576
+[gps_publisher-4] [INFO] [1743095902.926815664] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095902.928271662] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.362576
+[gps_publisher-4] [INFO] [1743095902.976742321] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095902.978157549] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.362576
+[gps_publisher-4] [INFO] [1743095903.026803599] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095903.029702824] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.362576
+[gps_publisher-4] [INFO] [1743095903.076939266] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095903.078575463] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.362576
+[gps_publisher-4] [INFO] [1743095903.126839308] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095903.128262823] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.362576
+[gps_publisher-4] [INFO] [1743095903.176913021] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095903.178387322] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.362578
+[gps_publisher-4] [INFO] [1743095903.226804358] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095903.228387720] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.362578
+[gps_publisher-4] [INFO] [1743095903.277030685] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095903.278541756] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.362578
+[gps_publisher-4] [INFO] [1743095903.327018826] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095903.328482983] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.362578
+[gps_publisher-4] [INFO] [1743095903.376979926] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095903.378594809] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.362578
+[gps_publisher-4] [INFO] [1743095903.427143818] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095903.428825809] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.362578
+[gps_publisher-4] [INFO] [1743095903.476763848] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095903.478192164] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.36258
+[gps_publisher-4] [INFO] [1743095903.527040033] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095903.528629796] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.36258
+[gps_publisher-4] [INFO] [1743095903.576746723] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095903.578176190] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.36258
+[gps_publisher-4] [INFO] [1743095903.626858165] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095903.628289489] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.36258
+[gps_publisher-4] [INFO] [1743095903.676739070] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095903.678218396] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.36258
+[gps_publisher-4] [INFO] [1743095903.727083194] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095903.729386874] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.36258
+[gps_publisher-4] [INFO] [1743095903.777966956] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095903.780024162] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.36258
+[gps_publisher-4] [INFO] [1743095903.827622507] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095903.829585374] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.36258
+[gps_publisher-4] [INFO] [1743095903.876765877] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095903.878127598] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=10), -82.36258
+[gps_publisher-4] [INFO] [1743095903.926799012] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095903.928786839] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=10), -82.36258
+[gps_publisher-4] [INFO] [1743095903.977810140] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095903.979974295] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.36258
+[gps_publisher-4] [INFO] [1743095904.027202407] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095904.030266022] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.36258
+[gps_publisher-4] [INFO] [1743095904.077020471] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095904.079978737] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.36258
+[gps_publisher-4] [INFO] [1743095904.126888040] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095904.128377254] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.36258
+[gps_publisher-4] [INFO] [1743095904.177015397] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095904.178806159] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.36258
+[gps_publisher-4] [INFO] [1743095904.226843445] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095904.228374132] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.36258
+[gps_publisher-4] [INFO] [1743095904.276904719] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095904.278444463] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.36258
+[gps_publisher-4] [INFO] [1743095904.326894502] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095904.328355938] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.36258
+[gps_publisher-4] [INFO] [1743095904.376822522] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095904.378483039] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.36258
+[gps_publisher-4] [INFO] [1743095904.426854354] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095904.428334608] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.36258
+[gps_publisher-4] [INFO] [1743095904.476715716] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095904.478602002] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.36258
+[gps_publisher-4] [INFO] [1743095904.526845632] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095904.528544839] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.36258
+[gps_publisher-4] [INFO] [1743095904.576747155] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095904.578712997] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.36258
+[gps_publisher-4] [INFO] [1743095904.626882320] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095904.628334348] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.36258
+[gps_publisher-4] [INFO] [1743095904.676688255] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095904.678301858] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.36258
+[gps_publisher-4] [INFO] [1743095904.727007236] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095904.728855248] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.36258
+[gps_publisher-4] [INFO] [1743095904.776912119] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095904.778610718] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.362581
+[gps_publisher-4] [INFO] [1743095904.826812746] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095904.828953827] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.362581
+[gps_publisher-4] [INFO] [1743095904.876809921] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095904.878423332] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.362581
+[gps_publisher-4] [INFO] [1743095904.927229194] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095904.928899183] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.362581
+[gps_publisher-4] [INFO] [1743095904.977705013] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095904.979479326] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.362581
+[gps_publisher-4] [INFO] [1743095905.026997862] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095905.028668362] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.362581
+[gps_publisher-4] [INFO] [1743095905.076982310] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095905.079136862] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.362581
+[gps_publisher-4] [INFO] [1743095905.128465380] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095905.131124017] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.362581
+[gps_publisher-4] [INFO] [1743095905.177162160] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095905.179062910] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.362581
+[gps_publisher-4] [INFO] [1743095905.227507007] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095905.230533019] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.362581
+[gps_publisher-4] [INFO] [1743095905.276703615] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095905.278163291] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.362581
+[gps_publisher-4] [INFO] [1743095905.326892872] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095905.328640784] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.362581
+[gps_publisher-4] [INFO] [1743095905.377058896] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095905.379121221] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.36258
+[gps_publisher-4] [INFO] [1743095905.427158517] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095905.428915581] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.36258
+[gps_publisher-4] [INFO] [1743095905.476684291] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095905.478372136] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.36258
+[gps_publisher-4] [INFO] [1743095905.527011025] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095905.528544976] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.36258
+[gps_publisher-4] [INFO] [1743095905.576725287] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095905.578109472] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.36258
+[gps_publisher-4] [INFO] [1743095905.627188731] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095905.628802909] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.36258
+[gps_publisher-4] [INFO] [1743095905.676811053] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095905.678234215] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.36258
+[gps_publisher-4] [INFO] [1743095905.726815342] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095905.728325420] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.36258
+[gps_publisher-4] [INFO] [1743095905.776749484] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095905.778538838] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.36258
+[gps_publisher-4] [INFO] [1743095905.826859090] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095905.828358031] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.36258
+[gps_publisher-4] [INFO] [1743095905.876703501] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095905.878291822] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.36258
+[gps_publisher-4] [INFO] [1743095905.926970137] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095905.928461878] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.36258
+[gps_publisher-4] [INFO] [1743095905.976726640] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095905.980376742] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.36258
+[gps_publisher-4] [INFO] [1743095906.027552938] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095906.029407445] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.36258
+[gps_publisher-4] [INFO] [1743095906.077554933] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095906.079504516] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.362578
+[gps_publisher-4] [INFO] [1743095906.126930279] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095906.128701647] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.362578
+[gps_publisher-4] [INFO] [1743095906.177250208] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095906.179504891] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.362578
+[gps_publisher-4] [INFO] [1743095906.227802850] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095906.229464133] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.362578
+[gps_publisher-4] [INFO] [1743095906.277910385] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095906.280332787] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.362578
+[gps_publisher-4] [INFO] [1743095906.327406792] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095906.330765072] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.362578
+[gps_publisher-4] [INFO] [1743095906.377523512] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095906.379629998] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.362576
+[gps_publisher-4] [INFO] [1743095906.426818823] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095906.429794400] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.362576
+[gps_publisher-4] [INFO] [1743095906.477791770] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095906.479586211] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.362576
+[gps_publisher-4] [INFO] [1743095906.526876128] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095906.528392862] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=11), -82.362576
+[gps_publisher-4] [INFO] [1743095906.576715461] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095906.578143967] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=10), -82.362575
+[gps_publisher-4] [INFO] [1743095906.626822581] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095906.628254127] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=10), -82.362575
+[gps_publisher-4] [INFO] [1743095906.676723996] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095906.678760591] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=10), -82.362576
+[gps_publisher-4] [INFO] [1743095906.726774570] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095906.728401644] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=10), -82.362576
+[gps_publisher-4] [INFO] [1743095906.776725843] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095906.778457369] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=10), -82.362576
+[gps_publisher-4] [INFO] [1743095906.827249876] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095906.829075134] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=10), -82.362576
+[gps_publisher-4] [INFO] [1743095906.876739563] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095906.878414223] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=10), -82.362576
+[gps_publisher-4] [INFO] [1743095906.927149511] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095906.928752168] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=10), -82.362576
+[gps_publisher-4] [INFO] [1743095906.976700384] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095906.978141434] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=10), -82.362576
+[gps_publisher-4] [INFO] [1743095907.026871753] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095907.028389350] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=10), -82.362576
+[gps_publisher-4] [INFO] [1743095907.076732346] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095907.078145779] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=10), -82.362578
+[gps_publisher-4] [INFO] [1743095907.126927256] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095907.128415155] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=10), -82.362578
+[gps_publisher-4] [INFO] [1743095907.176699589] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095907.178571888] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=10), -82.362578
+[gps_publisher-4] [INFO] [1743095907.226821663] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095907.228253305] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=10), -82.362578
+[gps_publisher-4] [INFO] [1743095907.276767347] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095907.278689248] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=10), -82.362578
+[gps_publisher-4] [INFO] [1743095907.326816843] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095907.329907559] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=10), -82.362578
+[gps_publisher-4] [INFO] [1743095907.376665915] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095907.379443243] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=10), -82.362578
+[gps_publisher-4] [INFO] [1743095907.426867257] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095907.428591230] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=10), -82.362578
+[gps_publisher-4] [INFO] [1743095907.476791116] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095907.478237830] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=10), -82.362578
+[gps_publisher-4] [INFO] [1743095907.526854597] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095907.528315487] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=10), -82.362578
+[gps_publisher-4] [INFO] [1743095907.577586296] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095907.579525190] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=10), -82.362578
+[gps_publisher-4] [INFO] [1743095907.627957565] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095907.630008399] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=10), -82.362578
+[gps_publisher-4] [INFO] [1743095907.677077104] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095907.679166308] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=10), -82.362578
+[gps_publisher-4] [INFO] [1743095907.729023124] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095907.730867710] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=10), -82.362578
+[gps_publisher-4] [INFO] [1743095907.776929110] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095907.780928630] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=10), -82.362578
+[gps_publisher-4] [INFO] [1743095907.827175766] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095907.831354077] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=10), -82.362578
+[gps_publisher-4] [INFO] [1743095907.876959747] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095907.880954979] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=10), -82.362578
+[gps_publisher-4] [INFO] [1743095907.927841693] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095907.931326312] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=10), -82.362578
+[gps_publisher-4] [INFO] [1743095907.976820234] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095907.978580528] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=10), -82.362578
+[gps_publisher-4] [INFO] [1743095908.027024287] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095908.028641823] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=10), -82.362578
+[gps_publisher-4] [INFO] [1743095908.076844729] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095908.078697858] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=10), -82.362578
+[gps_publisher-4] [INFO] [1743095908.126929277] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095908.128545533] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=10), -82.362578
+[gps_publisher-4] [INFO] [1743095908.176720118] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095908.178199441] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=10), -82.36258
+[gps_publisher-4] [INFO] [1743095908.226883165] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095908.230031034] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=10), -82.36258
+[gps_publisher-4] [INFO] [1743095908.276748633] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095908.279389570] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=10), -82.36258
+[gps_publisher-4] [INFO] [1743095908.326881279] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095908.330041437] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=10), -82.36258
+[gps_publisher-4] [INFO] [1743095908.376777500] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095908.379841270] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=10), -82.36258
+[gps_publisher-4] [INFO] [1743095908.426850816] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095908.429494377] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=10), -82.36258
+[gps_publisher-4] [INFO] [1743095908.476992678] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095908.478793038] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=10), -82.36258
+[gps_publisher-4] [INFO] [1743095908.526899972] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095908.528610056] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=10), -82.36258
+[gps_publisher-4] [INFO] [1743095908.576735070] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095908.578552966] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=10), -82.36258
+[gps_publisher-4] [INFO] [1743095908.627038411] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095908.628543815] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=10), -82.36258
+[gps_publisher-4] [INFO] [1743095908.676954665] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095908.678537736] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=10), -82.36258
+[gps_publisher-4] [INFO] [1743095908.726799651] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095908.728545833] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=10), -82.36258
+[gps_publisher-4] [INFO] [1743095908.776747970] [drone_home1.gps_publisher]: Updated
+[gps_publisher-4] [INFO] [1743095908.778233853] [drone_home1.gps_publisher]: Published GPS data: sensor_msgs.msg.NavSatStatus(status=0, service=10), -82.36258

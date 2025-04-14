@@ -1,0 +1,43 @@
+[2.866s] Invoking command in '/workspaces/drone_home-dev/drone-home/ros2_ws/src/drone_home': PYTHONPATH=/workspaces/drone_home-dev/drone-home/ros2_ws/build/drone_home/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/drone_home build --build-base /workspaces/drone_home-dev/drone-home/ros2_ws/build/drone_home/build install --record /workspaces/drone_home-dev/drone-home/ros2_ws/build/drone_home/install.log --single-version-externally-managed install_data
+[3.295s] /usr/local/lib/python3.10/dist-packages/setuptools/_distutils/dist.py:270: UserWarning: Unknown distribution option: 'tests_require'
+[3.295s]   warnings.warn(msg)
+[3.713s] running egg_info
+[3.760s] writing ../../build/drone_home/drone_home.egg-info/PKG-INFO
+[3.761s] writing dependency_links to ../../build/drone_home/drone_home.egg-info/dependency_links.txt
+[3.762s] writing entry points to ../../build/drone_home/drone_home.egg-info/entry_points.txt
+[3.763s] writing requirements to ../../build/drone_home/drone_home.egg-info/requires.txt
+[3.763s] writing top-level names to ../../build/drone_home/drone_home.egg-info/top_level.txt
+[3.857s] reading manifest file '../../build/drone_home/drone_home.egg-info/SOURCES.txt'
+[3.862s] writing manifest file '../../build/drone_home/drone_home.egg-info/SOURCES.txt'
+[3.862s] running build
+[3.862s] running build_py
+[3.863s] copying drone_home/__init__.py -> /workspaces/drone_home-dev/drone-home/ros2_ws/build/drone_home/build/lib/drone_home
+[3.863s] copying drone_home/gps_publisher.py -> /workspaces/drone_home-dev/drone-home/ros2_ws/build/drone_home/build/lib/drone_home
+[3.864s] copying drone_home/imu_publisher.py -> /workspaces/drone_home-dev/drone-home/ros2_ws/build/drone_home/build/lib/drone_home
+[3.865s] copying drone_home/motor.py -> /workspaces/drone_home-dev/drone-home/ros2_ws/build/drone_home/build/lib/drone_home
+[3.866s] copying drone_home/servo_jetson.py -> /workspaces/drone_home-dev/drone-home/ros2_ws/build/drone_home/build/lib/drone_home
+[3.867s] copying drone_home/pwm_publisher.py -> /workspaces/drone_home-dev/drone-home/ros2_ws/build/drone_home/build/lib/drone_home
+[3.867s] copying drone_home/ackermann_drive.py -> /workspaces/drone_home-dev/drone-home/ros2_ws/build/drone_home/build/lib/drone_home
+[3.870s] copying drone_home/cv_controller.py -> /workspaces/drone_home-dev/drone-home/ros2_ws/build/drone_home/build/lib/drone_home
+[3.872s] copying drone_home/geo_tools.py -> /workspaces/drone_home-dev/drone-home/ros2_ws/build/drone_home/build/lib/drone_home
+[3.874s] copying drone_home/controller.py -> /workspaces/drone_home-dev/drone-home/ros2_ws/build/drone_home/build/lib/drone_home
+[3.876s] copying drone_home/markers.py -> /workspaces/drone_home-dev/drone-home/ros2_ws/build/drone_home/build/lib/drone_home
+[3.878s] copying drone_home/joy_to_ackermann.py -> /workspaces/drone_home-dev/drone-home/ros2_ws/build/drone_home/build/lib/drone_home
+[3.879s] copying drone_home/data_loader.py -> /workspaces/drone_home-dev/drone-home/ros2_ws/build/drone_home/build/lib/drone_home
+[3.881s] running install
+[3.893s] running install_lib
+[3.941s] running install_data
+[3.942s] running install_egg_info
+[3.993s] removing '/workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/lib/python3.10/site-packages/drone_home-0.0.0-py3.10.egg-info' (and everything under it)
+[3.994s] Copying ../../build/drone_home/drone_home.egg-info to /workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/lib/python3.10/site-packages/drone_home-0.0.0-py3.10.egg-info
+[3.997s] running install_scripts
+[4.362s] Installing controller script to /workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/lib/drone_home
+[4.363s] Installing cv_controller script to /workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/lib/drone_home
+[4.363s] Installing drive_hardware script to /workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/lib/drone_home
+[4.364s] Installing drive_publisher script to /workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/lib/drone_home
+[4.364s] Installing gps_publisher script to /workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/lib/drone_home
+[4.364s] Installing imu_publisher script to /workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/lib/drone_home
+[4.364s] Installing pwm_publisher script to /workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/lib/drone_home
+[4.365s] Installing visualization script to /workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/lib/drone_home
+[4.366s] writing list of installed files to '/workspaces/drone_home-dev/drone-home/ros2_ws/build/drone_home/install.log'
+[4.497s] Invoked command in '/workspaces/drone_home-dev/drone-home/ros2_ws/src/drone_home' returned '0': PYTHONPATH=/workspaces/drone_home-dev/drone-home/ros2_ws/build/drone_home/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/workspaces/drone_home-dev/drone-home/ros2_ws/install/drone_home/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/drone_home build --build-base /workspaces/drone_home-dev/drone-home/ros2_ws/build/drone_home/build install --record /workspaces/drone_home-dev/drone-home/ros2_ws/build/drone_home/install.log --single-version-externally-managed install_data
