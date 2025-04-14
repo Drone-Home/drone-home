@@ -50,9 +50,3 @@ The **Drone Home** project combines GPS, IMU, and computer vision for manual and
      - Provides controls (navigate to drone, return, manual override).
      - Includes an accessible safety switch for emergency control.
    - **Interfaces**: Integrated with ROS2 and OpenCV for simple user interaction.
-
-### Known Bugs:
-- Map does not automatically resize when moving the point out of view (user can still move the map to see it).
-- Switching modes and updating target coordinate works and has feedback, but it is not logged in the Command Log.
-- Probe servos are flimsy and fall into resonance sometimes. Will be replaced in version 2 with larger metal gear servos.
-- Probe is not visible on the camera, making it difficult to remotely view. A second camera will be added for close charger view, or the current camera will be repositioned.
